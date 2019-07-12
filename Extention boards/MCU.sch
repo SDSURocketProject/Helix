@@ -1,0 +1,375 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:ARIA
+LIBS:Extention Boards-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SAMC21G18A U?
+U 1 1 5D27FC66
+P 2100 1250
+F 0 "U?" H 1550 700 60  0000 C CNN
+F 1 "SAMC21G18A" H 2850 700 60  0000 C CNN
+F 2 "" H 1550 400 60  0000 C CNN
+F 3 "" H 1550 400 60  0000 C CNN
+	1    2100 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 5D27FDD9
+P 1100 3700
+F 0 "SW?" H 1250 3810 50  0000 C CNN
+F 1 "SW_PUSH" H 1100 3620 50  0000 C CNN
+F 2 "" H 1100 3700 50  0000 C CNN
+F 3 "" H 1100 3700 50  0000 C CNN
+	1    1100 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5D27FF3C
+P 850 3300
+F 0 "R?" V 930 3300 50  0000 C CNN
+F 1 "R" V 850 3300 50  0000 C CNN
+F 2 "" V 780 3300 50  0000 C CNN
+F 3 "" H 850 3300 50  0000 C CNN
+	1    850  3300
+	0    1    1    0   
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 5D27FF89
+P 600 3200
+F 0 "#PWR?" H 600 3050 50  0001 C CNN
+F 1 "+5V" H 600 3340 50  0000 C CNN
+F 2 "" H 600 3200 50  0000 C CNN
+F 3 "" H 600 3200 50  0000 C CNN
+	1    600  3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	600  3200 600  3300
+Wire Wire Line
+	600  3300 700  3300
+Wire Wire Line
+	1000 3300 1100 3300
+Wire Wire Line
+	1100 3300 1300 3300
+Wire Wire Line
+	1100 3300 1100 3400
+Connection ~ 1100 3300
+Wire Wire Line
+	1100 4000 1100 4050
+$Comp
+L GND #PWR?
+U 1 1 5D280023
+P 1100 4050
+F 0 "#PWR?" H 1100 3800 50  0001 C CNN
+F 1 "GND" H 1100 3900 50  0000 C CNN
+F 2 "" H 1100 4050 50  0000 C CNN
+F 3 "" H 1100 4050 50  0000 C CNN
+	1    1100 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5D280140
+P 2100 5150
+F 0 "#PWR?" H 2100 4900 50  0001 C CNN
+F 1 "GND" H 2100 5000 50  0000 C CNN
+F 2 "" H 2100 5150 50  0000 C CNN
+F 3 "" H 2100 5150 50  0000 C CNN
+	1    2100 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 5100 2300 5050
+Wire Wire Line
+	2100 5100 2200 5100
+Wire Wire Line
+	2200 5100 2300 5100
+Wire Wire Line
+	2100 5050 2100 5100
+Wire Wire Line
+	2100 5100 2100 5150
+Connection ~ 2100 5100
+Wire Wire Line
+	2200 5050 2200 5100
+Connection ~ 2200 5100
+$Comp
+L GNDA #PWR?
+U 1 1 5D280196
+P 2500 5150
+F 0 "#PWR?" H 2500 4900 50  0001 C CNN
+F 1 "GNDA" H 2500 5000 50  0000 C CNN
+F 2 "" H 2500 5150 50  0000 C CNN
+F 3 "" H 2500 5150 50  0000 C CNN
+	1    2500 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 5150 2500 5050
+$Comp
+L +5V #PWR?
+U 1 1 5D280307
+P 2650 950
+F 0 "#PWR?" H 2650 800 50  0001 C CNN
+F 1 "+5V" H 2650 1090 50  0000 C CNN
+F 2 "" H 2650 950 50  0000 C CNN
+F 3 "" H 2650 950 50  0000 C CNN
+	1    2650 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C?
+U 1 1 5D280334
+P 2900 1200
+F 0 "C?" H 2950 1300 50  0000 L CNN
+F 1 "10uF" H 2925 1100 50  0000 L CNN
+F 2 "" H 2938 1050 50  0000 C CNN
+F 3 "" H 2900 1200 50  0000 C CNN
+	1    2900 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C?
+U 1 1 5D280365
+P 3150 1200
+F 0 "C?" H 3175 1300 50  0000 L CNN
+F 1 "10uF" H 3200 1100 50  0000 L CNN
+F 2 "" H 3188 1050 50  0000 C CNN
+F 3 "" H 3150 1200 50  0000 C CNN
+	1    3150 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 950  2650 1000
+Wire Wire Line
+	2650 1000 2900 1000
+Wire Wire Line
+	2900 1000 3150 1000
+Wire Wire Line
+	3150 1000 3150 1050
+Wire Wire Line
+	2900 1000 2900 1050
+Connection ~ 2900 1000
+Wire Wire Line
+	2900 1350 2900 1400
+Wire Wire Line
+	2900 1400 2900 1450
+Wire Wire Line
+	2900 1400 3150 1400
+Wire Wire Line
+	3150 1400 3150 1350
+Connection ~ 2900 1400
+$Comp
+L GND #PWR?
+U 1 1 5D2803ED
+P 2900 1450
+F 0 "#PWR?" H 2900 1200 50  0001 C CNN
+F 1 "GND" H 2900 1300 50  0000 C CNN
+F 2 "" H 2900 1450 50  0000 C CNN
+F 3 "" H 2900 1450 50  0000 C CNN
+	1    2900 1450
+	1    0    0    -1  
+$EndComp
+Text Notes 2950 950  1    60   ~ 0
+VDDANA
+Text Notes 3150 950  1    60   ~ 0
+VDDIN
+$Comp
+L C C?
+U 1 1 5D28069D
+P 2400 1200
+F 0 "C?" H 2425 1300 50  0000 L CNN
+F 1 "100nF" V 2450 900 50  0000 L CNN
+F 2 "" H 2438 1050 50  0000 C CNN
+F 3 "" H 2400 1200 50  0000 C CNN
+	1    2400 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5D2806C8
+P 2100 1200
+F 0 "C?" H 2125 1300 50  0000 L CNN
+F 1 "1uF" V 2150 1000 50  0000 L CNN
+F 2 "" H 2138 1050 50  0000 C CNN
+F 3 "" H 2100 1200 50  0000 C CNN
+	1    2100 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5D2806F1
+P 1800 1200
+F 0 "C?" H 1825 1300 50  0000 L CNN
+F 1 "100nF" V 1850 900 50  0000 L CNN
+F 2 "" H 1838 1050 50  0000 C CNN
+F 3 "" H 1800 1200 50  0000 C CNN
+	1    1800 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5D28078F
+P 1500 1200
+F 0 "C?" H 1525 1300 50  0000 L CNN
+F 1 "100nF" V 1550 900 50  0000 L CNN
+F 2 "" H 1538 1050 50  0000 C CNN
+F 3 "" H 1500 1200 50  0000 C CNN
+	1    1500 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5D280863
+P 2400 1450
+F 0 "#PWR?" H 2400 1200 50  0001 C CNN
+F 1 "GND" H 2400 1300 50  0000 C CNN
+F 2 "" H 2400 1450 50  0000 C CNN
+F 3 "" H 2400 1450 50  0000 C CNN
+	1    2400 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 1450 2400 1350
+Wire Wire Line
+	2350 1650 2350 1600
+Wire Wire Line
+	2350 1600 2250 1600
+Wire Wire Line
+	2250 1000 2250 1600
+Wire Wire Line
+	2250 1600 2250 1650
+Connection ~ 2250 1600
+Wire Wire Line
+	1950 1650 2050 1650
+Wire Wire Line
+	1950 1000 1950 1650
+Wire Wire Line
+	1650 1650 1850 1650
+Wire Wire Line
+	1650 1650 1650 1000
+Wire Wire Line
+	1500 1000 1650 1000
+Wire Wire Line
+	1650 1000 1800 1000
+Wire Wire Line
+	1800 1000 1950 1000
+Wire Wire Line
+	1950 1000 2100 1000
+Wire Wire Line
+	2100 1000 2250 1000
+Wire Wire Line
+	2250 1000 2400 1000
+Wire Wire Line
+	2400 1000 2550 1000
+Wire Wire Line
+	2550 1000 2650 1000
+Connection ~ 1650 1000
+Connection ~ 1950 1000
+Connection ~ 2250 1000
+$Comp
+L GND #PWR?
+U 1 1 5D280B10
+P 2100 1450
+F 0 "#PWR?" H 2100 1200 50  0001 C CNN
+F 1 "GND" H 2100 1300 50  0000 C CNN
+F 2 "" H 2100 1450 50  0000 C CNN
+F 3 "" H 2100 1450 50  0000 C CNN
+	1    2100 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 1450 2100 1350
+$Comp
+L GND #PWR?
+U 1 1 5D280B2B
+P 1800 1450
+F 0 "#PWR?" H 1800 1200 50  0001 C CNN
+F 1 "GND" H 1800 1300 50  0000 C CNN
+F 2 "" H 1800 1450 50  0000 C CNN
+F 3 "" H 1800 1450 50  0000 C CNN
+	1    1800 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 1450 1800 1350
+$Comp
+L GND #PWR?
+U 1 1 5D280B58
+P 1500 1450
+F 0 "#PWR?" H 1500 1200 50  0001 C CNN
+F 1 "GND" H 1500 1300 50  0000 C CNN
+F 2 "" H 1500 1450 50  0000 C CNN
+F 3 "" H 1500 1450 50  0000 C CNN
+	1    1500 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 1450 1500 1350
+Wire Wire Line
+	1500 1050 1500 1000
+Wire Wire Line
+	1800 1050 1800 1000
+Connection ~ 1800 1000
+Wire Wire Line
+	2100 1050 2100 1000
+Connection ~ 2100 1000
+Wire Wire Line
+	2400 1050 2400 1000
+Connection ~ 2400 1000
+Wire Wire Line
+	2550 1650 2550 1000
+Connection ~ 2550 1000
+Text Notes 2400 950  1    60   ~ 0
+VDDIO
+Text Notes 1500 950  1    60   ~ 0
+VDDIN
+Text Notes 2100 950  1    60   ~ 0
+VDDCORE
+Text Notes 1800 950  1    60   ~ 0
+VDDCORE
+$EndSCHEMATC
