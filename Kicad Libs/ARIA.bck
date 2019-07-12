@@ -5,6 +5,12 @@ D 24 Bit Analog to Digital Converter 2, 3 Input 1 Sigma-Delta 20-TSSOP
 K IC ADC 24BIT SIGMA-DELTA 20TSSOP
 $ENDCMP
 #
+$CMP AIN4180
+D Quad Op amp.
+K AmpliOp
+F op_amps/lm324.pdf
+$ENDCMP
+#
 $CMP ATSAMD21G18A-AUT
 D IC MCU 32BIT 256KB FLASH 48TQFP
 K ATSAMD21G18A-AUTCT-ND SAM D21G
@@ -17,8 +23,9 @@ K EEPROM Memory IC 256Kb (32K x 8) I2C 1MHz 500ns 8-SOIC
 $ENDCMP
 #
 $CMP INA4180
-D Current Sense Amplifier 4 Circuit Rail-to-Rail 14-TSSOP 
-K IC CURR SENSE 4 CIRCUIT 14TSSOP
+D Quad Op amp.
+K AmpliOp
+F op_amps/lm324.pdf
 $ENDCMP
 #
 $CMP MC33063
