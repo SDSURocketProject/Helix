@@ -534,4 +534,8 @@ F 3 "" H 6800 2600 50  0000 C CNN
 	1    6800 2600
 	1    0    0    -1  
 $EndComp
+Wire Notes Line
+	450  3100 11250 3100
+Wire Notes Line
+	4900 450  4900 3100
 $EndSCHEMATC
