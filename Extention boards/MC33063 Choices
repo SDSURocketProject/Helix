@@ -1,0 +1,20 @@
+Vin = 12V
+Vout = 5V
+	estimated current draw:
+	SN65HVD1050: 75mA max
+	PTs/sensors: 60mA max
+	LEDs: 3*10 = 30mA max
+	Other electronics: 30mA
+Iout = 300mA
+fmin = 100Khz
+Vripple = 10mV max
+
+
+Vout = 1.25(1+R2/R1)
+Vout/1.25 = 1+R2/R1
+Vout/1.25 - 1 = R2/R1
+
+
+L = https://www.digikey.com/product-detail/en/bourns-inc/SRR7045-470M/SRR7045-470MCT-ND/2127634
+Co: >=16V rated minimum
+
