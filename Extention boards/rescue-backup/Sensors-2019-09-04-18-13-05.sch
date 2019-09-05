@@ -1,6 +1,37 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 2
+LIBS:Extention Boards-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:ARIA
 LIBS:Extention Boards-cache
-EELAYER 29 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,11 +46,9 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Extention-Boards-rescue:ADS1247 U17
+L ADS1247 U17
 U 1 1 5D2A36BF
 P 7950 2300
-AR Path="/5D2A36BF" Ref="U17"  Part="1" 
-AR Path="/5D27F062/5D2A36BF" Ref="U17"  Part="1" 
 F 0 "U17" H 7550 1650 60  0000 C CNN
 F 1 "ADS1247" H 8700 1650 60  0000 C CNN
 F 2 "" H 7950 2300 60  0000 C CNN
@@ -28,7 +57,7 @@ F 3 "" H 7950 2300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR89
+L +5V #PWR89
 U 1 1 5D2A3734
 P 8450 2250
 F 0 "#PWR89" H 8450 2100 50  0001 C CNN
@@ -39,7 +68,7 @@ F 3 "" H 8450 2250 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR86
+L +5V #PWR86
 U 1 1 5D2A375C
 P 7900 2250
 F 0 "#PWR86" H 7900 2100 50  0001 C CNN
@@ -94,7 +123,7 @@ Text HLabel 9050 3500 2    60   Input ~ 0
 Text HLabel 9050 3600 2    60   Input ~ 0
 ADS1247_START
 $Comp
-L Extention-Boards-rescue:C C37
+L C C37
 U 1 1 5D2A6893
 P 8200 4250
 F 0 "C37" H 8225 4350 50  0000 L CNN
@@ -105,7 +134,7 @@ F 3 "" H 8200 4250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR87
+L GND #PWR87
 U 1 1 5D2A6AB2
 P 7900 4500
 F 0 "#PWR87" H 7900 4250 50  0001 C CNN
@@ -116,7 +145,7 @@ F 3 "" H 7900 4500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:SN74LVC1G3157 U13
+L SN74LVC1G3157 U13
 U 1 1 5D2BD05F
 P 4150 6250
 F 0 "U13" H 3400 5850 60  0000 C CNN
@@ -127,7 +156,7 @@ F 3 "" H 4150 6250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:SN74LVC1G3157 U14
+L SN74LVC1G3157 U14
 U 1 1 5D2BD065
 P 4150 6700
 F 0 "U14" H 3400 6300 60  0000 C CNN
@@ -158,7 +187,7 @@ RTD1_REFN
 Text Label 3200 7400 2    60   ~ 0
 RTD0_REFN
 $Comp
-L power:+5V #PWR75
+L +5V #PWR75
 U 1 1 5D2BF99C
 P 5100 6750
 F 0 "#PWR75" H 5100 6600 50  0001 C CNN
@@ -169,11 +198,11 @@ F 3 "" H 5100 6750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7900 2250 7900 2300
+	7900 2250 7900 2800
 Wire Wire Line
-	5900 2350 5900 2400
+	5900 2350 5900 2450
 Wire Wire Line
-	5850 2400 5900 2400
+	5850 2400 6150 2400
 Wire Wire Line
 	8950 3600 9050 3600
 Wire Wire Line
@@ -189,15 +218,15 @@ Wire Wire Line
 Wire Wire Line
 	8450 4450 8450 4050
 Wire Wire Line
-	7900 4050 7900 4450
+	7900 4050 7900 4500
 Wire Wire Line
 	8200 4100 8200 4050
 Wire Wire Line
 	8000 4050 8000 4450
 Wire Wire Line
-	8200 4400 8200 4450
+	8200 4400 8200 4500
 Wire Wire Line
-	7900 4450 8000 4450
+	7900 4450 9050 4450
 Connection ~ 8000 4450
 Connection ~ 8200 4450
 Connection ~ 7900 4450
@@ -207,7 +236,7 @@ Wire Wire Line
 	9050 3800 8950 3800
 Connection ~ 8450 4450
 Wire Wire Line
-	5100 6750 5100 6850
+	5100 6750 5100 7300
 Wire Wire Line
 	5100 7300 4000 7300
 Connection ~ 5100 6850
@@ -285,7 +314,7 @@ ADS1247_CHSEL_S0
 Wire Wire Line
 	4350 2400 4450 2400
 $Comp
-L power:GND #PWR73
+L GND #PWR73
 U 1 1 5D2D0B11
 P 3300 2450
 F 0 "#PWR73" H 3300 2200 50  0001 C CNN
@@ -314,7 +343,7 @@ Wire Notes Line
 Text Notes 4150 3000 0    60   ~ 0
 Sx  - Sensor\n00 - RTD0\n01 - PT0/PT1\n10 - RTD1\n11 - TC0/TC1
 $Comp
-L Extention-Boards-rescue:C C29
+L C C29
 U 1 1 5D307C97
 P 5300 7100
 F 0 "C29" H 5325 7200 50  0000 L CNN
@@ -325,7 +354,7 @@ F 3 "" H 5300 7100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C30
+L C C30
 U 1 1 5D307E64
 P 5550 7100
 F 0 "C30" H 5575 7200 50  0000 L CNN
@@ -343,9 +372,9 @@ Connection ~ 5300 6850
 Wire Wire Line
 	5300 7250 5300 7300
 Wire Wire Line
-	5550 7250 5550 7300
+	5550 7250 5550 7400
 $Comp
-L Extention-Boards-rescue:C C31
+L C C31
 U 1 1 5D30B56D
 P 5900 2200
 F 0 "C31" H 5925 2300 50  0000 L CNN
@@ -356,7 +385,7 @@ F 3 "" H 5900 2200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C33
+L C C33
 U 1 1 5D30B75E
 P 6150 2200
 F 0 "C33" H 6175 2300 50  0000 L CNN
@@ -370,7 +399,7 @@ Wire Wire Line
 	6150 2400 6150 2350
 Connection ~ 5900 2400
 $Comp
-L power:+5V #PWR81
+L +5V #PWR81
 U 1 1 5D30B9EE
 P 5900 1950
 F 0 "#PWR81" H 5900 1800 50  0001 C CNN
@@ -381,14 +410,14 @@ F 3 "" H 5900 1950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5900 1950 5900 2000
+	5900 1950 5900 2050
 Wire Wire Line
 	5900 2000 6150 2000
 Wire Wire Line
 	6150 2000 6150 2050
 Connection ~ 5900 2000
 $Comp
-L Extention-Boards-rescue:C C39
+L C C39
 U 1 1 5D30C309
 P 9000 2500
 F 0 "C39" H 9025 2600 50  0000 L CNN
@@ -399,7 +428,7 @@ F 3 "" H 9000 2500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR90
+L GND #PWR90
 U 1 1 5D30C4AE
 P 9000 2750
 F 0 "#PWR90" H 9000 2500 50  0001 C CNN
@@ -410,11 +439,11 @@ F 3 "" H 9000 2750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8450 2300 8750 2300
+	8450 2300 9000 2300
 Wire Wire Line
 	9000 2300 9000 2350
 Wire Wire Line
-	9000 2650 9000 2700
+	9000 2650 9000 2750
 Wire Wire Line
 	9000 2700 8750 2700
 Connection ~ 9000 2700
@@ -424,10 +453,10 @@ Connection ~ 8750 2300
 Wire Wire Line
 	8750 2700 8750 2650
 Wire Wire Line
-	8450 2250 8450 2300
+	8450 2250 8450 2800
 Connection ~ 8450 2300
 $Comp
-L Extention-Boards-rescue:C C35
+L C C35
 U 1 1 5D30D4D3
 P 7350 2500
 F 0 "C35" H 7375 2600 50  0000 L CNN
@@ -438,11 +467,11 @@ F 3 "" H 7350 2500 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	7350 2300 7600 2300
+	7350 2300 7900 2300
 Wire Wire Line
 	7350 2300 7350 2350
 Wire Wire Line
-	7350 2650 7350 2700
+	7350 2650 7350 2750
 Wire Wire Line
 	7350 2700 7600 2700
 Connection ~ 7350 2700
@@ -453,7 +482,7 @@ Wire Wire Line
 	7600 2700 7600 2650
 Connection ~ 7900 2300
 $Comp
-L Extention-Boards-rescue:C C36
+L C C36
 U 1 1 5D310AEA
 P 7600 2500
 F 0 "C36" H 7625 2600 50  0000 L CNN
@@ -464,7 +493,7 @@ F 3 "" H 7600 2500 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C38
+L C C38
 U 1 1 5D310DE9
 P 8750 2500
 F 0 "C38" H 8775 2600 50  0000 L CNN
@@ -491,7 +520,7 @@ ADS1247_CHSEL_S1
 Text HLabel 4100 7400 2    60   Input ~ 0
 ADS1247_CHSEL_S1
 $Comp
-L Extention-Boards-rescue:SN74LV4052 U15
+L SN74LV4052 U15
 U 1 1 5D2C9109
 P 5150 1900
 F 0 "U15" H 5250 1900 50  0000 C CNN
@@ -502,7 +531,7 @@ F 3 "" H 5150 1900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR76
+L +5V #PWR76
 U 1 1 5D2C969C
 P 5150 950
 F 0 "#PWR76" H 5150 800 50  0001 C CNN
@@ -519,7 +548,7 @@ Wire Wire Line
 Wire Wire Line
 	1450 3500 1550 3500
 $Comp
-L Extention-Boards-rescue:SN74LV4052 U16
+L SN74LV4052 U16
 U 1 1 5D43C690
 P 5150 4300
 F 0 "U16" H 5250 4300 50  0000 C CNN
@@ -533,16 +562,20 @@ Text Label 7050 3100 2    60   ~ 0
 AIN0
 Text Label 7050 3400 2    60   ~ 0
 AIN3
+Wire Wire Line
+	7050 3100 7050 3100
+Wire Wire Line
+	7050 3400 7050 3400
 Text Label 5850 3700 0    60   ~ 0
 AIN0
 Text Label 5850 4100 0    60   ~ 0
 AIN3
 Wire Wire Line
-	5900 4750 5900 4800
+	5900 4750 5900 4850
 Wire Wire Line
-	5850 4800 5900 4800
+	5850 4800 6150 4800
 $Comp
-L Extention-Boards-rescue:C C32
+L C C32
 U 1 1 5D43DB09
 P 5900 4600
 F 0 "C32" H 5925 4700 50  0000 L CNN
@@ -553,7 +586,7 @@ F 3 "" H 5900 4600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C34
+L C C34
 U 1 1 5D43DB0F
 P 6150 4600
 F 0 "C34" H 6175 4700 50  0000 L CNN
@@ -567,7 +600,7 @@ Wire Wire Line
 	6150 4800 6150 4750
 Connection ~ 5900 4800
 $Comp
-L power:+5V #PWR83
+L +5V #PWR83
 U 1 1 5D43DB17
 P 5900 4350
 F 0 "#PWR83" H 5900 4200 50  0001 C CNN
@@ -578,7 +611,7 @@ F 3 "" H 5900 4350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5900 4350 5900 4400
+	5900 4350 5900 4450
 Wire Wire Line
 	5900 4400 6150 4400
 Wire Wire Line
@@ -593,7 +626,7 @@ ADS1247_CHSEL_S0
 Wire Wire Line
 	4350 4800 4450 4800
 $Comp
-L power:GND #PWR74
+L GND #PWR74
 U 1 1 5D43E529
 P 3300 4850
 F 0 "#PWR74" H 3300 4600 50  0001 C CNN
@@ -620,7 +653,7 @@ TC_CH0_REF
 Text Label 4450 4400 2    60   ~ 0
 TC_CH1_REF
 $Comp
-L power:+5V #PWR78
+L +5V #PWR78
 U 1 1 5D44076A
 P 5150 3350
 F 0 "#PWR78" H 5150 3200 50  0001 C CNN
@@ -631,7 +664,7 @@ F 3 "" H 5150 3350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2600 6850 2600 7300
+	2600 6850 2600 7450
 Text Label 7050 3200 2    60   ~ 0
 AIN1
 Text Label 7050 3300 2    60   ~ 0
@@ -715,9 +748,9 @@ Wire Wire Line
 	5300 7300 5550 7300
 Connection ~ 5550 7300
 Wire Wire Line
-	4000 6850 5100 6850
+	4000 6850 5550 6850
 $Comp
-L power:GNDA #PWR79
+L GNDA #PWR79
 U 1 1 5D6C62A8
 P 5150 5250
 F 0 "#PWR79" H 5150 5000 50  0001 C CNN
@@ -728,7 +761,7 @@ F 3 "" H 5150 5250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR77
+L GNDA #PWR77
 U 1 1 5D6C691E
 P 5150 2850
 F 0 "#PWR77" H 5150 2600 50  0001 C CNN
@@ -739,7 +772,7 @@ F 3 "" H 5150 2850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR80
+L GNDA #PWR80
 U 1 1 5D6C7B9B
 P 5550 7400
 F 0 "#PWR80" H 5550 7150 50  0001 C CNN
@@ -750,7 +783,7 @@ F 3 "" H 5550 7400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR72
+L GNDA #PWR72
 U 1 1 5D6C841C
 P 2600 7450
 F 0 "#PWR72" H 2600 7200 50  0001 C CNN
@@ -761,7 +794,7 @@ F 3 "" H 2600 7450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR88
+L GNDA #PWR88
 U 1 1 5D6CA4A8
 P 8200 4500
 F 0 "#PWR88" H 8200 4250 50  0001 C CNN
@@ -772,7 +805,7 @@ F 3 "" H 8200 4500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR85
+L GNDA #PWR85
 U 1 1 5D6CADD0
 P 7350 2750
 F 0 "#PWR85" H 7350 2500 50  0001 C CNN
@@ -783,7 +816,7 @@ F 3 "" H 7350 2750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR82
+L GNDA #PWR82
 U 1 1 5D6CB548
 P 5900 2450
 F 0 "#PWR82" H 5900 2200 50  0001 C CNN
@@ -794,7 +827,7 @@ F 3 "" H 5900 2450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR84
+L GNDA #PWR84
 U 1 1 5D6CBCCE
 P 5900 4850
 F 0 "#PWR84" H 5900 4600 50  0001 C CNN
@@ -804,48 +837,4 @@ F 3 "" H 5900 4850 50  0000 C CNN
 	1    5900 4850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8000 4450 8200 4450
-Wire Wire Line
-	8200 4450 8200 4500
-Wire Wire Line
-	8200 4450 8450 4450
-Wire Wire Line
-	7900 4450 7900 4500
-Wire Wire Line
-	8450 4450 9050 4450
-Wire Wire Line
-	5100 6850 5100 7300
-Wire Wire Line
-	5100 6850 5300 6850
-Wire Wire Line
-	2600 7300 2600 7450
-Wire Wire Line
-	5300 6850 5550 6850
-Wire Wire Line
-	5900 2400 5900 2450
-Wire Wire Line
-	5900 2400 6150 2400
-Wire Wire Line
-	5900 2000 5900 2050
-Wire Wire Line
-	9000 2700 9000 2750
-Wire Wire Line
-	8750 2300 9000 2300
-Wire Wire Line
-	8450 2300 8450 2800
-Wire Wire Line
-	7350 2700 7350 2750
-Wire Wire Line
-	7600 2300 7900 2300
-Wire Wire Line
-	7900 2300 7900 2800
-Wire Wire Line
-	5900 4800 5900 4850
-Wire Wire Line
-	5900 4800 6150 4800
-Wire Wire Line
-	5900 4400 5900 4450
-Wire Wire Line
-	5550 7300 5550 7400
 $EndSCHEMATC

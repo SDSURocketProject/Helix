@@ -1,37 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:Extention Boards-rescue
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:ARIA
+EESchema Schematic File Version 4
 LIBS:Extention Boards-cache
-EELAYER 25 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -58,7 +27,7 @@ HE_CH1
 Text HLabel 3550 3700 2    60   Input ~ 0
 HE_CH2
 $Comp
-L CONN_01X03 P10
+L Extention-Boards-rescue:CONN_01X03 P10
 U 1 1 5D6489C0
 P 1800 2200
 F 0 "P10" H 1800 2400 50  0000 C CNN
@@ -69,7 +38,7 @@ F 3 "" H 1800 2200 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR126
+L power:GND #PWR126
 U 1 1 5D6489F4
 P 2100 2400
 F 0 "#PWR126" H 2100 2150 50  0001 C CNN
@@ -86,7 +55,7 @@ Wire Wire Line
 Wire Wire Line
 	2100 2200 2000 2200
 $Comp
-L R R65
+L Extention-Boards-rescue:R R65
 U 1 1 5D648CC5
 P 3200 2100
 F 0 "R65" V 3280 2100 50  0000 C CNN
@@ -97,7 +66,7 @@ F 3 "" H 3200 2100 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C65
+L Extention-Boards-rescue:C C65
 U 1 1 5D648CF2
 P 3400 2300
 F 0 "C65" H 3425 2400 50  0000 L CNN
@@ -108,12 +77,12 @@ F 3 "" H 3400 2300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3350 2100 3550 2100
+	3350 2100 3400 2100
 Wire Wire Line
 	3400 2100 3400 2150
 Connection ~ 3400 2100
 $Comp
-L GND #PWR132
+L power:GND #PWR132
 U 1 1 5D648D2C
 P 3400 2500
 F 0 "#PWR132" H 3400 2250 50  0001 C CNN
@@ -126,9 +95,9 @@ $EndComp
 Wire Wire Line
 	3400 2500 3400 2450
 Wire Wire Line
-	2000 2100 3050 2100
+	2000 2100 2950 2100
 $Comp
-L CONN_01X03 P11
+L Extention-Boards-rescue:CONN_01X03 P11
 U 1 1 5D6490BA
 P 1800 3000
 F 0 "P11" H 1800 3200 50  0000 C CNN
@@ -139,7 +108,7 @@ F 3 "" H 1800 3000 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR127
+L power:GND #PWR127
 U 1 1 5D6490C0
 P 2100 3200
 F 0 "#PWR127" H 2100 2950 50  0001 C CNN
@@ -156,7 +125,7 @@ Wire Wire Line
 Wire Wire Line
 	2100 3000 2000 3000
 $Comp
-L R R66
+L Extention-Boards-rescue:R R66
 U 1 1 5D6490C9
 P 3200 2900
 F 0 "R66" V 3280 2900 50  0000 C CNN
@@ -167,7 +136,7 @@ F 3 "" H 3200 2900 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C66
+L Extention-Boards-rescue:C C66
 U 1 1 5D6490CF
 P 3400 3100
 F 0 "C66" H 3425 3200 50  0000 L CNN
@@ -178,12 +147,12 @@ F 3 "" H 3400 3100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3350 2900 3550 2900
+	3350 2900 3400 2900
 Wire Wire Line
 	3400 2900 3400 2950
 Connection ~ 3400 2900
 $Comp
-L GND #PWR133
+L power:GND #PWR133
 U 1 1 5D6490D8
 P 3400 3300
 F 0 "#PWR133" H 3400 3050 50  0001 C CNN
@@ -196,7 +165,7 @@ $EndComp
 Wire Wire Line
 	3400 3300 3400 3250
 $Comp
-L CONN_01X03 P12
+L Extention-Boards-rescue:CONN_01X03 P12
 U 1 1 5D649232
 P 1800 3800
 F 0 "P12" H 1800 4000 50  0000 C CNN
@@ -207,7 +176,7 @@ F 3 "" H 1800 3800 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR128
+L power:GND #PWR128
 U 1 1 5D649238
 P 2100 4000
 F 0 "#PWR128" H 2100 3750 50  0001 C CNN
@@ -224,7 +193,7 @@ Wire Wire Line
 Wire Wire Line
 	2100 3800 2000 3800
 $Comp
-L R R67
+L Extention-Boards-rescue:R R67
 U 1 1 5D649241
 P 3200 3700
 F 0 "R67" V 3280 3700 50  0000 C CNN
@@ -235,7 +204,7 @@ F 3 "" H 3200 3700 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C67
+L Extention-Boards-rescue:C C67
 U 1 1 5D649247
 P 3400 3900
 F 0 "C67" H 3425 4000 50  0000 L CNN
@@ -246,12 +215,12 @@ F 3 "" H 3400 3900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3350 3700 3550 3700
+	3350 3700 3400 3700
 Wire Wire Line
 	3400 3700 3400 3750
 Connection ~ 3400 3700
 $Comp
-L GND #PWR134
+L power:GND #PWR134
 U 1 1 5D649250
 P 3400 4100
 F 0 "#PWR134" H 3400 3850 50  0001 C CNN
@@ -266,7 +235,7 @@ Wire Wire Line
 Wire Wire Line
 	2950 2100 2950 2250
 $Comp
-L GND #PWR129
+L power:GND #PWR129
 U 1 1 5D6ACE7D
 P 2950 2500
 F 0 "#PWR129" H 2950 2250 50  0001 C CNN
@@ -280,11 +249,11 @@ Wire Wire Line
 	2950 2500 2950 2450
 Connection ~ 2950 2100
 Wire Wire Line
-	2000 2900 3050 2900
+	2000 2900 2950 2900
 Wire Wire Line
 	2950 2900 2950 3050
 $Comp
-L GND #PWR130
+L power:GND #PWR130
 U 1 1 5D6AD258
 P 2950 3300
 F 0 "#PWR130" H 2950 3050 50  0001 C CNN
@@ -298,11 +267,11 @@ Wire Wire Line
 	2950 3300 2950 3250
 Connection ~ 2950 2900
 Wire Wire Line
-	2000 3700 3050 3700
+	2000 3700 2950 3700
 Wire Wire Line
 	2950 3700 2950 3850
 $Comp
-L GND #PWR131
+L power:GND #PWR131
 U 1 1 5D6AD2A4
 P 2950 4100
 F 0 "#PWR131" H 2950 3850 50  0001 C CNN
@@ -316,7 +285,7 @@ Wire Wire Line
 	2950 4100 2950 4050
 Connection ~ 2950 3700
 $Comp
-L TVSsmall D26
+L Extention-Boards-rescue:TVSsmall D26
 U 1 1 5D68B3B4
 P 2950 2350
 F 0 "D26" H 2950 2450 50  0000 C CNN
@@ -327,7 +296,7 @@ F 3 "" H 2950 2350 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L TVSsmall D28
+L Extention-Boards-rescue:TVSsmall D28
 U 1 1 5D68B4D1
 P 2950 3950
 F 0 "D28" H 2950 4050 50  0000 C CNN
@@ -338,7 +307,7 @@ F 3 "" H 2950 3950 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L TVSsmall D27
+L Extention-Boards-rescue:TVSsmall D27
 U 1 1 5D68B5BA
 P 2950 3150
 F 0 "D27" H 2950 3250 50  0000 C CNN
@@ -348,4 +317,16 @@ F 3 "" H 2950 3150 50  0000 C CNN
 	1    2950 3150
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	3400 2100 3550 2100
+Wire Wire Line
+	3400 2900 3550 2900
+Wire Wire Line
+	3400 3700 3550 3700
+Wire Wire Line
+	2950 2100 3050 2100
+Wire Wire Line
+	2950 2900 3050 2900
+Wire Wire Line
+	2950 3700 3050 3700
 $EndSCHEMATC

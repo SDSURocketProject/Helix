@@ -1,6 +1,37 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 2
+LIBS:Extention Boards-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:ARIA
 LIBS:Extention Boards-cache
-EELAYER 29 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,7 +46,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L power:VCC #PWR1
+L VCC #PWR1
 U 1 1 5D27EEBA
 P 1100 2550
 F 0 "#PWR1" H 1100 2400 50  0001 C CNN
@@ -26,11 +57,11 @@ F 3 "" H 1100 2550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	800  2600 1100 2600
+	800  2600 1150 2600
 Wire Wire Line
 	1100 2600 1100 2550
 $Comp
-L power:GND #PWR5
+L GND #PWR5
 U 1 1 5D27EED7
 P 2050 2600
 F 0 "#PWR5" H 2050 2350 50  0001 C CNN
@@ -55,7 +86,7 @@ RESERVED0
 Text Label 1650 2900 0    60   ~ 0
 RESERVED1
 $Comp
-L power:VCC #PWR2
+L VCC #PWR2
 U 1 1 5D27F019
 P 1100 3550
 F 0 "#PWR2" H 1100 3400 50  0001 C CNN
@@ -70,7 +101,7 @@ Wire Wire Line
 Wire Wire Line
 	1100 3600 1100 3550
 $Comp
-L power:GND #PWR6
+L GND #PWR6
 U 1 1 5D27F021
 P 2050 3600
 F 0 "#PWR6" H 2050 3350 50  0001 C CNN
@@ -101,15 +132,15 @@ F0 "Power" 60
 F1 "Power.sch" 60
 F2 "PWR_CH0_EN" I R 4850 1600 60 
 F3 "PWR_CH0" I R 4850 1500 60 
-F4 "~PWR_CH0_CURR_OVLD" I R 4850 1700 60 
+F4 "PWR_CH0_CURR_OVLD" I R 4850 1700 60 
 F5 "PWR_CH1_EN" I R 4850 2000 60 
 F6 "PWR_CH1" I R 4850 1900 60 
-F7 "~PWR_CH1_CURR_OVLD" I R 4850 2100 60 
+F7 "PWR_CH1_CURR_OVLD" I R 4850 2100 60 
 F8 "PWR_CH2" I R 4850 2300 60 
-F9 "~PWR_CH2_CURR_OVLD" I R 4850 2500 60 
+F9 "PWR_CH2_CURR_OVLD" I R 4850 2500 60 
 F10 "PWR_CH2_EN" I R 4850 2400 60 
 F11 "PWR_CH3" I R 4850 2700 60 
-F12 "~PWR_CH3_CURR_OVLD" I R 4850 2900 60 
+F12 "PWR_CH3_CURR_OVLD" I R 4850 2900 60 
 F13 "PWR_CH3_EN" I R 4850 2800 60 
 F14 "MCP3008_CLK" I R 4850 3900 60 
 F15 "MCP3008_DOUT" I R 4850 4000 60 
@@ -117,10 +148,10 @@ F16 "MCP3008_DIN" I R 4850 4100 60
 F17 "~MCP3008_CS" I R 4850 4200 60 
 F18 "PWR_CH4" I R 4850 3100 60 
 F19 "PWR_CH4_EN" I R 4850 3200 60 
-F20 "~PWR_CH4_CURR_OVLD" I R 4850 3300 60 
+F20 "PWR_CH4_CURR_OVLD" I R 4850 3300 60 
 F21 "PWR_CH5" I R 4850 3500 60 
 F22 "PWR_CH5_EN" I R 4850 3600 60 
-F23 "~PWR_CH5_CURR_OVLD" I R 4850 3700 60 
+F23 "PWR_CH5_CURR_OVLD" I R 4850 3700 60 
 $EndSheet
 $Sheet
 S 3700 4600 1150 2350
@@ -146,7 +177,7 @@ F17 "PWR_CH5_HE" I R 4850 6200 60
 F18 "HE_CH2" I R 4850 6850 60 
 $EndSheet
 $Comp
-L Extention-Boards-rescue:SW_PUSH SW1
+L SW_PUSH SW1
 U 1 1 5D2B5239
 P 1650 5850
 F 0 "SW1" H 1800 5960 50  0000 C CNN
@@ -159,7 +190,7 @@ $EndComp
 Text GLabel 2100 5150 2    60   Input ~ 0
 ~RESET
 $Comp
-L Extention-Boards-rescue:R R1
+L R R1
 U 1 1 5D2B5A3E
 P 1650 4900
 F 0 "R1" V 1730 4900 50  0000 C CNN
@@ -170,7 +201,7 @@ F 3 "" H 1650 4900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR3
+L +5V #PWR3
 U 1 1 5D2B5AA7
 P 1650 4700
 F 0 "#PWR3" H 1650 4550 50  0001 C CNN
@@ -183,12 +214,12 @@ $EndComp
 Wire Wire Line
 	1650 4700 1650 4750
 Wire Wire Line
-	1650 5050 1650 5150
+	1650 5050 1650 5200
 Wire Wire Line
-	1650 5150 1950 5150
+	1650 5150 2100 5150
 Connection ~ 1650 5150
 $Comp
-L power:GND #PWR4
+L GND #PWR4
 U 1 1 5D2B5B9F
 P 1650 6250
 F 0 "#PWR4" H 1650 6000 50  0001 C CNN
@@ -199,7 +230,7 @@ F 3 "" H 1650 6250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1650 6150 1650 6200
+	1650 6150 1650 6250
 Text Label 4850 1500 0    60   ~ 0
 PWR_CH0
 Text Label 4850 1900 0    60   ~ 0
@@ -252,13 +283,13 @@ PWR_CH2_EN
 Text Label 4850 2800 0    60   ~ 0
 PWR_CH3_EN
 Text Label 8000 2000 2    60   ~ 0
-~PWR_CH0_OVLD
+PWR_CH0_OVLD
 Text Label 4850 2100 0    60   ~ 0
-~PWR_CH1_OVLD
+PWR_CH1_OVLD
 Text Label 8000 2200 2    60   ~ 0
-~PWR_CH2_OVLD
+PWR_CH2_OVLD
 Text Label 4850 2900 0    60   ~ 0
-~PWR_CH3_OVLD
+PWR_CH3_OVLD
 Text Label 4850 3900 0    60   ~ 0
 MCP3008_CLK
 Text Label 4850 4000 0    60   ~ 0
@@ -276,13 +307,13 @@ MCP3008_DIN
 Text Label 8000 3000 2    60   ~ 0
 ~MCP3008_CS
 Text Label 8000 2100 2    60   ~ 0
-~PWR_CH1_OVLD
+PWR_CH1_OVLD
 Text Label 4850 1700 0    60   ~ 0
-~PWR_CH0_OVLD
+PWR_CH0_OVLD
 Text Label 4850 2500 0    60   ~ 0
-~PWR_CH2_OVLD
+PWR_CH2_OVLD
 Text Label 8000 2300 2    60   ~ 0
-~PWR_CH3_OVLD
+PWR_CH3_OVLD
 Text Label 8000 3200 2    60   ~ 0
 ADS1247_SCLK
 Text Label 8000 3300 2    60   ~ 0
@@ -346,7 +377,7 @@ HE_CH1
 Text Notes 700  3300 0    60   ~ 0
 Daisy chain together multiple boards\nusing these connectors
 $Comp
-L Extention-Boards-rescue:MOLEX_02X04 P2
+L MOLEX_02X04 P2
 U 1 1 5D2C57A3
 P 1400 3750
 F 0 "P2" H 1400 4000 50  0000 C CNN
@@ -357,7 +388,7 @@ F 3 "" H 1400 2550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:MOLEX_02X04 P1
+L MOLEX_02X04 P1
 U 1 1 5D2C693A
 P 1400 2750
 F 0 "P1" H 1400 3000 50  0000 C CNN
@@ -368,7 +399,7 @@ F 3 "" H 1400 1550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG1
+L PWR_FLAG #FLG1
 U 1 1 5D438234
 P 800 2550
 F 0 "#FLG1" H 800 2645 50  0001 C CNN
@@ -382,7 +413,7 @@ Wire Wire Line
 	800  2600 800  2550
 Connection ~ 1100 2600
 $Comp
-L Extention-Boards-rescue:C C1
+L C C1
 U 1 1 5D460FEA
 P 1950 5850
 F 0 "C1" H 1975 5950 50  0000 L CNN
@@ -401,7 +432,7 @@ Wire Wire Line
 	1950 6200 1950 6000
 Connection ~ 1650 6200
 $Comp
-L Extention-Boards-rescue:R R2
+L R R2
 U 1 1 5D4623E1
 P 1650 5350
 F 0 "R2" V 1730 5350 50  0000 C CNN
@@ -428,9 +459,9 @@ HE_CH2
 Text Label 4850 3200 0    60   ~ 0
 PWR_CH4_EN
 Text Label 4850 3300 0    60   ~ 0
-~PWR_CH4_OVLD
+PWR_CH4_OVLD
 Text Label 4850 3600 0    60   ~ 0
-~PWR_CH5_EN
+PWR_CH5_EN
 Text Label 4850 3700 0    60   ~ 0
 PWR_CH5_OVLD
 Text Label 8000 5200 2    60   ~ 0
@@ -454,7 +485,7 @@ Wire Wire Line
 Wire Wire Line
 	2750 3600 2850 3600
 $Comp
-L power:GND #PWR8
+L GND #PWR8
 U 1 1 5D68CA02
 P 3200 3750
 F 0 "#PWR8" H 3200 3500 50  0001 C CNN
@@ -467,7 +498,7 @@ $EndComp
 Wire Wire Line
 	3050 3600 3200 3600
 Wire Wire Line
-	3200 2800 3200 3000
+	3200 2800 3200 3750
 Wire Wire Line
 	3050 3000 3200 3000
 Connection ~ 3200 3600
@@ -478,11 +509,11 @@ Wire Wire Line
 	3050 3200 3200 3200
 Connection ~ 3200 3200
 Text Label 8000 2400 2    60   ~ 0
-~PWR_CH4_OVLD
+PWR_CH4_OVLD
 Text Label 8000 2500 2    60   ~ 0
-~PWR_CH5_OVLD
+PWR_CH5_OVLD
 $Comp
-L power:VCC #PWR7
+L VCC #PWR7
 U 1 1 5D64A819
 P 2750 2750
 F 0 "#PWR7" H 2750 2600 50  0001 C CNN
@@ -500,7 +531,7 @@ Wire Wire Line
 	3050 2800 3200 2800
 Connection ~ 3200 3000
 $Comp
-L Extention-Boards-rescue:TVSsmall D1
+L TVSsmall D1
 U 1 1 5D694699
 P 2950 2800
 F 0 "D1" H 2850 2850 50  0000 C CNN
@@ -511,7 +542,7 @@ F 3 "" H 2950 2800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:TVSsmall D2
+L TVSsmall D2
 U 1 1 5D694875
 P 2950 3000
 F 0 "D2" H 2850 3050 50  0000 C CNN
@@ -522,7 +553,7 @@ F 3 "" H 2950 3000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:TVSsmall D3
+L TVSsmall D3
 U 1 1 5D694BF7
 P 2950 3200
 F 0 "D3" H 2850 3250 50  0000 C CNN
@@ -533,7 +564,7 @@ F 3 "" H 2950 3200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:TVSsmall D4
+L TVSsmall D4
 U 1 1 5D694DBE
 P 2950 3400
 F 0 "D4" H 2850 3450 50  0000 C CNN
@@ -544,7 +575,7 @@ F 3 "" H 2950 3400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:TVSsmall D5
+L TVSsmall D5
 U 1 1 5D694F8C
 P 2950 3600
 F 0 "D5" H 2850 3650 50  0000 C CNN
@@ -554,20 +585,4 @@ F 3 "" H 2950 3600 50  0000 C CNN
 	1    2950 3600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1650 5150 1650 5200
-Wire Wire Line
-	1100 2600 1150 2600
-Wire Wire Line
-	1950 5150 2100 5150
-Wire Wire Line
-	1650 6200 1650 6250
-Wire Wire Line
-	3200 3600 3200 3750
-Wire Wire Line
-	3200 3400 3200 3600
-Wire Wire Line
-	3200 3200 3200 3400
-Wire Wire Line
-	3200 3000 3200 3200
 $EndSCHEMATC
