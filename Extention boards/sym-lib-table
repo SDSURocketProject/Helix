@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name Extention-Boards-rescue)(type Legacy)(uri "${KIPRJMOD}/Extention Boards-rescue.lib")(options "")(descr ""))
+  (lib (name helix)(type Legacy)(uri "E:/Projects/Rocket Project/Helix/Helix/Kicad Libs/helix.lib")(options "")(descr ""))
 )

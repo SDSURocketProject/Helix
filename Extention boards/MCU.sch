@@ -15,32 +15,21 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Extention-Boards-rescue:SAMC21G18A U22
-U 1 1 5D27FC66
-P 2100 1650
-F 0 "U22" H 1550 1100 60  0000 C CNN
-F 1 "SAMC21G18A" H 2850 1150 60  0000 C CNN
-F 2 "" H 1550 800 60  0000 C CNN
-F 3 "" H 1550 800 60  0000 C CNN
-	1    2100 1650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR141
+L power:GND #PWR0140
 U 1 1 5D280140
-P 2100 5550
-F 0 "#PWR141" H 2100 5300 50  0001 C CNN
-F 1 "GND" H 2100 5400 50  0000 C CNN
-F 2 "" H 2100 5550 50  0000 C CNN
-F 3 "" H 2100 5550 50  0000 C CNN
-	1    2100 5550
+P 2000 5550
+F 0 "#PWR0140" H 2000 5300 50  0001 C CNN
+F 1 "GND" H 2000 5400 50  0000 C CNN
+F 2 "" H 2000 5550 50  0000 C CNN
+F 3 "" H 2000 5550 50  0000 C CNN
+	1    2000 5550
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR143
+L power:GNDA #PWR0142
 U 1 1 5D280196
 P 2500 5550
-F 0 "#PWR143" H 2500 5300 50  0001 C CNN
+F 0 "#PWR0142" H 2500 5300 50  0001 C CNN
 F 1 "GNDA" H 2500 5400 50  0000 C CNN
 F 2 "" H 2500 5550 50  0000 C CNN
 F 3 "" H 2500 5550 50  0000 C CNN
@@ -48,69 +37,69 @@ F 3 "" H 2500 5550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR144
+L power:+5V #PWR0143
 U 1 1 5D280307
-P 2650 1300
-F 0 "#PWR144" H 2650 1150 50  0001 C CNN
-F 1 "+5V" H 2650 1440 50  0000 C CNN
-F 2 "" H 2650 1300 50  0000 C CNN
-F 3 "" H 2650 1300 50  0000 C CNN
-	1    2650 1300
+P 2550 1300
+F 0 "#PWR0143" H 2550 1150 50  0001 C CNN
+F 1 "+5V" H 2550 1440 50  0000 C CNN
+F 2 "" H 2550 1300 50  0000 C CNN
+F 3 "" H 2550 1300 50  0000 C CNN
+	1    2550 1300
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR146
+L power:GND #PWR0144
 U 1 1 5D2803ED
-P 2900 1900
-F 0 "#PWR146" H 2900 1650 50  0001 C CNN
-F 1 "GND" H 2900 1750 50  0000 C CNN
-F 2 "" H 2900 1900 50  0000 C CNN
-F 3 "" H 2900 1900 50  0000 C CNN
-	1    2900 1900
+P 2750 1900
+F 0 "#PWR0144" H 2750 1650 50  0001 C CNN
+F 1 "GND" H 2750 1750 50  0000 C CNN
+F 2 "" H 2750 1900 50  0000 C CNN
+F 3 "" H 2750 1900 50  0000 C CNN
+	1    2750 1900
 	1    0    0    -1  
 $EndComp
-Text Notes 2950 1300 1    60   ~ 0
+Text Notes 2800 1300 1    60   ~ 6
 VDDANA
-Text Notes 3150 1300 1    60   ~ 0
+Text Notes 3000 1300 1    60   ~ 6
 VDDIN
 $Comp
-L Extention-Boards-rescue:C C71
+L Extention-Boards-rescue:C C77
 U 1 1 5D28069D
-P 2400 1550
-F 0 "C71" H 2425 1650 50  0000 L CNN
-F 1 "100nF" V 2450 1250 50  0000 L CNN
-F 2 "" H 2438 1400 50  0000 C CNN
-F 3 "" H 2400 1550 50  0000 C CNN
-	1    2400 1550
+P 3350 1550
+F 0 "C77" H 3375 1650 50  0000 L CNN
+F 1 "100nF" V 3400 1250 50  0000 L CNN
+F 2 "" H 3388 1400 50  0000 C CNN
+F 3 "" H 3350 1550 50  0000 C CNN
+	1    3350 1550
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C70
+L Extention-Boards-rescue:C C74
 U 1 1 5D2806C8
-P 2100 1550
-F 0 "C70" H 2125 1650 50  0000 L CNN
-F 1 "10uF" V 2150 1300 50  0000 L CNN
-F 2 "" H 2138 1400 50  0000 C CNN
-F 3 "" H 2100 1550 50  0000 C CNN
-	1    2100 1550
+P 2150 1550
+F 0 "C74" H 2175 1650 50  0000 L CNN
+F 1 "10uF" V 2200 1300 50  0000 L CNN
+F 2 "" H 2188 1400 50  0000 C CNN
+F 3 "" H 2150 1550 50  0000 C CNN
+	1    2150 1550
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C69
+L Extention-Boards-rescue:C C72
 U 1 1 5D2806F1
-P 1800 1550
-F 0 "C69" H 1825 1650 50  0000 L CNN
-F 1 "100nF" V 1850 1250 50  0000 L CNN
-F 2 "" H 1838 1400 50  0000 C CNN
-F 3 "" H 1800 1550 50  0000 C CNN
-	1    1800 1550
+P 1300 1550
+F 0 "C72" H 1325 1650 50  0000 L CNN
+F 1 "100nF" V 1350 1250 50  0000 L CNN
+F 2 "" H 1338 1400 50  0000 C CNN
+F 3 "" H 1300 1550 50  0000 C CNN
+	1    1300 1550
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C68
+L Extention-Boards-rescue:C C73
 U 1 1 5D28078F
 P 1500 1550
-F 0 "C68" H 1525 1650 50  0000 L CNN
+F 0 "C73" H 1525 1650 50  0000 L CNN
 F 1 "100nF" V 1550 1250 50  0000 L CNN
 F 2 "" H 1538 1400 50  0000 C CNN
 F 3 "" H 1500 1550 50  0000 C CNN
@@ -118,70 +107,59 @@ F 3 "" H 1500 1550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR142
-U 1 1 5D280863
-P 2400 1800
-F 0 "#PWR142" H 2400 1550 50  0001 C CNN
-F 1 "GND" H 2400 1650 50  0000 C CNN
-F 2 "" H 2400 1800 50  0000 C CNN
-F 3 "" H 2400 1800 50  0000 C CNN
-	1    2400 1800
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR140
+L power:GND #PWR0141
 U 1 1 5D280B10
-P 2100 1800
-F 0 "#PWR140" H 2100 1550 50  0001 C CNN
-F 1 "GND" H 2100 1650 50  0000 C CNN
-F 2 "" H 2100 1800 50  0000 C CNN
-F 3 "" H 2100 1800 50  0000 C CNN
-	1    2100 1800
+P 2150 1800
+F 0 "#PWR0141" H 2150 1550 50  0001 C CNN
+F 1 "GND" H 2150 1650 50  0000 C CNN
+F 2 "" H 2150 1800 50  0000 C CNN
+F 3 "" H 2150 1800 50  0000 C CNN
+	1    2150 1800
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR137
+L power:GND #PWR0136
 U 1 1 5D280B2B
-P 1800 1800
-F 0 "#PWR137" H 1800 1550 50  0001 C CNN
-F 1 "GND" H 1800 1650 50  0000 C CNN
-F 2 "" H 1800 1800 50  0000 C CNN
-F 3 "" H 1800 1800 50  0000 C CNN
-	1    1800 1800
+P 1300 1800
+F 0 "#PWR0136" H 1300 1550 50  0001 C CNN
+F 1 "GND" H 1300 1650 50  0000 C CNN
+F 2 "" H 1300 1800 50  0000 C CNN
+F 3 "" H 1300 1800 50  0000 C CNN
+	1    1300 1800
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR136
+L power:GND #PWR0137
 U 1 1 5D280B58
 P 1500 1800
-F 0 "#PWR136" H 1500 1550 50  0001 C CNN
+F 0 "#PWR0137" H 1500 1550 50  0001 C CNN
 F 1 "GND" H 1500 1650 50  0000 C CNN
 F 2 "" H 1500 1800 50  0000 C CNN
 F 3 "" H 1500 1800 50  0000 C CNN
 	1    1500 1800
 	1    0    0    -1  
 $EndComp
-Text Notes 2400 1300 1    60   ~ 0
+Text Notes 3400 1300 1    60   ~ 6
 VDDIO
-Text Notes 1500 1300 1    60   ~ 0
+Text Notes 1550 1300 1    60   ~ 6
 VDDIN
-Text Notes 2100 1300 1    60   ~ 0
+Text Notes 2200 1300 1    60   ~ 6
 VDDCORE
-Text Notes 1800 1300 1    60   ~ 0
+Text Notes 1350 1300 1    60   ~ 6
 VDDCORE
-Text Label 1300 2900 2    60   ~ 0
+Text Label 1300 3600 2    60   ~ 6
 CAN0_TX
-Text Label 1300 3000 2    60   ~ 0
+Text Label 1300 3700 2    60   ~ 6
 CAN0_RX
-Text Notes 3950 3300 0    60   ~ 0
+Text Notes 3950 3300 0    60   ~ 6
 SERCOM0\nCPOL = 0\nCPHA = 1
-Text Notes 3950 4250 0    60   ~ 0
+Text Notes 3950 4250 0    60   ~ 6
 SERCOM1\nCPOL = 1\nCPHA = 1
-Text Label 1300 2500 2    60   ~ 0
+Text Label 1300 2700 2    60   ~ 6
 LED_R
-Text Label 1300 2600 2    60   ~ 0
+Text Label 1300 2800 2    60   ~ 6
 LED_G
-Text Label 3050 2500 0    60   ~ 0
+Text Label 1300 2600 2    60   ~ 6
 LED_B
 $Comp
 L Extention-Boards-rescue:MMBT3904 Q1
@@ -217,10 +195,10 @@ F 3 "" H 7100 1200 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR148
+L power:GND #PWR0147
 U 1 1 5D2A1422
 P 6850 2400
-F 0 "#PWR148" H 6850 2150 50  0001 C CNN
+F 0 "#PWR0147" H 6850 2150 50  0001 C CNN
 F 1 "GND" H 6850 2250 50  0000 C CNN
 F 2 "" H 6850 2400 50  0000 C CNN
 F 3 "" H 6850 2400 50  0000 C CNN
@@ -250,10 +228,10 @@ F 3 "" H 6650 2650 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR150
+L power:GND #PWR0149
 U 1 1 5D2A1787
 P 7150 2850
-F 0 "#PWR150" H 7150 2600 50  0001 C CNN
+F 0 "#PWR0149" H 7150 2600 50  0001 C CNN
 F 1 "GND" H 7150 2700 50  0000 C CNN
 F 2 "" H 7150 2850 50  0000 C CNN
 F 3 "" H 7150 2850 50  0000 C CNN
@@ -283,36 +261,36 @@ F 3 "" H 6950 3100 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR151
+L power:GND #PWR0150
 U 1 1 5D2A1811
 P 7450 3300
-F 0 "#PWR151" H 7450 3050 50  0001 C CNN
+F 0 "#PWR0150" H 7450 3050 50  0001 C CNN
 F 1 "GND" H 7450 3150 50  0000 C CNN
 F 2 "" H 7450 3300 50  0000 C CNN
 F 3 "" H 7450 3300 50  0000 C CNN
 	1    7450 3300
 	1    0    0    -1  
 $EndComp
-Text Label 6150 2200 2    60   ~ 0
+Text Label 6150 2200 2    60   ~ 6
 LED_R
-Text Label 6450 2650 2    60   ~ 0
+Text Label 6450 2650 2    60   ~ 6
 LED_G
-Text Label 6750 3100 2    60   ~ 0
+Text Label 6750 3100 2    60   ~ 6
 LED_B
 $Comp
-L power:+5V #PWR149
+L power:+5V #PWR0148
 U 1 1 5D2A212A
 P 7150 900
-F 0 "#PWR149" H 7150 750 50  0001 C CNN
+F 0 "#PWR0148" H 7150 750 50  0001 C CNN
 F 1 "+5V" H 7150 1040 50  0000 C CNN
 F 2 "" H 7150 900 50  0000 C CNN
 F 3 "" H 7150 900 50  0000 C CNN
 	1    7150 900 
 	1    0    0    -1  
 $EndComp
-Text Label 1300 2700 2    60   ~ 0
+Text Label 1300 3400 2    60   ~ 6
 I2C0_SCL
-Text Label 1300 2800 2    60   ~ 0
+Text Label 1300 3500 2    60   ~ 6
 I2C0_SDA
 $Comp
 L Extention-Boards-rescue:CAT24C256 U23
@@ -326,10 +304,10 @@ F 3 "" H 8650 1000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR152
+L power:GND #PWR0151
 U 1 1 5D2B3BD7
 P 8200 1550
-F 0 "#PWR152" H 8200 1300 50  0001 C CNN
+F 0 "#PWR0151" H 8200 1300 50  0001 C CNN
 F 1 "GND" H 8200 1400 50  0000 C CNN
 F 2 "" H 8200 1550 50  0000 C CNN
 F 3 "" H 8200 1550 50  0000 C CNN
@@ -337,64 +315,64 @@ F 3 "" H 8200 1550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR155
+L power:+5V #PWR0154
 U 1 1 5D2B3EB4
 P 9250 1150
-F 0 "#PWR155" H 9250 1000 50  0001 C CNN
+F 0 "#PWR0154" H 9250 1000 50  0001 C CNN
 F 1 "+5V" H 9250 1290 50  0000 C CNN
 F 2 "" H 9250 1150 50  0000 C CNN
 F 3 "" H 9250 1150 50  0000 C CNN
 	1    9250 1150
 	1    0    0    -1  
 $EndComp
-Text Label 9050 1400 0    60   ~ 0
+Text Label 9050 1400 0    60   ~ 6
 I2C0_SCL
-Text Label 9050 1500 0    60   ~ 0
+Text Label 9050 1500 0    60   ~ 6
 I2C0_SDA
 $Comp
-L power:GND #PWR156
+L power:GND #PWR0155
 U 1 1 5D2B45C4
 P 9500 1550
-F 0 "#PWR156" H 9500 1300 50  0001 C CNN
+F 0 "#PWR0155" H 9500 1300 50  0001 C CNN
 F 1 "GND" H 9500 1400 50  0000 C CNN
 F 2 "" H 9500 1550 50  0000 C CNN
 F 3 "" H 9500 1550 50  0000 C CNN
 	1    9500 1550
 	1    0    0    -1  
 $EndComp
-Text GLabel 1250 3700 0    60   Input ~ 0
+Text GLabel 1250 5100 0    60   Input ~ 6
 ~RESET
-Text HLabel 3150 4300 2    60   Input ~ 0
+Text HLabel 3150 4300 2    60   Input ~ 6
 ~PWR_CH0_CURR_OVLD
-Text HLabel 3150 4400 2    60   Input ~ 0
+Text HLabel 3150 4400 2    60   Input ~ 6
 ~PWR_CH1_CURR_OVLD
-Text HLabel 3150 4500 2    60   Input ~ 0
+Text HLabel 3150 4500 2    60   Input ~ 6
 ~PWR_CH2_CURR_OVLD
-Text HLabel 3150 4600 2    60   Input ~ 0
+Text HLabel 3150 4600 2    60   Input ~ 6
 ~PWR_CH3_CURR_OVLD
-Text HLabel 3150 4200 2    60   Input ~ 0
+Text HLabel 3150 4200 2    60   Input ~ 6
 ~MCP3008_CS
-Text HLabel 3150 4100 2    60   Input ~ 0
+Text HLabel 3150 4100 2    60   Input ~ 6
 MCP3008_DOUT
-Text HLabel 3150 4000 2    60   Input ~ 0
+Text HLabel 3150 4000 2    60   Input ~ 6
 MCP3008_DIN
-Text HLabel 3150 3900 2    60   Input ~ 0
+Text HLabel 3150 3900 2    60   Input ~ 6
 MCP3008_SCLK
-Text HLabel 3150 3300 2    60   Input ~ 0
+Text HLabel 3150 3300 2    60   Input ~ 6
 ADS1247_DOUT
-Text HLabel 3150 3400 2    60   Input ~ 0
+Text HLabel 3150 3400 2    60   Input ~ 6
 ~ADS1247_CS
-Text HLabel 3150 3200 2    60   Input ~ 0
+Text HLabel 3150 3200 2    60   Input ~ 6
 ADS1247_DIN
-Text HLabel 3150 3100 2    60   Input ~ 0
+Text HLabel 3150 3100 2    60   Input ~ 6
 ADS1247_SCLK
-Text HLabel 3150 3000 2    60   Input ~ 0
+Text HLabel 3150 3000 2    60   Input ~ 6
 ~ADS1247_DRDY
-Text HLabel 3150 2900 2    60   Input ~ 0
+Text HLabel 3150 2900 2    60   Input ~ 6
 ADS1247_START
-Text HLabel 3150 2800 2    60   Input ~ 0
+Text HLabel 3150 2800 2    60   Input ~ 6
 ADS1247_CHSEL_S1
-Text HLabel 3150 2700 2    60   Input ~ 0
+Text HLabel 3150 2700 2    60   Input ~ 6
 ADS1247_CHSEL_S0
 $Comp
 L Extention-Boards-rescue:SN65HVD1050 U24
@@ -408,10 +386,10 @@ F 3 "" H 10000 2250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR153
+L power:GND #PWR0152
 U 1 1 5D2BA4E9
 P 9000 2950
-F 0 "#PWR153" H 9000 2700 50  0001 C CNN
+F 0 "#PWR0152" H 9000 2700 50  0001 C CNN
 F 1 "GND" H 9000 2800 50  0000 C CNN
 F 2 "" H 9000 2950 50  0000 C CNN
 F 3 "" H 9000 2950 50  0000 C CNN
@@ -419,29 +397,29 @@ F 3 "" H 9000 2950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR154
+L power:+5V #PWR0153
 U 1 1 5D2BA546
 P 9100 2450
-F 0 "#PWR154" H 9100 2300 50  0001 C CNN
+F 0 "#PWR0153" H 9100 2300 50  0001 C CNN
 F 1 "+5V" H 9100 2590 50  0000 C CNN
 F 2 "" H 9100 2450 50  0000 C CNN
 F 3 "" H 9100 2450 50  0000 C CNN
 	1    9100 2450
 	1    0    0    -1  
 $EndComp
-Text Label 9550 2550 2    60   ~ 0
+Text Label 9550 2550 2    60   ~ 6
 CAN0_TX
-Text Label 9550 2850 2    60   ~ 0
+Text Label 9550 2850 2    60   ~ 6
 CAN0_RX
-Text HLabel 10500 2650 2    60   Input ~ 0
+Text HLabel 10500 2650 2    60   Input ~ 6
 CANH0
-Text HLabel 10500 2750 2    60   Input ~ 0
+Text HLabel 10500 2750 2    60   Input ~ 6
 CANL0
 $Comp
-L power:GND #PWR157
+L power:GND #PWR0156
 U 1 1 5D2BB55E
 P 10950 2900
-F 0 "#PWR157" H 10950 2650 50  0001 C CNN
+F 0 "#PWR0156" H 10950 2650 50  0001 C CNN
 F 1 "GND" H 10950 2750 50  0000 C CNN
 F 2 "" H 10950 2900 50  0000 C CNN
 F 3 "" H 10950 2900 50  0000 C CNN
@@ -449,10 +427,10 @@ F 3 "" H 10950 2900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C77
+L Extention-Boards-rescue:C C83
 U 1 1 5D2BBAC5
 P 8800 2700
-F 0 "C77" H 8825 2800 50  0000 L CNN
+F 0 "C83" H 8825 2800 50  0000 L CNN
 F 1 ".1uF" H 8825 2600 50  0000 L CNN
 F 2 "" H 8838 2550 50  0000 C CNN
 F 3 "" H 8800 2700 50  0000 C CNN
@@ -460,21 +438,21 @@ F 3 "" H 8800 2700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 10400 2850
-Text HLabel 1200 3100 0    60   Input ~ 0
+Text HLabel 1200 4400 0    60   Input ~ 6
 HE_CH0
-Text HLabel 1200 3200 0    60   Input ~ 0
+Text HLabel 1200 4500 0    60   Input ~ 6
 HE_CH1
-Text HLabel 3150 4700 2    60   Input ~ 0
+Text HLabel 3150 4700 2    60   Input ~ 6
 PWR_CH0_EN
-Text HLabel 3150 4800 2    60   Input ~ 0
+Text HLabel 3150 4800 2    60   Input ~ 6
 PWR_CH1_EN
-Text HLabel 3150 4900 2    60   Input ~ 0
+Text HLabel 3150 4900 2    60   Input ~ 6
 PWR_CH2_EN
-Text HLabel 3400 5000 2    60   Input ~ 0
+Text HLabel 3400 5000 2    60   Input ~ 6
 PWR_CH3_EN
-Text Label 10500 1300 2    60   ~ 0
+Text Label 10500 1300 2    60   ~ 6
 I2C0_SCL
-Text Label 10500 1400 2    60   ~ 0
+Text Label 10500 1400 2    60   ~ 6
 I2C0_SDA
 $Comp
 L Extention-Boards-rescue:CONN_01X05 P14
@@ -487,21 +465,21 @@ F 3 "" H 10700 1400 50  0000 C CNN
 	1    10700 1400
 	1    0    0    -1  
 $EndComp
-Text GLabel 10500 1600 0    60   Input ~ 0
+Text GLabel 10500 1600 0    60   Input ~ 6
 ~RESET
-Text Notes 8450 900  0    60   ~ 0
+Text Notes 8450 900  0    60   ~ 6
 Header for programming EEPROM\nHold Reset low when flashing EEPROM
-Text Notes 9200 2100 0    60   ~ 0
+Text Notes 9200 2100 0    60   ~ 6
 CAN0
-Text Notes 5350 1050 0    60   ~ 0
+Text Notes 5350 1050 0    60   ~ 6
 Status LED\nRed - Init Failure\nBlue - COMS Failure\nYellow - Sensor Overload\nPurple - Sensor Missing\nBlinking Green - Normal Operation
-Text Notes 1500 650  0    60   ~ 0
+Text Notes 1500 650  0    60   ~ 6
 MCU
 $Comp
-L Extention-Boards-rescue:C C79
+L Extention-Boards-rescue:C C85
 U 1 1 5D30E9ED
 P 9900 1350
-F 0 "C79" H 9925 1450 50  0000 L CNN
+F 0 "C85" H 9925 1450 50  0000 L CNN
 F 1 ".1uF" H 9925 1250 50  0000 L CNN
 F 2 "" H 9938 1200 50  0000 C CNN
 F 3 "" H 9900 1350 50  0000 C CNN
@@ -509,32 +487,32 @@ F 3 "" H 9900 1350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C72
+L Extention-Boards-rescue:C C75
 U 1 1 5D30EF96
-P 2900 1550
-F 0 "C72" H 2925 1650 50  0000 L CNN
-F 1 "10uF" V 2950 1300 50  0000 L CNN
-F 2 "" H 2938 1400 50  0000 C CNN
-F 3 "" H 2900 1550 50  0000 C CNN
-	1    2900 1550
+P 2750 1550
+F 0 "C75" H 2775 1650 50  0000 L CNN
+F 1 "10uF" V 2800 1300 50  0000 L CNN
+F 2 "" H 2788 1400 50  0000 C CNN
+F 3 "" H 2750 1550 50  0000 C CNN
+	1    2750 1550
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C73
+L Extention-Boards-rescue:C C76
 U 1 1 5D30F164
-P 3150 1550
-F 0 "C73" H 3175 1650 50  0000 L CNN
-F 1 "10uF" V 3200 1300 50  0000 L CNN
-F 2 "" H 3188 1400 50  0000 C CNN
-F 3 "" H 3150 1550 50  0000 C CNN
-	1    3150 1550
+P 3000 1550
+F 0 "C76" H 3025 1650 50  0000 L CNN
+F 1 "10uF" V 3050 1300 50  0000 L CNN
+F 2 "" H 3038 1400 50  0000 C CNN
+F 3 "" H 3000 1550 50  0000 C CNN
+	1    3000 1550
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C78
+L Extention-Boards-rescue:C C84
 U 1 1 5D30FC43
 P 9650 1350
-F 0 "C78" H 9675 1450 50  0000 L CNN
+F 0 "C84" H 9675 1450 50  0000 L CNN
 F 1 "10uF" H 9675 1250 50  0000 L CNN
 F 2 "" H 9688 1200 50  0000 C CNN
 F 3 "" H 9650 1350 50  0000 C CNN
@@ -542,10 +520,10 @@ F 3 "" H 9650 1350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C76
+L Extention-Boards-rescue:C C82
 U 1 1 5D30FFCD
 P 8550 2700
-F 0 "C76" H 8575 2800 50  0000 L CNN
+F 0 "C82" H 8575 2800 50  0000 L CNN
 F 1 "10uF" H 8575 2600 50  0000 L CNN
 F 2 "" H 8588 2550 50  0000 C CNN
 F 3 "" H 8550 2700 50  0000 C CNN
@@ -564,32 +542,32 @@ F 3 "" H 2100 5550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR138
+L power:+5V #PWR0138
 U 1 1 5D3D5BF2
 P 1800 6500
-F 0 "#PWR138" H 1800 6350 50  0001 C CNN
+F 0 "#PWR0138" H 1800 6350 50  0001 C CNN
 F 1 "+5V" H 1800 6640 50  0000 C CNN
 F 2 "" H 1800 6500 50  0000 C CNN
 F 3 "" H 1800 6500 50  0000 C CNN
 	1    1800 6500
 	1    0    0    -1  
 $EndComp
-Text Label 2350 6550 0    60   ~ 0
+Text Label 2350 6550 0    60   ~ 6
 SWDIO
-Text Label 2350 6650 0    60   ~ 0
+Text Label 2350 6650 0    60   ~ 6
 SWCLK
 $Comp
-L power:GND #PWR139
+L power:GND #PWR0139
 U 1 1 5D3D5D1B
 P 1800 7100
-F 0 "#PWR139" H 1800 6850 50  0001 C CNN
+F 0 "#PWR0139" H 1800 6850 50  0001 C CNN
 F 1 "GND" H 1800 6950 50  0000 C CNN
 F 2 "" H 1800 7100 50  0000 C CNN
 F 3 "" H 1800 7100 50  0000 C CNN
 	1    1800 7100
 	1    0    0    -1  
 $EndComp
-Text GLabel 2450 6950 2    60   Input ~ 0
+Text GLabel 2450 6950 2    60   Input ~ 6
 ~RESET
 NoConn ~ 1850 6850
 NoConn ~ 2350 6850
@@ -606,53 +584,53 @@ F 3 "" H 2800 6400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR145
+L power:+5V #PWR0145
 U 1 1 5D3D6B2C
 P 2800 6200
-F 0 "#PWR145" H 2800 6050 50  0001 C CNN
+F 0 "#PWR0145" H 2800 6050 50  0001 C CNN
 F 1 "+5V" H 2800 6340 50  0000 C CNN
 F 2 "" H 2800 6200 50  0000 C CNN
 F 3 "" H 2800 6200 50  0000 C CNN
 	1    2800 6200
 	1    0    0    -1  
 $EndComp
-Text Label 3050 5100 0    60   ~ 0
+Text Label 3050 5100 0    60   ~ 6
 SWCLK
-Text Label 3050 5200 0    60   ~ 0
+Text Label 3050 5200 0    60   ~ 6
 SWDIO
-Text Notes 1750 6250 0    60   ~ 0
+Text Notes 1750 6250 0    60   ~ 6
 Programming Header
 $Comp
 L Extention-Boards-rescue:R R69
 U 1 1 5D3E2E45
-P 800 2500
-F 0 "R69" V 880 2500 50  0000 C CNN
-F 1 "4.7k" V 800 2500 50  0000 C CNN
-F 2 "" V 730 2500 50  0000 C CNN
-F 3 "" H 800 2500 50  0000 C CNN
-	1    800  2500
+P 800 3200
+F 0 "R69" V 880 3200 50  0000 C CNN
+F 1 "4.7k" V 800 3200 50  0000 C CNN
+F 2 "" V 730 3200 50  0000 C CNN
+F 3 "" H 800 3200 50  0000 C CNN
+	1    800  3200
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Extention-Boards-rescue:R R68
 U 1 1 5D3E2EC2
-P 600 2500
-F 0 "R68" V 680 2500 50  0000 C CNN
-F 1 "4.7k" V 600 2500 50  0000 C CNN
-F 2 "" V 530 2500 50  0000 C CNN
-F 3 "" H 600 2500 50  0000 C CNN
-	1    600  2500
+P 600 3200
+F 0 "R68" V 680 3200 50  0000 C CNN
+F 1 "4.7k" V 600 3200 50  0000 C CNN
+F 2 "" V 530 3200 50  0000 C CNN
+F 3 "" H 600 3200 50  0000 C CNN
+	1    600  3200
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR135
+L power:+5V #PWR0135
 U 1 1 5D3E3091
-P 800 2250
-F 0 "#PWR135" H 800 2100 50  0001 C CNN
-F 1 "+5V" H 800 2390 50  0000 C CNN
-F 2 "" H 800 2250 50  0000 C CNN
-F 3 "" H 800 2250 50  0000 C CNN
-	1    800  2250
+P 800 2950
+F 0 "#PWR0135" H 800 2800 50  0001 C CNN
+F 1 "+5V" H 800 3090 50  0000 C CNN
+F 2 "" H 800 2950 50  0000 C CNN
+F 3 "" H 800 2950 50  0000 C CNN
+	1    800  2950
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -700,10 +678,10 @@ F 3 "" H 4300 3750 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C74
+L Extention-Boards-rescue:C C80
 U 1 1 5D46ADAE
 P 4700 3550
-F 0 "C74" H 4725 3650 50  0000 L CNN
+F 0 "C80" H 4725 3650 50  0000 L CNN
 F 1 "9pF" H 4725 3450 50  0000 L CNN
 F 2 "" H 4738 3400 50  0000 C CNN
 F 3 "" H 4700 3550 50  0000 C CNN
@@ -711,10 +689,10 @@ F 3 "" H 4700 3550 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C75
+L Extention-Boards-rescue:C C81
 U 1 1 5D46AE41
 P 4700 3950
-F 0 "C75" H 4725 4050 50  0000 L CNN
+F 0 "C81" H 4725 4050 50  0000 L CNN
 F 1 "9pF" H 4725 3850 50  0000 L CNN
 F 2 "" H 4738 3800 50  0000 C CNN
 F 3 "" H 4700 3950 50  0000 C CNN
@@ -722,93 +700,67 @@ F 3 "" H 4700 3950 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR147
+L power:GND #PWR0146
 U 1 1 5D46B7E3
 P 4900 4050
-F 0 "#PWR147" H 4900 3800 50  0001 C CNN
+F 0 "#PWR0146" H 4900 3800 50  0001 C CNN
 F 1 "GND" H 4900 3900 50  0000 C CNN
 F 2 "" H 4900 4050 50  0000 C CNN
 F 3 "" H 4900 4050 50  0000 C CNN
 	1    4900 4050
 	1    0    0    -1  
 $EndComp
-Text Notes 500  2050 0    60   ~ 0
+Text Notes 700  3000 1    60   ~ 6
 I2C0 on  SERCOM4
-Text HLabel 3150 2600 2    60   Input ~ 0
+Text HLabel 1200 4600 0    60   Input ~ 6
 HE_CH2
-Text HLabel 3150 3500 2    60   Input ~ 0
+Text HLabel 3150 3500 2    60   Input ~ 6
 PWR_CH4_EN
-Text HLabel 3150 3600 2    60   Input ~ 0
+Text HLabel 3150 3600 2    60   Input ~ 6
 PWR_CH5_EN
-Text HLabel 3150 2300 2    60   Input ~ 0
+Text HLabel 3150 2300 2    60   Input ~ 6
 ~PWR_CH4_CURR_OVLD
-Text HLabel 3150 2400 2    60   Input ~ 0
+Text HLabel 3150 2400 2    60   Input ~ 6
 ~PWR_CH5_CURR_OVLD
 Wire Wire Line
 	2300 5500 2300 5450
 Wire Wire Line
-	2100 5500 2200 5500
-Wire Wire Line
-	2100 5450 2100 5500
-Connection ~ 2100 5500
+	2000 5500 2100 5500
+Connection ~ 2000 5500
 Wire Wire Line
 	2200 5450 2200 5500
 Connection ~ 2200 5500
 Wire Wire Line
 	2500 5550 2500 5450
 Wire Wire Line
-	2650 1350 2650 1300
+	2550 1350 2550 1300
 Wire Wire Line
-	1500 1350 1650 1350
+	1500 1350 1750 1350
 Wire Wire Line
-	3150 1350 3150 1400
+	3000 1350 3000 1400
 Wire Wire Line
-	2900 1350 2900 1400
-Connection ~ 2900 1350
+	2750 1350 2750 1400
 Wire Wire Line
-	2900 1700 2900 1850
+	2750 1700 2750 1850
 Wire Wire Line
-	3150 1850 2900 1850
+	3000 1850 2750 1850
 Wire Wire Line
-	3150 1700 3150 1850
-Connection ~ 2900 1850
+	3000 1700 3000 1850
+Connection ~ 2750 1850
 Wire Wire Line
-	2400 1800 2400 1700
+	1750 1350 1750 2050
+Connection ~ 1750 1350
+Connection ~ 2350 1350
 Wire Wire Line
-	2350 2050 2350 2000
+	2150 1800 2150 1700
 Wire Wire Line
-	2350 2000 2250 2000
-Wire Wire Line
-	2250 1350 2250 2000
-Connection ~ 2250 2000
-Wire Wire Line
-	1950 2050 2050 2050
-Wire Wire Line
-	1950 1350 1950 2050
-Wire Wire Line
-	1650 2050 1850 2050
-Wire Wire Line
-	1650 1350 1650 2050
-Connection ~ 1650 1350
-Connection ~ 1950 1350
-Connection ~ 2250 1350
-Wire Wire Line
-	2100 1800 2100 1700
-Wire Wire Line
-	1800 1800 1800 1700
+	1300 1800 1300 1700
 Wire Wire Line
 	1500 1800 1500 1700
 Wire Wire Line
 	1500 1400 1500 1350
 Wire Wire Line
-	1800 1400 1800 1350
-Connection ~ 1800 1350
-Wire Wire Line
-	2100 1400 2100 1350
-Connection ~ 2100 1350
-Wire Wire Line
-	2400 1400 2400 1350
-Connection ~ 2400 1350
+	2150 1400 2150 1350
 Wire Wire Line
 	2550 1350 2550 2050
 Connection ~ 2550 1350
@@ -856,7 +808,7 @@ Wire Wire Line
 Wire Wire Line
 	9500 1300 9500 1500
 Wire Wire Line
-	1250 3700 1300 3700
+	1250 5100 1300 5100
 Wire Wire Line
 	3150 4700 3050 4700
 Wire Wire Line
@@ -914,9 +866,9 @@ Wire Wire Line
 	8550 2900 8800 2900
 Connection ~ 9000 2900
 Wire Wire Line
-	1200 3200 1300 3200
+	1200 4500 1300 4500
 Wire Wire Line
-	1200 3100 1300 3100
+	1200 4400 1300 4400
 Wire Wire Line
 	3150 4600 3050 4600
 Wire Wire Line
@@ -943,7 +895,6 @@ Connection ~ 8800 2500
 Wire Wire Line
 	8550 2900 8550 2850
 Connection ~ 8800 2900
-Connection ~ 2650 1350
 Connection ~ 9650 1200
 Connection ~ 9900 1200
 Connection ~ 9900 1500
@@ -971,20 +922,20 @@ Wire Wire Line
 Wire Wire Line
 	2800 6650 2800 6550
 Wire Wire Line
-	1300 2700 800  2700
+	1300 3400 800  3400
 Wire Wire Line
-	800  2700 800  2650
+	800  3400 800  3350
 Wire Wire Line
-	1300 2800 600  2800
+	1300 3500 600  3500
 Wire Wire Line
-	600  2800 600  2650
+	600  3500 600  3350
 Wire Wire Line
-	800  2250 800  2300
+	800  2950 800  3000
 Wire Wire Line
-	800  2300 600  2300
+	800  3000 600  3000
 Wire Wire Line
-	600  2300 600  2350
-Connection ~ 800  2300
+	600  3000 600  3050
+Connection ~ 800  3000
 Wire Wire Line
 	6850 1600 6850 1650
 Wire Wire Line
@@ -1023,7 +974,7 @@ Wire Wire Line
 Wire Wire Line
 	4050 3700 4050 3550
 Wire Wire Line
-	3150 2600 3050 2600
+	1200 4600 1300 4600
 Wire Wire Line
 	3050 2400 3150 2400
 Wire Wire Line
@@ -1035,29 +986,13 @@ Wire Wire Line
 Wire Wire Line
 	3150 3600 3050 3600
 Wire Wire Line
-	2100 5500 2100 5550
+	2000 5500 2000 5550
 Wire Wire Line
 	2200 5500 2300 5500
 Wire Wire Line
-	2900 1350 3150 1350
+	2750 1350 3000 1350
 Wire Wire Line
-	2900 1850 2900 1900
-Wire Wire Line
-	2250 2000 2250 2050
-Wire Wire Line
-	1650 1350 1800 1350
-Wire Wire Line
-	1950 1350 2100 1350
-Wire Wire Line
-	2250 1350 2400 1350
-Wire Wire Line
-	1800 1350 1950 1350
-Wire Wire Line
-	2100 1350 2250 1350
-Wire Wire Line
-	2400 1350 2550 1350
-Wire Wire Line
-	2550 1350 2650 1350
+	2750 1850 2750 1900
 Wire Wire Line
 	8200 1300 8200 1400
 Wire Wire Line
@@ -1077,8 +1012,6 @@ Wire Wire Line
 Wire Wire Line
 	8800 2900 9000 2900
 Wire Wire Line
-	2650 1350 2900 1350
-Wire Wire Line
 	9650 1200 9900 1200
 Wire Wire Line
 	9900 1200 10500 1200
@@ -1091,11 +1024,133 @@ Wire Wire Line
 Wire Wire Line
 	1800 6950 1800 7100
 Wire Wire Line
-	800  2300 800  2350
+	800  3000 800  3050
 Wire Wire Line
 	4900 3950 4900 4050
 Wire Wire Line
 	4300 3950 4550 3950
 Wire Wire Line
 	4300 3550 4550 3550
+Wire Wire Line
+	2150 2000 2150 2050
+Wire Wire Line
+	2350 1350 2550 1350
+Wire Wire Line
+	2350 1350 2350 2000
+Wire Wire Line
+	2150 2000 2250 2000
+Connection ~ 2350 2000
+Wire Wire Line
+	2350 2000 2350 2050
+Wire Wire Line
+	2250 2050 2250 2000
+Connection ~ 2250 2000
+Wire Wire Line
+	2250 2000 2350 2000
+Connection ~ 2150 1350
+Wire Wire Line
+	2150 1350 2350 1350
+Wire Wire Line
+	1950 1350 1950 2050
+Connection ~ 1950 1350
+Wire Wire Line
+	1950 1350 2150 1350
+Wire Wire Line
+	1750 1350 1950 1350
+Wire Wire Line
+	1500 1350 1300 1350
+Wire Wire Line
+	1300 1350 1300 1400
+Connection ~ 1500 1350
+Wire Wire Line
+	2750 1350 2550 1350
+Connection ~ 2750 1350
+$Comp
+L Extention-Boards-rescue:C C78
+U 1 1 5D8E337B
+P 3550 1550
+F 0 "C78" H 3575 1650 50  0000 L CNN
+F 1 "100nF" V 3600 1250 50  0000 L CNN
+F 2 "" H 3588 1400 50  0000 C CNN
+F 3 "" H 3550 1550 50  0000 C CNN
+	1    3550 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Extention-Boards-rescue:C C79
+U 1 1 5D8E386B
+P 3750 1550
+F 0 "C79" H 3775 1650 50  0000 L CNN
+F 1 "100nF" V 3800 1250 50  0000 L CNN
+F 2 "" H 3788 1400 50  0000 C CNN
+F 3 "" H 3750 1550 50  0000 C CNN
+	1    3750 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 1850 3350 1850
+Wire Wire Line
+	3350 1850 3350 1700
+Connection ~ 3000 1850
+Wire Wire Line
+	3350 1850 3550 1850
+Wire Wire Line
+	3550 1850 3550 1700
+Connection ~ 3350 1850
+Wire Wire Line
+	3550 1850 3750 1850
+Wire Wire Line
+	3750 1850 3750 1700
+Connection ~ 3550 1850
+Wire Wire Line
+	3000 1350 3350 1350
+Wire Wire Line
+	3350 1350 3350 1400
+Connection ~ 3000 1350
+Wire Wire Line
+	3350 1350 3550 1350
+Wire Wire Line
+	3550 1350 3550 1400
+Connection ~ 3350 1350
+Wire Wire Line
+	3550 1350 3750 1350
+Wire Wire Line
+	3750 1350 3750 1400
+Connection ~ 3550 1350
+Text Notes 3600 1300 1    60   ~ 6
+VDDIO
+Text Notes 3800 1300 1    60   ~ 6
+VDDIO
+NoConn ~ 1300 2900
+NoConn ~ 1300 3000
+NoConn ~ 1300 3100
+NoConn ~ 1300 3200
+NoConn ~ 1300 3300
+NoConn ~ 1300 3800
+NoConn ~ 1300 3900
+NoConn ~ 1300 4000
+NoConn ~ 1300 4100
+NoConn ~ 1300 4200
+NoConn ~ 1300 4300
+NoConn ~ 1300 4700
+NoConn ~ 3050 2500
+NoConn ~ 3050 2600
+Wire Wire Line
+	2000 5450 2000 5500
+$Comp
+L helix:SAMC21J18A U22
+U 1 1 5D83F306
+P 2100 1650
+F 0 "U22" H 1550 1100 60  0000 C CNN
+F 1 "SAMC21J18A" H 2850 1100 60  0000 C CNN
+F 2 "" H 1550 800 60  0000 C CNN
+F 3 "" H 1550 800 60  0000 C CNN
+	1    2100 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 5450 2100 5500
+Connection ~ 2100 5500
+Wire Wire Line
+	2100 5500 2200 5500
 $EndSCHEMATC

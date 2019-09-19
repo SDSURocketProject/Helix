@@ -37,10 +37,10 @@ F 3 "" H 7250 2450 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L power:VCC #PWR9
+L power:VCC #PWR09
 U 1 1 5D27F176
 P 6550 2400
-F 0 "#PWR9" H 6550 2250 50  0001 C CNN
+F 0 "#PWR09" H 6550 2250 50  0001 C CNN
 F 1 "VCC" H 6550 2550 50  0000 C CNN
 F 2 "" H 6550 2400 50  0000 C CNN
 F 3 "" H 6550 2400 50  0000 C CNN
@@ -48,10 +48,10 @@ F 3 "" H 6550 2400 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR19
+L power:GND #PWR017
 U 1 1 5D27F1CB
 P 9250 3000
-F 0 "#PWR19" H 9250 2750 50  0001 C CNN
+F 0 "#PWR017" H 9250 2750 50  0001 C CNN
 F 1 "GND" H 9250 2850 50  0000 C CNN
 F 2 "" H 9250 3000 50  0000 C CNN
 F 3 "" H 9250 3000 50  0000 C CNN
@@ -70,10 +70,10 @@ F 3 "" H 9800 2750 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C8
+L Extention-Boards-rescue:C C4
 U 1 1 5D27F2F4
 P 9550 2750
-F 0 "C8" H 9575 2850 50  0000 L CNN
+F 0 "C4" H 9575 2850 50  0000 L CNN
 F 1 "180pF" H 9575 2650 50  0000 L CNN
 F 2 "" H 9588 2600 50  0000 C CNN
 F 3 "" H 9550 2750 50  0000 C CNN
@@ -92,10 +92,10 @@ F 3 "" H 10200 2900 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:CP C10
+L Extention-Boards-rescue:CP C6
 U 1 1 5D27F534
 P 10200 3450
-F 0 "C10" H 10225 3550 50  0000 L CNN
+F 0 "C6" H 10225 3550 50  0000 L CNN
 F 1 "100uF" H 10225 3350 50  0000 L CNN
 F 2 "" H 10238 3300 50  0000 C CNN
 F 3 "" H 10200 3450 50  0000 C CNN
@@ -103,10 +103,10 @@ F 3 "" H 10200 3450 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR21
+L power:GND #PWR019
 U 1 1 5D27F571
 P 10200 3700
-F 0 "#PWR21" H 10200 3450 50  0001 C CNN
+F 0 "#PWR019" H 10200 3450 50  0001 C CNN
 F 1 "GND" H 10200 3550 50  0000 C CNN
 F 2 "" H 10200 3700 50  0000 C CNN
 F 3 "" H 10200 3700 50  0000 C CNN
@@ -114,10 +114,10 @@ F 3 "" H 10200 3700 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR23
+L power:+5V #PWR021
 U 1 1 5D27F60D
 P 10800 3200
-F 0 "#PWR23" H 10800 3050 50  0001 C CNN
+F 0 "#PWR021" H 10800 3050 50  0001 C CNN
 F 1 "+5V" H 10800 3340 50  0000 C CNN
 F 2 "" H 10800 3200 50  0000 C CNN
 F 3 "" H 10800 3200 50  0000 C CNN
@@ -125,10 +125,10 @@ F 3 "" H 10800 3200 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG3
+L power:PWR_FLAG #FLG03
 U 1 1 5D27F6E9
 P 10500 3200
-F 0 "#FLG3" H 10500 3295 50  0001 C CNN
+F 0 "#FLG03" H 10500 3295 50  0001 C CNN
 F 1 "PWR_FLAG" H 10500 3380 50  0000 C CNN
 F 2 "" H 10500 3200 50  0000 C CNN
 F 3 "" H 10500 3200 50  0000 C CNN
@@ -158,17 +158,17 @@ F 3 "" H 7450 3450 50  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR15
+L power:GND #PWR013
 U 1 1 5D27FA43
 P 7450 3650
-F 0 "#PWR15" H 7450 3400 50  0001 C CNN
+F 0 "#PWR013" H 7450 3400 50  0001 C CNN
 F 1 "GND" H 7450 3500 50  0000 C CNN
 F 2 "" H 7450 3650 50  0000 C CNN
 F 3 "" H 7450 3650 50  0000 C CNN
 	1    7450 3650
 	-1   0    0    -1  
 $EndComp
-Text Notes 8300 2100 2    60   ~ 0
+Text Notes 8300 2100 2    60   ~ 6
 12V to 5V
 $Comp
 L Extention-Boards-rescue:MCP3008-RESCUE-Extention_Boards U3
@@ -204,33 +204,33 @@ F 3 "" H 6550 3150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR10
+L power:GND #PWR010
 U 1 1 5D2AA420
 P 6550 3350
-F 0 "#PWR10" H 6550 3100 50  0001 C CNN
+F 0 "#PWR010" H 6550 3100 50  0001 C CNN
 F 1 "GND" H 6550 3200 50  0000 C CNN
 F 2 "" H 6550 3350 50  0000 C CNN
 F 3 "" H 6550 3350 50  0000 C CNN
 	1    6550 3350
 	-1   0    0    -1  
 $EndComp
-Text Label 6650 2950 0    60   ~ 0
+Text Label 6650 2950 0    60   ~ 6
 VCC_SENS
-Text Label 8350 4950 2    60   ~ 0
+Text Label 8350 4950 2    60   ~ 6
 VCC_SENS
-Text Label 8350 5150 2    60   ~ 0
+Text Label 8350 5150 2    60   ~ 6
 PWR_CH0_CURR_SENS
-Text Label 8350 5250 2    60   ~ 0
+Text Label 8350 5250 2    60   ~ 6
 PWR_CH1_CURR_SENS
-Text Label 8350 5350 2    60   ~ 0
+Text Label 8350 5350 2    60   ~ 6
 PWR_CH2_CURR_SENS
-Text Label 8350 5450 2    60   ~ 0
+Text Label 8350 5450 2    60   ~ 6
 PWR_CH3_CURR_SENS
 $Comp
-L power:+5V #PWR17
+L power:+5V #PWR015
 U 1 1 5D2AD689
 P 8950 4200
-F 0 "#PWR17" H 8950 4050 50  0001 C CNN
+F 0 "#PWR015" H 8950 4050 50  0001 C CNN
 F 1 "+5V" H 8950 4340 50  0000 C CNN
 F 2 "" H 8950 4200 50  0000 C CNN
 F 3 "" H 8950 4200 50  0000 C CNN
@@ -238,29 +238,29 @@ F 3 "" H 8950 4200 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR18
+L power:GND #PWR016
 U 1 1 5D2AF460
 P 8950 6050
-F 0 "#PWR18" H 8950 5800 50  0001 C CNN
+F 0 "#PWR016" H 8950 5800 50  0001 C CNN
 F 1 "GND" H 8950 5900 50  0000 C CNN
 F 2 "" H 8950 6050 50  0000 C CNN
 F 3 "" H 8950 6050 50  0000 C CNN
 	1    8950 6050
 	-1   0    0    -1  
 $EndComp
-Text HLabel 9850 5150 2    60   Input ~ 0
+Text HLabel 9850 5150 2    60   Input ~ 6
 MCP3008_CLK
-Text HLabel 9850 5250 2    60   Input ~ 0
+Text HLabel 9850 5250 2    60   Input ~ 6
 MCP3008_DOUT
-Text HLabel 9850 5350 2    60   Input ~ 0
+Text HLabel 9850 5350 2    60   Input ~ 6
 MCP3008_DIN
-Text HLabel 9850 5450 2    60   Input ~ 0
+Text HLabel 9850 5450 2    60   Input ~ 6
 ~MCP3008_CS
 $Comp
-L power:PWR_FLAG #FLG4
+L power:PWR_FLAG #FLG04
 U 1 1 5D30A8BB
 P 10500 3600
-F 0 "#FLG4" H 10500 3695 50  0001 C CNN
+F 0 "#FLG04" H 10500 3695 50  0001 C CNN
 F 1 "PWR_FLAG" H 10500 3780 50  0000 C CNN
 F 2 "" H 10500 3600 50  0000 C CNN
 F 3 "" H 10500 3600 50  0000 C CNN
@@ -268,10 +268,10 @@ F 3 "" H 10500 3600 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C7
+L Extention-Boards-rescue:C C3
 U 1 1 5D31F4E0
 P 9500 4450
-F 0 "C7" H 9525 4550 50  0000 L CNN
+F 0 "C3" H 9525 4550 50  0000 L CNN
 F 1 "10uF" H 9525 4350 50  0000 L CNN
 F 2 "" H 9538 4300 50  0000 C CNN
 F 3 "" H 9500 4450 50  0000 C CNN
@@ -279,10 +279,10 @@ F 3 "" H 9500 4450 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR20
+L power:GND #PWR018
 U 1 1 5D31F652
 P 9750 4700
-F 0 "#PWR20" H 9750 4450 50  0001 C CNN
+F 0 "#PWR018" H 9750 4450 50  0001 C CNN
 F 1 "GND" H 9750 4550 50  0000 C CNN
 F 2 "" H 9750 4700 50  0000 C CNN
 F 3 "" H 9750 4700 50  0000 C CNN
@@ -290,10 +290,10 @@ F 3 "" H 9750 4700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C9
+L Extention-Boards-rescue:C C5
 U 1 1 5D31F874
 P 9750 4450
-F 0 "C9" H 9775 4550 50  0000 L CNN
+F 0 "C5" H 9775 4550 50  0000 L CNN
 F 1 ".1uF" H 9775 4350 50  0000 L CNN
 F 2 "" H 9788 4300 50  0000 C CNN
 F 3 "" H 9750 4450 50  0000 C CNN
@@ -301,10 +301,10 @@ F 3 "" H 9750 4450 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR22
+L power:GNDA #PWR020
 U 1 1 5D2C0D90
 P 10500 3700
-F 0 "#PWR22" H 10500 3450 50  0001 C CNN
+F 0 "#PWR020" H 10500 3450 50  0001 C CNN
 F 1 "GNDA" H 10500 3550 50  0000 C CNN
 F 2 "" H 10500 3700 50  0000 C CNN
 F 3 "" H 10500 3700 50  0000 C CNN
@@ -312,17 +312,17 @@ F 3 "" H 10500 3700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG2
+L power:PWR_FLAG #FLG02
 U 1 1 5D2C7E36
 P 9200 2150
-F 0 "#FLG2" H 9200 2245 50  0001 C CNN
+F 0 "#FLG02" H 9200 2245 50  0001 C CNN
 F 1 "PWR_FLAG" H 9200 2330 50  0000 C CNN
 F 2 "" H 9200 2150 50  0000 C CNN
 F 3 "" H 9200 2150 50  0000 C CNN
 	1    9200 2150
 	-1   0    0    -1  
 $EndComp
-Text Notes 10250 2750 0    60   ~ 0
+Text Notes 10250 2750 0    60   ~ 6
 L = SRR7045-470M
 $Comp
 L Extention-Boards-rescue:R R5
@@ -347,19 +347,19 @@ F 3 "" H 7500 1800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR14
+L power:GND #PWR012
 U 1 1 5D42A906
 P 7350 1900
-F 0 "#PWR14" H 7350 1650 50  0001 C CNN
+F 0 "#PWR012" H 7350 1650 50  0001 C CNN
 F 1 "GND" H 7350 1750 50  0000 C CNN
 F 2 "" H 7350 1900 50  0000 C CNN
 F 3 "" H 7350 1900 50  0000 C CNN
 	1    7350 1900
 	1    0    0    -1  
 $EndComp
-Text Label 7850 1600 0    60   ~ 0
+Text Label 7850 1600 0    60   ~ 6
 VCC_CURR_SENSE
-Text Label 8350 5050 2    60   ~ 0
+Text Label 8350 5050 2    60   ~ 6
 VCC_CURR_SENSE
 Wire Wire Line
 	6550 2400 6550 2550
@@ -490,48 +490,6 @@ Wire Wire Line
 Wire Wire Line
 	7850 1600 7750 1600
 Connection ~ 9200 2200
-$Comp
-L Extention-Boards-rescue:C C6
-U 1 1 5D44D37B
-P 7700 1050
-F 0 "C6" H 7725 1150 50  0000 L CNN
-F 1 "0.1uF" H 7725 950 50  0000 L CNN
-F 2 "" H 7738 900 50  0000 C CNN
-F 3 "" H 7700 1050 50  0000 C CNN
-	1    7700 1050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR13
-U 1 1 5D44D381
-P 7350 800
-F 0 "#PWR13" H 7350 650 50  0001 C CNN
-F 1 "+5V" H 7350 940 50  0000 C CNN
-F 2 "" H 7350 800 50  0000 C CNN
-F 3 "" H 7350 800 50  0000 C CNN
-	1    7350 800 
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR16
-U 1 1 5D44D387
-P 7700 1250
-F 0 "#PWR16" H 7700 1000 50  0001 C CNN
-F 1 "GND" H 7700 1100 50  0000 C CNN
-F 2 "" H 7700 1250 50  0000 C CNN
-F 3 "" H 7700 1250 50  0000 C CNN
-	1    7700 1250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7700 1250 7700 1200
-Wire Wire Line
-	7700 900  7700 850 
-Wire Wire Line
-	7700 850  7350 850 
-Wire Wire Line
-	7350 800  7350 850 
-Connection ~ 7350 850 
 $Sheet
 S 1350 2000 1150 2950
 U 5D65270B
@@ -562,39 +520,39 @@ F23 "PWR_CH3" I R 2500 3550 60
 F24 "PWR_CH4" I R 2500 4050 60 
 F25 "PWR_CH5" I R 2500 4550 60 
 $EndSheet
-Text Label 8350 5550 2    60   ~ 0
+Text Label 8350 5550 2    60   ~ 6
 PWR_CH4_CURR_SENS
-Text Label 8350 5650 2    60   ~ 0
+Text Label 8350 5650 2    60   ~ 6
 PWR_CH5_CURR_SENS
-Text Label 2500 2250 0    60   ~ 0
+Text Label 2500 2250 0    60   ~ 6
 PWR_CH0_CURR_SENS
-Text Label 2500 2750 0    60   ~ 0
+Text Label 2500 2750 0    60   ~ 6
 PWR_CH1_CURR_SENS
-Text Label 2500 3250 0    60   ~ 0
+Text Label 2500 3250 0    60   ~ 6
 PWR_CH2_CURR_SENS
-Text Label 2500 3750 0    60   ~ 0
+Text Label 2500 3750 0    60   ~ 6
 PWR_CH3_CURR_SENS
-Text Label 2500 4250 0    60   ~ 0
+Text Label 2500 4250 0    60   ~ 6
 PWR_CH4_CURR_SENS
-Text Label 2500 4750 0    60   ~ 0
+Text Label 2500 4750 0    60   ~ 6
 PWR_CH5_CURR_SENS
-Text HLabel 2600 2050 2    60   Input ~ 0
+Text HLabel 2600 2050 2    60   Input ~ 6
 PWR_CH0
-Text HLabel 2600 2150 2    60   Input ~ 0
+Text HLabel 2600 2150 2    60   Input ~ 6
 PWR_CH0_EN
 Wire Wire Line
 	2600 2150 2500 2150
 Wire Wire Line
 	2600 2050 2500 2050
-Text HLabel 2600 2350 2    60   Input ~ 0
+Text HLabel 2600 2350 2    60   Input ~ 6
 ~PWR_CH0_CURR_OVLD
 Wire Wire Line
 	2600 2350 2500 2350
-Text HLabel 2600 2550 2    60   Input ~ 0
+Text HLabel 2600 2550 2    60   Input ~ 6
 PWR_CH1
-Text HLabel 2600 2650 2    60   Input ~ 0
+Text HLabel 2600 2650 2    60   Input ~ 6
 PWR_CH1_EN
-Text HLabel 2600 2850 2    60   Input ~ 0
+Text HLabel 2600 2850 2    60   Input ~ 6
 ~PWR_CH1_CURR_OVLD
 Wire Wire Line
 	2600 2850 2500 2850
@@ -602,11 +560,11 @@ Wire Wire Line
 	2600 2650 2500 2650
 Wire Wire Line
 	2600 2550 2500 2550
-Text HLabel 2600 3050 2    60   Input ~ 0
+Text HLabel 2600 3050 2    60   Input ~ 6
 PWR_CH2
-Text HLabel 2600 3150 2    60   Input ~ 0
+Text HLabel 2600 3150 2    60   Input ~ 6
 PWR_CH2_EN
-Text HLabel 2600 3350 2    60   Input ~ 0
+Text HLabel 2600 3350 2    60   Input ~ 6
 ~PWR_CH2_CURR_OVLD
 Wire Wire Line
 	2600 3350 2500 3350
@@ -614,23 +572,23 @@ Wire Wire Line
 	2600 3150 2500 3150
 Wire Wire Line
 	2600 3050 2500 3050
-Text HLabel 2600 3550 2    60   Input ~ 0
+Text HLabel 2600 3550 2    60   Input ~ 6
 PWR_CH3
 Wire Wire Line
 	2600 3550 2500 3550
-Text HLabel 2600 3650 2    60   Input ~ 0
+Text HLabel 2600 3650 2    60   Input ~ 6
 PWR_CH3_EN
-Text HLabel 2600 3850 2    60   Input ~ 0
+Text HLabel 2600 3850 2    60   Input ~ 6
 ~PWR_CH3_CURR_OVLD
 Wire Wire Line
 	2600 3650 2500 3650
 Wire Wire Line
 	2600 3850 2500 3850
-Text HLabel 2600 4050 2    60   Input ~ 0
+Text HLabel 2600 4050 2    60   Input ~ 6
 PWR_CH4
-Text HLabel 2600 4150 2    60   Input ~ 0
+Text HLabel 2600 4150 2    60   Input ~ 6
 PWR_CH4_EN
-Text HLabel 2600 4350 2    60   Input ~ 0
+Text HLabel 2600 4350 2    60   Input ~ 6
 ~PWR_CH4_CURR_OVLD
 Wire Wire Line
 	2600 4350 2500 4350
@@ -638,11 +596,11 @@ Wire Wire Line
 	2600 4150 2500 4150
 Wire Wire Line
 	2600 4050 2500 4050
-Text HLabel 2600 4550 2    60   Input ~ 0
+Text HLabel 2600 4550 2    60   Input ~ 6
 PWR_CH5
-Text HLabel 2600 4650 2    60   Input ~ 0
+Text HLabel 2600 4650 2    60   Input ~ 6
 PWR_CH5_EN
-Text HLabel 2600 4850 2    60   Input ~ 0
+Text HLabel 2600 4850 2    60   Input ~ 6
 ~PWR_CH5_CURR_OVLD
 Wire Wire Line
 	2600 4850 2500 4850
@@ -690,6 +648,48 @@ Wire Wire Line
 	10500 3650 10500 3700
 Wire Wire Line
 	9200 2200 9200 2350
+$Comp
+L power:+5V #PWR011
+U 1 1 5D44D381
+P 7350 800
+F 0 "#PWR011" H 7350 650 50  0001 C CNN
+F 1 "+5V" H 7350 940 50  0000 C CNN
+F 2 "" H 7350 800 50  0000 C CNN
+F 3 "" H 7350 800 50  0000 C CNN
+	1    7350 800 
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	7350 850  7350 1300
+Wire Wire Line
+	7350 800  7350 850 
+Connection ~ 7350 850 
+Wire Wire Line
+	7700 850  7350 850 
+Wire Wire Line
+	7700 900  7700 850 
+Wire Wire Line
+	7700 1250 7700 1200
+$Comp
+L power:GND #PWR014
+U 1 1 5D44D387
+P 7700 1250
+F 0 "#PWR014" H 7700 1000 50  0001 C CNN
+F 1 "GND" H 7700 1100 50  0000 C CNN
+F 2 "" H 7700 1250 50  0000 C CNN
+F 3 "" H 7700 1250 50  0000 C CNN
+	1    7700 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Extention-Boards-rescue:C C2
+U 1 1 5D44D37B
+P 7700 1050
+F 0 "C2" H 7725 1150 50  0000 L CNN
+F 1 "0.1uF" H 7725 950 50  0000 L CNN
+F 2 "" H 7738 900 50  0000 C CNN
+F 3 "" H 7700 1050 50  0000 C CNN
+	1    7700 1050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -25,11 +25,11 @@ F 3 "" H 650 1550 50  0000 C CNN
 	1    650  1550
 	-1   0    0    -1  
 $EndComp
-Text Notes 850  1000 0    60   ~ 0
+Text Notes 850  1000 0    60   ~ 6
 RTD0\nExcitation current: 1mA\nLeave lead 3 disconnected if using a 2 wire RTD\nSee ADS124x datasheet section 10.2.1 for reference circuit
-Text HLabel 2800 1150 2    60   Input ~ 0
+Text HLabel 2800 1150 2    60   Input ~ 6
 RTD0_IDAC1
-Text HLabel 2800 1850 2    60   Input ~ 0
+Text HLabel 2800 1850 2    60   Input ~ 6
 RTD0_IDAC2
 $Comp
 L Extention-Boards-rescue:R R42
@@ -80,10 +80,10 @@ Wire Wire Line
 	2650 1850 2800 1850
 Connection ~ 2650 1700
 $Comp
-L Extention-Boards-rescue:C C45
+L Extention-Boards-rescue:C C49
 U 1 1 5D2C1597
 P 3750 1500
-F 0 "C45" H 3775 1600 50  0000 L CNN
+F 0 "C49" H 3775 1600 50  0000 L CNN
 F 1 "6.8nF" H 3775 1400 50  0000 L CNN
 F 2 "" H 3788 1350 50  0000 C CNN
 F 3 "" H 3750 1500 50  0000 C CNN
@@ -139,10 +139,10 @@ F 3 "" H 1700 2400 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C42
+L Extention-Boards-rescue:C C46
 U 1 1 5D2C242B
 P 2500 2200
-F 0 "C42" H 2525 2300 50  0000 L CNN
+F 0 "C46" H 2525 2300 50  0000 L CNN
 F 1 "3.3nF" H 2525 2100 50  0000 L CNN
 F 2 "" H 2538 2050 50  0000 C CNN
 F 3 "" H 2500 2200 50  0000 C CNN
@@ -185,19 +185,19 @@ Wire Wire Line
 	1850 2400 1950 2400
 Wire Wire Line
 	850  1650 950  1650
-Text HLabel 2650 2000 2    60   Input ~ 0
+Text HLabel 2650 2000 2    60   Input ~ 6
 RTD0_REFP
-Text HLabel 2650 2400 2    60   Input ~ 0
+Text HLabel 2650 2400 2    60   Input ~ 6
 RTD0_REFN
-Text HLabel 3900 1700 2    60   Input ~ 0
+Text HLabel 3900 1700 2    60   Input ~ 6
 RTD0_LEAD2
-Text HLabel 3900 1300 2    60   Input ~ 0
+Text HLabel 3900 1300 2    60   Input ~ 6
 RTD0_LEAD1
 $Comp
-L Extention-Boards-rescue:C C43
+L Extention-Boards-rescue:C C47
 U 1 1 5D2C608F
 P 3200 1500
-F 0 "C43" H 3225 1600 50  0000 L CNN
+F 0 "C47" H 3225 1600 50  0000 L CNN
 F 1 "68nF" H 3225 1400 50  0000 L CNN
 F 2 "" H 3238 1350 50  0000 C CNN
 F 3 "" H 3200 1500 50  0000 C CNN
@@ -205,10 +205,10 @@ F 3 "" H 3200 1500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C44
+L Extention-Boards-rescue:C C48
 U 1 1 5D2C6163
 P 3500 1900
-F 0 "C44" H 3525 2000 50  0000 L CNN
+F 0 "C48" H 3525 2000 50  0000 L CNN
 F 1 "6.8nF" H 3525 1800 50  0000 L CNN
 F 2 "" H 3538 1750 50  0000 C CNN
 F 3 "" H 3500 1900 50  0000 C CNN
@@ -216,10 +216,10 @@ F 3 "" H 3500 1900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C40
+L Extention-Boards-rescue:C C44
 U 1 1 5D2C63A7
 P 1950 2200
-F 0 "C40" H 1975 2300 50  0000 L CNN
+F 0 "C44" H 1975 2300 50  0000 L CNN
 F 1 "33nF" H 1975 2100 50  0000 L CNN
 F 2 "" H 1988 2050 50  0000 C CNN
 F 3 "" H 1950 2200 50  0000 C CNN
@@ -227,10 +227,10 @@ F 3 "" H 1950 2200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C41
+L Extention-Boards-rescue:C C45
 U 1 1 5D2C647A
 P 2250 2600
-F 0 "C41" H 2275 2700 50  0000 L CNN
+F 0 "C45" H 2275 2700 50  0000 L CNN
 F 1 "3.3nF" H 2275 2500 50  0000 L CNN
 F 2 "" H 2288 2450 50  0000 C CNN
 F 3 "" H 2250 2600 50  0000 C CNN
@@ -248,11 +248,11 @@ F 3 "" H 5200 1550 50  0000 C CNN
 	1    5200 1550
 	-1   0    0    -1  
 $EndComp
-Text Notes 5400 1000 0    60   ~ 0
+Text Notes 5400 1000 0    60   ~ 6
 RTD1\nExcitation current: 1mA\nLeave lead 3 disconnected if using a 2 wire RTD\nSee ADS124x datasheet section 10.2.1 for reference circuit
-Text HLabel 7350 1150 2    60   Input ~ 0
+Text HLabel 7350 1150 2    60   Input ~ 6
 RTD1_IDAC1
-Text HLabel 7350 1850 2    60   Input ~ 0
+Text HLabel 7350 1850 2    60   Input ~ 6
 RTD1_IDAC2
 $Comp
 L Extention-Boards-rescue:R R47
@@ -303,10 +303,10 @@ Wire Wire Line
 	7200 1850 7350 1850
 Connection ~ 7200 1700
 $Comp
-L Extention-Boards-rescue:C C51
+L Extention-Boards-rescue:C C55
 U 1 1 5D2C7474
 P 8300 1500
-F 0 "C51" H 8325 1600 50  0000 L CNN
+F 0 "C55" H 8325 1600 50  0000 L CNN
 F 1 "6.8nF" H 8325 1400 50  0000 L CNN
 F 2 "" H 8338 1350 50  0000 C CNN
 F 3 "" H 8300 1500 50  0000 C CNN
@@ -362,10 +362,10 @@ F 3 "" H 6250 2400 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C48
+L Extention-Boards-rescue:C C52
 U 1 1 5D2C749D
 P 7050 2200
-F 0 "C48" H 7075 2300 50  0000 L CNN
+F 0 "C52" H 7075 2300 50  0000 L CNN
 F 1 "3.3nF" H 7075 2100 50  0000 L CNN
 F 2 "" H 7088 2050 50  0000 C CNN
 F 3 "" H 7050 2200 50  0000 C CNN
@@ -408,19 +408,19 @@ Wire Wire Line
 	6400 2400 6500 2400
 Wire Wire Line
 	5400 1650 5500 1650
-Text HLabel 7200 2000 2    60   Input ~ 0
+Text HLabel 7200 2000 2    60   Input ~ 6
 RTD1_REFP
-Text HLabel 7200 2400 2    60   Input ~ 0
+Text HLabel 7200 2400 2    60   Input ~ 6
 RTD1_REFN
-Text HLabel 8450 1700 2    60   Input ~ 0
+Text HLabel 8450 1700 2    60   Input ~ 6
 RTD1_LEAD2
-Text HLabel 8450 1300 2    60   Input ~ 0
+Text HLabel 8450 1300 2    60   Input ~ 6
 RTD1_LEAD1
 $Comp
-L Extention-Boards-rescue:C C49
+L Extention-Boards-rescue:C C53
 U 1 1 5D2C74CB
 P 7750 1500
-F 0 "C49" H 7775 1600 50  0000 L CNN
+F 0 "C53" H 7775 1600 50  0000 L CNN
 F 1 "68nF" H 7775 1400 50  0000 L CNN
 F 2 "" H 7788 1350 50  0000 C CNN
 F 3 "" H 7750 1500 50  0000 C CNN
@@ -428,10 +428,10 @@ F 3 "" H 7750 1500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C50
+L Extention-Boards-rescue:C C54
 U 1 1 5D2C74D1
 P 8050 1900
-F 0 "C50" H 8075 2000 50  0000 L CNN
+F 0 "C54" H 8075 2000 50  0000 L CNN
 F 1 "6.8nF" H 8075 1800 50  0000 L CNN
 F 2 "" H 8088 1750 50  0000 C CNN
 F 3 "" H 8050 1900 50  0000 C CNN
@@ -439,10 +439,10 @@ F 3 "" H 8050 1900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C46
+L Extention-Boards-rescue:C C50
 U 1 1 5D2C74D7
 P 6500 2200
-F 0 "C46" H 6525 2300 50  0000 L CNN
+F 0 "C50" H 6525 2300 50  0000 L CNN
 F 1 "33nF" H 6525 2100 50  0000 L CNN
 F 2 "" H 6538 2050 50  0000 C CNN
 F 3 "" H 6500 2200 50  0000 C CNN
@@ -450,10 +450,10 @@ F 3 "" H 6500 2200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C47
+L Extention-Boards-rescue:C C51
 U 1 1 5D2C74DD
 P 6800 2600
-F 0 "C47" H 6825 2700 50  0000 L CNN
+F 0 "C51" H 6825 2700 50  0000 L CNN
 F 1 "3.3nF" H 6825 2500 50  0000 L CNN
 F 2 "" H 6838 2450 50  0000 C CNN
 F 3 "" H 6800 2600 50  0000 C CNN
@@ -503,10 +503,10 @@ Connection ~ 5800 1450
 Connection ~ 5650 1550
 Connection ~ 5500 1650
 $Comp
-L power:GNDA #PWR91
+L power:GNDA #PWR091
 U 1 1 5D6C511B
 P 950 2750
-F 0 "#PWR91" H 950 2500 50  0001 C CNN
+F 0 "#PWR091" H 950 2500 50  0001 C CNN
 F 1 "GNDA" H 950 2600 50  0000 C CNN
 F 2 "" H 950 2750 50  0000 C CNN
 F 3 "" H 950 2750 50  0000 C CNN
@@ -514,10 +514,10 @@ F 3 "" H 950 2750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR92
+L power:GNDA #PWR092
 U 1 1 5D6C52A2
 P 2500 2850
-F 0 "#PWR92" H 2500 2600 50  0001 C CNN
+F 0 "#PWR092" H 2500 2600 50  0001 C CNN
 F 1 "GNDA" H 2500 2700 50  0000 C CNN
 F 2 "" H 2500 2850 50  0000 C CNN
 F 3 "" H 2500 2850 50  0000 C CNN
@@ -525,10 +525,10 @@ F 3 "" H 2500 2850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR93
+L power:GNDA #PWR093
 U 1 1 5D6C5307
 P 3750 2150
-F 0 "#PWR93" H 3750 1900 50  0001 C CNN
+F 0 "#PWR093" H 3750 1900 50  0001 C CNN
 F 1 "GNDA" H 3750 2000 50  0000 C CNN
 F 2 "" H 3750 2150 50  0000 C CNN
 F 3 "" H 3750 2150 50  0000 C CNN
@@ -536,10 +536,10 @@ F 3 "" H 3750 2150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR94
+L power:GNDA #PWR094
 U 1 1 5D6C560F
 P 5500 2750
-F 0 "#PWR94" H 5500 2500 50  0001 C CNN
+F 0 "#PWR094" H 5500 2500 50  0001 C CNN
 F 1 "GNDA" H 5500 2600 50  0000 C CNN
 F 2 "" H 5500 2750 50  0000 C CNN
 F 3 "" H 5500 2750 50  0000 C CNN
@@ -547,10 +547,10 @@ F 3 "" H 5500 2750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR95
+L power:GNDA #PWR095
 U 1 1 5D6C5860
 P 7050 2850
-F 0 "#PWR95" H 7050 2600 50  0001 C CNN
+F 0 "#PWR095" H 7050 2600 50  0001 C CNN
 F 1 "GNDA" H 7050 2700 50  0000 C CNN
 F 2 "" H 7050 2850 50  0000 C CNN
 F 3 "" H 7050 2850 50  0000 C CNN
@@ -558,10 +558,10 @@ F 3 "" H 7050 2850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR96
+L power:GNDA #PWR096
 U 1 1 5D6C58C5
 P 8300 2150
-F 0 "#PWR96" H 8300 1900 50  0001 C CNN
+F 0 "#PWR096" H 8300 1900 50  0001 C CNN
 F 1 "GNDA" H 8300 2000 50  0000 C CNN
 F 2 "" H 8300 2150 50  0000 C CNN
 F 3 "" H 8300 2150 50  0000 C CNN
