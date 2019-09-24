@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Extention-Boards-rescue:TPS22810 U4
+L helix:TPS22810 U4
 U 1 1 5D65395A
 P 1750 1600
 F 0 "U4" H 1550 1400 60  0000 C CNN
@@ -36,7 +36,7 @@ F 3 "" H 1250 1750 50  0000 C CNN
 	1    1250 1750
 	1    0    0    -1  
 $EndComp
-Text HLabel 1300 2100 0    60   Input ~ 6
+Text HLabel 1300 2100 0    60   Input ~ 12
 PWR_CH0_EN
 $Comp
 L power:GND #PWR022
@@ -50,7 +50,7 @@ F 3 "" H 600 2150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:R R9
+L Device:R R9
 U 1 1 5D653F03
 P 2450 2000
 F 0 "R9" V 2530 2000 50  0000 C CNN
@@ -61,7 +61,7 @@ F 3 "" H 2450 2000 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C17
+L Device:C C17
 U 1 1 5D6541E3
 P 2300 2300
 F 0 "C17" H 2325 2400 50  0000 L CNN
@@ -72,7 +72,7 @@ F 3 "" H 2300 2300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C21
+L Device:C C21
 U 1 1 5D65420B
 P 2650 2300
 F 0 "C21" H 2675 2400 50  0000 L CNN
@@ -83,7 +83,7 @@ F 3 "" H 2650 2300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C9
+L Device:C C9
 U 1 1 5D654D3D
 P 900 1800
 F 0 "C9" H 925 1900 50  0000 L CNN
@@ -94,7 +94,7 @@ F 3 "" H 900 1800 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Extention-Boards-rescue:R R12
+L Device:R R12
 U 1 1 5D65530F
 P 2850 1900
 F 0 "R12" V 2930 1900 50  0000 C CNN
@@ -116,7 +116,7 @@ F 3 "" H 2300 2550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:INA4180 U1
+L helix:INA4180 U1
 U 2 1 5D65596B
 P 3400 1200
 F 0 "U1" H 3450 1400 50  0000 C CNN
@@ -149,7 +149,7 @@ F 3 "" H 3300 1500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:LM339 U7
+L Comparator:LM339 U7
 U 1 1 5D656278
 P 4400 1100
 F 0 "U7" H 4450 1300 50  0000 C CNN
@@ -160,7 +160,7 @@ F 3 "" H 4450 1300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:R R18
+L Device:R R18
 U 1 1 5D6562E1
 P 4100 750
 F 0 "R18" V 4180 750 50  0000 C CNN
@@ -171,7 +171,7 @@ F 3 "" H 4100 750 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Extention-Boards-rescue:R R15
+L Device:R R15
 U 1 1 5D656345
 P 3900 1800
 F 0 "R15" V 3980 1800 50  0000 C CNN
@@ -181,14 +181,14 @@ F 3 "" H 3900 1800 50  0000 C CNN
 	1    3900 1800
 	1    0    0    -1  
 $EndComp
-Text HLabel 3850 2200 2    60   Input ~ 6
+Text HLabel 3850 2200 2    60   Input ~ 12
 PWR_CH0_CURR_SENS
-Text Notes 600  1450 0    60   ~ 6
+Text Notes 600  1450 0    60   ~ 12
 Power Channel 0 - Vcc\nCurrent Sense: .5*100 = 50V/A\nCurrent Sense Overload:\n(5*(2.1÷(2.1+4.7))÷100)÷.5 = 30.9mA
-Text HLabel 4800 1100 2    60   Input ~ 6
+Text HLabel 4800 1100 2    60   Input ~ 12
 ~PWR_CH0_CURR_OVLD
 $Comp
-L Extention-Boards-rescue:TPS22810 U5
+L helix:TPS22810 U5
 U 1 1 5D6589A9
 P 1750 3450
 F 0 "U5" H 1550 3250 60  0000 C CNN
@@ -209,7 +209,7 @@ F 3 "" H 1250 3600 50  0000 C CNN
 	1    1250 3600
 	1    0    0    -1  
 $EndComp
-Text HLabel 1300 3950 0    60   Input ~ 6
+Text HLabel 1300 3950 0    60   Input ~ 12
 PWR_CH1_EN
 $Comp
 L power:GND #PWR023
@@ -223,7 +223,7 @@ F 3 "" H 600 4000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:R R10
+L Device:R R10
 U 1 1 5D6589C0
 P 2450 3850
 F 0 "R10" V 2530 3850 50  0000 C CNN
@@ -234,7 +234,7 @@ F 3 "" H 2450 3850 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C18
+L Device:C C18
 U 1 1 5D6589C6
 P 2300 4150
 F 0 "C18" H 2325 4250 50  0000 L CNN
@@ -245,7 +245,7 @@ F 3 "" H 2300 4150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C22
+L Device:C C22
 U 1 1 5D6589CC
 P 2650 4150
 F 0 "C22" H 2675 4250 50  0000 L CNN
@@ -256,7 +256,7 @@ F 3 "" H 2650 4150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C10
+L Device:C C10
 U 1 1 5D6589D2
 P 900 3650
 F 0 "C10" H 925 3750 50  0000 L CNN
@@ -267,7 +267,7 @@ F 3 "" H 900 3650 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Extention-Boards-rescue:R R13
+L Device:R R13
 U 1 1 5D6589DC
 P 2850 3750
 F 0 "R13" V 2930 3750 50  0000 C CNN
@@ -289,7 +289,7 @@ F 3 "" H 2300 4400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:INA4180 U1
+L helix:INA4180 U1
 U 3 1 5D6589F4
 P 3400 3050
 F 0 "U1" H 3450 3250 50  0000 C CNN
@@ -321,14 +321,14 @@ F 3 "" H 3300 3350 50  0000 C CNN
 	1    3300 3350
 	1    0    0    -1  
 $EndComp
-Text HLabel 3850 4050 2    60   Input ~ 6
+Text HLabel 3850 4050 2    60   Input ~ 12
 PWR_CH1_CURR_SENS
-Text Notes 600  3300 0    60   ~ 6
+Text Notes 600  3300 0    60   ~ 12
 Power Channel 1 - Vcc\nCurrent Sense: .5*100 = 50V/A\nCurrent Sense Overload:\n(5*(2.1÷(2.1+4.7))÷100)÷.5 = 30.9mA
-Text HLabel 4800 2950 2    60   Input ~ 6
+Text HLabel 4800 2950 2    60   Input ~ 12
 ~PWR_CH1_CURR_OVLD
 $Comp
-L Extention-Boards-rescue:TPS22810 U6
+L helix:TPS22810 U6
 U 1 1 5D65AFAD
 P 1750 5300
 F 0 "U6" H 1550 5100 60  0000 C CNN
@@ -349,7 +349,7 @@ F 3 "" H 1250 5450 50  0000 C CNN
 	1    1250 5450
 	1    0    0    -1  
 $EndComp
-Text HLabel 1300 5800 0    60   Input ~ 6
+Text HLabel 1300 5800 0    60   Input ~ 12
 PWR_CH2_EN
 $Comp
 L power:GND #PWR024
@@ -363,7 +363,7 @@ F 3 "" H 600 5850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:R R11
+L Device:R R11
 U 1 1 5D65AFC4
 P 2450 5700
 F 0 "R11" V 2530 5700 50  0000 C CNN
@@ -374,7 +374,7 @@ F 3 "" H 2450 5700 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C19
+L Device:C C19
 U 1 1 5D65AFCA
 P 2300 6000
 F 0 "C19" H 2325 6100 50  0000 L CNN
@@ -385,7 +385,7 @@ F 3 "" H 2300 6000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C23
+L Device:C C23
 U 1 1 5D65AFD0
 P 2650 6000
 F 0 "C23" H 2675 6100 50  0000 L CNN
@@ -396,7 +396,7 @@ F 3 "" H 2650 6000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C11
+L Device:C C11
 U 1 1 5D65AFD6
 P 900 5500
 F 0 "C11" H 925 5600 50  0000 L CNN
@@ -407,7 +407,7 @@ F 3 "" H 900 5500 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Extention-Boards-rescue:R R14
+L Device:R R14
 U 1 1 5D65AFE0
 P 2850 5600
 F 0 "R14" V 2930 5600 50  0000 C CNN
@@ -429,7 +429,7 @@ F 3 "" H 2300 6250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:INA4180 U1
+L helix:INA4180 U1
 U 4 1 5D65AFF8
 P 3400 4900
 F 0 "U1" H 3450 5100 50  0000 C CNN
@@ -461,14 +461,14 @@ F 3 "" H 3300 5200 50  0000 C CNN
 	1    3300 5200
 	1    0    0    -1  
 $EndComp
-Text HLabel 3850 5900 2    60   Input ~ 6
+Text HLabel 3850 5900 2    60   Input ~ 12
 PWR_CH2_CURR_SENS
-Text Notes 600  5150 0    60   ~ 6
+Text Notes 600  5150 0    60   ~ 12
 Power Channel 2 - Vcc\nCurrent Sense: .5*100 = 50V/A\nCurrent Sense Overload:\n(5*(2.1÷(2.1+4.7))÷100)÷.5 = 30.9mA
-Text HLabel 4800 4800 2    60   Input ~ 6
+Text HLabel 4800 4800 2    60   Input ~ 12
 ~PWR_CH2_CURR_OVLD
 $Comp
-L Extention-Boards-rescue:TPS22810 U8
+L helix:TPS22810 U8
 U 1 1 5D65C54C
 P 7100 1650
 F 0 "U8" H 6900 1450 60  0000 C CNN
@@ -478,7 +478,7 @@ F 3 "" H 7100 1650 60  0000 C CNN
 	1    7100 1650
 	1    0    0    -1  
 $EndComp
-Text HLabel 6650 2150 0    60   Input ~ 6
+Text HLabel 6650 2150 0    60   Input ~ 12
 PWR_CH3_EN
 $Comp
 L power:GND #PWR048
@@ -492,7 +492,7 @@ F 3 "" H 5950 2200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:R R24
+L Device:R R24
 U 1 1 5D65C563
 P 7800 2050
 F 0 "R24" V 7880 2050 50  0000 C CNN
@@ -503,7 +503,7 @@ F 3 "" H 7800 2050 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C27
+L Device:C C27
 U 1 1 5D65C569
 P 7650 2350
 F 0 "C27" H 7675 2450 50  0000 L CNN
@@ -514,7 +514,7 @@ F 3 "" H 7650 2350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C30
+L Device:C C30
 U 1 1 5D65C56F
 P 8000 2350
 F 0 "C30" H 8025 2450 50  0000 L CNN
@@ -525,7 +525,7 @@ F 3 "" H 8000 2350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C24
+L Device:C C24
 U 1 1 5D65C575
 P 6250 1850
 F 0 "C24" H 6275 1950 50  0000 L CNN
@@ -536,7 +536,7 @@ F 3 "" H 6250 1850 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Extention-Boards-rescue:R R27
+L Device:R R27
 U 1 1 5D65C57F
 P 8200 1950
 F 0 "R27" V 8280 1950 50  0000 C CNN
@@ -558,7 +558,7 @@ F 3 "" H 7650 2600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:INA4180 U11
+L helix:INA4180 U11
 U 1 1 5D65C597
 P 8750 1250
 F 0 "U11" H 8800 1450 50  0000 C CNN
@@ -590,14 +590,14 @@ F 3 "" H 8650 1550 50  0000 C CNN
 	1    8650 1550
 	1    0    0    -1  
 $EndComp
-Text HLabel 9200 2250 2    60   Input ~ 6
+Text HLabel 9200 2250 2    60   Input ~ 12
 PWR_CH3_CURR_SENS
-Text Notes 5950 1500 0    60   ~ 6
+Text Notes 5950 1500 0    60   ~ 12
 Power Channel 3 - +5V\nCurrent Sense: .5*100 = 50V/A\nCurrent Sense Overload:\n(5*(2.1÷(2.1+4.7))÷100)÷.5 = 30.9mA
-Text HLabel 10150 1150 2    60   Input ~ 6
+Text HLabel 10150 1150 2    60   Input ~ 12
 ~PWR_CH3_CURR_OVLD
 $Comp
-L Extention-Boards-rescue:TPS22810 U9
+L helix:TPS22810 U9
 U 1 1 5D65C5DE
 P 7100 3500
 F 0 "U9" H 6900 3300 60  0000 C CNN
@@ -607,7 +607,7 @@ F 3 "" H 7100 3500 60  0000 C CNN
 	1    7100 3500
 	1    0    0    -1  
 $EndComp
-Text HLabel 6650 4000 0    60   Input ~ 6
+Text HLabel 6650 4000 0    60   Input ~ 12
 PWR_CH4_EN
 $Comp
 L power:GND #PWR049
@@ -621,7 +621,7 @@ F 3 "" H 5950 4050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:R R25
+L Device:R R25
 U 1 1 5D65C5F5
 P 7800 3900
 F 0 "R25" V 7880 3900 50  0000 C CNN
@@ -632,7 +632,7 @@ F 3 "" H 7800 3900 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C28
+L Device:C C28
 U 1 1 5D65C5FB
 P 7650 4200
 F 0 "C28" H 7675 4300 50  0000 L CNN
@@ -643,7 +643,7 @@ F 3 "" H 7650 4200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C31
+L Device:C C31
 U 1 1 5D65C601
 P 8000 4200
 F 0 "C31" H 8025 4300 50  0000 L CNN
@@ -654,7 +654,7 @@ F 3 "" H 8000 4200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C25
+L Device:C C25
 U 1 1 5D65C607
 P 6250 3700
 F 0 "C25" H 6275 3800 50  0000 L CNN
@@ -665,7 +665,7 @@ F 3 "" H 6250 3700 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Extention-Boards-rescue:R R28
+L Device:R R28
 U 1 1 5D65C611
 P 8200 3800
 F 0 "R28" V 8280 3800 50  0000 C CNN
@@ -687,7 +687,7 @@ F 3 "" H 7650 4450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:INA4180 U11
+L helix:INA4180 U11
 U 2 1 5D65C629
 P 8750 3100
 F 0 "U11" H 8800 3300 50  0000 C CNN
@@ -719,14 +719,14 @@ F 3 "" H 8650 3400 50  0000 C CNN
 	1    8650 3400
 	1    0    0    -1  
 $EndComp
-Text HLabel 9200 4100 2    60   Input ~ 6
+Text HLabel 9200 4100 2    60   Input ~ 12
 PWR_CH4_CURR_SENS
-Text Notes 5950 3350 0    60   ~ 6
+Text Notes 5950 3350 0    60   ~ 12
 Power Channel 4 - +5V\nCurrent Sense: .5*100 = 50V/A\nCurrent Sense Overload:\n(5*(2.1÷(2.1+4.7))÷100)÷.5 = 30.9mA
-Text HLabel 10150 3000 2    60   Input ~ 6
+Text HLabel 10150 3000 2    60   Input ~ 12
 ~PWR_CH4_CURR_OVLD
 $Comp
-L Extention-Boards-rescue:TPS22810 U10
+L helix:TPS22810 U10
 U 1 1 5D65C670
 P 7100 5350
 F 0 "U10" H 6900 5150 60  0000 C CNN
@@ -736,7 +736,7 @@ F 3 "" H 7100 5350 60  0000 C CNN
 	1    7100 5350
 	1    0    0    -1  
 $EndComp
-Text HLabel 6650 5850 0    60   Input ~ 6
+Text HLabel 6650 5850 0    60   Input ~ 12
 PWR_CH5_EN
 $Comp
 L power:GND #PWR050
@@ -750,7 +750,7 @@ F 3 "" H 5950 5900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:R R26
+L Device:R R26
 U 1 1 5D65C687
 P 7800 5750
 F 0 "R26" V 7880 5750 50  0000 C CNN
@@ -761,7 +761,7 @@ F 3 "" H 7800 5750 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C29
+L Device:C C29
 U 1 1 5D65C68D
 P 7650 6050
 F 0 "C29" H 7675 6150 50  0000 L CNN
@@ -772,7 +772,7 @@ F 3 "" H 7650 6050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C32
+L Device:C C32
 U 1 1 5D65C693
 P 8000 6050
 F 0 "C32" H 8025 6150 50  0000 L CNN
@@ -783,7 +783,7 @@ F 3 "" H 8000 6050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C26
+L Device:C C26
 U 1 1 5D65C699
 P 6250 5550
 F 0 "C26" H 6275 5650 50  0000 L CNN
@@ -794,7 +794,7 @@ F 3 "" H 6250 5550 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Extention-Boards-rescue:R R29
+L Device:R R29
 U 1 1 5D65C6A3
 P 8200 5650
 F 0 "R29" V 8280 5650 50  0000 C CNN
@@ -816,7 +816,7 @@ F 3 "" H 7650 6300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:INA4180 U11
+L helix:INA4180 U11
 U 3 1 5D65C6BB
 P 8750 4950
 F 0 "U11" H 8800 5150 50  0000 C CNN
@@ -848,11 +848,11 @@ F 3 "" H 8650 5250 50  0000 C CNN
 	1    8650 5250
 	1    0    0    -1  
 $EndComp
-Text HLabel 9200 5950 2    60   Input ~ 6
+Text HLabel 9200 5950 2    60   Input ~ 12
 PWR_CH5_CURR_SENS
-Text Notes 5950 5200 0    60   ~ 6
+Text Notes 5950 5200 0    60   ~ 12
 Power Channel 5 - +5V\nCurrent Sense: .5*100 = 50V/A\nCurrent Sense Overload:\n(5*(2.1÷(2.1+4.7))÷100)÷.5 = 30.9mA
-Text HLabel 10150 4850 2    60   Input ~ 6
+Text HLabel 10150 4850 2    60   Input ~ 12
 ~PWR_CH5_CURR_OVLD
 $Comp
 L power:+5V #PWR051
@@ -887,20 +887,20 @@ F 3 "" H 6600 5500 50  0000 C CNN
 	1    6600 5500
 	1    0    0    -1  
 $EndComp
-Text HLabel 3150 1900 2    60   Input ~ 6
+Text HLabel 3150 1900 2    60   Input ~ 12
 PWR_CH0
-Text HLabel 3150 3750 2    60   Input ~ 6
+Text HLabel 3150 3750 2    60   Input ~ 12
 PWR_CH1
-Text HLabel 3150 5600 2    60   Input ~ 6
+Text HLabel 3150 5600 2    60   Input ~ 12
 PWR_CH2
-Text HLabel 8500 1950 2    60   Input ~ 6
+Text HLabel 8500 1950 2    60   Input ~ 12
 PWR_CH3
-Text HLabel 8500 3800 2    60   Input ~ 6
+Text HLabel 8500 3800 2    60   Input ~ 12
 PWR_CH4
-Text HLabel 8500 5650 2    60   Input ~ 6
+Text HLabel 8500 5650 2    60   Input ~ 12
 PWR_CH5
 $Comp
-L Extention-Boards-rescue:TVSsmall D7
+L helix:TVSsmall D7
 U 1 1 5D6881EC
 P 3050 2100
 F 0 "D7" H 3050 2200 50  0000 C CNN
@@ -911,7 +911,7 @@ F 3 "" H 3050 2100 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Extention-Boards-rescue:TVSsmall D8
+L helix:TVSsmall D8
 U 1 1 5D68C266
 P 3050 3950
 F 0 "D8" H 3050 4050 50  0000 C CNN
@@ -922,7 +922,7 @@ F 3 "" H 3050 3950 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Extention-Boards-rescue:TVSsmall D9
+L helix:TVSsmall D9
 U 1 1 5D68D9BC
 P 3050 5800
 F 0 "D9" H 3050 5900 50  0000 C CNN
@@ -933,7 +933,7 @@ F 3 "" H 3050 5800 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Extention-Boards-rescue:TVSsmall D12
+L helix:TVSsmall D12
 U 1 1 5D68F5B0
 P 8400 5850
 F 0 "D12" H 8400 5950 50  0000 C CNN
@@ -944,7 +944,7 @@ F 3 "" H 8400 5850 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Extention-Boards-rescue:TVSsmall D11
+L helix:TVSsmall D11
 U 1 1 5D6906F7
 P 8400 4000
 F 0 "D11" H 8400 4100 50  0000 C CNN
@@ -1263,7 +1263,7 @@ Connection ~ 8000 4400
 Wire Notes Line
 	8500 4150 11200 4150
 $Comp
-L Extention-Boards-rescue:TVSsmall D10
+L helix:TVSsmall D10
 U 1 1 5D692847
 P 8400 2150
 F 0 "D10" H 8400 2250 50  0000 C CNN
@@ -1279,7 +1279,7 @@ Wire Wire Line
 	8400 2550 8400 2250
 Connection ~ 8000 2550
 $Comp
-L Extention-Boards-rescue:R R21
+L Device:R R21
 U 1 1 5D704AE4
 P 4550 1600
 F 0 "R21" V 4630 1600 50  0000 C CNN
@@ -1337,7 +1337,7 @@ Connection ~ 3900 1600
 Wire Wire Line
 	3900 750  3950 750 
 $Comp
-L Extention-Boards-rescue:LM339 U7
+L Comparator:LM339 U7
 U 2 1 5D70AC68
 P 4400 2950
 F 0 "U7" H 4450 3150 50  0000 C CNN
@@ -1348,7 +1348,7 @@ F 3 "" H 4450 3150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:R R19
+L Device:R R19
 U 1 1 5D70AC6E
 P 4100 2600
 F 0 "R19" V 4180 2600 50  0000 C CNN
@@ -1359,7 +1359,7 @@ F 3 "" H 4100 2600 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Extention-Boards-rescue:R R16
+L Device:R R16
 U 1 1 5D70AC74
 P 3900 3650
 F 0 "R16" V 3980 3650 50  0000 C CNN
@@ -1374,7 +1374,7 @@ Wire Wire Line
 Wire Wire Line
 	4700 2950 4750 2950
 $Comp
-L Extention-Boards-rescue:R R22
+L Device:R R22
 U 1 1 5D70AC7C
 P 4550 3450
 F 0 "R22" V 4630 3450 50  0000 C CNN
@@ -1432,7 +1432,7 @@ Wire Wire Line
 Wire Wire Line
 	3800 4050 3850 4050
 $Comp
-L Extention-Boards-rescue:LM339 U7
+L Comparator:LM339 U7
 U 3 1 5D70C9AC
 P 4400 4800
 F 0 "U7" H 4450 5000 50  0000 C CNN
@@ -1443,7 +1443,7 @@ F 3 "" H 4450 5000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:R R20
+L Device:R R20
 U 1 1 5D70C9B2
 P 4100 4450
 F 0 "R20" V 4180 4450 50  0000 C CNN
@@ -1454,7 +1454,7 @@ F 3 "" H 4100 4450 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Extention-Boards-rescue:R R17
+L Device:R R17
 U 1 1 5D70C9B8
 P 3900 5500
 F 0 "R17" V 3980 5500 50  0000 C CNN
@@ -1469,7 +1469,7 @@ Wire Wire Line
 Wire Wire Line
 	4700 4800 4750 4800
 $Comp
-L Extention-Boards-rescue:R R23
+L Device:R R23
 U 1 1 5D70C9C0
 P 4550 5300
 F 0 "R23" V 4630 5300 50  0000 C CNN
@@ -1527,7 +1527,7 @@ Wire Wire Line
 Wire Wire Line
 	3800 5900 3850 5900
 $Comp
-L Extention-Boards-rescue:LM339 U7
+L Comparator:LM339 U7
 U 4 1 5D70D88B
 P 9750 1150
 F 0 "U7" H 9800 1350 50  0000 C CNN
@@ -1538,7 +1538,7 @@ F 3 "" H 9800 1350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:R R33
+L Device:R R33
 U 1 1 5D70D891
 P 9450 800
 F 0 "R33" V 9530 800 50  0000 C CNN
@@ -1549,7 +1549,7 @@ F 3 "" H 9450 800 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Extention-Boards-rescue:R R30
+L Device:R R30
 U 1 1 5D70D897
 P 9250 1850
 F 0 "R30" V 9330 1850 50  0000 C CNN
@@ -1564,7 +1564,7 @@ Wire Wire Line
 Wire Wire Line
 	10050 1150 10100 1150
 $Comp
-L Extention-Boards-rescue:R R36
+L Device:R R36
 U 1 1 5D70D89F
 P 9900 1650
 F 0 "R36" V 9980 1650 50  0000 C CNN
@@ -1633,7 +1633,7 @@ Wire Wire Line
 Wire Wire Line
 	9150 2250 9200 2250
 $Comp
-L Extention-Boards-rescue:LM339 U12
+L Comparator:LM339 U12
 U 1 1 5D710D55
 P 9750 3000
 F 0 "U12" H 9800 3200 50  0000 C CNN
@@ -1644,7 +1644,7 @@ F 3 "" H 9800 3200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:R R34
+L Device:R R34
 U 1 1 5D710D5B
 P 9450 2650
 F 0 "R34" V 9530 2650 50  0000 C CNN
@@ -1655,7 +1655,7 @@ F 3 "" H 9450 2650 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Extention-Boards-rescue:R R31
+L Device:R R31
 U 1 1 5D710D61
 P 9250 3700
 F 0 "R31" V 9330 3700 50  0000 C CNN
@@ -1670,7 +1670,7 @@ Wire Wire Line
 Wire Wire Line
 	10050 3000 10100 3000
 $Comp
-L Extention-Boards-rescue:R R37
+L Device:R R37
 U 1 1 5D710D69
 P 9900 3500
 F 0 "R37" V 9980 3500 50  0000 C CNN
@@ -1739,7 +1739,7 @@ Wire Wire Line
 Wire Wire Line
 	9150 4100 9200 4100
 $Comp
-L Extention-Boards-rescue:LM339 U12
+L Comparator:LM339 U12
 U 2 1 5D711FEE
 P 9750 4850
 F 0 "U12" H 9800 5050 50  0000 C CNN
@@ -1750,7 +1750,7 @@ F 3 "" H 9800 5050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:R R35
+L Device:R R35
 U 1 1 5D711FF4
 P 9450 4500
 F 0 "R35" V 9530 4500 50  0000 C CNN
@@ -1761,7 +1761,7 @@ F 3 "" H 9450 4500 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Extention-Boards-rescue:R R32
+L Device:R R32
 U 1 1 5D711FFA
 P 9250 5550
 F 0 "R32" V 9330 5550 50  0000 C CNN
@@ -1776,7 +1776,7 @@ Wire Wire Line
 Wire Wire Line
 	10050 4850 10100 4850
 $Comp
-L Extention-Boards-rescue:R R38
+L Device:R R38
 U 1 1 5D712002
 P 9900 5350
 F 0 "R38" V 9980 5350 50  0000 C CNN
@@ -1878,7 +1878,7 @@ F 3 "" H 4300 700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C7
+L Device:C C7
 U 1 1 5D724576
 P 600 7000
 F 0 "C7" H 625 7100 50  0000 L CNN
@@ -1889,7 +1889,7 @@ F 3 "" H 600 7000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C8
+L Device:C C8
 U 1 1 5D724670
 P 850 7000
 F 0 "C8" H 875 7100 50  0000 L CNN
@@ -1900,7 +1900,7 @@ F 3 "" H 850 7000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C12
+L Device:C C12
 U 1 1 5D724CFF
 P 1150 7000
 F 0 "C12" H 1175 7100 50  0000 L CNN
@@ -1911,7 +1911,7 @@ F 3 "" H 1150 7000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C13
+L Device:C C13
 U 1 1 5D724D05
 P 1400 7000
 F 0 "C13" H 1425 7100 50  0000 L CNN
@@ -1922,7 +1922,7 @@ F 3 "" H 1400 7000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C14
+L Device:C C14
 U 1 1 5D724E2B
 P 1700 7000
 F 0 "C14" H 1725 7100 50  0000 L CNN
@@ -1933,7 +1933,7 @@ F 3 "" H 1700 7000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C15
+L Device:C C15
 U 1 1 5D724E31
 P 1950 7000
 F 0 "C15" H 1975 7100 50  0000 L CNN
@@ -1944,7 +1944,7 @@ F 3 "" H 1950 7000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C16
+L Device:C C16
 U 1 1 5D724E37
 P 2250 7000
 F 0 "C16" H 2275 7100 50  0000 L CNN
@@ -1955,7 +1955,7 @@ F 3 "" H 2250 7000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C20
+L Device:C C20
 U 1 1 5D724E3D
 P 2500 7000
 F 0 "C20" H 2525 7100 50  0000 L CNN
@@ -2037,7 +2037,7 @@ F 3 "" H 2500 7250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 2500 7200
-Text Notes 850  6700 0    60   ~ 6
+Text Notes 850  6700 0    60   ~ 12
 Decoupling Caps
 Wire Notes Line
 	8500 4700 5850 4700

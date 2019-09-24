@@ -14,25 +14,14 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Extention-Boards-rescue:CONN_01X03 P3
-U 1 1 5D2C095C
-P 650 1550
-F 0 "P3" H 650 1750 50  0000 C CNN
-F 1 "CONN_01X03" V 750 1550 50  0000 C CNN
-F 2 "" H 650 1550 50  0000 C CNN
-F 3 "" H 650 1550 50  0000 C CNN
-	1    650  1550
-	-1   0    0    -1  
-$EndComp
-Text Notes 850  1000 0    60   ~ 6
+Text Notes 850  1000 0    60   ~ 12
 RTD0\nExcitation current: 1mA\nLeave lead 3 disconnected if using a 2 wire RTD\nSee ADS124x datasheet section 10.2.1 for reference circuit
-Text HLabel 2800 1150 2    60   Input ~ 6
+Text HLabel 2800 1150 2    60   Input ~ 12
 RTD0_IDAC1
-Text HLabel 2800 1850 2    60   Input ~ 6
+Text HLabel 2800 1850 2    60   Input ~ 12
 RTD0_IDAC2
 $Comp
-L Extention-Boards-rescue:R R42
+L Device:R R42
 U 1 1 5D2C0FF6
 P 2950 1300
 F 0 "R42" V 3030 1300 50  0000 C CNN
@@ -43,7 +32,7 @@ F 3 "" H 2950 1300 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Extention-Boards-rescue:R R43
+L Device:R R43
 U 1 1 5D2C102F
 P 2950 1700
 F 0 "R43" V 3030 1700 50  0000 C CNN
@@ -80,7 +69,7 @@ Wire Wire Line
 	2650 1850 2800 1850
 Connection ~ 2650 1700
 $Comp
-L Extention-Boards-rescue:C C49
+L Device:C C49
 U 1 1 5D2C1597
 P 3750 1500
 F 0 "C49" H 3775 1600 50  0000 L CNN
@@ -106,7 +95,7 @@ Connection ~ 3750 2100
 Connection ~ 3500 1700
 Connection ~ 3750 1300
 $Comp
-L Extention-Boards-rescue:R R39
+L Device:R R39
 U 1 1 5D2C21D6
 P 1450 2200
 F 0 "R39" V 1530 2200 50  0000 C CNN
@@ -117,7 +106,7 @@ F 3 "" H 1450 2200 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Extention-Boards-rescue:R R40
+L Device:R R40
 U 1 1 5D2C2253
 P 1700 2000
 F 0 "R40" V 1780 2000 50  0000 C CNN
@@ -128,7 +117,7 @@ F 3 "" H 1700 2000 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Extention-Boards-rescue:R R41
+L Device:R R41
 U 1 1 5D2C2293
 P 1700 2400
 F 0 "R41" V 1780 2400 50  0000 C CNN
@@ -139,7 +128,7 @@ F 3 "" H 1700 2400 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C46
+L Device:C C46
 U 1 1 5D2C242B
 P 2500 2200
 F 0 "C46" H 2525 2300 50  0000 L CNN
@@ -185,16 +174,16 @@ Wire Wire Line
 	1850 2400 1950 2400
 Wire Wire Line
 	850  1650 950  1650
-Text HLabel 2650 2000 2    60   Input ~ 6
+Text HLabel 2650 2000 2    60   Input ~ 12
 RTD0_REFP
-Text HLabel 2650 2400 2    60   Input ~ 6
+Text HLabel 2650 2400 2    60   Input ~ 12
 RTD0_REFN
-Text HLabel 3900 1700 2    60   Input ~ 6
+Text HLabel 3900 1700 2    60   Input ~ 12
 RTD0_LEAD2
-Text HLabel 3900 1300 2    60   Input ~ 6
+Text HLabel 3900 1300 2    60   Input ~ 12
 RTD0_LEAD1
 $Comp
-L Extention-Boards-rescue:C C47
+L Device:C C47
 U 1 1 5D2C608F
 P 3200 1500
 F 0 "C47" H 3225 1600 50  0000 L CNN
@@ -205,7 +194,7 @@ F 3 "" H 3200 1500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C48
+L Device:C C48
 U 1 1 5D2C6163
 P 3500 1900
 F 0 "C48" H 3525 2000 50  0000 L CNN
@@ -216,7 +205,7 @@ F 3 "" H 3500 1900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C44
+L Device:C C44
 U 1 1 5D2C63A7
 P 1950 2200
 F 0 "C44" H 1975 2300 50  0000 L CNN
@@ -227,7 +216,7 @@ F 3 "" H 1950 2200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C45
+L Device:C C45
 U 1 1 5D2C647A
 P 2250 2600
 F 0 "C45" H 2275 2700 50  0000 L CNN
@@ -237,25 +226,14 @@ F 3 "" H 2250 2600 50  0000 C CNN
 	1    2250 2600
 	1    0    0    -1  
 $EndComp
-$Comp
-L Extention-Boards-rescue:CONN_01X03 P4
-U 1 1 5D2C744B
-P 5200 1550
-F 0 "P4" H 5200 1750 50  0000 C CNN
-F 1 "CONN_01X03" V 5300 1550 50  0000 C CNN
-F 2 "" H 5200 1550 50  0000 C CNN
-F 3 "" H 5200 1550 50  0000 C CNN
-	1    5200 1550
-	-1   0    0    -1  
-$EndComp
-Text Notes 5400 1000 0    60   ~ 6
+Text Notes 5400 1000 0    60   ~ 12
 RTD1\nExcitation current: 1mA\nLeave lead 3 disconnected if using a 2 wire RTD\nSee ADS124x datasheet section 10.2.1 for reference circuit
-Text HLabel 7350 1150 2    60   Input ~ 6
+Text HLabel 7350 1150 2    60   Input ~ 12
 RTD1_IDAC1
-Text HLabel 7350 1850 2    60   Input ~ 6
+Text HLabel 7350 1850 2    60   Input ~ 12
 RTD1_IDAC2
 $Comp
-L Extention-Boards-rescue:R R47
+L Device:R R47
 U 1 1 5D2C7454
 P 7500 1300
 F 0 "R47" V 7580 1300 50  0000 C CNN
@@ -266,7 +244,7 @@ F 3 "" H 7500 1300 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Extention-Boards-rescue:R R48
+L Device:R R48
 U 1 1 5D2C745A
 P 7500 1700
 F 0 "R48" V 7580 1700 50  0000 C CNN
@@ -303,7 +281,7 @@ Wire Wire Line
 	7200 1850 7350 1850
 Connection ~ 7200 1700
 $Comp
-L Extention-Boards-rescue:C C55
+L Device:C C55
 U 1 1 5D2C7474
 P 8300 1500
 F 0 "C55" H 8325 1600 50  0000 L CNN
@@ -329,7 +307,7 @@ Connection ~ 8300 2100
 Connection ~ 8050 1700
 Connection ~ 8300 1300
 $Comp
-L Extention-Boards-rescue:R R44
+L Device:R R44
 U 1 1 5D2C748B
 P 6000 2200
 F 0 "R44" V 6080 2200 50  0000 C CNN
@@ -340,7 +318,7 @@ F 3 "" H 6000 2200 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Extention-Boards-rescue:R R45
+L Device:R R45
 U 1 1 5D2C7491
 P 6250 2000
 F 0 "R45" V 6330 2000 50  0000 C CNN
@@ -351,7 +329,7 @@ F 3 "" H 6250 2000 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Extention-Boards-rescue:R R46
+L Device:R R46
 U 1 1 5D2C7497
 P 6250 2400
 F 0 "R46" V 6330 2400 50  0000 C CNN
@@ -362,7 +340,7 @@ F 3 "" H 6250 2400 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C52
+L Device:C C52
 U 1 1 5D2C749D
 P 7050 2200
 F 0 "C52" H 7075 2300 50  0000 L CNN
@@ -408,16 +386,16 @@ Wire Wire Line
 	6400 2400 6500 2400
 Wire Wire Line
 	5400 1650 5500 1650
-Text HLabel 7200 2000 2    60   Input ~ 6
+Text HLabel 7200 2000 2    60   Input ~ 12
 RTD1_REFP
-Text HLabel 7200 2400 2    60   Input ~ 6
+Text HLabel 7200 2400 2    60   Input ~ 12
 RTD1_REFN
-Text HLabel 8450 1700 2    60   Input ~ 6
+Text HLabel 8450 1700 2    60   Input ~ 12
 RTD1_LEAD2
-Text HLabel 8450 1300 2    60   Input ~ 6
+Text HLabel 8450 1300 2    60   Input ~ 12
 RTD1_LEAD1
 $Comp
-L Extention-Boards-rescue:C C53
+L Device:C C53
 U 1 1 5D2C74CB
 P 7750 1500
 F 0 "C53" H 7775 1600 50  0000 L CNN
@@ -428,7 +406,7 @@ F 3 "" H 7750 1500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C54
+L Device:C C54
 U 1 1 5D2C74D1
 P 8050 1900
 F 0 "C54" H 8075 2000 50  0000 L CNN
@@ -439,7 +417,7 @@ F 3 "" H 8050 1900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C50
+L Device:C C50
 U 1 1 5D2C74D7
 P 6500 2200
 F 0 "C50" H 6525 2300 50  0000 L CNN
@@ -450,7 +428,7 @@ F 3 "" H 6500 2200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C51
+L Device:C C51
 U 1 1 5D2C74DD
 P 6800 2600
 F 0 "C51" H 6825 2700 50  0000 L CNN
@@ -569,7 +547,7 @@ F 3 "" H 8300 2150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:TVSsmall D13
+L helix:TVSsmall D13
 U 1 1 5D688884
 P 950 2150
 F 0 "D13" H 850 2200 50  0000 C CNN
@@ -580,7 +558,7 @@ F 3 "" H 950 2150 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Extention-Boards-rescue:TVSsmall D14
+L helix:TVSsmall D14
 U 1 1 5D68891D
 P 1100 2300
 F 0 "D14" H 1000 2350 50  0000 C CNN
@@ -591,7 +569,7 @@ F 3 "" H 1100 2300 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Extention-Boards-rescue:TVSsmall D15
+L helix:TVSsmall D15
 U 1 1 5D688990
 P 1250 2450
 F 0 "D15" H 1150 2500 50  0000 C CNN
@@ -602,7 +580,7 @@ F 3 "" H 1250 2450 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Extention-Boards-rescue:TVSsmall D18
+L helix:TVSsmall D18
 U 1 1 5D688FF4
 P 5800 2450
 F 0 "D18" H 5700 2500 50  0000 C CNN
@@ -613,7 +591,7 @@ F 3 "" H 5800 2450 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Extention-Boards-rescue:TVSsmall D17
+L helix:TVSsmall D17
 U 1 1 5D68907D
 P 5650 2300
 F 0 "D17" H 5550 2350 50  0000 C CNN
@@ -624,7 +602,7 @@ F 3 "" H 5650 2300 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Extention-Boards-rescue:TVSsmall D16
+L helix:TVSsmall D16
 U 1 1 5D6890EE
 P 5500 2150
 F 0 "D16" H 5400 2200 50  0000 C CNN
@@ -714,4 +692,26 @@ Wire Wire Line
 	5650 1550 7200 1550
 Wire Wire Line
 	5500 1650 6000 1650
+$Comp
+L Connector_Generic:Conn_01x03 J?
+U 1 1 5D94DEA2
+P 650 1550
+F 0 "J?" H 568 1225 50  0000 C CNN
+F 1 "Conn_01x03" H 568 1316 50  0000 C CNN
+F 2 "" H 650 1550 50  0001 C CNN
+F 3 "~" H 650 1550 50  0001 C CNN
+	1    650  1550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J?
+U 1 1 5D95612C
+P 5200 1550
+F 0 "J?" H 5118 1225 50  0000 C CNN
+F 1 "Conn_01x03" H 5118 1316 50  0000 C CNN
+F 2 "" H 5200 1550 50  0001 C CNN
+F 3 "~" H 5200 1550 50  0001 C CNN
+	1    5200 1550
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC

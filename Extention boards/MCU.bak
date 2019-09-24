@@ -58,12 +58,12 @@ F 3 "" H 2750 1900 50  0000 C CNN
 	1    2750 1900
 	1    0    0    -1  
 $EndComp
-Text Notes 2800 1300 1    60   ~ 6
+Text Notes 2800 1300 1    60   ~ 12
 VDDANA
-Text Notes 3000 1300 1    60   ~ 6
+Text Notes 3000 1300 1    60   ~ 12
 VDDIN
 $Comp
-L Extention-Boards-rescue:C C77
+L Device:C C77
 U 1 1 5D28069D
 P 3350 1550
 F 0 "C77" H 3375 1650 50  0000 L CNN
@@ -74,7 +74,7 @@ F 3 "" H 3350 1550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C74
+L Device:C C74
 U 1 1 5D2806C8
 P 2150 1550
 F 0 "C74" H 2175 1650 50  0000 L CNN
@@ -85,7 +85,7 @@ F 3 "" H 2150 1550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C72
+L Device:C C72
 U 1 1 5D2806F1
 P 1300 1550
 F 0 "C72" H 1325 1650 50  0000 L CNN
@@ -96,7 +96,7 @@ F 3 "" H 1300 1550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C73
+L Device:C C73
 U 1 1 5D28078F
 P 1500 1550
 F 0 "C73" H 1525 1650 50  0000 L CNN
@@ -139,30 +139,30 @@ F 3 "" H 1500 1800 50  0000 C CNN
 	1    1500 1800
 	1    0    0    -1  
 $EndComp
-Text Notes 3400 1300 1    60   ~ 6
+Text Notes 3400 1300 1    60   ~ 12
 VDDIO
-Text Notes 1550 1300 1    60   ~ 6
+Text Notes 1550 1300 1    60   ~ 12
 VDDIN
-Text Notes 2200 1300 1    60   ~ 6
+Text Notes 2200 1300 1    60   ~ 12
 VDDCORE
-Text Notes 1350 1300 1    60   ~ 6
+Text Notes 1350 1300 1    60   ~ 12
 VDDCORE
-Text Label 1300 3600 2    60   ~ 6
+Text Label 1300 3600 2    60   ~ 12
 CAN0_TX
-Text Label 1300 3700 2    60   ~ 6
+Text Label 1300 3700 2    60   ~ 12
 CAN0_RX
-Text Notes 3950 3300 0    60   ~ 6
+Text Notes 3950 3300 0    60   ~ 12
 SERCOM0\nCPOL = 0\nCPHA = 1
-Text Notes 3950 4250 0    60   ~ 6
+Text Notes 3950 4250 0    60   ~ 12
 SERCOM1\nCPOL = 1\nCPHA = 1
-Text Label 1300 2700 2    60   ~ 6
+Text Label 1300 2700 2    60   ~ 12
 LED_R
-Text Label 1300 2800 2    60   ~ 6
+Text Label 1300 2800 2    60   ~ 12
 LED_G
-Text Label 1300 2600 2    60   ~ 6
+Text Label 1300 2600 2    60   ~ 12
 LED_B
 $Comp
-L Extention-Boards-rescue:MMBT3904 Q1
+L Transistor_BJT:MMBT3904 Q1
 U 1 1 5D2A0D07
 P 6750 2200
 F 0 "Q1" H 6950 2275 50  0000 L CNN
@@ -173,7 +173,7 @@ F 3 "" H 6750 2200 50  0000 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:R R71
+L Device:R R71
 U 1 1 5D2A0D88
 P 6350 2200
 F 0 "R71" V 6430 2200 50  0000 C CNN
@@ -184,7 +184,7 @@ F 3 "" H 6350 2200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Extention-Boards-rescue:LED_RABG D29
+L Device:LED_RABG D29
 U 1 1 5D2A0F79
 P 7150 1250
 F 0 "D29" H 7225 1600 50  0000 C CNN
@@ -206,7 +206,7 @@ F 3 "" H 6850 2400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:MMBT3904 Q2
+L Transistor_BJT:MMBT3904 Q2
 U 1 1 5D2A177B
 P 7050 2650
 F 0 "Q2" H 7250 2725 50  0000 L CNN
@@ -217,7 +217,7 @@ F 3 "" H 7050 2650 50  0000 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:R R72
+L Device:R R72
 U 1 1 5D2A1781
 P 6650 2650
 F 0 "R72" V 6730 2650 50  0000 C CNN
@@ -239,7 +239,7 @@ F 3 "" H 7150 2850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:MMBT3904 Q3
+L Transistor_BJT:MMBT3904 Q3
 U 1 1 5D2A1805
 P 7350 3100
 F 0 "Q3" H 7550 3175 50  0000 L CNN
@@ -250,7 +250,7 @@ F 3 "" H 7350 3100 50  0000 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:R R74
+L Device:R R74
 U 1 1 5D2A180B
 P 6950 3100
 F 0 "R74" V 7030 3100 50  0000 C CNN
@@ -271,11 +271,11 @@ F 3 "" H 7450 3300 50  0000 C CNN
 	1    7450 3300
 	1    0    0    -1  
 $EndComp
-Text Label 6150 2200 2    60   ~ 6
+Text Label 6150 2200 2    60   ~ 12
 LED_R
-Text Label 6450 2650 2    60   ~ 6
+Text Label 6450 2650 2    60   ~ 12
 LED_G
-Text Label 6750 3100 2    60   ~ 6
+Text Label 6750 3100 2    60   ~ 12
 LED_B
 $Comp
 L power:+5V #PWR0148
@@ -288,12 +288,12 @@ F 3 "" H 7150 900 50  0000 C CNN
 	1    7150 900 
 	1    0    0    -1  
 $EndComp
-Text Label 1300 3400 2    60   ~ 6
+Text Label 1300 3400 2    60   ~ 12
 I2C0_SCL
-Text Label 1300 3500 2    60   ~ 6
+Text Label 1300 3500 2    60   ~ 12
 I2C0_SDA
 $Comp
-L Extention-Boards-rescue:CAT24C256 U23
+L helix:CAT24C256 U23
 U 1 1 5D2B3B3B
 P 8650 1000
 F 0 "U23" H 8450 900 60  0000 C CNN
@@ -325,9 +325,9 @@ F 3 "" H 9250 1150 50  0000 C CNN
 	1    9250 1150
 	1    0    0    -1  
 $EndComp
-Text Label 9050 1400 0    60   ~ 6
+Text Label 9050 1400 0    60   ~ 12
 I2C0_SCL
-Text Label 9050 1500 0    60   ~ 6
+Text Label 9050 1500 0    60   ~ 12
 I2C0_SDA
 $Comp
 L power:GND #PWR0155
@@ -340,42 +340,42 @@ F 3 "" H 9500 1550 50  0000 C CNN
 	1    9500 1550
 	1    0    0    -1  
 $EndComp
-Text GLabel 1250 5100 0    60   Input ~ 6
+Text GLabel 1250 5100 0    60   Input ~ 12
 ~RESET
-Text HLabel 3150 4300 2    60   Input ~ 6
+Text HLabel 3150 4300 2    60   Input ~ 12
 ~PWR_CH0_CURR_OVLD
-Text HLabel 3150 4400 2    60   Input ~ 6
+Text HLabel 3150 4400 2    60   Input ~ 12
 ~PWR_CH1_CURR_OVLD
-Text HLabel 3150 4500 2    60   Input ~ 6
+Text HLabel 3150 4500 2    60   Input ~ 12
 ~PWR_CH2_CURR_OVLD
-Text HLabel 3150 4600 2    60   Input ~ 6
+Text HLabel 3150 4600 2    60   Input ~ 12
 ~PWR_CH3_CURR_OVLD
-Text HLabel 3150 4200 2    60   Input ~ 6
+Text HLabel 3150 4200 2    60   Input ~ 12
 ~MCP3008_CS
-Text HLabel 3150 4100 2    60   Input ~ 6
+Text HLabel 3150 4100 2    60   Input ~ 12
 MCP3008_DOUT
-Text HLabel 3150 4000 2    60   Input ~ 6
+Text HLabel 3150 4000 2    60   Input ~ 12
 MCP3008_DIN
-Text HLabel 3150 3900 2    60   Input ~ 6
+Text HLabel 3150 3900 2    60   Input ~ 12
 MCP3008_SCLK
-Text HLabel 3150 3300 2    60   Input ~ 6
+Text HLabel 3150 3300 2    60   Input ~ 12
 ADS1247_DOUT
-Text HLabel 3150 3400 2    60   Input ~ 6
+Text HLabel 3150 3400 2    60   Input ~ 12
 ~ADS1247_CS
-Text HLabel 3150 3200 2    60   Input ~ 6
+Text HLabel 3150 3200 2    60   Input ~ 12
 ADS1247_DIN
-Text HLabel 3150 3100 2    60   Input ~ 6
+Text HLabel 3150 3100 2    60   Input ~ 12
 ADS1247_SCLK
-Text HLabel 3150 3000 2    60   Input ~ 6
+Text HLabel 3150 3000 2    60   Input ~ 12
 ~ADS1247_DRDY
-Text HLabel 3150 2900 2    60   Input ~ 6
+Text HLabel 3150 2900 2    60   Input ~ 12
 ADS1247_START
-Text HLabel 3150 2800 2    60   Input ~ 6
+Text HLabel 3150 2800 2    60   Input ~ 12
 ADS1247_CHSEL_S1
-Text HLabel 3150 2700 2    60   Input ~ 6
+Text HLabel 3150 2700 2    60   Input ~ 12
 ADS1247_CHSEL_S0
 $Comp
-L Extention-Boards-rescue:SN65HVD1050 U24
+L helix:SN65HVD1050 U24
 U 1 1 5D2BA408
 P 10000 2250
 F 0 "U24" H 9800 2050 60  0000 C CNN
@@ -407,13 +407,13 @@ F 3 "" H 9100 2450 50  0000 C CNN
 	1    9100 2450
 	1    0    0    -1  
 $EndComp
-Text Label 9550 2550 2    60   ~ 6
+Text Label 9550 2550 2    60   ~ 12
 CAN0_TX
-Text Label 9550 2850 2    60   ~ 6
+Text Label 9550 2850 2    60   ~ 12
 CAN0_RX
-Text HLabel 10500 2650 2    60   Input ~ 6
+Text HLabel 10500 2650 2    60   Input ~ 12
 CANH0
-Text HLabel 10500 2750 2    60   Input ~ 6
+Text HLabel 10500 2750 2    60   Input ~ 12
 CANL0
 $Comp
 L power:GND #PWR0156
@@ -427,7 +427,7 @@ F 3 "" H 10950 2900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C83
+L Device:C C83
 U 1 1 5D2BBAC5
 P 8800 2700
 F 0 "C83" H 8825 2800 50  0000 L CNN
@@ -438,45 +438,34 @@ F 3 "" H 8800 2700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 10400 2850
-Text HLabel 1200 4400 0    60   Input ~ 6
+Text HLabel 1200 4400 0    60   Input ~ 12
 HE_CH0
-Text HLabel 1200 4500 0    60   Input ~ 6
+Text HLabel 1200 4500 0    60   Input ~ 12
 HE_CH1
-Text HLabel 3150 4700 2    60   Input ~ 6
+Text HLabel 3150 4700 2    60   Input ~ 12
 PWR_CH0_EN
-Text HLabel 3150 4800 2    60   Input ~ 6
+Text HLabel 3150 4800 2    60   Input ~ 12
 PWR_CH1_EN
-Text HLabel 3150 4900 2    60   Input ~ 6
+Text HLabel 3150 4900 2    60   Input ~ 12
 PWR_CH2_EN
-Text HLabel 3400 5000 2    60   Input ~ 6
+Text HLabel 3400 5000 2    60   Input ~ 12
 PWR_CH3_EN
-Text Label 10500 1300 2    60   ~ 6
+Text Label 10500 1300 2    60   ~ 12
 I2C0_SCL
-Text Label 10500 1400 2    60   ~ 6
+Text Label 10500 1400 2    60   ~ 12
 I2C0_SDA
-$Comp
-L Extention-Boards-rescue:CONN_01X05 P14
-U 1 1 5D2FE94E
-P 10700 1400
-F 0 "P14" H 10700 1700 50  0000 C CNN
-F 1 "CONN_01X05" V 10800 1400 50  0000 C CNN
-F 2 "" H 10700 1400 50  0000 C CNN
-F 3 "" H 10700 1400 50  0000 C CNN
-	1    10700 1400
-	1    0    0    -1  
-$EndComp
-Text GLabel 10500 1600 0    60   Input ~ 6
+Text GLabel 10500 1600 0    60   Input ~ 12
 ~RESET
-Text Notes 8450 900  0    60   ~ 6
+Text Notes 8450 900  0    60   ~ 12
 Header for programming EEPROM\nHold Reset low when flashing EEPROM
-Text Notes 9200 2100 0    60   ~ 6
+Text Notes 9200 2100 0    60   ~ 12
 CAN0
-Text Notes 5350 1050 0    60   ~ 6
+Text Notes 5350 1050 0    60   ~ 12
 Status LED\nRed - Init Failure\nBlue - COMS Failure\nYellow - Sensor Overload\nPurple - Sensor Missing\nBlinking Green - Normal Operation
-Text Notes 1500 650  0    60   ~ 6
+Text Notes 1500 650  0    60   ~ 12
 MCU
 $Comp
-L Extention-Boards-rescue:C C85
+L Device:C C85
 U 1 1 5D30E9ED
 P 9900 1350
 F 0 "C85" H 9925 1450 50  0000 L CNN
@@ -487,7 +476,7 @@ F 3 "" H 9900 1350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C75
+L Device:C C75
 U 1 1 5D30EF96
 P 2750 1550
 F 0 "C75" H 2775 1650 50  0000 L CNN
@@ -498,7 +487,7 @@ F 3 "" H 2750 1550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C76
+L Device:C C76
 U 1 1 5D30F164
 P 3000 1550
 F 0 "C76" H 3025 1650 50  0000 L CNN
@@ -509,7 +498,7 @@ F 3 "" H 3000 1550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C84
+L Device:C C84
 U 1 1 5D30FC43
 P 9650 1350
 F 0 "C84" H 9675 1450 50  0000 L CNN
@@ -520,7 +509,7 @@ F 3 "" H 9650 1350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C82
+L Device:C C82
 U 1 1 5D30FFCD
 P 8550 2700
 F 0 "C82" H 8575 2800 50  0000 L CNN
@@ -530,31 +519,9 @@ F 3 "" H 8550 2700 50  0000 C CNN
 	1    8550 2700
 	1    0    0    -1  
 $EndComp
-$Comp
-L Extention-Boards-rescue:CONN_02X05 P13
-U 1 1 5D3D5B25
-P 2100 6750
-F 0 "P13" H 2100 7050 50  0000 C CNN
-F 1 "CONN_02X05" H 2100 6450 50  0000 C CNN
-F 2 "" H 2100 5550 50  0000 C CNN
-F 3 "" H 2100 5550 50  0000 C CNN
-	1    2100 6750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0138
-U 1 1 5D3D5BF2
-P 1800 6500
-F 0 "#PWR0138" H 1800 6350 50  0001 C CNN
-F 1 "+5V" H 1800 6640 50  0000 C CNN
-F 2 "" H 1800 6500 50  0000 C CNN
-F 3 "" H 1800 6500 50  0000 C CNN
-	1    1800 6500
-	1    0    0    -1  
-$EndComp
-Text Label 2350 6550 0    60   ~ 6
+Text Label 2350 6550 0    60   ~ 12
 SWDIO
-Text Label 2350 6650 0    60   ~ 6
+Text Label 2350 6650 0    60   ~ 12
 SWCLK
 $Comp
 L power:GND #PWR0139
@@ -567,13 +534,13 @@ F 3 "" H 1800 7100 50  0000 C CNN
 	1    1800 7100
 	1    0    0    -1  
 $EndComp
-Text GLabel 2450 6950 2    60   Input ~ 6
+Text GLabel 2450 6950 2    60   Input ~ 12
 ~RESET
 NoConn ~ 1850 6850
 NoConn ~ 2350 6850
 NoConn ~ 2350 6750
 $Comp
-L Extention-Boards-rescue:R R70
+L Device:R R70
 U 1 1 5D3D6ABA
 P 2800 6400
 F 0 "R70" V 2880 6400 50  0000 C CNN
@@ -594,14 +561,14 @@ F 3 "" H 2800 6200 50  0000 C CNN
 	1    2800 6200
 	1    0    0    -1  
 $EndComp
-Text Label 3050 5100 0    60   ~ 6
+Text Label 3050 5100 0    60   ~ 12
 SWCLK
-Text Label 3050 5200 0    60   ~ 6
+Text Label 3050 5200 0    60   ~ 12
 SWDIO
-Text Notes 1750 6250 0    60   ~ 6
+Text Notes 1750 6250 0    60   ~ 12
 Programming Header
 $Comp
-L Extention-Boards-rescue:R R69
+L Device:R R69
 U 1 1 5D3E2E45
 P 800 3200
 F 0 "R69" V 880 3200 50  0000 C CNN
@@ -612,7 +579,7 @@ F 3 "" H 800 3200 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:R R68
+L Device:R R68
 U 1 1 5D3E2EC2
 P 600 3200
 F 0 "R68" V 680 3200 50  0000 C CNN
@@ -634,7 +601,7 @@ F 3 "" H 800 2950 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:R R73
+L Device:R R73
 U 1 1 5D3E7782
 P 6850 1800
 F 0 "R73" V 6930 1800 50  0000 C CNN
@@ -645,7 +612,7 @@ F 3 "" H 6850 1800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:R R75
+L Device:R R75
 U 1 1 5D3E7CCF
 P 7150 1800
 F 0 "R75" V 7230 1800 50  0000 C CNN
@@ -656,7 +623,7 @@ F 3 "" H 7150 1800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:R R76
+L Device:R R76
 U 1 1 5D3E7D3A
 P 7450 1800
 F 0 "R76" V 7530 1800 50  0000 C CNN
@@ -667,7 +634,7 @@ F 3 "" H 7450 1800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:Crystal Y1
+L Device:Crystal Y1
 U 1 1 5D46AA5C
 P 4300 3750
 F 0 "Y1" H 4300 3900 50  0000 C CNN
@@ -678,7 +645,7 @@ F 3 "" H 4300 3750 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C80
+L Device:C C80
 U 1 1 5D46ADAE
 P 4700 3550
 F 0 "C80" H 4725 3650 50  0000 L CNN
@@ -689,7 +656,7 @@ F 3 "" H 4700 3550 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C81
+L Device:C C81
 U 1 1 5D46AE41
 P 4700 3950
 F 0 "C81" H 4725 4050 50  0000 L CNN
@@ -710,17 +677,17 @@ F 3 "" H 4900 4050 50  0000 C CNN
 	1    4900 4050
 	1    0    0    -1  
 $EndComp
-Text Notes 700  3000 1    60   ~ 6
+Text Notes 700  3000 1    60   ~ 12
 I2C0 on  SERCOM4
-Text HLabel 1200 4600 0    60   Input ~ 6
+Text HLabel 1200 4600 0    60   Input ~ 12
 HE_CH2
-Text HLabel 3150 3500 2    60   Input ~ 6
+Text HLabel 3150 3500 2    60   Input ~ 12
 PWR_CH4_EN
-Text HLabel 3150 3600 2    60   Input ~ 6
+Text HLabel 3150 3600 2    60   Input ~ 12
 PWR_CH5_EN
-Text HLabel 3150 2300 2    60   Input ~ 6
+Text HLabel 3150 2300 2    60   Input ~ 12
 ~PWR_CH4_CURR_OVLD
-Text HLabel 3150 2400 2    60   Input ~ 6
+Text HLabel 3150 2400 2    60   Input ~ 12
 ~PWR_CH5_CURR_OVLD
 Wire Wire Line
 	2300 5500 2300 5450
@@ -765,11 +732,7 @@ Wire Wire Line
 	2550 1350 2550 2050
 Connection ~ 2550 1350
 Wire Wire Line
-	6950 1550 6950 1600
-Wire Wire Line
 	6950 1600 6850 1600
-Wire Wire Line
-	7350 1550 7350 1600
 Wire Wire Line
 	7350 1600 7450 1600
 Wire Wire Line
@@ -784,8 +747,6 @@ Wire Wire Line
 	6750 3100 6800 3100
 Wire Wire Line
 	7100 3100 7150 3100
-Wire Wire Line
-	7150 900  7150 950 
 Wire Wire Line
 	8200 1200 8200 1300
 Wire Wire Line
@@ -900,10 +861,6 @@ Connection ~ 9900 1200
 Connection ~ 9900 1500
 Connection ~ 9650 1500
 Wire Wire Line
-	1800 6500 1800 6550
-Wire Wire Line
-	1800 6550 1850 6550
-Wire Wire Line
 	1800 6650 1800 6750
 Wire Wire Line
 	1800 6650 1850 6650
@@ -940,8 +897,6 @@ Wire Wire Line
 	6850 1600 6850 1650
 Wire Wire Line
 	6850 1950 6850 2000
-Wire Wire Line
-	7150 1550 7150 1650
 Wire Wire Line
 	7150 1950 7150 2450
 Wire Wire Line
@@ -1066,7 +1021,7 @@ Wire Wire Line
 	2750 1350 2550 1350
 Connection ~ 2750 1350
 $Comp
-L Extention-Boards-rescue:C C78
+L Device:C C78
 U 1 1 5D8E337B
 P 3550 1550
 F 0 "C78" H 3575 1650 50  0000 L CNN
@@ -1077,7 +1032,7 @@ F 3 "" H 3550 1550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C79
+L Device:C C79
 U 1 1 5D8E386B
 P 3750 1550
 F 0 "C79" H 3775 1650 50  0000 L CNN
@@ -1117,9 +1072,9 @@ Wire Wire Line
 Wire Wire Line
 	3750 1350 3750 1400
 Connection ~ 3550 1350
-Text Notes 3600 1300 1    60   ~ 6
+Text Notes 3600 1300 1    60   ~ 12
 VDDIO
-Text Notes 3800 1300 1    60   ~ 6
+Text Notes 3800 1300 1    60   ~ 12
 VDDIO
 NoConn ~ 1300 2900
 NoConn ~ 1300 3000
@@ -1153,4 +1108,49 @@ Wire Wire Line
 Connection ~ 2100 5500
 Wire Wire Line
 	2100 5500 2200 5500
+Wire Wire Line
+	6950 1450 6950 1600
+Wire Wire Line
+	7150 1450 7150 1650
+Wire Wire Line
+	7350 1450 7350 1600
+Wire Wire Line
+	7150 900  7150 1050
+$Comp
+L Connector:Conn_01x05_Female J?
+U 1 1 5D9026EE
+P 10700 1400
+F 0 "J?" H 10728 1426 50  0000 L CNN
+F 1 "Conn_01x05_Female" H 10728 1335 50  0000 L CNN
+F 2 "" H 10700 1400 50  0001 C CNN
+F 3 "~" H 10700 1400 50  0001 C CNN
+	1    10700 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J?
+U 1 1 5D904480
+P 2050 6750
+F 0 "J?" H 2100 7167 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 2100 7076 50  0000 C CNN
+F 2 "" H 2050 6750 50  0001 C CNN
+F 3 "~" H 2050 6750 50  0001 C CNN
+	1    2050 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5D90F48F
+P 1600 6500
+F 0 "#PWR?" H 1600 6350 50  0001 C CNN
+F 1 "+5V" H 1615 6673 50  0000 C CNN
+F 2 "" H 1600 6500 50  0001 C CNN
+F 3 "" H 1600 6500 50  0001 C CNN
+	1    1600 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 6500 1600 6550
+Wire Wire Line
+	1600 6550 1850 6550
 $EndSCHEMATC

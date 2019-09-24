@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Extention-Boards-rescue:MC33063 U2
+L helix:MC33063 U2
 U 1 1 5D27F0C6
 P 8250 2100
 F 0 "U2" H 7550 1950 60  0000 C CNN
@@ -26,7 +26,7 @@ F 3 "" H 8250 2100 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:R R6
+L Device:R R6
 U 1 1 5D27F145
 P 7250 2450
 F 0 "R6" V 7330 2450 50  0000 C CNN
@@ -59,7 +59,7 @@ F 3 "" H 9250 3000 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:D_Schottky D6
+L Device:D_Schottky D6
 U 1 1 5D27F242
 P 9800 2750
 F 0 "D6" H 9800 2850 50  0000 C CNN
@@ -70,7 +70,7 @@ F 3 "" H 9800 2750 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C4
+L Device:C C4
 U 1 1 5D27F2F4
 P 9550 2750
 F 0 "C4" H 9575 2850 50  0000 L CNN
@@ -81,7 +81,7 @@ F 3 "" H 9550 2750 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:INDUCTOR L1
+L pspice:INDUCTOR L1
 U 1 1 5D27F4D1
 P 10200 2900
 F 0 "L1" V 10150 2900 50  0000 C CNN
@@ -92,7 +92,7 @@ F 3 "" H 10200 2900 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:CP C6
+L Device:CP C6
 U 1 1 5D27F534
 P 10200 3450
 F 0 "C6" H 10225 3550 50  0000 L CNN
@@ -136,7 +136,7 @@ F 3 "" H 10500 3200 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:R R8
+L Device:R R8
 U 1 1 5D27F8C8
 P 7700 3250
 F 0 "R8" V 7780 3250 50  0000 C CNN
@@ -147,7 +147,7 @@ F 3 "" H 7700 3250 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Extention-Boards-rescue:R R7
+L Device:R R7
 U 1 1 5D27F97A
 P 7450 3450
 F 0 "R7" V 7530 3450 50  0000 C CNN
@@ -168,21 +168,10 @@ F 3 "" H 7450 3650 50  0000 C CNN
 	1    7450 3650
 	-1   0    0    -1  
 $EndComp
-Text Notes 8300 2100 2    60   ~ 6
+Text Notes 8300 2100 2    60   ~ 12
 12V to 5V
 $Comp
-L Extention-Boards-rescue:MCP3008-RESCUE-Extention_Boards U3
-U 1 1 5D2A8423
-P 9050 5250
-F 0 "U3" H 8600 5700 50  0000 C CNN
-F 1 "MCP3008" H 9400 5700 50  0000 C CNN
-F 2 "" H 8950 5150 50  0000 C CNN
-F 3 "" H 9050 5250 50  0000 C CNN
-	1    9050 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Extention-Boards-rescue:R R3
+L Device:R R3
 U 1 1 5D2AA1B9
 P 6550 2750
 F 0 "R3" V 6630 2750 50  0000 C CNN
@@ -193,7 +182,7 @@ F 3 "" H 6550 2750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:R R4
+L Device:R R4
 U 1 1 5D2AA252
 P 6550 3150
 F 0 "R4" V 6630 3150 50  0000 C CNN
@@ -214,47 +203,47 @@ F 3 "" H 6550 3350 50  0000 C CNN
 	1    6550 3350
 	-1   0    0    -1  
 $EndComp
-Text Label 6650 2950 0    60   ~ 6
+Text Label 6650 2950 0    60   ~ 12
 VCC_SENS
-Text Label 8350 4950 2    60   ~ 6
+Text Label 8350 4950 2    60   ~ 12
 VCC_SENS
-Text Label 8350 5150 2    60   ~ 6
+Text Label 8350 5150 2    60   ~ 12
 PWR_CH0_CURR_SENS
-Text Label 8350 5250 2    60   ~ 6
+Text Label 8350 5250 2    60   ~ 12
 PWR_CH1_CURR_SENS
-Text Label 8350 5350 2    60   ~ 6
+Text Label 8350 5350 2    60   ~ 12
 PWR_CH2_CURR_SENS
-Text Label 8350 5450 2    60   ~ 6
+Text Label 8350 5450 2    60   ~ 12
 PWR_CH3_CURR_SENS
 $Comp
 L power:+5V #PWR015
 U 1 1 5D2AD689
-P 8950 4200
-F 0 "#PWR015" H 8950 4050 50  0001 C CNN
-F 1 "+5V" H 8950 4340 50  0000 C CNN
-F 2 "" H 8950 4200 50  0000 C CNN
-F 3 "" H 8950 4200 50  0000 C CNN
-	1    8950 4200
+P 8850 4300
+F 0 "#PWR015" H 8850 4150 50  0001 C CNN
+F 1 "+5V" H 8850 4440 50  0000 C CNN
+F 2 "" H 8850 4300 50  0000 C CNN
+F 3 "" H 8850 4300 50  0000 C CNN
+	1    8850 4300
 	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR016
 U 1 1 5D2AF460
-P 8950 6050
-F 0 "#PWR016" H 8950 5800 50  0001 C CNN
-F 1 "GND" H 8950 5900 50  0000 C CNN
-F 2 "" H 8950 6050 50  0000 C CNN
-F 3 "" H 8950 6050 50  0000 C CNN
-	1    8950 6050
+P 8850 5950
+F 0 "#PWR016" H 8850 5700 50  0001 C CNN
+F 1 "GND" H 8850 5800 50  0000 C CNN
+F 2 "" H 8850 5950 50  0000 C CNN
+F 3 "" H 8850 5950 50  0000 C CNN
+	1    8850 5950
 	-1   0    0    -1  
 $EndComp
-Text HLabel 9850 5150 2    60   Input ~ 6
+Text HLabel 9650 5150 2    60   Input ~ 12
 MCP3008_CLK
-Text HLabel 9850 5250 2    60   Input ~ 6
+Text HLabel 9650 5250 2    60   Input ~ 12
 MCP3008_DOUT
-Text HLabel 9850 5350 2    60   Input ~ 6
+Text HLabel 9650 5350 2    60   Input ~ 12
 MCP3008_DIN
-Text HLabel 9850 5450 2    60   Input ~ 6
+Text HLabel 9650 5450 2    60   Input ~ 12
 ~MCP3008_CS
 $Comp
 L power:PWR_FLAG #FLG04
@@ -268,36 +257,36 @@ F 3 "" H 10500 3600 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C3
+L Device:C C3
 U 1 1 5D31F4E0
-P 9500 4450
-F 0 "C3" H 9525 4550 50  0000 L CNN
-F 1 "10uF" H 9525 4350 50  0000 L CNN
-F 2 "" H 9538 4300 50  0000 C CNN
-F 3 "" H 9500 4450 50  0000 C CNN
-	1    9500 4450
+P 9400 4550
+F 0 "C3" H 9425 4650 50  0000 L CNN
+F 1 "10uF" H 9425 4450 50  0000 L CNN
+F 2 "" H 9438 4400 50  0000 C CNN
+F 3 "" H 9400 4550 50  0000 C CNN
+	1    9400 4550
 	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR018
 U 1 1 5D31F652
-P 9750 4700
-F 0 "#PWR018" H 9750 4450 50  0001 C CNN
-F 1 "GND" H 9750 4550 50  0000 C CNN
-F 2 "" H 9750 4700 50  0000 C CNN
-F 3 "" H 9750 4700 50  0000 C CNN
-	1    9750 4700
+P 9650 4800
+F 0 "#PWR018" H 9650 4550 50  0001 C CNN
+F 1 "GND" H 9650 4650 50  0000 C CNN
+F 2 "" H 9650 4800 50  0000 C CNN
+F 3 "" H 9650 4800 50  0000 C CNN
+	1    9650 4800
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C5
+L Device:C C5
 U 1 1 5D31F874
-P 9750 4450
-F 0 "C5" H 9775 4550 50  0000 L CNN
-F 1 ".1uF" H 9775 4350 50  0000 L CNN
-F 2 "" H 9788 4300 50  0000 C CNN
-F 3 "" H 9750 4450 50  0000 C CNN
-	1    9750 4450
+P 9650 4550
+F 0 "C5" H 9675 4650 50  0000 L CNN
+F 1 ".1uF" H 9675 4450 50  0000 L CNN
+F 2 "" H 9688 4400 50  0000 C CNN
+F 3 "" H 9650 4550 50  0000 C CNN
+	1    9650 4550
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -322,10 +311,10 @@ F 3 "" H 9200 2150 50  0000 C CNN
 	1    9200 2150
 	-1   0    0    -1  
 $EndComp
-Text Notes 10250 2750 0    60   ~ 6
+Text Notes 10250 2750 0    60   ~ 12
 L = SRR7045-470M
 $Comp
-L Extention-Boards-rescue:R R5
+L Device:R R5
 U 1 1 5D429FEE
 P 6800 2550
 F 0 "R5" V 6880 2550 50  0000 C CNN
@@ -336,7 +325,7 @@ F 3 "" H 6800 2550 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Extention-Boards-rescue:INA4180 U1
+L helix:INA4180 U1
 U 1 1 5D42A765
 P 7450 1600
 F 0 "U1" H 7500 1800 50  0000 C CNN
@@ -357,9 +346,9 @@ F 3 "" H 7350 1900 50  0000 C CNN
 	1    7350 1900
 	1    0    0    -1  
 $EndComp
-Text Label 7850 1600 0    60   ~ 6
+Text Label 7850 1600 0    60   ~ 12
 VCC_CURR_SENSE
-Text Label 8350 5050 2    60   ~ 6
+Text Label 8350 5050 2    60   ~ 12
 VCC_CURR_SENSE
 Wire Wire Line
 	6550 2400 6550 2550
@@ -433,47 +422,36 @@ Wire Wire Line
 	6550 2950 6650 2950
 Connection ~ 6550 2950
 Wire Wire Line
-	8950 4200 8950 4250
+	8850 4300 8850 4350
+Connection ~ 8850 4700
 Wire Wire Line
-	8950 4600 9150 4600
+	9550 5150 9650 5150
 Wire Wire Line
-	9150 4600 9150 4650
-Connection ~ 8950 4600
+	9550 5250 9650 5250
 Wire Wire Line
-	8950 5950 8950 6000
+	9550 5350 9650 5350
 Wire Wire Line
-	8950 6000 9150 6000
-Wire Wire Line
-	9150 6000 9150 5950
-Connection ~ 8950 6000
-Wire Wire Line
-	9750 5150 9850 5150
-Wire Wire Line
-	9750 5250 9850 5250
-Wire Wire Line
-	9750 5350 9850 5350
-Wire Wire Line
-	9750 5450 9850 5450
+	9550 5450 9650 5450
 Wire Wire Line
 	10200 3650 10500 3650
 Wire Wire Line
 	10500 3600 10500 3650
 Connection ~ 10200 3650
 Wire Wire Line
-	9750 4600 9750 4650
+	9650 4700 9650 4750
 Wire Wire Line
-	9750 4650 9500 4650
-Connection ~ 9750 4650
+	9650 4750 9400 4750
+Connection ~ 9650 4750
 Wire Wire Line
-	9750 4250 9750 4300
+	9650 4350 9650 4400
 Wire Wire Line
-	8950 4250 9500 4250
+	8850 4350 9400 4350
 Wire Wire Line
-	9500 4250 9500 4300
+	9400 4350 9400 4400
 Wire Wire Line
-	9500 4650 9500 4600
-Connection ~ 9500 4250
-Connection ~ 8950 4250
+	9400 4750 9400 4700
+Connection ~ 9400 4350
+Connection ~ 8850 4350
 Connection ~ 10500 3650
 Wire Wire Line
 	6550 2550 6650 2550
@@ -520,39 +498,39 @@ F23 "PWR_CH3" I R 2500 3550 60
 F24 "PWR_CH4" I R 2500 4050 60 
 F25 "PWR_CH5" I R 2500 4550 60 
 $EndSheet
-Text Label 8350 5550 2    60   ~ 6
+Text Label 8350 5550 2    60   ~ 12
 PWR_CH4_CURR_SENS
-Text Label 8350 5650 2    60   ~ 6
+Text Label 8350 5650 2    60   ~ 12
 PWR_CH5_CURR_SENS
-Text Label 2500 2250 0    60   ~ 6
+Text Label 2500 2250 0    60   ~ 12
 PWR_CH0_CURR_SENS
-Text Label 2500 2750 0    60   ~ 6
+Text Label 2500 2750 0    60   ~ 12
 PWR_CH1_CURR_SENS
-Text Label 2500 3250 0    60   ~ 6
+Text Label 2500 3250 0    60   ~ 12
 PWR_CH2_CURR_SENS
-Text Label 2500 3750 0    60   ~ 6
+Text Label 2500 3750 0    60   ~ 12
 PWR_CH3_CURR_SENS
-Text Label 2500 4250 0    60   ~ 6
+Text Label 2500 4250 0    60   ~ 12
 PWR_CH4_CURR_SENS
-Text Label 2500 4750 0    60   ~ 6
+Text Label 2500 4750 0    60   ~ 12
 PWR_CH5_CURR_SENS
-Text HLabel 2600 2050 2    60   Input ~ 6
+Text HLabel 2600 2050 2    60   Input ~ 12
 PWR_CH0
-Text HLabel 2600 2150 2    60   Input ~ 6
+Text HLabel 2600 2150 2    60   Input ~ 12
 PWR_CH0_EN
 Wire Wire Line
 	2600 2150 2500 2150
 Wire Wire Line
 	2600 2050 2500 2050
-Text HLabel 2600 2350 2    60   Input ~ 6
+Text HLabel 2600 2350 2    60   Input ~ 12
 ~PWR_CH0_CURR_OVLD
 Wire Wire Line
 	2600 2350 2500 2350
-Text HLabel 2600 2550 2    60   Input ~ 6
+Text HLabel 2600 2550 2    60   Input ~ 12
 PWR_CH1
-Text HLabel 2600 2650 2    60   Input ~ 6
+Text HLabel 2600 2650 2    60   Input ~ 12
 PWR_CH1_EN
-Text HLabel 2600 2850 2    60   Input ~ 6
+Text HLabel 2600 2850 2    60   Input ~ 12
 ~PWR_CH1_CURR_OVLD
 Wire Wire Line
 	2600 2850 2500 2850
@@ -560,11 +538,11 @@ Wire Wire Line
 	2600 2650 2500 2650
 Wire Wire Line
 	2600 2550 2500 2550
-Text HLabel 2600 3050 2    60   Input ~ 6
+Text HLabel 2600 3050 2    60   Input ~ 12
 PWR_CH2
-Text HLabel 2600 3150 2    60   Input ~ 6
+Text HLabel 2600 3150 2    60   Input ~ 12
 PWR_CH2_EN
-Text HLabel 2600 3350 2    60   Input ~ 6
+Text HLabel 2600 3350 2    60   Input ~ 12
 ~PWR_CH2_CURR_OVLD
 Wire Wire Line
 	2600 3350 2500 3350
@@ -572,23 +550,23 @@ Wire Wire Line
 	2600 3150 2500 3150
 Wire Wire Line
 	2600 3050 2500 3050
-Text HLabel 2600 3550 2    60   Input ~ 6
+Text HLabel 2600 3550 2    60   Input ~ 12
 PWR_CH3
 Wire Wire Line
 	2600 3550 2500 3550
-Text HLabel 2600 3650 2    60   Input ~ 6
+Text HLabel 2600 3650 2    60   Input ~ 12
 PWR_CH3_EN
-Text HLabel 2600 3850 2    60   Input ~ 6
+Text HLabel 2600 3850 2    60   Input ~ 12
 ~PWR_CH3_CURR_OVLD
 Wire Wire Line
 	2600 3650 2500 3650
 Wire Wire Line
 	2600 3850 2500 3850
-Text HLabel 2600 4050 2    60   Input ~ 6
+Text HLabel 2600 4050 2    60   Input ~ 12
 PWR_CH4
-Text HLabel 2600 4150 2    60   Input ~ 6
+Text HLabel 2600 4150 2    60   Input ~ 12
 PWR_CH4_EN
-Text HLabel 2600 4350 2    60   Input ~ 6
+Text HLabel 2600 4350 2    60   Input ~ 12
 ~PWR_CH4_CURR_OVLD
 Wire Wire Line
 	2600 4350 2500 4350
@@ -596,11 +574,11 @@ Wire Wire Line
 	2600 4150 2500 4150
 Wire Wire Line
 	2600 4050 2500 4050
-Text HLabel 2600 4550 2    60   Input ~ 6
+Text HLabel 2600 4550 2    60   Input ~ 12
 PWR_CH5
-Text HLabel 2600 4650 2    60   Input ~ 6
+Text HLabel 2600 4650 2    60   Input ~ 12
 PWR_CH5_EN
-Text HLabel 2600 4850 2    60   Input ~ 6
+Text HLabel 2600 4850 2    60   Input ~ 12
 ~PWR_CH5_CURR_OVLD
 Wire Wire Line
 	2600 4850 2500 4850
@@ -633,17 +611,15 @@ Wire Wire Line
 Wire Wire Line
 	6550 2950 6550 3000
 Wire Wire Line
-	8950 4600 8950 4650
-Wire Wire Line
-	8950 6000 8950 6050
+	8850 4700 8850 4750
 Wire Wire Line
 	10200 3650 10200 3700
 Wire Wire Line
-	9750 4650 9750 4700
+	9650 4750 9650 4800
 Wire Wire Line
-	9500 4250 9750 4250
+	9400 4350 9650 4350
 Wire Wire Line
-	8950 4250 8950 4600
+	8850 4350 8850 4700
 Wire Wire Line
 	10500 3650 10500 3700
 Wire Wire Line
@@ -682,7 +658,7 @@ F 3 "" H 7700 1250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C2
+L Device:C C2
 U 1 1 5D44D37B
 P 7700 1050
 F 0 "C2" H 7725 1150 50  0000 L CNN
@@ -692,4 +668,28 @@ F 3 "" H 7700 1050 50  0000 C CNN
 	1    7700 1050
 	1    0    0    -1  
 $EndComp
+$Comp
+L Analog_ADC:MCP3008 U?
+U 1 1 5D8A2455
+P 8950 5250
+F 0 "U?" H 9400 5700 50  0000 C CNN
+F 1 "MCP3008" H 8600 5700 50  0000 C CNN
+F 2 "" H 9050 5350 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21295d.pdf" H 9050 5350 50  0001 C CNN
+	1    8950 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9150 4700 9150 4750
+Wire Wire Line
+	8850 4700 9150 4700
+Wire Wire Line
+	8850 5950 8850 5900
+Wire Wire Line
+	8850 5900 9150 5900
+Wire Wire Line
+	9150 5900 9150 5850
+Connection ~ 8850 5900
+Wire Wire Line
+	8850 5900 8850 5850
 $EndSCHEMATC

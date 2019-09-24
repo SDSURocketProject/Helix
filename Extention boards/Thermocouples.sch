@@ -15,31 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Extention-Boards-rescue:AD8495 U?
-U 1 1 5D302B42
-P 4600 1300
-AR Path="/5D302B42" Ref="U?"  Part="1" 
-AR Path="/5D27F062/5D2A3ED1/5D302B42" Ref="U19"  Part="1" 
-F 0 "U19" H 3800 900 60  0000 C CNN
-F 1 "AD8495" H 4200 900 60  0000 C CNN
-F 2 "" H 4600 1300 60  0000 C CNN
-F 3 "" H 4600 1300 60  0000 C CNN
-	1    4600 1300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Extention-Boards-rescue:CONN_01X02 P5
-U 1 1 5D302BB4
-P 700 1550
-F 0 "P5" H 700 1700 50  0000 C CNN
-F 1 "CONN_01X02" V 800 1550 50  0000 C CNN
-F 2 "" H 700 1550 50  0000 C CNN
-F 3 "" H 700 1550 50  0000 C CNN
-	1    700  1550
-	-1   0    0    1   
-$EndComp
-$Comp
-L Extention-Boards-rescue:R R49
+L Device:R R49
 U 1 1 5D302BF1
 P 1250 2050
 F 0 "R49" V 1330 2050 50  0000 C CNN
@@ -50,7 +26,7 @@ F 3 "" H 1250 2050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:R R51
+L Device:R R51
 U 1 1 5D302C32
 P 1500 1800
 F 0 "R51" V 1580 1800 50  0000 C CNN
@@ -61,7 +37,7 @@ F 3 "" H 1500 1800 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Extention-Boards-rescue:R R50
+L Device:R R50
 U 1 1 5D302C5C
 P 1500 1350
 F 0 "R50" V 1580 1350 50  0000 C CNN
@@ -72,7 +48,7 @@ F 3 "" H 1500 1350 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C56
+L Device:C C56
 U 1 1 5D302CCB
 P 1750 1550
 F 0 "C56" H 1775 1650 50  0000 L CNN
@@ -83,7 +59,7 @@ F 3 "" H 1750 1550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C57
+L Device:C C57
 U 1 1 5D302E32
 P 1850 2050
 F 0 "C57" H 1875 2150 50  0000 L CNN
@@ -94,7 +70,7 @@ F 3 "" H 1850 2050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C58
+L Device:C C58
 U 1 1 5D302E6F
 P 2100 1550
 F 0 "C58" H 2125 1650 50  0000 L CNN
@@ -115,56 +91,12 @@ F 3 "" H 4700 1700 50  0000 C CNN
 	1    4700 1700
 	1    0    0    -1  
 $EndComp
-Text HLabel 4700 2000 2    60   Input ~ 6
+Text HLabel 4700 2000 2    60   Input ~ 12
 TC_CH0
-$Comp
-L Extention-Boards-rescue:TL072 U18
-U 1 1 5D304F3F
-P 2850 2600
-F 0 "U18" H 2800 2800 50  0000 L CNN
-F 1 "TL072" H 2800 2350 50  0000 L CNN
-F 2 "" H 2850 2600 50  0000 C CNN
-F 3 "" H 2850 2600 50  0000 C CNN
-	1    2850 2600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR099
-U 1 1 5D305031
-P 2750 2050
-F 0 "#PWR099" H 2750 1900 50  0001 C CNN
-F 1 "+5V" H 2750 2190 50  0000 C CNN
-F 2 "" H 2750 2050 50  0000 C CNN
-F 3 "" H 2750 2050 50  0000 C CNN
-	1    2750 2050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Extention-Boards-rescue:R R52
-U 1 1 5D3051B3
-P 2350 2300
-F 0 "R52" V 2430 2300 50  0000 C CNN
-F 1 "2.7k" V 2350 2300 50  0000 C CNN
-F 2 "" V 2280 2300 50  0000 C CNN
-F 3 "" H 2350 2300 50  0000 C CNN
-	1    2350 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Extention-Boards-rescue:R R53
-U 1 1 5D3052EF
-P 2350 2700
-F 0 "R53" V 2430 2700 50  0000 C CNN
-F 1 "680" V 2350 2700 50  0000 C CNN
-F 2 "" V 2280 2700 50  0000 C CNN
-F 3 "" H 2350 2700 50  0000 C CNN
-	1    2350 2700
-	1    0    0    -1  
-$EndComp
-Text Notes 1250 1000 0    60   ~ 6
+Text Notes 1250 1000 0    60   ~ 12
 TC0\nSee AD8495 Application Information for example circuit
 $Comp
-L Extention-Boards-rescue:C C60
+L Device:C C60
 U 1 1 5D3060CF
 P 5450 2100
 F 0 "C60" H 5475 2200 50  0000 L CNN
@@ -175,31 +107,7 @@ F 3 "" H 5450 2100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:AD8495 U?
-U 1 1 5D3069EF
-P 9950 1300
-AR Path="/5D3069EF" Ref="U?"  Part="1" 
-AR Path="/5D27F062/5D2A3ED1/5D3069EF" Ref="U20"  Part="1" 
-F 0 "U20" H 9150 900 60  0000 C CNN
-F 1 "AD8495" H 9550 900 60  0000 C CNN
-F 2 "" H 9950 1300 60  0000 C CNN
-F 3 "" H 9950 1300 60  0000 C CNN
-	1    9950 1300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Extention-Boards-rescue:CONN_01X02 P6
-U 1 1 5D3069F5
-P 6050 1550
-F 0 "P6" H 6050 1700 50  0000 C CNN
-F 1 "CONN_01X02" V 6150 1550 50  0000 C CNN
-F 2 "" H 6050 1550 50  0000 C CNN
-F 3 "" H 6050 1550 50  0000 C CNN
-	1    6050 1550
-	-1   0    0    1   
-$EndComp
-$Comp
-L Extention-Boards-rescue:R R54
+L Device:R R54
 U 1 1 5D3069FB
 P 6600 2050
 F 0 "R54" V 6680 2050 50  0000 C CNN
@@ -210,7 +118,7 @@ F 3 "" H 6600 2050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:R R56
+L Device:R R56
 U 1 1 5D306A01
 P 6850 1800
 F 0 "R56" V 6930 1800 50  0000 C CNN
@@ -221,7 +129,7 @@ F 3 "" H 6850 1800 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Extention-Boards-rescue:R R55
+L Device:R R55
 U 1 1 5D306A07
 P 6850 1350
 F 0 "R55" V 6930 1350 50  0000 C CNN
@@ -232,7 +140,7 @@ F 3 "" H 6850 1350 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C61
+L Device:C C61
 U 1 1 5D306A0D
 P 7100 1550
 F 0 "C61" H 7125 1650 50  0000 L CNN
@@ -243,7 +151,7 @@ F 3 "" H 7100 1550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C62
+L Device:C C62
 U 1 1 5D306A13
 P 7200 2050
 F 0 "C62" H 7225 2150 50  0000 L CNN
@@ -254,7 +162,7 @@ F 3 "" H 7200 2050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C63
+L Device:C C63
 U 1 1 5D306A19
 P 7450 1550
 F 0 "C63" H 7475 1650 50  0000 L CNN
@@ -275,56 +183,12 @@ F 3 "" H 10050 1700 50  0000 C CNN
 	1    10050 1700
 	1    0    0    -1  
 $EndComp
-Text HLabel 10050 2000 2    60   Input ~ 6
+Text HLabel 10050 2000 2    60   Input ~ 12
 TC_CH1
-$Comp
-L Extention-Boards-rescue:TL072 U18
-U 2 1 5D306A53
-P 8200 2600
-F 0 "U18" H 8150 2800 50  0000 L CNN
-F 1 "TL072" H 8150 2350 50  0000 L CNN
-F 2 "" H 8200 2600 50  0000 C CNN
-F 3 "" H 8200 2600 50  0000 C CNN
-	2    8200 2600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0106
-U 1 1 5D306A60
-P 8100 2050
-F 0 "#PWR0106" H 8100 1900 50  0001 C CNN
-F 1 "+5V" H 8100 2190 50  0000 C CNN
-F 2 "" H 8100 2050 50  0000 C CNN
-F 3 "" H 8100 2050 50  0000 C CNN
-	1    8100 2050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Extention-Boards-rescue:R R57
-U 1 1 5D306A69
-P 7700 2300
-F 0 "R57" V 7780 2300 50  0000 C CNN
-F 1 "2.7k" V 7700 2300 50  0000 C CNN
-F 2 "" V 7630 2300 50  0000 C CNN
-F 3 "" H 7700 2300 50  0000 C CNN
-	1    7700 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Extention-Boards-rescue:R R58
-U 1 1 5D306A72
-P 7700 2700
-F 0 "R58" V 7780 2700 50  0000 C CNN
-F 1 "680" V 7700 2700 50  0000 C CNN
-F 2 "" V 7630 2700 50  0000 C CNN
-F 3 "" H 7700 2700 50  0000 C CNN
-	1    7700 2700
-	1    0    0    -1  
-$EndComp
-Text Notes 6600 1000 0    60   ~ 6
+Text Notes 6600 1000 0    60   ~ 12
 TC1\nSee AD8495 Application Information for example circuit
 $Comp
-L Extention-Boards-rescue:C C65
+L Device:C C65
 U 1 1 5D306A84
 P 10800 2100
 F 0 "C65" H 10825 2200 50  0000 L CNN
@@ -335,7 +199,7 @@ F 3 "" H 10800 2100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C59
+L Device:C C59
 U 1 1 5D318824
 P 5200 2100
 F 0 "C59" H 5225 2200 50  0000 L CNN
@@ -346,7 +210,7 @@ F 3 "" H 5200 2100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C64
+L Device:C C64
 U 1 1 5D3188E2
 P 10550 2100
 F 0 "C64" H 10575 2200 50  0000 L CNN
@@ -356,10 +220,6 @@ F 3 "" H 10550 2100 50  0000 C CNN
 	1    10550 2100
 	1    0    0    -1  
 $EndComp
-Text HLabel 3300 2600 2    60   Input ~ 6
-TC_CH0_REF
-Text HLabel 8650 2600 2    60   Input ~ 6
-TC_CH1_REF
 Wire Wire Line
 	1850 2200 1850 2250
 Wire Wire Line
@@ -418,38 +278,6 @@ Wire Wire Line
 Wire Wire Line
 	4600 2100 4600 2000
 Connection ~ 4600 2000
-Wire Wire Line
-	2750 2900 2750 2950
-Wire Wire Line
-	2750 2050 2750 2100
-Wire Wire Line
-	2750 2100 2350 2100
-Connection ~ 2750 2100
-Wire Wire Line
-	2350 2100 2350 2150
-Wire Wire Line
-	2550 2500 2350 2500
-Wire Wire Line
-	2350 2450 2350 2500
-Connection ~ 2350 2500
-Wire Wire Line
-	2350 2850 2350 2950
-Wire Wire Line
-	2350 2950 2750 2950
-Connection ~ 2750 2950
-Wire Wire Line
-	2550 2700 2500 2700
-Wire Wire Line
-	2500 2700 2500 3200
-Wire Wire Line
-	2500 3200 3200 3200
-Wire Wire Line
-	3200 3200 3200 2600
-Wire Wire Line
-	3150 2600 3200 2600
-Wire Wire Line
-	3200 1900 3550 1900
-Connection ~ 3200 2600
 Wire Wire Line
 	5200 1900 5200 1950
 Connection ~ 4700 1900
@@ -522,38 +350,6 @@ Wire Wire Line
 	9950 2100 9950 2000
 Connection ~ 9950 2000
 Wire Wire Line
-	8100 2900 8100 2950
-Wire Wire Line
-	8100 2050 8100 2100
-Wire Wire Line
-	8100 2100 7700 2100
-Connection ~ 8100 2100
-Wire Wire Line
-	7700 2100 7700 2150
-Wire Wire Line
-	7900 2500 7700 2500
-Wire Wire Line
-	7700 2450 7700 2500
-Connection ~ 7700 2500
-Wire Wire Line
-	7700 2850 7700 2950
-Wire Wire Line
-	7700 2950 8100 2950
-Connection ~ 8100 2950
-Wire Wire Line
-	7900 2700 7850 2700
-Wire Wire Line
-	7850 2700 7850 3200
-Wire Wire Line
-	7850 3200 8550 3200
-Wire Wire Line
-	8550 3200 8550 2600
-Wire Wire Line
-	8500 2600 8550 2600
-Wire Wire Line
-	8550 1900 8900 1900
-Connection ~ 8550 2600
-Wire Wire Line
 	10550 1900 10550 1950
 Connection ~ 10050 1900
 Wire Wire Line
@@ -619,17 +415,6 @@ F 3 "" H 2100 2300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR0100
-U 1 1 5D6C42F7
-P 2750 3000
-F 0 "#PWR0100" H 2750 2750 50  0001 C CNN
-F 1 "GNDA" H 2750 2850 50  0000 C CNN
-F 2 "" H 2750 3000 50  0000 C CNN
-F 3 "" H 2750 3000 50  0000 C CNN
-	1    2750 3000
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GNDA #PWR0103
 U 1 1 5D6C435C
 P 5200 2350
@@ -674,17 +459,6 @@ F 3 "" H 7450 2300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR0107
-U 1 1 5D6C491D
-P 8100 3000
-F 0 "#PWR0107" H 8100 2750 50  0001 C CNN
-F 1 "GNDA" H 8100 2850 50  0000 C CNN
-F 2 "" H 8100 3000 50  0000 C CNN
-F 3 "" H 8100 3000 50  0000 C CNN
-	1    8100 3000
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GNDA #PWR0108
 U 1 1 5D6C49BF
 P 8800 2200
@@ -707,7 +481,7 @@ F 3 "" H 10550 2350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Extention-Boards-rescue:TVSsmall D20
+L helix:TVSsmall D20
 U 1 1 5D689C92
 P 1100 2250
 F 0 "D20" H 1000 2300 50  0000 C CNN
@@ -718,7 +492,7 @@ F 3 "" H 1100 2250 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Extention-Boards-rescue:TVSsmall D19
+L helix:TVSsmall D19
 U 1 1 5D689E54
 P 950 2100
 F 0 "D19" H 850 2150 50  0000 C CNN
@@ -729,7 +503,7 @@ F 3 "" H 950 2100 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Extention-Boards-rescue:TVSsmall D22
+L helix:TVSsmall D22
 U 1 1 5D68A71A
 P 6450 2250
 F 0 "D22" H 6350 2300 50  0000 C CNN
@@ -740,7 +514,7 @@ F 3 "" H 6450 2250 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Extention-Boards-rescue:TVSsmall D21
+L helix:TVSsmall D21
 U 1 1 5D68A790
 P 6300 2100
 F 0 "D21" H 6200 2150 50  0000 C CNN
@@ -767,16 +541,6 @@ Wire Wire Line
 Wire Wire Line
 	4600 2000 4700 2000
 Wire Wire Line
-	2750 2100 2750 2300
-Wire Wire Line
-	2350 2500 2350 2550
-Wire Wire Line
-	2750 2950 2750 3000
-Wire Wire Line
-	3200 2600 3200 1900
-Wire Wire Line
-	3200 2600 3300 2600
-Wire Wire Line
 	4700 1900 5200 1900
 Wire Wire Line
 	5200 1900 5450 1900
@@ -799,16 +563,6 @@ Wire Wire Line
 Wire Wire Line
 	9950 2000 10050 2000
 Wire Wire Line
-	8100 2100 8100 2300
-Wire Wire Line
-	7700 2500 7700 2550
-Wire Wire Line
-	8100 2950 8100 3000
-Wire Wire Line
-	8550 2600 8550 1900
-Wire Wire Line
-	8550 2600 8650 2600
-Wire Wire Line
 	10050 1900 10550 1900
 Wire Wire Line
 	10550 1900 10800 1900
@@ -826,4 +580,58 @@ Wire Wire Line
 	6300 1600 6600 1600
 Wire Wire Line
 	6450 1500 6600 1500
+$Comp
+L helix:AD8495 U?
+U 1 1 5D92DB38
+P 4600 1300
+F 0 "U?" H 4250 900 60  0000 C CNN
+F 1 "AD8495" H 3900 900 60  0000 C CNN
+F 2 "" H 4600 1300 60  0000 C CNN
+F 3 "" H 4600 1300 60  0000 C CNN
+	1    4600 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L helix:AD8495 U?
+U 1 1 5D9312B4
+P 9950 1300
+F 0 "U?" H 9600 900 60  0000 C CNN
+F 1 "AD8495" H 9250 900 60  0000 C CNN
+F 2 "" H 9950 1300 60  0000 C CNN
+F 3 "" H 9950 1300 60  0000 C CNN
+	1    9950 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5D9339A6
+P 6050 1600
+F 0 "J?" H 5968 1275 50  0000 C CNN
+F 1 "Conn_01x02" H 5968 1366 50  0000 C CNN
+F 2 "" H 6050 1600 50  0001 C CNN
+F 3 "~" H 6050 1600 50  0001 C CNN
+	1    6050 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5D9348D3
+P 700 1600
+F 0 "J?" H 618 1275 50  0000 C CNN
+F 1 "Conn_01x02" H 618 1366 50  0000 C CNN
+F 2 "" H 700 1600 50  0001 C CNN
+F 3 "~" H 700 1600 50  0001 C CNN
+	1    700  1600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3550 1900 3450 1900
+Wire Wire Line
+	3450 1900 3450 2000
+Connection ~ 3450 2000
+Wire Wire Line
+	8900 1900 8800 1900
+Wire Wire Line
+	8800 1900 8800 2000
+Connection ~ 8800 2000
 $EndSCHEMATC

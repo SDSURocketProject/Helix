@@ -14,29 +14,18 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 2100 2200 2    60   Input ~ 6
+Text HLabel 2100 2200 2    60   Input ~ 12
 PWR_CH3_HE
-Text HLabel 2100 3000 2    60   Input ~ 6
+Text HLabel 2100 3000 2    60   Input ~ 12
 PWR_CH4_HE
-Text HLabel 2100 3800 2    60   Input ~ 6
+Text HLabel 2100 3800 2    60   Input ~ 12
 PWR_CH5_HE
-Text HLabel 3550 2100 2    60   Input ~ 6
+Text HLabel 3550 2100 2    60   Input ~ 12
 HE_CH0
-Text HLabel 3550 2900 2    60   Input ~ 6
+Text HLabel 3550 2900 2    60   Input ~ 12
 HE_CH1
-Text HLabel 3550 3700 2    60   Input ~ 6
+Text HLabel 3550 3700 2    60   Input ~ 12
 HE_CH2
-$Comp
-L Extention-Boards-rescue:CONN_01X03 P10
-U 1 1 5D6489C0
-P 1800 2200
-F 0 "P10" H 1800 2400 50  0000 C CNN
-F 1 "CONN_01X03" V 1900 2200 50  0000 C CNN
-F 2 "" H 1800 2200 50  0000 C CNN
-F 3 "" H 1800 2200 50  0000 C CNN
-	1    1800 2200
-	-1   0    0    1   
-$EndComp
 $Comp
 L power:GND #PWR0126
 U 1 1 5D6489F4
@@ -55,7 +44,7 @@ Wire Wire Line
 Wire Wire Line
 	2100 2200 2000 2200
 $Comp
-L Extention-Boards-rescue:R R65
+L Device:R R65
 U 1 1 5D648CC5
 P 3200 2100
 F 0 "R65" V 3280 2100 50  0000 C CNN
@@ -66,7 +55,7 @@ F 3 "" H 3200 2100 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C69
+L Device:C C69
 U 1 1 5D648CF2
 P 3400 2300
 F 0 "C69" H 3425 2400 50  0000 L CNN
@@ -97,17 +86,6 @@ Wire Wire Line
 Wire Wire Line
 	2000 2100 2950 2100
 $Comp
-L Extention-Boards-rescue:CONN_01X03 P11
-U 1 1 5D6490BA
-P 1800 3000
-F 0 "P11" H 1800 3200 50  0000 C CNN
-F 1 "CONN_01X03" V 1900 3000 50  0000 C CNN
-F 2 "" H 1800 3000 50  0000 C CNN
-F 3 "" H 1800 3000 50  0000 C CNN
-	1    1800 3000
-	-1   0    0    1   
-$EndComp
-$Comp
 L power:GND #PWR0127
 U 1 1 5D6490C0
 P 2100 3200
@@ -125,7 +103,7 @@ Wire Wire Line
 Wire Wire Line
 	2100 3000 2000 3000
 $Comp
-L Extention-Boards-rescue:R R66
+L Device:R R66
 U 1 1 5D6490C9
 P 3200 2900
 F 0 "R66" V 3280 2900 50  0000 C CNN
@@ -136,7 +114,7 @@ F 3 "" H 3200 2900 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C70
+L Device:C C70
 U 1 1 5D6490CF
 P 3400 3100
 F 0 "C70" H 3425 3200 50  0000 L CNN
@@ -165,17 +143,6 @@ $EndComp
 Wire Wire Line
 	3400 3300 3400 3250
 $Comp
-L Extention-Boards-rescue:CONN_01X03 P12
-U 1 1 5D649232
-P 1800 3800
-F 0 "P12" H 1800 4000 50  0000 C CNN
-F 1 "CONN_01X03" V 1900 3800 50  0000 C CNN
-F 2 "" H 1800 3800 50  0000 C CNN
-F 3 "" H 1800 3800 50  0000 C CNN
-	1    1800 3800
-	-1   0    0    1   
-$EndComp
-$Comp
 L power:GND #PWR0128
 U 1 1 5D649238
 P 2100 4000
@@ -193,7 +160,7 @@ Wire Wire Line
 Wire Wire Line
 	2100 3800 2000 3800
 $Comp
-L Extention-Boards-rescue:R R67
+L Device:R R67
 U 1 1 5D649241
 P 3200 3700
 F 0 "R67" V 3280 3700 50  0000 C CNN
@@ -204,7 +171,7 @@ F 3 "" H 3200 3700 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Extention-Boards-rescue:C C71
+L Device:C C71
 U 1 1 5D649247
 P 3400 3900
 F 0 "C71" H 3425 4000 50  0000 L CNN
@@ -285,7 +252,7 @@ Wire Wire Line
 	2950 4100 2950 4050
 Connection ~ 2950 3700
 $Comp
-L Extention-Boards-rescue:TVSsmall D26
+L helix:TVSsmall D26
 U 1 1 5D68B3B4
 P 2950 2350
 F 0 "D26" H 2950 2450 50  0000 C CNN
@@ -296,7 +263,7 @@ F 3 "" H 2950 2350 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Extention-Boards-rescue:TVSsmall D28
+L helix:TVSsmall D28
 U 1 1 5D68B4D1
 P 2950 3950
 F 0 "D28" H 2950 4050 50  0000 C CNN
@@ -307,7 +274,7 @@ F 3 "" H 2950 3950 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Extention-Boards-rescue:TVSsmall D27
+L helix:TVSsmall D27
 U 1 1 5D68B5BA
 P 2950 3150
 F 0 "D27" H 2950 3250 50  0000 C CNN
@@ -329,4 +296,37 @@ Wire Wire Line
 	2950 2900 3050 2900
 Wire Wire Line
 	2950 3700 3050 3700
+$Comp
+L Connector_Generic:Conn_01x03 J?
+U 1 1 5D959C8E
+P 1800 2200
+F 0 "J?" H 1718 1875 50  0000 C CNN
+F 1 "Conn_01x03" H 1718 1966 50  0000 C CNN
+F 2 "" H 1800 2200 50  0001 C CNN
+F 3 "~" H 1800 2200 50  0001 C CNN
+	1    1800 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J?
+U 1 1 5D95ACC9
+P 1800 3000
+F 0 "J?" H 1718 2675 50  0000 C CNN
+F 1 "Conn_01x03" H 1718 2766 50  0000 C CNN
+F 2 "" H 1800 3000 50  0001 C CNN
+F 3 "~" H 1800 3000 50  0001 C CNN
+	1    1800 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J?
+U 1 1 5D95B44C
+P 1800 3800
+F 0 "J?" H 1718 3475 50  0000 C CNN
+F 1 "Conn_01x03" H 1718 3566 50  0000 C CNN
+F 2 "" H 1800 3800 50  0001 C CNN
+F 3 "~" H 1800 3800 50  0001 C CNN
+	1    1800 3800
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
