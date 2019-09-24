@@ -528,10 +528,10 @@ Wire Wire Line
 Wire Wire Line
 	3200 3000 3200 3200
 $Comp
-L Switch:SW_Push SW?
+L Switch:SW_Push SW1
 U 1 1 5D89BC79
 P 1650 5850
-F 0 "SW?" V 1600 5950 50  0000 L CNN
+F 0 "SW1" V 1600 5950 50  0000 L CNN
 F 1 "SW_Push" V 1700 5950 50  0000 L CNN
 F 2 "" H 1650 6050 50  0001 C CNN
 F 3 "~" H 1650 6050 50  0001 C CNN
@@ -543,10 +543,10 @@ Wire Wire Line
 Wire Wire Line
 	1650 6050 1650 6200
 $Comp
-L Connector_Generic:Conn_02x04_Top_Bottom J?
+L Connector_Generic:Conn_02x04_Top_Bottom J1
 U 1 1 5D91936F
 P 1350 2700
-F 0 "J?" H 1400 3017 50  0000 C CNN
+F 0 "J1" H 1400 3017 50  0000 C CNN
 F 1 "Conn_02x04_Top_Bottom" H 1400 2926 50  0000 C CNN
 F 2 "" H 1350 2700 50  0001 C CNN
 F 3 "~" H 1350 2700 50  0001 C CNN
@@ -554,10 +554,10 @@ F 3 "~" H 1350 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x04_Top_Bottom J?
+L Connector_Generic:Conn_02x04_Top_Bottom J2
 U 1 1 5D91A729
 P 1350 3700
-F 0 "J?" H 1400 4017 50  0000 C CNN
+F 0 "J2" H 1400 4017 50  0000 C CNN
 F 1 "Conn_02x04_Top_Bottom" H 1400 3926 50  0000 C CNN
 F 2 "" H 1350 3700 50  0001 C CNN
 F 3 "~" H 1350 3700 50  0001 C CNN

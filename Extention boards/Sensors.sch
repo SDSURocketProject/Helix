@@ -68,14 +68,12 @@ F12 "RTD1_LEAD2" I R 1450 4850 60
 F13 "RTD1_LEAD1" I R 1450 4750 60 
 $EndSheet
 $Sheet
-S 700  3100 750  600 
+S 700  3100 750  300 
 U 5D2A3ED1
 F0 "Thermocouples" 60
 F1 "Thermocouples.sch" 60
 F2 "TC_CH0" I R 1450 3200 60 
 F3 "TC_CH1" I R 1450 3300 60 
-F4 "TC_CH0_REF" I R 1450 3500 60 
-F5 "TC_CH1_REF" I R 1450 3600 60 
 $EndSheet
 Text Label 4450 1400 2    60   ~ 12
 PT_CH0
@@ -514,10 +512,6 @@ F 3 "" H 5150 950 50  0000 C CNN
 $EndComp
 Wire Notes Line
 	2300 7800 2300 450 
-Wire Wire Line
-	1550 3600 1450 3600
-Wire Wire Line
-	1450 3500 1550 3500
 $Comp
 L helix:SN74LV4052 U16
 U 1 1 5D43C690
@@ -615,10 +609,6 @@ Text Label 4450 3900 2    60   ~ 12
 RTD1_IDAC1
 Text Label 4450 4300 2    60   ~ 12
 RTD1_IDAC2
-Text Label 4450 4000 2    60   ~ 12
-TC_CH0_REF
-Text Label 4450 4400 2    60   ~ 12
-TC_CH1_REF
 $Comp
 L power:+5V #PWR078
 U 1 1 5D44076A
@@ -641,10 +631,6 @@ AIN1
 Text Label 5850 1700 0    60   ~ 12
 AIN2
 NoConn ~ 4450 4200
-Text Label 1550 3500 0    60   ~ 12
-TC_CH0_REF
-Text Label 1550 3600 0    60   ~ 12
-TC_CH1_REF
 $Sheet
 S 700  1150 750  800 
 U 5D62DC96
@@ -848,4 +834,6 @@ Wire Wire Line
 	5900 4400 5900 4450
 Wire Wire Line
 	5550 7300 5550 7400
+NoConn ~ 4450 4000
+NoConn ~ 4450 4400
 $EndSCHEMATC

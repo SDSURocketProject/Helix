@@ -297,10 +297,10 @@ Wire Wire Line
 Wire Wire Line
 	2950 3700 3050 3700
 $Comp
-L Connector_Generic:Conn_01x03 J?
+L Connector_Generic:Conn_01x03 J10
 U 1 1 5D959C8E
 P 1800 2200
-F 0 "J?" H 1718 1875 50  0000 C CNN
+F 0 "J10" H 1718 1875 50  0000 C CNN
 F 1 "Conn_01x03" H 1718 1966 50  0000 C CNN
 F 2 "" H 1800 2200 50  0001 C CNN
 F 3 "~" H 1800 2200 50  0001 C CNN
@@ -308,10 +308,10 @@ F 3 "~" H 1800 2200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 J?
+L Connector_Generic:Conn_01x03 J11
 U 1 1 5D95ACC9
 P 1800 3000
-F 0 "J?" H 1718 2675 50  0000 C CNN
+F 0 "J11" H 1718 2675 50  0000 C CNN
 F 1 "Conn_01x03" H 1718 2766 50  0000 C CNN
 F 2 "" H 1800 3000 50  0001 C CNN
 F 3 "~" H 1800 3000 50  0001 C CNN
@@ -319,10 +319,10 @@ F 3 "~" H 1800 3000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 J?
+L Connector_Generic:Conn_01x03 J12
 U 1 1 5D95B44C
 P 1800 3800
-F 0 "J?" H 1718 3475 50  0000 C CNN
+F 0 "J12" H 1718 3475 50  0000 C CNN
 F 1 "Conn_01x03" H 1718 3566 50  0000 C CNN
 F 2 "" H 1800 3800 50  0001 C CNN
 F 3 "~" H 1800 3800 50  0001 C CNN

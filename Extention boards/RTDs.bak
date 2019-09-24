@@ -693,10 +693,10 @@ Wire Wire Line
 Wire Wire Line
 	5500 1650 6000 1650
 $Comp
-L Connector_Generic:Conn_01x03 J?
+L Connector_Generic:Conn_01x03 J3
 U 1 1 5D94DEA2
 P 650 1550
-F 0 "J?" H 568 1225 50  0000 C CNN
+F 0 "J3" H 568 1225 50  0000 C CNN
 F 1 "Conn_01x03" H 568 1316 50  0000 C CNN
 F 2 "" H 650 1550 50  0001 C CNN
 F 3 "~" H 650 1550 50  0001 C CNN
@@ -704,10 +704,10 @@ F 3 "~" H 650 1550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 J?
+L Connector_Generic:Conn_01x03 J4
 U 1 1 5D95612C
 P 5200 1550
-F 0 "J?" H 5118 1225 50  0000 C CNN
+F 0 "J4" H 5118 1225 50  0000 C CNN
 F 1 "Conn_01x03" H 5118 1316 50  0000 C CNN
 F 2 "" H 5200 1550 50  0001 C CNN
 F 3 "~" H 5200 1550 50  0001 C CNN
