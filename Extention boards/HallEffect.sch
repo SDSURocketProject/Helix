@@ -14,17 +14,17 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 2100 2200 2    60   Input ~ 12
+Text HLabel 2100 2200 2    60   Input ~ 0
 PWR_CH3_HE
-Text HLabel 2100 3000 2    60   Input ~ 12
+Text HLabel 2100 3000 2    60   Input ~ 0
 PWR_CH4_HE
-Text HLabel 2100 3800 2    60   Input ~ 12
+Text HLabel 2100 3800 2    60   Input ~ 0
 PWR_CH5_HE
-Text HLabel 3550 2100 2    60   Input ~ 12
+Text HLabel 3550 2100 2    60   Input ~ 0
 HE_CH0
-Text HLabel 3550 2900 2    60   Input ~ 12
+Text HLabel 3550 2900 2    60   Input ~ 0
 HE_CH1
-Text HLabel 3550 3700 2    60   Input ~ 12
+Text HLabel 3550 3700 2    60   Input ~ 0
 HE_CH2
 $Comp
 L power:GND #PWR0122

@@ -25,7 +25,7 @@ F 3 "" H 1400 1600 50  0000 C CNN
 	1    1400 1600
 	1    0    0    -1  
 $EndComp
-Text HLabel 1400 1450 2    60   Input ~ 12
+Text HLabel 1400 1450 2    60   Input ~ 0
 PWR_CH0_PT
 Wire Wire Line
 	1300 1550 1400 1550
@@ -89,7 +89,7 @@ F 3 "" H 1400 3300 50  0000 C CNN
 	1    1400 3300
 	1    0    0    -1  
 $EndComp
-Text HLabel 1400 3150 2    60   Input ~ 12
+Text HLabel 1400 3150 2    60   Input ~ 0
 PWR_CH1_PT
 Wire Wire Line
 	1300 3250 1400 3250
@@ -108,7 +108,7 @@ F 3 "" H 1400 5000 50  0000 C CNN
 	1    1400 5000
 	1    0    0    -1  
 $EndComp
-Text HLabel 1400 4850 2    60   Input ~ 12
+Text HLabel 1400 4850 2    60   Input ~ 0
 PWR_CH2_PT
 Wire Wire Line
 	1300 4950 1400 4950
@@ -116,11 +116,11 @@ Wire Wire Line
 	1400 4950 1400 5000
 Wire Wire Line
 	1400 4850 1300 4850
-Text HLabel 4300 1450 2    60   Input ~ 12
+Text HLabel 4300 1450 2    60   Input ~ 0
 PT_CH0
-Text HLabel 4300 3150 2    60   Input ~ 12
+Text HLabel 4300 3150 2    60   Input ~ 0
 PT_CH1
-Text HLabel 4300 4850 2    60   Input ~ 12
+Text HLabel 4300 4850 2    60   Input ~ 0
 PT_CH2
 Wire Wire Line
 	2450 1500 2450 1350

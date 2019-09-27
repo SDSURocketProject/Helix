@@ -168,7 +168,7 @@ F 3 "" H 7450 3650 50  0000 C CNN
 	1    7450 3650
 	-1   0    0    -1  
 $EndComp
-Text Notes 8300 2100 2    60   ~ 12
+Text Notes 8300 2100 2    60   ~ 0
 12V to 5V
 $Comp
 L Device:R R3
@@ -203,17 +203,17 @@ F 3 "" H 6550 3350 50  0000 C CNN
 	1    6550 3350
 	-1   0    0    -1  
 $EndComp
-Text Label 6650 2950 0    60   ~ 12
+Text Label 6650 2950 0    60   ~ 0
 VCC_SENS
-Text Label 8350 4950 2    60   ~ 12
+Text Label 8350 4950 2    60   ~ 0
 VCC_SENS
-Text Label 8350 5150 2    60   ~ 12
+Text Label 8350 5150 2    60   ~ 0
 PWR_CH0_CURR_SENS
-Text Label 8350 5250 2    60   ~ 12
+Text Label 8350 5250 2    60   ~ 0
 PWR_CH1_CURR_SENS
-Text Label 8350 5350 2    60   ~ 12
+Text Label 8350 5350 2    60   ~ 0
 PWR_CH2_CURR_SENS
-Text Label 8350 5450 2    60   ~ 12
+Text Label 8350 5450 2    60   ~ 0
 PWR_CH3_CURR_SENS
 $Comp
 L power:+5V #PWR015
@@ -237,13 +237,13 @@ F 3 "" H 8850 5950 50  0000 C CNN
 	1    8850 5950
 	-1   0    0    -1  
 $EndComp
-Text HLabel 9650 5150 2    60   Input ~ 12
+Text HLabel 9650 5150 2    60   Input ~ 0
 MCP3008_CLK
-Text HLabel 9650 5250 2    60   Input ~ 12
+Text HLabel 9650 5250 2    60   Input ~ 0
 MCP3008_DOUT
-Text HLabel 9650 5350 2    60   Input ~ 12
+Text HLabel 9650 5350 2    60   Input ~ 0
 MCP3008_DIN
-Text HLabel 9650 5450 2    60   Input ~ 12
+Text HLabel 9650 5450 2    60   Input ~ 0
 ~MCP3008_CS
 $Comp
 L power:PWR_FLAG #FLG04
@@ -311,7 +311,7 @@ F 3 "" H 9200 2150 50  0000 C CNN
 	1    9200 2150
 	-1   0    0    -1  
 $EndComp
-Text Notes 10250 2750 0    60   ~ 12
+Text Notes 10250 2750 0    60   ~ 0
 L = SRR7045-470M
 $Comp
 L Device:R R5
@@ -346,9 +346,9 @@ F 3 "" H 7350 1900 50  0000 C CNN
 	1    7350 1900
 	1    0    0    -1  
 $EndComp
-Text Label 7850 1600 0    60   ~ 12
+Text Label 7850 1600 0    60   ~ 0
 VCC_CURR_SENSE
-Text Label 8350 5050 2    60   ~ 12
+Text Label 8350 5050 2    60   ~ 0
 VCC_CURR_SENSE
 Wire Wire Line
 	6550 2400 6550 2550
@@ -494,39 +494,39 @@ F23 "PWR_CH3" I R 2500 3550 60
 F24 "PWR_CH4" I R 2500 4050 60 
 F25 "PWR_CH5" I R 2500 4550 60 
 $EndSheet
-Text Label 8350 5550 2    60   ~ 12
+Text Label 8350 5550 2    60   ~ 0
 PWR_CH4_CURR_SENS
-Text Label 8350 5650 2    60   ~ 12
+Text Label 8350 5650 2    60   ~ 0
 PWR_CH5_CURR_SENS
-Text Label 2500 2250 0    60   ~ 12
+Text Label 2500 2250 0    60   ~ 0
 PWR_CH0_CURR_SENS
-Text Label 2500 2750 0    60   ~ 12
+Text Label 2500 2750 0    60   ~ 0
 PWR_CH1_CURR_SENS
-Text Label 2500 3250 0    60   ~ 12
+Text Label 2500 3250 0    60   ~ 0
 PWR_CH2_CURR_SENS
-Text Label 2500 3750 0    60   ~ 12
+Text Label 2500 3750 0    60   ~ 0
 PWR_CH3_CURR_SENS
-Text Label 2500 4250 0    60   ~ 12
+Text Label 2500 4250 0    60   ~ 0
 PWR_CH4_CURR_SENS
-Text Label 2500 4750 0    60   ~ 12
+Text Label 2500 4750 0    60   ~ 0
 PWR_CH5_CURR_SENS
-Text HLabel 2600 2050 2    60   Input ~ 12
+Text HLabel 2600 2050 2    60   Input ~ 0
 PWR_CH0
-Text HLabel 2600 2150 2    60   Input ~ 12
+Text HLabel 2600 2150 2    60   Input ~ 0
 PWR_CH0_EN
 Wire Wire Line
 	2600 2150 2500 2150
 Wire Wire Line
 	2600 2050 2500 2050
-Text HLabel 2600 2350 2    60   Input ~ 12
+Text HLabel 2600 2350 2    60   Input ~ 0
 ~PWR_CH0_CURR_OVLD
 Wire Wire Line
 	2600 2350 2500 2350
-Text HLabel 2600 2550 2    60   Input ~ 12
+Text HLabel 2600 2550 2    60   Input ~ 0
 PWR_CH1
-Text HLabel 2600 2650 2    60   Input ~ 12
+Text HLabel 2600 2650 2    60   Input ~ 0
 PWR_CH1_EN
-Text HLabel 2600 2850 2    60   Input ~ 12
+Text HLabel 2600 2850 2    60   Input ~ 0
 ~PWR_CH1_CURR_OVLD
 Wire Wire Line
 	2600 2850 2500 2850
@@ -534,11 +534,11 @@ Wire Wire Line
 	2600 2650 2500 2650
 Wire Wire Line
 	2600 2550 2500 2550
-Text HLabel 2600 3050 2    60   Input ~ 12
+Text HLabel 2600 3050 2    60   Input ~ 0
 PWR_CH2
-Text HLabel 2600 3150 2    60   Input ~ 12
+Text HLabel 2600 3150 2    60   Input ~ 0
 PWR_CH2_EN
-Text HLabel 2600 3350 2    60   Input ~ 12
+Text HLabel 2600 3350 2    60   Input ~ 0
 ~PWR_CH2_CURR_OVLD
 Wire Wire Line
 	2600 3350 2500 3350
@@ -546,23 +546,23 @@ Wire Wire Line
 	2600 3150 2500 3150
 Wire Wire Line
 	2600 3050 2500 3050
-Text HLabel 2600 3550 2    60   Input ~ 12
+Text HLabel 2600 3550 2    60   Input ~ 0
 PWR_CH3
 Wire Wire Line
 	2600 3550 2500 3550
-Text HLabel 2600 3650 2    60   Input ~ 12
+Text HLabel 2600 3650 2    60   Input ~ 0
 PWR_CH3_EN
-Text HLabel 2600 3850 2    60   Input ~ 12
+Text HLabel 2600 3850 2    60   Input ~ 0
 ~PWR_CH3_CURR_OVLD
 Wire Wire Line
 	2600 3650 2500 3650
 Wire Wire Line
 	2600 3850 2500 3850
-Text HLabel 2600 4050 2    60   Input ~ 12
+Text HLabel 2600 4050 2    60   Input ~ 0
 PWR_CH4
-Text HLabel 2600 4150 2    60   Input ~ 12
+Text HLabel 2600 4150 2    60   Input ~ 0
 PWR_CH4_EN
-Text HLabel 2600 4350 2    60   Input ~ 12
+Text HLabel 2600 4350 2    60   Input ~ 0
 ~PWR_CH4_CURR_OVLD
 Wire Wire Line
 	2600 4350 2500 4350
@@ -570,11 +570,11 @@ Wire Wire Line
 	2600 4150 2500 4150
 Wire Wire Line
 	2600 4050 2500 4050
-Text HLabel 2600 4550 2    60   Input ~ 12
+Text HLabel 2600 4550 2    60   Input ~ 0
 PWR_CH5
-Text HLabel 2600 4650 2    60   Input ~ 12
+Text HLabel 2600 4650 2    60   Input ~ 0
 PWR_CH5_EN
-Text HLabel 2600 4850 2    60   Input ~ 12
+Text HLabel 2600 4850 2    60   Input ~ 0
 ~PWR_CH5_CURR_OVLD
 Wire Wire Line
 	2600 4850 2500 4850

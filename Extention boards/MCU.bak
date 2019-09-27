@@ -147,19 +147,19 @@ Text Notes 2200 1300 1    60   ~ 12
 VDDCORE
 Text Notes 1350 1300 1    60   ~ 12
 VDDCORE
-Text Label 1300 3600 2    60   ~ 12
+Text Label 1300 3600 2    60   ~ 0
 CAN0_TX
-Text Label 1300 3700 2    60   ~ 12
+Text Label 1300 3700 2    60   ~ 0
 CAN0_RX
 Text Notes 3950 3300 0    60   ~ 12
 SERCOM0\nCPOL = 0\nCPHA = 1
 Text Notes 3950 4250 0    60   ~ 12
 SERCOM1\nCPOL = 1\nCPHA = 1
-Text Label 1300 2700 2    60   ~ 12
+Text Label 1300 2700 2    60   ~ 0
 LED_R
-Text Label 1300 2800 2    60   ~ 12
+Text Label 1300 2800 2    60   ~ 0
 LED_G
-Text Label 1300 2600 2    60   ~ 12
+Text Label 1300 2600 2    60   ~ 0
 LED_B
 $Comp
 L Transistor_BJT:MMBT3904 Q1
@@ -271,11 +271,11 @@ F 3 "" H 7450 3300 50  0000 C CNN
 	1    7450 3300
 	1    0    0    -1  
 $EndComp
-Text Label 6150 2200 2    60   ~ 12
+Text Label 6150 2200 2    60   ~ 0
 LED_R
-Text Label 6450 2650 2    60   ~ 12
+Text Label 6450 2650 2    60   ~ 0
 LED_G
-Text Label 6750 3100 2    60   ~ 12
+Text Label 6750 3100 2    60   ~ 0
 LED_B
 $Comp
 L power:+5V #PWR0144
@@ -288,9 +288,9 @@ F 3 "" H 7150 900 50  0000 C CNN
 	1    7150 900 
 	1    0    0    -1  
 $EndComp
-Text Label 1300 3400 2    60   ~ 12
+Text Label 1300 3400 2    60   ~ 0
 I2C0_SCL
-Text Label 1300 3500 2    60   ~ 12
+Text Label 1300 3500 2    60   ~ 0
 I2C0_SDA
 $Comp
 L power:GND #PWR0147
@@ -314,9 +314,9 @@ F 3 "" H 9250 1150 50  0000 C CNN
 	1    9250 1150
 	1    0    0    -1  
 $EndComp
-Text Label 9050 1400 0    60   ~ 12
+Text Label 9050 1400 0    60   ~ 0
 I2C0_SCL
-Text Label 9050 1500 0    60   ~ 12
+Text Label 9050 1500 0    60   ~ 0
 I2C0_SDA
 $Comp
 L power:GND #PWR0151
@@ -331,37 +331,37 @@ F 3 "" H 9500 1550 50  0000 C CNN
 $EndComp
 Text GLabel 1250 5100 0    60   Input ~ 12
 ~RESET
-Text HLabel 3150 4300 2    60   Input ~ 12
+Text HLabel 3150 4300 2    60   Input ~ 0
 ~PWR_CH0_CURR_OVLD
-Text HLabel 3150 4400 2    60   Input ~ 12
+Text HLabel 3150 4400 2    60   Input ~ 0
 ~PWR_CH1_CURR_OVLD
-Text HLabel 3150 4500 2    60   Input ~ 12
+Text HLabel 3150 4500 2    60   Input ~ 0
 ~PWR_CH2_CURR_OVLD
-Text HLabel 3150 4600 2    60   Input ~ 12
+Text HLabel 3150 4600 2    60   Input ~ 0
 ~PWR_CH3_CURR_OVLD
-Text HLabel 3150 4200 2    60   Input ~ 12
+Text HLabel 3150 4200 2    60   Input ~ 0
 ~MCP3008_CS
-Text HLabel 3150 4100 2    60   Input ~ 12
+Text HLabel 3150 4100 2    60   Input ~ 0
 MCP3008_DOUT
-Text HLabel 3150 4000 2    60   Input ~ 12
+Text HLabel 3150 4000 2    60   Input ~ 0
 MCP3008_DIN
-Text HLabel 3150 3900 2    60   Input ~ 12
+Text HLabel 3150 3900 2    60   Input ~ 0
 MCP3008_SCLK
-Text HLabel 3150 3300 2    60   Input ~ 12
+Text HLabel 3150 3300 2    60   Input ~ 0
 ADS1247_DOUT
-Text HLabel 3150 3400 2    60   Input ~ 12
+Text HLabel 3150 3400 2    60   Input ~ 0
 ~ADS1247_CS
-Text HLabel 3150 3200 2    60   Input ~ 12
+Text HLabel 3150 3200 2    60   Input ~ 0
 ADS1247_DIN
-Text HLabel 3150 3100 2    60   Input ~ 12
+Text HLabel 3150 3100 2    60   Input ~ 0
 ADS1247_SCLK
-Text HLabel 3150 3000 2    60   Input ~ 12
+Text HLabel 3150 3000 2    60   Input ~ 0
 ~ADS1247_DRDY
-Text HLabel 3150 2900 2    60   Input ~ 12
+Text HLabel 3150 2900 2    60   Input ~ 0
 ADS1247_START
-Text HLabel 3150 2800 2    60   Input ~ 12
+Text HLabel 3150 2800 2    60   Input ~ 0
 ADS1247_CHSEL_S1
-Text HLabel 3150 2700 2    60   Input ~ 12
+Text HLabel 3150 2700 2    60   Input ~ 0
 ADS1247_CHSEL_S0
 $Comp
 L power:GND #PWR0148
@@ -385,13 +385,13 @@ F 3 "" H 9100 2450 50  0000 C CNN
 	1    9100 2450
 	1    0    0    -1  
 $EndComp
-Text Label 9550 2550 2    60   ~ 12
+Text Label 9550 2550 2    60   ~ 0
 CAN0_TX
-Text Label 9550 2850 2    60   ~ 12
+Text Label 9550 2850 2    60   ~ 0
 CAN0_RX
-Text HLabel 10500 2650 2    60   Input ~ 12
+Text HLabel 10500 2650 2    60   Input ~ 0
 CANH0
-Text HLabel 10500 2750 2    60   Input ~ 12
+Text HLabel 10500 2750 2    60   Input ~ 0
 CANL0
 $Comp
 L power:GND #PWR0152
@@ -416,23 +416,23 @@ F 3 "" H 8800 2700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 10400 2850
-Text HLabel 1200 4400 0    60   Input ~ 12
+Text HLabel 1200 4400 0    60   Input ~ 0
 HE_CH0
-Text HLabel 1200 4500 0    60   Input ~ 12
+Text HLabel 1200 4500 0    60   Input ~ 0
 HE_CH1
-Text HLabel 3150 4700 2    60   Input ~ 12
+Text HLabel 3150 4700 2    60   Input ~ 0
 PWR_CH0_EN
-Text HLabel 3150 4800 2    60   Input ~ 12
+Text HLabel 3150 4800 2    60   Input ~ 0
 PWR_CH1_EN
-Text HLabel 3150 4900 2    60   Input ~ 12
+Text HLabel 3150 4900 2    60   Input ~ 0
 PWR_CH2_EN
-Text HLabel 3400 5000 2    60   Input ~ 12
+Text HLabel 3400 5000 2    60   Input ~ 0
 PWR_CH3_EN
-Text Label 10500 1300 2    60   ~ 12
+Text Label 10500 1300 2    60   ~ 0
 I2C0_SCL
-Text Label 10500 1400 2    60   ~ 12
+Text Label 10500 1400 2    60   ~ 0
 I2C0_SDA
-Text GLabel 10500 1600 0    60   Input ~ 12
+Text GLabel 10500 1600 0    60   Input ~ 0
 ~RESET
 Text Notes 8450 900  0    60   ~ 12
 Header for programming EEPROM\nHold Reset low when flashing EEPROM
@@ -497,9 +497,9 @@ F 3 "" H 8550 2700 50  0000 C CNN
 	1    8550 2700
 	1    0    0    -1  
 $EndComp
-Text Label 2350 6550 0    60   ~ 12
+Text Label 2350 6550 0    60   ~ 0
 SWDIO
-Text Label 2350 6650 0    60   ~ 12
+Text Label 2350 6650 0    60   ~ 0
 SWCLK
 $Comp
 L power:GND #PWR0135
@@ -539,9 +539,9 @@ F 3 "" H 2800 6200 50  0000 C CNN
 	1    2800 6200
 	1    0    0    -1  
 $EndComp
-Text Label 3050 5100 0    60   ~ 12
+Text Label 3050 5100 0    60   ~ 0
 SWCLK
-Text Label 3050 5200 0    60   ~ 12
+Text Label 3050 5200 0    60   ~ 0
 SWDIO
 Text Notes 1750 6250 0    60   ~ 12
 Programming Header
@@ -657,15 +657,15 @@ F 3 "" H 4900 4050 50  0000 C CNN
 $EndComp
 Text Notes 700  3000 1    60   ~ 12
 I2C0 on  SERCOM4
-Text HLabel 1200 4600 0    60   Input ~ 12
+Text HLabel 1200 4600 0    60   Input ~ 0
 HE_CH2
-Text HLabel 3150 3500 2    60   Input ~ 12
+Text HLabel 3150 3500 2    60   Input ~ 0
 PWR_CH4_EN
-Text HLabel 3150 3600 2    60   Input ~ 12
+Text HLabel 3150 3600 2    60   Input ~ 0
 PWR_CH5_EN
-Text HLabel 3150 2300 2    60   Input ~ 12
+Text HLabel 3150 2300 2    60   Input ~ 0
 ~PWR_CH4_CURR_OVLD
-Text HLabel 3150 2400 2    60   Input ~ 12
+Text HLabel 3150 2400 2    60   Input ~ 0
 ~PWR_CH5_CURR_OVLD
 Wire Wire Line
 	2300 5500 2300 5450
