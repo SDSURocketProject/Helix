@@ -15,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L power:VCC #PWR01
+L power:VCC #PWR02
 U 1 1 5D27EEBA
 P 900 2550
-F 0 "#PWR01" H 900 2400 50  0001 C CNN
+F 0 "#PWR02" H 900 2400 50  0001 C CNN
 F 1 "VCC" H 900 2700 50  0000 C CNN
 F 2 "" H 900 2550 50  0000 C CNN
 F 3 "" H 900 2550 50  0000 C CNN
@@ -55,10 +55,10 @@ RESERVED0
 Text Label 1650 2900 0    60   ~ 12
 RESERVED1
 $Comp
-L power:VCC #PWR02
+L power:VCC #PWR01
 U 1 1 5D27F019
 P 850 3550
-F 0 "#PWR02" H 850 3400 50  0001 C CNN
+F 0 "#PWR01" H 850 3400 50  0001 C CNN
 F 1 "VCC" H 850 3700 50  0000 C CNN
 F 2 "" H 850 3550 50  0000 C CNN
 F 3 "" H 850 3550 50  0000 C CNN
@@ -378,8 +378,6 @@ Text Label 4850 6100 0    60   ~ 12
 PWR_CH4
 Text Label 4850 6200 0    60   ~ 12
 PWR_CH5
-Text Label 4850 3100 0    60   ~ 12
-PWR_CH4
 Text Label 4850 3500 0    60   ~ 12
 PWR_CH5
 Text Label 8000 4600 2    60   ~ 12
@@ -388,9 +386,9 @@ Text Label 4850 3200 0    60   ~ 12
 PWR_CH4_EN
 Text Label 4850 3300 0    60   ~ 12
 ~PWR_CH4_OVLD
-Text Label 4850 3600 0    60   ~ 0
+Text Label 4850 3600 0    60   ~ 6
 PWR_CH5_EN
-Text Label 4850 3700 0    60   ~ 0
+Text Label 4850 3700 0    60   ~ 6
 ~PWR_CH5_OVLD
 Text Label 8000 5200 2    60   ~ 12
 PWR_CH4_EN
@@ -570,4 +568,6 @@ Wire Wire Line
 	850  3600 850  3550
 Wire Wire Line
 	900  2600 1150 2600
+Text Label 4850 3100 0    60   ~ 12
+PWR_CH4
 $EndSCHEMATC
