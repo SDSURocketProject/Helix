@@ -66,6 +66,11 @@ K AmpliOp
 F op_amps/lm324.pdf
 $ENDCMP
 #
+$CMP TPS2121
+D 2.7-22V, 56mΩ, 4.5A, Priority Power MUX with Seamless Switchover
+K Power MUX, VQFN-HR
+$ENDCMP
+#
 $CMP TPS22810
 D IC PWR SWITCH N-CHAN 1:1 6SOT23
 K IC PWR SWITCH N-CHAN 1:1 6SOT23
