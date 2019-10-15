@@ -20,4 +20,4 @@ def calc_MC33063(Vin, Vout, Iout, fmin, Vripple, VF, Vsat, R1):
     print(f"R2 = {R2}")
     
 #            Vin Vout Iout    fmin Vripple   VF Vsat    R1
-calc_MC33063( 12,   5,  .3, 100000,    .01, .35,   1, 9000)
+calc_MC33063( 12, 3.3,  .3, 100000,    .01, .35,   1, 9000)
