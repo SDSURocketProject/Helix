@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Extention Boards-cache
-EELAYER 30 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -658,7 +658,7 @@ L Device:C C2
 U 1 1 5D44D37B
 P 7700 1050
 F 0 "C2" H 7725 1150 50  0000 L CNN
-F 1 "0.1uF" H 7725 950 50  0000 L CNN
+F 1 ".1uF" H 7725 950 50  0000 L CNN
 F 2 "" H 7738 900 50  0000 C CNN
 F 3 "" H 7700 1050 50  0000 C CNN
 	1    7700 1050
