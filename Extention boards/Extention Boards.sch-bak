@@ -326,7 +326,7 @@ Text Label 4850 6650 0    60   ~ 0
 HE_CH0
 Text Label 4850 6750 0    60   ~ 0
 HE_CH1
-Text Notes 700  3300 0    60   ~ 0
+Text Notes 750  3250 0    60   ~ 0
 Daisy chain together multiple boards\nusing these connectors
 $Comp
 L power:PWR_FLAG #FLG01
@@ -383,41 +383,16 @@ Text Label 8000 5200 2    60   ~ 0
 PWR_CH4_EN
 Text Label 8000 5300 2    60   ~ 0
 PWR_CH5_EN
-$Comp
-L power:GND #PWR08
-U 1 1 5D68CA02
-P 3200 3750
-F 0 "#PWR08" H 3200 3500 50  0001 C CNN
-F 1 "GND" H 3200 3600 50  0000 C CNN
-F 2 "" H 3200 3750 50  0000 C CNN
-F 3 "" H 3200 3750 50  0000 C CNN
-	1    3200 3750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3200 2800 3200 3000
-Connection ~ 3200 3600
-Connection ~ 3200 3400
-Connection ~ 3200 3200
 Text Label 8000 2400 2    60   ~ 0
 ~PWR_CH4_OVLD
 Text Label 8000 2500 2    60   ~ 0
 ~PWR_CH5_OVLD
-Connection ~ 3200 3000
 Wire Wire Line
 	1650 5150 1650 5200
 Wire Wire Line
 	1950 5150 2100 5150
 Wire Wire Line
 	1650 6200 1650 6250
-Wire Wire Line
-	3200 3600 3200 3750
-Wire Wire Line
-	3200 3400 3200 3600
-Wire Wire Line
-	3200 3200 3200 3400
-Wire Wire Line
-	3200 3000 3200 3200
 $Comp
 L Switch:SW_Push SW1
 U 1 1 5D89BC79
@@ -474,35 +449,4 @@ F 3 "" H 1950 5850 50  0000 C CNN
 	1    1950 5850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2750 2800 2750 2750
-Text Label 2750 3600 2    60   ~ 0
-CANL1
-Text Label 2750 3400 2    60   ~ 0
-CANH1
-Text Label 2750 3200 2    60   ~ 0
-CANL0
-Text Label 2750 3000 2    60   ~ 0
-CANH0
-$Comp
-L power:VCC #PWR07
-U 1 1 5D64A819
-P 2750 2750
-F 0 "#PWR07" H 2750 2600 50  0001 C CNN
-F 1 "VCC" H 2750 2900 50  0000 C CNN
-F 2 "" H 2750 2750 50  0000 C CNN
-F 3 "" H 2750 2750 50  0000 C CNN
-	1    2750 2750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2750 2800 3200 2800
-Wire Wire Line
-	2750 3000 3200 3000
-Wire Wire Line
-	2750 3200 3200 3200
-Wire Wire Line
-	2750 3400 3200 3400
-Wire Wire Line
-	2750 3600 3200 3600
 $EndSCHEMATC
