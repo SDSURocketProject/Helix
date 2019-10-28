@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Helix)(type Legacy)(uri "${KIPRJMOD}/../Kicad Libs/helix.lib")(options "")(descr ""))
+)

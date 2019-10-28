@@ -1,0 +1,145 @@
+EESchema Schematic File Version 4
+LIBS:Distro Board-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 3
+Title "Helix Power Distro PocketBeagle Board"
+Date "2019-10-05"
+Rev "Rev 1"
+Comp "SDSU Rocket Project"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Helix:PocketBeagle P?
+U 1 1 5D93A4C8
+P 1600 1850
+F 0 "P?" H 1575 3015 50  0000 C CNN
+F 1 "PocketBeagle" H 1575 2924 50  0000 C CNN
+F 2 "" H 600 2750 50  0001 C CNN
+F 3 "" H 600 2750 50  0001 C CNN
+	1    1600 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Helix:PocketBeagle P?
+U 2 1 5D93DE60
+P 1600 4050
+F 0 "P?" H 1575 5215 50  0000 C CNN
+F 1 "PocketBeagle" H 1575 5124 50  0000 C CNN
+F 2 "" H 600 4950 50  0001 C CNN
+F 3 "" H 600 4950 50  0001 C CNN
+	2    1600 4050
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 2950 3650 1500 1050
+U 5D995887
+F0 "powerDistro" 50
+F1 "powerDistro.sch" 50
+$EndSheet
+$Sheet
+S 3050 1900 1450 1100
+U 5DB02347
+F0 "MCU" 50
+F1 "MCU.sch" 50
+$EndSheet
+$Comp
+L Connector_Generic:Conn_02x04_Top_Bottom J?
+U 1 1 5DB1A1A8
+P 1900 5650
+F 0 "J?" H 1950 5967 50  0000 C CNN
+F 1 "Conn_02x04_Top_Bottom" H 1950 5876 50  0000 C CNN
+F 2 "" H 1900 5650 50  0001 C CNN
+F 3 "~" H 1900 5650 50  0001 C CNN
+	1    1900 5650
+	1    0    0    -1  
+$EndComp
+Text Label 1700 5650 2    50   ~ 0
+RS485A_BUNKER
+Text Label 2200 5650 0    50   ~ 0
+RS485B_BUNKER
+Text Label 2200 5750 0    50   ~ 0
+RS485B_TESTSTAND
+Text Label 1700 5750 2    50   ~ 0
+RS485A_TESTSTAND
+Text Label 1700 5850 2    50   ~ 0
+RESERVED
+Text Label 2200 5850 0    50   ~ 0
+RESERVED
+$Comp
+L power:GND #PWR?
+U 1 1 5DB1BD6E
+P 850 5700
+F 0 "#PWR?" H 850 5450 50  0001 C CNN
+F 1 "GND" H 855 5527 50  0000 C CNN
+F 2 "" H 850 5700 50  0001 C CNN
+F 3 "" H 850 5700 50  0001 C CNN
+	1    850  5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 5550 850  5550
+Wire Wire Line
+	850  5550 850  5700
+Wire Wire Line
+	2750 5550 2750 5450
+Wire Wire Line
+	2200 5550 2750 5550
+$Comp
+L power:VDC #PWR?
+U 1 1 5DB1DB5B
+P 2750 5450
+F 0 "#PWR?" H 2750 5350 50  0001 C CNN
+F 1 "VDC" H 2750 5725 50  0000 C CNN
+F 2 "" H 2750 5450 50  0001 C CNN
+F 3 "" H 2750 5450 50  0001 C CNN
+	1    2750 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 5DB1EA9C
+P 3200 5500
+F 0 "J?" H 3308 5681 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 3308 5590 50  0000 C CNN
+F 2 "" H 3200 5500 50  0001 C CNN
+F 3 "~" H 3200 5500 50  0001 C CNN
+	1    3200 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DB20C1F
+P 3500 5700
+F 0 "#PWR?" H 3500 5450 50  0001 C CNN
+F 1 "GND" H 3505 5527 50  0000 C CNN
+F 2 "" H 3500 5700 50  0001 C CNN
+F 3 "" H 3500 5700 50  0001 C CNN
+	1    3500 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 5600 3500 5600
+Wire Wire Line
+	3500 5600 3500 5700
+Wire Wire Line
+	3400 5500 3700 5500
+Wire Wire Line
+	3700 5500 3700 5400
+$Comp
+L power:+BATT #PWR?
+U 1 1 5DB5BE0A
+P 3700 5400
+F 0 "#PWR?" H 3700 5250 50  0001 C CNN
+F 1 "+BATT" H 3715 5573 50  0000 C CNN
+F 2 "" H 3700 5400 50  0001 C CNN
+F 3 "" H 3700 5400 50  0001 C CNN
+	1    3700 5400
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
