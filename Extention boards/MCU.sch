@@ -136,15 +136,15 @@ Text Notes 2650 1350 1    60   ~ 12
 VDDCORE
 Text Notes 1850 1350 1    60   ~ 12
 VDDCORE
-Text Label 1900 3800 2    60   ~ 0
+Text Label 1900 3800 2    60   ~ 6
 CAN1_TX
-Text Label 1900 3900 2    60   ~ 0
+Text Label 1900 3900 2    60   ~ 6
 CAN1_RX
-Text Label 1900 3300 2    60   ~ 0
+Text Label 1900 3300 2    60   ~ 6
 LED_R
-Text Label 1900 3400 2    60   ~ 0
+Text Label 1900 3400 2    60   ~ 6
 LED_G
-Text Label 1900 3200 2    60   ~ 0
+Text Label 1900 3200 2    60   ~ 6
 LED_B
 $Comp
 L Transistor_BJT:MMBT3904 Q1
@@ -245,15 +245,15 @@ F 3 "" H 7500 3300 50  0000 C CNN
 	1    7500 3300
 	1    0    0    -1  
 $EndComp
-Text Label 6200 2200 2    60   ~ 0
+Text Label 6200 2200 2    60   ~ 6
 LED_R
-Text Label 6500 2650 2    60   ~ 0
+Text Label 6500 2650 2    60   ~ 6
 LED_G
-Text Label 6800 3100 2    60   ~ 0
+Text Label 6800 3100 2    60   ~ 6
 LED_B
-Text Label 1900 2600 2    60   ~ 0
+Text Label 1900 2600 2    60   ~ 6
 I2C0_SCL
-Text Label 1900 2700 2    60   ~ 0
+Text Label 1900 2700 2    60   ~ 6
 I2C0_SDA
 $Comp
 L power:GND #PWR033
@@ -266,9 +266,9 @@ F 3 "" H 8200 1550 50  0000 C CNN
 	1    8200 1550
 	1    0    0    -1  
 $EndComp
-Text Label 9050 1400 0    60   ~ 0
+Text Label 9050 1400 0    60   ~ 6
 I2C0_SCL
-Text Label 9050 1500 0    60   ~ 0
+Text Label 9050 1500 0    60   ~ 6
 I2C0_SDA
 $Comp
 L power:GND #PWR037
@@ -294,13 +294,13 @@ F 3 "" H 9000 2950 50  0000 C CNN
 	1    9000 2950
 	1    0    0    -1  
 $EndComp
-Text Label 9550 2550 2    60   ~ 0
+Text Label 9550 2550 2    60   ~ 6
 CAN1_TX
-Text Label 9550 2850 2    60   ~ 0
+Text Label 9550 2850 2    60   ~ 6
 CAN1_RX
-Text HLabel 10500 2650 2    60   Input ~ 0
+Text HLabel 10500 2650 2    60   Input ~ 6
 CANH1
-Text HLabel 10500 2750 2    60   Input ~ 0
+Text HLabel 10500 2750 2    60   Input ~ 6
 CANL1
 $Comp
 L power:GND #PWR041
@@ -325,11 +325,11 @@ F 3 "" H 8800 2700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 10400 2850
-Text Label 10500 1300 2    60   ~ 0
+Text Label 10500 1300 2    60   ~ 6
 I2C0_SCL
-Text Label 10500 1400 2    60   ~ 0
+Text Label 10500 1400 2    60   ~ 6
 I2C0_SDA
-Text GLabel 10500 1600 0    60   Input ~ 0
+Text GLabel 10500 1600 0    60   Input ~ 6
 ~RESET
 Text Notes 8450 900  0    60   ~ 12
 Header for programming EEPROM\nHold Reset low when flashing EEPROM
@@ -394,9 +394,9 @@ F 3 "" H 8550 2700 50  0000 C CNN
 	1    8550 2700
 	1    0    0    -1  
 $EndComp
-Text Label 2900 6600 0    60   ~ 0
+Text Label 2900 6600 0    60   ~ 6
 SWDIO
-Text Label 2900 6700 0    60   ~ 0
+Text Label 2900 6700 0    60   ~ 6
 SWCLK
 $Comp
 L power:GND #PWR012
@@ -425,9 +425,9 @@ F 3 "" H 3350 6450 50  0000 C CNN
 	1    3350 6450
 	1    0    0    -1  
 $EndComp
-Text Label 3600 5050 0    60   ~ 0
+Text Label 3600 5050 0    60   ~ 6
 SWCLK
-Text Label 3600 5150 0    60   ~ 0
+Text Label 3600 5150 0    60   ~ 6
 SWDIO
 Text Notes 2300 6300 0    60   ~ 12
 Programming Header
@@ -1062,145 +1062,145 @@ F 3 "" H 3500 2350 60  0001 C CNN
 $EndComp
 Wire Wire Line
 	3600 4950 3700 4950
-Text Notes 4350 2250 0    60   ~ 0
+Text Notes 4350 2250 0    60   ~ 6
 27 pins
-Text Notes 500  2950 0    60   ~ 0
+Text Notes 500  2950 0    60   ~ 6
 13 pins this side
-Text Notes 5650 3750 0    60   ~ 0
+Text Notes 5650 3750 0    60   ~ 6
 2-16
-Text Label 3700 2350 0    60   ~ 0
+Text Label 3700 2350 0    60   ~ 6
 PA00
-Text Label 3700 2450 0    60   ~ 0
+Text Label 3700 2450 0    60   ~ 6
 PA01
-Text Label 3700 2550 0    60   ~ 0
+Text Label 3700 2550 0    60   ~ 6
 PA02
-Text Label 3700 2650 0    60   ~ 0
+Text Label 3700 2650 0    60   ~ 6
 PA03
-Text Label 3700 2750 0    60   ~ 0
+Text Label 3700 2750 0    60   ~ 6
 PA04
-Text Label 3700 2850 0    60   ~ 0
+Text Label 3700 2850 0    60   ~ 6
 PA05
-Text Label 3700 2950 0    60   ~ 0
+Text Label 3700 2950 0    60   ~ 6
 PA06
-Text Label 3700 3050 0    60   ~ 0
+Text Label 3700 3050 0    60   ~ 6
 PA07
-Text Label 3700 3150 0    60   ~ 0
+Text Label 3700 3150 0    60   ~ 6
 PA08
-Text Label 3700 3250 0    60   ~ 0
+Text Label 3700 3250 0    60   ~ 6
 PA09
-Text Label 3700 3350 0    60   ~ 0
+Text Label 3700 3350 0    60   ~ 6
 PA10
-Text Label 3700 3450 0    60   ~ 0
+Text Label 3700 3450 0    60   ~ 6
 PA11
-Text Label 3700 3550 0    60   ~ 0
+Text Label 3700 3550 0    60   ~ 6
 PA12
-Text Label 3700 3650 0    60   ~ 0
+Text Label 3700 3650 0    60   ~ 6
 PA13
-Text Label 3700 3750 0    60   ~ 0
+Text Label 3700 3750 0    60   ~ 6
 PA14
-Text Label 3700 3850 0    60   ~ 0
+Text Label 3700 3850 0    60   ~ 6
 PA15
-Text Label 3700 3950 0    60   ~ 0
+Text Label 3700 3950 0    60   ~ 6
 PA16
-Text Label 3700 4050 0    60   ~ 0
+Text Label 3700 4050 0    60   ~ 6
 PA17
-Text Label 3700 4150 0    60   ~ 0
+Text Label 3700 4150 0    60   ~ 6
 PA18
-Text Label 3700 4250 0    60   ~ 0
+Text Label 3700 4250 0    60   ~ 6
 PA19
-Text Label 3700 4350 0    60   ~ 0
+Text Label 3700 4350 0    60   ~ 6
 PA20
-Text Label 3700 4450 0    60   ~ 0
+Text Label 3700 4450 0    60   ~ 6
 PA21
-Text Label 3700 4550 0    60   ~ 0
+Text Label 3700 4550 0    60   ~ 6
 PA22
-Text Label 3700 4650 0    60   ~ 0
+Text Label 3700 4650 0    60   ~ 6
 PA23
-Text Label 3700 4750 0    60   ~ 0
+Text Label 3700 4750 0    60   ~ 6
 PA24
-Text Label 3700 4850 0    60   ~ 0
+Text Label 3700 4850 0    60   ~ 6
 PA25
-Text Label 3700 4950 0    60   ~ 0
+Text Label 3700 4950 0    60   ~ 6
 PA27
-Text Label 5850 3900 2    60   ~ 0
+Text Label 5850 3900 2    60   ~ 6
 PA00
-Text Label 5850 4000 2    60   ~ 0
+Text Label 5850 4000 2    60   ~ 6
 PA01
-Text Label 5850 4100 2    60   ~ 0
+Text Label 5850 4100 2    60   ~ 6
 PA02
-Text Label 5850 4200 2    60   ~ 0
+Text Label 5850 4200 2    60   ~ 6
 PA03
-Text Label 5850 4300 2    60   ~ 0
+Text Label 5850 4300 2    60   ~ 6
 PA04
-Text Label 5850 4400 2    60   ~ 0
+Text Label 5850 4400 2    60   ~ 6
 PA05
-Text Label 5850 4500 2    60   ~ 0
+Text Label 5850 4500 2    60   ~ 6
 PA06
-Text Label 5850 4600 2    60   ~ 0
+Text Label 5850 4600 2    60   ~ 6
 PA07
-Text Label 5850 4700 2    60   ~ 0
+Text Label 5850 4700 2    60   ~ 6
 PA08
-Text Label 5850 4800 2    60   ~ 0
+Text Label 5850 4800 2    60   ~ 6
 PA09
-Text Label 5850 4900 2    60   ~ 0
+Text Label 5850 4900 2    60   ~ 6
 PA10
-Text Label 5850 5000 2    60   ~ 0
+Text Label 5850 5000 2    60   ~ 6
 PA11
-Text Label 5850 5100 2    60   ~ 0
+Text Label 5850 5100 2    60   ~ 6
 PA12
-Text Label 5850 5200 2    60   ~ 0
+Text Label 5850 5200 2    60   ~ 6
 PA13
-Text Label 5850 5300 2    60   ~ 0
+Text Label 5850 5300 2    60   ~ 6
 PA14
-Text Label 5850 5400 2    60   ~ 0
+Text Label 5850 5400 2    60   ~ 6
 PA15
-Text Label 5850 5500 2    60   ~ 0
+Text Label 5850 5500 2    60   ~ 6
 PA16
-Text Label 5850 5600 2    60   ~ 0
+Text Label 5850 5600 2    60   ~ 6
 PA17
-Text Label 5850 5700 2    60   ~ 0
+Text Label 5850 5700 2    60   ~ 6
 PA18
-Text Label 5850 5800 2    60   ~ 0
+Text Label 5850 5800 2    60   ~ 6
 PA19
-Text Label 5850 5900 2    60   ~ 0
+Text Label 5850 5900 2    60   ~ 6
 PA20
-Text Label 7000 3900 0    60   ~ 0
+Text Label 7000 3900 0    60   ~ 6
 PA21
-Text Label 7000 4000 0    60   ~ 0
+Text Label 7000 4000 0    60   ~ 6
 PA22
-Text Label 7000 4100 0    60   ~ 0
+Text Label 7000 4100 0    60   ~ 6
 PA23
-Text Label 7000 4200 0    60   ~ 0
+Text Label 7000 4200 0    60   ~ 6
 PA24
-Text Label 7000 4300 0    60   ~ 0
+Text Label 7000 4300 0    60   ~ 6
 PA25
-Text Label 7000 4400 0    60   ~ 0
+Text Label 7000 4400 0    60   ~ 6
 PA27
-Text Label 1800 2800 2    60   ~ 0
+Text Label 1800 2800 2    60   ~ 6
 PB02
-Text Label 1800 2900 2    60   ~ 0
+Text Label 1800 2900 2    60   ~ 6
 PB03
-Text Label 1800 3000 2    60   ~ 0
+Text Label 1800 3000 2    60   ~ 6
 PB04
-Text Label 1800 3100 2    60   ~ 0
+Text Label 1800 3100 2    60   ~ 6
 PB05
-Text Label 1800 3500 2    60   ~ 0
+Text Label 1800 3500 2    60   ~ 6
 PB09
-Text Label 1800 3600 2    60   ~ 0
+Text Label 1800 3600 2    60   ~ 6
 PB10
-Text Label 1800 3700 2    60   ~ 0
+Text Label 1800 3700 2    60   ~ 6
 PB11
-Text Label 1800 4000 2    60   ~ 0
+Text Label 1800 4000 2    60   ~ 6
 PB14
-Text Label 1800 4100 2    60   ~ 0
+Text Label 1800 4100 2    60   ~ 6
 PB15
-Text Label 1800 4200 2    60   ~ 0
+Text Label 1800 4200 2    60   ~ 6
 PB16
-Text Label 1800 4300 2    60   ~ 0
+Text Label 1800 4300 2    60   ~ 6
 PB17
-Text Label 1800 4600 2    60   ~ 0
+Text Label 1800 4600 2    60   ~ 6
 PB30
-Text Label 1800 4700 2    60   ~ 0
+Text Label 1800 4700 2    60   ~ 6
 PB31
 Wire Wire Line
 	1500 4250 1500 4400
@@ -1210,31 +1210,31 @@ Wire Wire Line
 	1900 4500 1500 4500
 Wire Wire Line
 	1500 4500 1500 4650
-Text Label 7000 4600 0    60   ~ 0
+Text Label 7000 4600 0    60   ~ 6
 PB03
-Text Label 7000 4700 0    60   ~ 0
+Text Label 7000 4700 0    60   ~ 6
 PB04
-Text Label 7000 4800 0    60   ~ 0
+Text Label 7000 4800 0    60   ~ 6
 PB05
-Text Label 7000 4500 0    60   ~ 0
+Text Label 7000 4500 0    60   ~ 6
 PB02
-Text Label 7000 4900 0    60   ~ 0
+Text Label 7000 4900 0    60   ~ 6
 PB09
-Text Label 7000 5000 0    60   ~ 0
+Text Label 7000 5000 0    60   ~ 6
 PB10
-Text Label 7000 5100 0    60   ~ 0
+Text Label 7000 5100 0    60   ~ 6
 PB11
-Text Label 7000 5200 0    60   ~ 0
+Text Label 7000 5200 0    60   ~ 6
 PB14
-Text Label 7000 5300 0    60   ~ 0
+Text Label 7000 5300 0    60   ~ 6
 PB15
-Text Label 7000 5400 0    60   ~ 0
+Text Label 7000 5400 0    60   ~ 6
 PB16
-Text Label 7000 5500 0    60   ~ 0
+Text Label 7000 5500 0    60   ~ 6
 PB17
-Text Label 7000 5600 0    60   ~ 0
+Text Label 7000 5600 0    60   ~ 6
 PB30
-Text Label 7000 5700 0    60   ~ 0
+Text Label 7000 5700 0    60   ~ 6
 PB31
 $Comp
 L power:+3V3 #PWR024
