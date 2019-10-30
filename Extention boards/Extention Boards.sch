@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Extention Boards-cache
-EELAYER 30 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -42,17 +42,17 @@ F 3 "" H 4650 1950 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	4250 1950 4650 1950
-Text Label 3750 2050 2    60   ~ 0
+Text Label 3750 2050 2    60   ~ 6
 CANH0
-Text Label 3750 2150 2    60   ~ 0
+Text Label 3750 2150 2    60   ~ 6
 CANH1
-Text Label 4250 2050 0    60   ~ 0
+Text Label 4250 2050 0    60   ~ 6
 CANL0
-Text Label 4250 2150 0    60   ~ 0
+Text Label 4250 2150 0    60   ~ 6
 CANL1
-Text Label 3750 2250 2    60   ~ 0
+Text Label 3750 2250 2    60   ~ 6
 RESERVED0
-Text Label 4250 2250 0    60   ~ 0
+Text Label 4250 2250 0    60   ~ 6
 RESERVED1
 $Comp
 L power:VCC #PWR01
@@ -78,19 +78,19 @@ F 3 "" H 4650 2950 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	4250 2950 4650 2950
-Text Label 3750 3050 2    60   ~ 0
+Text Label 3750 3050 2    60   ~ 6
 CANH0
-Text Label 3750 3150 2    60   ~ 0
+Text Label 3750 3150 2    60   ~ 6
 CANH1
-Text Label 4250 3050 0    60   ~ 0
+Text Label 4250 3050 0    60   ~ 6
 CANL0
-Text Label 4250 3150 0    60   ~ 0
+Text Label 4250 3150 0    60   ~ 6
 CANL1
-Text Label 3750 3250 2    60   ~ 0
+Text Label 3750 3250 2    60   ~ 6
 RESERVED0
-Text Label 4250 3250 0    60   ~ 0
+Text Label 4250 3250 0    60   ~ 6
 RESERVED1
-Text GLabel 4700 4500 2    60   Input ~ 0
+Text GLabel 4700 4500 2    60   Input ~ 6
 ~RESET
 Wire Wire Line
 	4250 4500 4550 4500
@@ -106,7 +106,7 @@ F 3 "" H 4250 5600 50  0000 C CNN
 	1    4250 5600
 	1    0    0    -1  
 $EndComp
-Text Notes 3350 2600 0    60   ~ 0
+Text Notes 3350 2600 0    60   ~ 6
 Daisy chain together multiple boards\nusing these connectors
 $Comp
 L power:PWR_FLAG #FLG01
@@ -153,7 +153,7 @@ U 1 1 5D89BC79
 P 4250 5200
 F 0 "SW1" V 4200 5300 50  0000 L CNN
 F 1 "SW_Push" V 4300 5300 50  0000 L CNN
-F 2 "Button_Switch_SMD:SW_SPST_B3S-1000" H 4250 5400 50  0001 C CNN
+F 2 "Buttons_Switches_ThroughHole:SW_PUSH_6mm_h4.3mm" H 4250 5400 50  0001 C CNN
 F 3 "~" H 4250 5400 50  0001 C CNN
 	1    4250 5200
 	0    -1   -1   0   
@@ -195,7 +195,7 @@ L Device:C C1
 U 1 1 5D460FEA
 P 4550 5200
 F 0 "C1" H 4575 5300 50  0000 L CNN
-F 1 "3.3nF" H 4575 5100 50  0000 L CNN
+F 1 ".1uF" H 4575 5100 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4588 5050 50  0001 C CNN
 F 3 "" H 4550 5200 50  0000 C CNN
 	1    4550 5200
@@ -227,97 +227,90 @@ F 3 "" H 4250 4250 50  0000 C CNN
 	1    4250 4250
 	1    0    0    -1  
 $EndComp
-Text Label 8000 2500 2    60   ~ 0
-~PWR_CH5_OVLD
-Text Label 8000 2400 2    60   ~ 0
-~PWR_CH4_OVLD
-Text Label 8000 5300 2    60   ~ 0
-PWR_CH5_EN
-Text Label 8000 5200 2    60   ~ 0
-PWR_CH4_EN
-Text Label 8000 4600 2    60   ~ 0
-HE_CH2
-Text Label 8000 5100 2    60   ~ 0
-PWR_CH3_EN
-Text Label 8000 5000 2    60   ~ 0
-PWR_CH2_EN
-Text Label 8000 4900 2    60   ~ 0
-PWR_CH1_EN
-Text Label 8000 4800 2    60   ~ 0
-PWR_CH0_EN
-Text Label 8000 4500 2    60   ~ 0
-HE_CH1
-Text Label 8000 4400 2    60   ~ 0
-HE_CH0
-Text Label 8000 4200 2    60   ~ 0
+Text Label 8000 4200 2    60   ~ 6
 CANL1
-Text Label 8000 4100 2    60   ~ 0
+Text Label 8000 4100 2    60   ~ 6
 CANH1
-Text Label 8000 3900 2    60   ~ 0
-ADS1247_CHSEL_S1
-Text Label 8000 3800 2    60   ~ 0
-ADS1247_CHSEL_S0
-Text Label 8000 3700 2    60   ~ 0
-ADS1247_START
-Text Label 8000 3600 2    60   ~ 0
-~ADS1247_DRDY
-Text Label 8000 3500 2    60   ~ 0
-~ADS1247_CS
-Text Label 8000 3400 2    60   ~ 0
-ADS1247_DIN
-Text Label 8000 3300 2    60   ~ 0
-ADS1247_DOUT
-Text Label 8000 3200 2    60   ~ 0
-ADS1247_SCLK
-Text Label 8000 2300 2    60   ~ 0
-~PWR_CH3_OVLD
-Text Label 8000 2100 2    60   ~ 0
-~PWR_CH1_OVLD
-Text Label 8000 3000 2    60   ~ 0
-~MCP3008_CS
-Text Label 8000 2900 2    60   ~ 0
-MCP3008_DIN
-Text Label 8000 2800 2    60   ~ 0
-MCP3008_DOUT
-Text Label 8000 2700 2    60   ~ 0
-MCP3008_CLK
-Text Label 8000 2200 2    60   ~ 0
-~PWR_CH2_OVLD
-Text Label 8000 2000 2    60   ~ 0
-~PWR_CH0_OVLD
 $Sheet
 S 8000 1900 1150 3500
 U 5D27F055
 F0 "MCU" 60
 F1 "MCU.sch" 60
-F2 "~MCP3008_CS" I L 8000 3000 60 
-F3 "MCP3008_DOUT" I L 8000 2800 60 
-F4 "MCP3008_DIN" I L 8000 2900 60 
-F5 "MCP3008_SCLK" I L 8000 2700 60 
-F6 "ADS1247_DOUT" I L 8000 3300 60 
-F7 "~ADS1247_CS" I L 8000 3500 60 
-F8 "ADS1247_DIN" I L 8000 3400 60 
-F9 "ADS1247_SCLK" I L 8000 3200 60 
-F10 "~ADS1247_DRDY" I L 8000 3600 60 
-F11 "ADS1247_START" I L 8000 3700 60 
-F12 "ADS1247_CHSEL_S1" I L 8000 3900 60 
-F13 "ADS1247_CHSEL_S0" I L 8000 3800 60 
-F14 "HE_CH0" I L 8000 4400 60 
-F15 "HE_CH1" I L 8000 4500 60 
-F16 "PWR_CH0_EN" I L 8000 4800 60 
-F17 "PWR_CH1_EN" I L 8000 4900 60 
-F18 "PWR_CH2_EN" I L 8000 5000 60 
-F19 "PWR_CH3_EN" I L 8000 5100 60 
-F20 "HE_CH2" I L 8000 4600 60 
-F21 "PWR_CH4_EN" I L 8000 5200 60 
-F22 "PWR_CH5_EN" I L 8000 5300 60 
-F23 "~PWR_CH0_CURR_OVLD" I L 8000 2000 60 
-F24 "~PWR_CH1_CURR_OVLD" I L 8000 2100 60 
-F25 "~PWR_CH2_CURR_OVLD" I L 8000 2200 60 
-F26 "~PWR_CH3_CURR_OVLD" I L 8000 2300 60 
-F27 "~PWR_CH4_CURR_OVLD" I L 8000 2400 60 
-F28 "~PWR_CH5_CURR_OVLD" I L 8000 2500 60 
 F29 "CANH1" I L 8000 4100 60 
 F30 "CANL1" I L 8000 4200 60 
 $EndSheet
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 5DC63F67
+P 1750 7050
+F 0 "H4" V 1987 7053 50  0000 C CNN
+F 1 "MountingHole_Pad" V 1896 7053 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_2.5mm_Pad" H 1750 7050 50  0001 C CNN
+F 3 "~" H 1750 7050 50  0001 C CNN
+	1    1750 7050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 5DC65CDF
+P 1750 6650
+F 0 "H3" V 1987 6653 50  0000 C CNN
+F 1 "MountingHole_Pad" V 1896 6653 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_2.5mm_Pad" H 1750 6650 50  0001 C CNN
+F 3 "~" H 1750 6650 50  0001 C CNN
+	1    1750 6650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5DC66EEA
+P 1750 6250
+F 0 "H2" V 1987 6253 50  0000 C CNN
+F 1 "MountingHole_Pad" V 1896 6253 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_2.5mm_Pad" H 1750 6250 50  0001 C CNN
+F 3 "~" H 1750 6250 50  0001 C CNN
+	1    1750 6250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5DC66EF0
+P 1750 5850
+F 0 "H1" V 1987 5853 50  0000 C CNN
+F 1 "MountingHole_Pad" V 1896 5853 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_2.5mm_Pad" H 1750 5850 50  0001 C CNN
+F 3 "~" H 1750 5850 50  0001 C CNN
+	1    1750 5850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1850 7050 2150 7050
+Wire Wire Line
+	2150 7050 2150 6650
+Wire Wire Line
+	2150 6650 1850 6650
+Wire Wire Line
+	1850 6250 2150 6250
+Wire Wire Line
+	2150 6250 2150 6650
+Connection ~ 2150 6650
+Wire Wire Line
+	1850 5850 2150 5850
+Wire Wire Line
+	2150 5850 2150 6250
+Connection ~ 2150 6250
+$Comp
+L power:GND #PWR043
+U 1 1 5DC68607
+P 2150 7150
+F 0 "#PWR043" H 2150 6900 50  0001 C CNN
+F 1 "GND" H 2150 7000 50  0000 C CNN
+F 2 "" H 2150 7150 50  0000 C CNN
+F 3 "" H 2150 7150 50  0000 C CNN
+	1    2150 7150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 7150 2150 7050
+Connection ~ 2150 7050
 $EndSCHEMATC
