@@ -47,9 +47,9 @@ F 3 "" H 3400 1950 50  0000 C CNN
 	1    3400 1950
 	1    0    0    -1  
 $EndComp
-Text Notes 3450 1350 1    60   ~ 12
+Text Notes 3450 1350 1    60   ~ 0
 VDDANA
-Text Notes 3650 1350 1    60   ~ 12
+Text Notes 3650 1350 1    60   ~ 0
 VDDIO
 $Comp
 L Device:C C79
@@ -128,21 +128,21 @@ F 3 "" H 2000 1850 50  0000 C CNN
 	1    2000 1850
 	1    0    0    -1  
 $EndComp
-Text Notes 4050 1350 1    60   ~ 12
+Text Notes 4050 1350 1    60   ~ 0
 VDDIO
-Text Notes 2050 1350 1    60   ~ 12
+Text Notes 2050 1350 1    60   ~ 0
 VDDIOB
-Text Notes 2650 1350 1    60   ~ 12
+Text Notes 2650 1350 1    60   ~ 0
 VDDCORE
-Text Notes 1850 1350 1    60   ~ 12
+Text Notes 1850 1350 1    60   ~ 0
 VDDCORE
 Text Label 1900 3800 2    60   ~ 0
 CAN1_TX
 Text Label 1900 3900 2    60   ~ 0
 CAN1_RX
-Text Notes 4500 3050 0    60   ~ 12
+Text Notes 4500 3050 0    60   ~ 0
 SERCOM0\nCPOL = 0\nCPHA = 1
-Text Notes 4500 3850 0    60   ~ 12
+Text Notes 4500 3850 0    60   ~ 0
 SERCOM4\nCPOL = 1\nCPHA = 1
 Text Label 1900 3300 2    60   ~ 0
 LED_R
@@ -390,13 +390,13 @@ Text Label 10500 1400 2    60   ~ 0
 I2C0_SDA
 Text GLabel 10500 1600 0    60   Input ~ 0
 ~RESET
-Text Notes 8450 900  0    60   ~ 12
+Text Notes 8450 900  0    60   ~ 0
 Header for programming EEPROM\nHold Reset low when flashing EEPROM
-Text Notes 9200 2100 0    60   ~ 12
+Text Notes 9200 2100 0    60   ~ 0
 CAN0
-Text Notes 5350 1050 0    60   ~ 12
+Text Notes 5350 1050 0    60   ~ 0
 Status LED\nRed - Init Failure\nBlue - COMS Failure\nYellow - Sensor Overload\nPurple - Sensor Missing\nBlinking Green - Normal Operation
-Text Notes 2050 700  0    60   ~ 12
+Text Notes 2050 700  0    60   ~ 0
 MCU
 $Comp
 L Device:C C85
@@ -488,7 +488,7 @@ Text Label 3600 5050 0    60   ~ 0
 SWCLK
 Text Label 3600 5150 0    60   ~ 0
 SWDIO
-Text Notes 2300 6300 0    60   ~ 12
+Text Notes 2300 6300 0    60   ~ 0
 Programming Header
 $Comp
 L Device:R R74
@@ -545,7 +545,7 @@ F 3 "" H 7450 1800 50  0000 C CNN
 	1    7450 1800
 	1    0    0    -1  
 $EndComp
-Text Notes 1300 2200 1    60   ~ 12
+Text Notes 1300 2200 1    60   ~ 0
 I2C0 on  SERCOM5
 Text HLabel 1800 3700 0    60   Input ~ 0
 HE_CH2
@@ -870,9 +870,9 @@ Wire Wire Line
 Wire Wire Line
 	4400 1400 4400 1450
 Connection ~ 4200 1400
-Text Notes 4250 1350 1    60   ~ 12
+Text Notes 4250 1350 1    60   ~ 0
 VDDIO
-Text Notes 4450 1350 1    60   ~ 12
+Text Notes 4450 1350 1    60   ~ 0
 VDDIO
 Wire Wire Line
 	2550 5350 2550 5400
