@@ -6,11 +6,11 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 9
 Title "HELIX Extension Board"
-Date "2019-07-11"
+Date "2019-11-03"
 Rev "A"
 Comp "SDSU Rocket Project"
-Comment1 ""
-Comment2 ""
+Comment1 "Schematic design: David Knight"
+Comment2 "Layout design: Chris Johnson"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -82,7 +82,7 @@ F 3 "" H 2100 1550 50  0000 C CNN
 $EndComp
 Text HLabel 4700 2000 2    60   Input ~ 0
 TC_CH0
-Text Notes 1250 1000 0    60   ~ 0
+Text Notes 1750 1000 0    60   ~ 0
 TC0\nSee AD8495 Application Information for example circuit
 $Comp
 L Device:C C60
@@ -163,7 +163,7 @@ F 3 "" H 7450 1550 50  0000 C CNN
 $EndComp
 Text HLabel 10050 2000 2    60   Input ~ 0
 TC_CH1
-Text Notes 6600 1000 0    60   ~ 0
+Text Notes 7100 1000 0    60   ~ 0
 TC1\nSee AD8495 Application Information for example circuit
 $Comp
 L Device:C C65
@@ -214,14 +214,10 @@ Wire Wire Line
 	1250 2200 1250 2250
 Connection ~ 1850 2250
 Wire Wire Line
-	900  1600 950  1600
-Wire Wire Line
 	1250 1600 1250 1800
 Wire Wire Line
 	1350 1800 1250 1800
 Connection ~ 1250 1800
-Wire Wire Line
-	900  1500 1100 1500
 Wire Wire Line
 	1250 1500 1250 1350
 Wire Wire Line
@@ -285,14 +281,10 @@ Wire Wire Line
 	6600 2200 6600 2250
 Connection ~ 7200 2250
 Wire Wire Line
-	6250 1600 6300 1600
-Wire Wire Line
 	6600 1600 6600 1800
 Wire Wire Line
 	6700 1800 6600 1800
 Connection ~ 6600 1800
-Wire Wire Line
-	6250 1500 6450 1500
 Wire Wire Line
 	6600 1500 6600 1350
 Wire Wire Line
@@ -344,48 +336,11 @@ Wire Notes Line
 	450  3350 11200 3350
 Wire Notes Line
 	5800 500  5800 3350
-Wire Wire Line
-	950  2000 950  1600
-Connection ~ 950  1600
-Wire Wire Line
-	1100 2150 1100 1500
-Connection ~ 1100 1500
-Wire Wire Line
-	950  2200 950  2500
-Wire Wire Line
-	1100 2350 1100 2500
-Wire Wire Line
-	1100 2500 950  2500
-Connection ~ 950  2500
-Wire Wire Line
-	6300 2000 6300 1600
-Wire Wire Line
-	6450 2150 6450 1500
-Wire Wire Line
-	6300 2200 6300 2500
-Wire Wire Line
-	6450 2350 6450 2500
-Wire Wire Line
-	6450 2500 6300 2500
-Connection ~ 6300 2500
-Connection ~ 6300 1600
-Connection ~ 6450 1500
 $Comp
-L power:GNDA #PWR094
-U 1 1 5D6C41EA
-P 950 2550
-F 0 "#PWR094" H 950 2300 50  0001 C CNN
-F 1 "GNDA" H 950 2400 50  0000 C CNN
-F 2 "" H 950 2550 50  0000 C CNN
-F 3 "" H 950 2550 50  0000 C CNN
-	1    950  2550
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDA #PWR095
+L power:GNDA #PWR092
 U 1 1 5D6C4292
 P 2100 2300
-F 0 "#PWR095" H 2100 2050 50  0001 C CNN
+F 0 "#PWR092" H 2100 2050 50  0001 C CNN
 F 1 "GNDA" H 2100 2150 50  0000 C CNN
 F 2 "" H 2100 2300 50  0000 C CNN
 F 3 "" H 2100 2300 50  0000 C CNN
@@ -393,10 +348,10 @@ F 3 "" H 2100 2300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR098
+L power:GNDA #PWR095
 U 1 1 5D6C435C
 P 5200 2350
-F 0 "#PWR098" H 5200 2100 50  0001 C CNN
+F 0 "#PWR095" H 5200 2100 50  0001 C CNN
 F 1 "GNDA" H 5200 2200 50  0000 C CNN
 F 2 "" H 5200 2350 50  0000 C CNN
 F 3 "" H 5200 2350 50  0000 C CNN
@@ -404,10 +359,10 @@ F 3 "" H 5200 2350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR096
+L power:GNDA #PWR093
 U 1 1 5D6C47EE
 P 3450 2200
-F 0 "#PWR096" H 3450 1950 50  0001 C CNN
+F 0 "#PWR093" H 3450 1950 50  0001 C CNN
 F 1 "GNDA" H 3450 2050 50  0000 C CNN
 F 2 "" H 3450 2200 50  0000 C CNN
 F 3 "" H 3450 2200 50  0000 C CNN
@@ -415,21 +370,10 @@ F 3 "" H 3450 2200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR099
-U 1 1 5D6C4853
-P 6300 2550
-F 0 "#PWR099" H 6300 2300 50  0001 C CNN
-F 1 "GNDA" H 6300 2400 50  0000 C CNN
-F 2 "" H 6300 2550 50  0000 C CNN
-F 3 "" H 6300 2550 50  0000 C CNN
-	1    6300 2550
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDA #PWR0100
+L power:GNDA #PWR096
 U 1 1 5D6C48B8
 P 7450 2300
-F 0 "#PWR0100" H 7450 2050 50  0001 C CNN
+F 0 "#PWR096" H 7450 2050 50  0001 C CNN
 F 1 "GNDA" H 7450 2150 50  0000 C CNN
 F 2 "" H 7450 2300 50  0000 C CNN
 F 3 "" H 7450 2300 50  0000 C CNN
@@ -437,10 +381,10 @@ F 3 "" H 7450 2300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR0101
+L power:GNDA #PWR097
 U 1 1 5D6C49BF
 P 8800 2200
-F 0 "#PWR0101" H 8800 1950 50  0001 C CNN
+F 0 "#PWR097" H 8800 1950 50  0001 C CNN
 F 1 "GNDA" H 8800 2050 50  0000 C CNN
 F 2 "" H 8800 2200 50  0000 C CNN
 F 3 "" H 8800 2200 50  0000 C CNN
@@ -448,59 +392,15 @@ F 3 "" H 8800 2200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR0103
+L power:GNDA #PWR099
 U 1 1 5D6C4A9D
 P 10550 2350
-F 0 "#PWR0103" H 10550 2100 50  0001 C CNN
+F 0 "#PWR099" H 10550 2100 50  0001 C CNN
 F 1 "GNDA" H 10550 2200 50  0000 C CNN
 F 2 "" H 10550 2350 50  0000 C CNN
 F 3 "" H 10550 2350 50  0000 C CNN
 	1    10550 2350
 	1    0    0    -1  
-$EndComp
-$Comp
-L helix:TVSsmall D15
-U 1 1 5D689C92
-P 1100 2250
-F 0 "D15" H 1000 2300 50  0000 C CNN
-F 1 "TVSsmall" H 1150 2150 50  0000 C CNN
-F 2 "" H 1100 2250 50  0000 C CNN
-F 3 "" H 1100 2250 50  0000 C CNN
-	1    1100 2250
-	0    1    1    0   
-$EndComp
-$Comp
-L helix:TVSsmall D14
-U 1 1 5D689E54
-P 950 2100
-F 0 "D14" H 850 2150 50  0000 C CNN
-F 1 "TVSsmall" H 1000 2000 50  0000 C CNN
-F 2 "" H 950 2100 50  0000 C CNN
-F 3 "" H 950 2100 50  0000 C CNN
-	1    950  2100
-	0    1    1    0   
-$EndComp
-$Comp
-L helix:TVSsmall D17
-U 1 1 5D68A71A
-P 6450 2250
-F 0 "D17" H 6350 2300 50  0000 C CNN
-F 1 "TVSsmall" H 6500 2150 50  0000 C CNN
-F 2 "" H 6450 2250 50  0000 C CNN
-F 3 "" H 6450 2250 50  0000 C CNN
-	1    6450 2250
-	0    1    1    0   
-$EndComp
-$Comp
-L helix:TVSsmall D16
-U 1 1 5D68A790
-P 6300 2100
-F 0 "D16" H 6200 2150 50  0000 C CNN
-F 1 "TVSsmall" H 6350 2000 50  0000 C CNN
-F 2 "" H 6300 2100 50  0000 C CNN
-F 3 "" H 6300 2100 50  0000 C CNN
-	1    6300 2100
-	0    1    1    0   
 $EndComp
 Wire Wire Line
 	1750 1800 1850 1800
@@ -546,18 +446,6 @@ Wire Wire Line
 	10550 1900 10800 1900
 Wire Wire Line
 	10550 2300 10550 2350
-Wire Wire Line
-	950  1600 1250 1600
-Wire Wire Line
-	1100 1500 1250 1500
-Wire Wire Line
-	950  2500 950  2550
-Wire Wire Line
-	6300 2500 6300 2550
-Wire Wire Line
-	6300 1600 6600 1600
-Wire Wire Line
-	6450 1500 6600 1500
 $Comp
 L helix:AD8495 U18
 U 1 1 5D92DB38
@@ -613,10 +501,10 @@ Wire Wire Line
 	8800 1900 8800 2000
 Connection ~ 8800 2000
 $Comp
-L power:+3V3 #PWR097
+L power:+3V3 #PWR094
 U 1 1 5DC3052D
 P 4700 1700
-F 0 "#PWR097" H 4700 1550 50  0001 C CNN
+F 0 "#PWR094" H 4700 1550 50  0001 C CNN
 F 1 "+3V3" H 4715 1873 50  0000 C CNN
 F 2 "" H 4700 1700 50  0001 C CNN
 F 3 "" H 4700 1700 50  0001 C CNN
@@ -624,14 +512,82 @@ F 3 "" H 4700 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR0102
+L power:+3V3 #PWR098
 U 1 1 5DC30AFB
 P 10050 1700
-F 0 "#PWR0102" H 10050 1550 50  0001 C CNN
+F 0 "#PWR098" H 10050 1550 50  0001 C CNN
 F 1 "+3V3" H 10065 1873 50  0000 C CNN
 F 2 "" H 10050 1700 50  0001 C CNN
 F 3 "" H 10050 1700 50  0001 C CNN
 	1    10050 1700
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	900  1600 1050 1600
+Wire Wire Line
+	900  1500 1250 1500
+Wire Wire Line
+	6250 1600 6400 1600
+Wire Wire Line
+	6250 1500 6600 1500
+$Comp
+L Connector:TestPoint TP7
+U 1 1 5DC3069E
+P 1050 1300
+F 0 "TP7" H 1100 1350 50  0000 L CNN
+F 1 "TestPoint" H 850 1500 50  0000 L CNN
+F 2 "" H 1250 1300 50  0001 C CNN
+F 3 "~" H 1250 1300 50  0001 C CNN
+	1    1050 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP8
+U 1 1 5DC315E0
+P 1250 1150
+F 0 "TP8" H 1300 1200 50  0000 L CNN
+F 1 "TestPoint" H 1100 1350 50  0000 L CNN
+F 2 "" H 1450 1150 50  0001 C CNN
+F 3 "~" H 1450 1150 50  0001 C CNN
+	1    1250 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 1300 1050 1600
+Connection ~ 1050 1600
+Wire Wire Line
+	1050 1600 1250 1600
+Wire Wire Line
+	1250 1150 1250 1350
+Connection ~ 1250 1350
+$Comp
+L Connector:TestPoint TP9
+U 1 1 5DC3975D
+P 6400 1300
+F 0 "TP9" H 6450 1350 50  0000 L CNN
+F 1 "TestPoint" H 6200 1500 50  0000 L CNN
+F 2 "" H 6600 1300 50  0001 C CNN
+F 3 "~" H 6600 1300 50  0001 C CNN
+	1    6400 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP10
+U 1 1 5DC39763
+P 6600 1150
+F 0 "TP10" H 6650 1200 50  0000 L CNN
+F 1 "TestPoint" H 6450 1350 50  0000 L CNN
+F 2 "" H 6800 1150 50  0001 C CNN
+F 3 "~" H 6800 1150 50  0001 C CNN
+	1    6600 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 1300 6400 1600
+Wire Wire Line
+	6600 1150 6600 1350
+Connection ~ 6400 1600
+Wire Wire Line
+	6400 1600 6600 1600
+Connection ~ 6600 1350
 $EndSCHEMATC

@@ -5,12 +5,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 9
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
+Title "HELIX Extension Board"
+Date "2019-11-03"
+Rev "A"
+Comp "SDSU Rocket Project"
+Comment1 "Schematic design: David Knight"
+Comment2 "Layout design: Chris Johnson"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -798,61 +798,6 @@ Text HLabel 8500 3800 2    60   Input ~ 0
 PWR_CH4
 Text HLabel 8500 5650 2    60   Input ~ 0
 PWR_CH5
-$Comp
-L helix:TVSsmall D2
-U 1 1 5D6881EC
-P 3050 2100
-F 0 "D2" H 3050 2200 50  0000 C CNN
-F 1 "TVSsmall" H 3100 2000 50  0000 C CNN
-F 2 "" H 3050 2100 50  0000 C CNN
-F 3 "" H 3050 2100 50  0000 C CNN
-	1    3050 2100
-	0    1    1    0   
-$EndComp
-$Comp
-L helix:TVSsmall D3
-U 1 1 5D68C266
-P 3050 3950
-F 0 "D3" H 3050 4050 50  0000 C CNN
-F 1 "TVSsmall" H 3100 3850 50  0000 C CNN
-F 2 "" H 3050 3950 50  0000 C CNN
-F 3 "" H 3050 3950 50  0000 C CNN
-	1    3050 3950
-	0    1    1    0   
-$EndComp
-$Comp
-L helix:TVSsmall D4
-U 1 1 5D68D9BC
-P 3050 5800
-F 0 "D4" H 3050 5900 50  0000 C CNN
-F 1 "TVSsmall" H 3100 5700 50  0000 C CNN
-F 2 "" H 3050 5800 50  0000 C CNN
-F 3 "" H 3050 5800 50  0000 C CNN
-	1    3050 5800
-	0    1    1    0   
-$EndComp
-$Comp
-L helix:TVSsmall D7
-U 1 1 5D68F5B0
-P 8400 5850
-F 0 "D7" H 8400 5950 50  0000 C CNN
-F 1 "TVSsmall" H 8450 5750 50  0000 C CNN
-F 2 "" H 8400 5850 50  0000 C CNN
-F 3 "" H 8400 5850 50  0000 C CNN
-	1    8400 5850
-	0    1    1    0   
-$EndComp
-$Comp
-L helix:TVSsmall D6
-U 1 1 5D6906F7
-P 8400 4000
-F 0 "D6" H 8400 4100 50  0000 C CNN
-F 1 "TVSsmall" H 8450 3900 50  0000 C CNN
-F 2 "" H 8400 4000 50  0000 C CNN
-F 3 "" H 8400 4000 50  0000 C CNN
-	1    8400 4000
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	1250 1900 1300 1900
 Wire Wire Line
@@ -1139,44 +1084,16 @@ Wire Notes Line
 	8500 4700 8500 4150
 Wire Notes Line
 	8500 2850 8500 2300
-Wire Wire Line
-	3050 2500 3050 2200
-Connection ~ 2650 2500
 Wire Notes Line
 	3150 2250 5850 2250
-Wire Wire Line
-	3050 4350 3050 4050
 Wire Notes Line
 	3150 4100 5850 4100
 Wire Notes Line
 	3150 5950 5850 5950
-Wire Wire Line
-	3050 6200 3050 5900
-Connection ~ 2650 6200
-Wire Wire Line
-	8400 6250 8400 5950
-Connection ~ 8000 6250
-Wire Wire Line
-	8400 4400 8400 4100
-Connection ~ 8000 4400
 Wire Notes Line
 	8500 4150 11200 4150
-$Comp
-L helix:TVSsmall D5
-U 1 1 5D692847
-P 8400 2150
-F 0 "D5" H 8400 2250 50  0000 C CNN
-F 1 "TVSsmall" H 8450 2050 50  0000 C CNN
-F 2 "" H 8400 2150 50  0000 C CNN
-F 3 "" H 8400 2150 50  0000 C CNN
-	1    8400 2150
-	0    1    1    0   
-$EndComp
 Wire Notes Line
 	8500 2300 11200 2300
-Wire Wire Line
-	8400 2550 8400 2250
-Connection ~ 8000 2550
 $Comp
 L Device:R R27
 U 1 1 5D704AE4
@@ -1868,37 +1785,15 @@ Wire Wire Line
 Wire Wire Line
 	3050 1900 3150 1900
 Wire Wire Line
-	3050 1900 3050 2000
-Wire Wire Line
-	3050 3750 3050 3850
-Wire Wire Line
 	3050 3750 3150 3750
 Wire Wire Line
 	3050 5600 3150 5600
 Wire Wire Line
-	3050 5600 3050 5700
-Wire Wire Line
 	8400 1950 8500 1950
-Wire Wire Line
-	8400 1950 8400 2050
 Wire Wire Line
 	8400 3800 8500 3800
 Wire Wire Line
-	8400 3800 8400 3900
-Wire Wire Line
 	8400 5650 8500 5650
-Wire Wire Line
-	8400 5650 8400 5750
-Wire Wire Line
-	2650 2500 3050 2500
-Wire Wire Line
-	2650 6200 3050 6200
-Wire Wire Line
-	8000 6250 8400 6250
-Wire Wire Line
-	8000 4400 8400 4400
-Wire Wire Line
-	8000 2550 8400 2550
 Wire Wire Line
 	4750 1100 4800 1100
 Wire Wire Line
@@ -1975,9 +1870,6 @@ Wire Wire Line
 	600  6800 600  6850
 Wire Wire Line
 	2500 7200 2500 7250
-Connection ~ 2650 4350
-Wire Wire Line
-	2650 4350 3050 4350
 $Comp
 L Device:R R30
 U 1 1 5D98A939

@@ -6,11 +6,11 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 9
 Title "HELIX Extension Board"
-Date "2019-07-11"
+Date "2019-11-03"
 Rev "A"
 Comp "SDSU Rocket Project"
-Comment1 ""
-Comment2 ""
+Comment1 "Layout Design: Chris Johnson"
+Comment2 "Schematic Design: David Knight"
 Comment3 ""
 Comment4 ""
 $EndDescr
