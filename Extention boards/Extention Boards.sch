@@ -42,17 +42,17 @@ F 3 "" H 2050 2600 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	1650 2600 2050 2600
-Text Label 1150 2700 2    60   ~ 0
+Text Label 1150 2700 2    60   ~ 6
 CANH0
-Text Label 1150 2800 2    60   ~ 0
+Text Label 1150 2800 2    60   ~ 6
 CANH1
-Text Label 1650 2700 0    60   ~ 0
+Text Label 1650 2700 0    60   ~ 6
 CANL0
-Text Label 1650 2800 0    60   ~ 0
+Text Label 1650 2800 0    60   ~ 6
 CANL1
-Text Label 1150 2900 2    60   ~ 0
+Text Label 1150 2900 2    60   ~ 6
 RESERVED0
-Text Label 1650 2900 0    60   ~ 0
+Text Label 1650 2900 0    60   ~ 6
 RESERVED1
 $Comp
 L power:VCC #PWR01
@@ -78,17 +78,17 @@ F 3 "" H 2050 3600 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	1650 3600 2050 3600
-Text Label 1150 3700 2    60   ~ 0
+Text Label 1150 3700 2    60   ~ 6
 CANH0
-Text Label 1150 3800 2    60   ~ 0
+Text Label 1150 3800 2    60   ~ 6
 CANH1
-Text Label 1650 3700 0    60   ~ 0
+Text Label 1650 3700 0    60   ~ 6
 CANL0
-Text Label 1650 3800 0    60   ~ 0
+Text Label 1650 3800 0    60   ~ 6
 CANL1
-Text Label 1150 3900 2    60   ~ 0
+Text Label 1150 3900 2    60   ~ 6
 RESERVED0
-Text Label 1650 3900 0    60   ~ 0
+Text Label 1650 3900 0    60   ~ 6
 RESERVED1
 $Sheet
 S 3700 1400 1150 2900
@@ -141,7 +141,7 @@ F16 "PWR_CH2_PT" I R 4850 5900 60
 F17 "PWR_CH5_HE" I R 4850 6200 60 
 F18 "HE_CH2" I R 4850 6850 60 
 $EndSheet
-Text GLabel 2100 5150 2    60   Input ~ 0
+Text GLabel 2100 5150 2    60   Input ~ 6
 ~RESET
 $Comp
 L Device:R R1
@@ -172,13 +172,13 @@ F 3 "" H 1650 6250 50  0000 C CNN
 	1    1650 6250
 	1    0    0    -1  
 $EndComp
-Text Label 4850 1500 0    60   ~ 0
+Text Label 4850 1500 0    60   ~ 6
 PWR_CH0
-Text Label 4850 1900 0    60   ~ 0
+Text Label 4850 1900 0    60   ~ 6
 PWR_CH1
-Text Label 4850 2300 0    60   ~ 0
+Text Label 4850 2300 0    60   ~ 6
 PWR_CH2
-Text Label 4850 2700 0    60   ~ 0
+Text Label 4850 2700 0    60   ~ 6
 PWR_CH3
 $Sheet
 S 8000 1900 1150 3500
@@ -215,107 +215,107 @@ F28 "~PWR_CH5_CURR_OVLD" I L 8000 2500 60
 F29 "CANH1" I L 8000 4100 60 
 F30 "CANL1" I L 8000 4200 60 
 $EndSheet
-Text Label 4850 1600 0    60   ~ 0
+Text Label 4850 1600 0    60   ~ 6
 PWR_CH0_EN
-Text Label 4850 2000 0    60   ~ 0
+Text Label 4850 2000 0    60   ~ 6
 PWR_CH1_EN
-Text Label 4850 2400 0    60   ~ 0
+Text Label 4850 2400 0    60   ~ 6
 PWR_CH2_EN
-Text Label 4850 2800 0    60   ~ 0
+Text Label 4850 2800 0    60   ~ 6
 PWR_CH3_EN
-Text Label 8000 2000 2    60   ~ 0
+Text Label 8000 2000 2    60   ~ 6
 ~PWR_CH0_OVLD
-Text Label 4850 2100 0    60   ~ 0
+Text Label 4850 2100 0    60   ~ 6
 ~PWR_CH1_OVLD
-Text Label 8000 2200 2    60   ~ 0
+Text Label 8000 2200 2    60   ~ 6
 ~PWR_CH2_OVLD
-Text Label 4850 2900 0    60   ~ 0
+Text Label 4850 2900 0    60   ~ 6
 ~PWR_CH3_OVLD
-Text Label 4850 3900 0    60   ~ 0
+Text Label 4850 3900 0    60   ~ 6
 MCP3008_CLK
-Text Label 4850 4000 0    60   ~ 0
+Text Label 4850 4000 0    60   ~ 6
 MCP3008_DOUT
-Text Label 4850 4100 0    60   ~ 0
+Text Label 4850 4100 0    60   ~ 6
 MCP3008_DIN
-Text Label 4850 4200 0    60   ~ 0
+Text Label 4850 4200 0    60   ~ 6
 ~MCP3008_CS
-Text Label 8000 2700 2    60   ~ 0
+Text Label 8000 2700 2    60   ~ 6
 MCP3008_CLK
-Text Label 8000 2800 2    60   ~ 0
+Text Label 8000 2800 2    60   ~ 6
 MCP3008_DOUT
-Text Label 8000 2900 2    60   ~ 0
+Text Label 8000 2900 2    60   ~ 6
 MCP3008_DIN
-Text Label 8000 3000 2    60   ~ 0
+Text Label 8000 3000 2    60   ~ 6
 ~MCP3008_CS
-Text Label 8000 2100 2    60   ~ 0
+Text Label 8000 2100 2    60   ~ 6
 ~PWR_CH1_OVLD
-Text Label 4850 1700 0    60   ~ 0
+Text Label 4850 1700 0    60   ~ 6
 ~PWR_CH0_OVLD
-Text Label 4850 2500 0    60   ~ 0
+Text Label 4850 2500 0    60   ~ 6
 ~PWR_CH2_OVLD
-Text Label 8000 2300 2    60   ~ 0
+Text Label 8000 2300 2    60   ~ 6
 ~PWR_CH3_OVLD
-Text Label 8000 3200 2    60   ~ 0
+Text Label 8000 3200 2    60   ~ 6
 ADS1247_SCLK
-Text Label 8000 3300 2    60   ~ 0
+Text Label 8000 3300 2    60   ~ 6
 ADS1247_DOUT
-Text Label 8000 3400 2    60   ~ 0
+Text Label 8000 3400 2    60   ~ 6
 ADS1247_DIN
-Text Label 8000 3500 2    60   ~ 0
+Text Label 8000 3500 2    60   ~ 6
 ~ADS1247_CS
-Text Label 8000 3600 2    60   ~ 0
+Text Label 8000 3600 2    60   ~ 6
 ~ADS1247_DRDY
-Text Label 8000 3700 2    60   ~ 0
+Text Label 8000 3700 2    60   ~ 6
 ADS1247_START
-Text Label 8000 3800 2    60   ~ 0
+Text Label 8000 3800 2    60   ~ 6
 ADS1247_CHSEL_S0
-Text Label 8000 3900 2    60   ~ 0
+Text Label 8000 3900 2    60   ~ 6
 ADS1247_CHSEL_S1
-Text Label 8000 4100 2    60   ~ 0
+Text Label 8000 4100 2    60   ~ 6
 CANH1
-Text Label 8000 4200 2    60   ~ 0
+Text Label 8000 4200 2    60   ~ 6
 CANL1
-Text Label 8000 4400 2    60   ~ 0
+Text Label 8000 4400 2    60   ~ 6
 HE_CH0
-Text Label 8000 4500 2    60   ~ 0
+Text Label 8000 4500 2    60   ~ 6
 HE_CH1
-Text Label 8000 4800 2    60   ~ 0
+Text Label 8000 4800 2    60   ~ 6
 PWR_CH0_EN
-Text Label 8000 4900 2    60   ~ 0
+Text Label 8000 4900 2    60   ~ 6
 PWR_CH1_EN
-Text Label 8000 5000 2    60   ~ 0
+Text Label 8000 5000 2    60   ~ 6
 PWR_CH2_EN
-Text Label 8000 5100 2    60   ~ 0
+Text Label 8000 5100 2    60   ~ 6
 PWR_CH3_EN
-Text Label 4850 4700 0    60   ~ 0
+Text Label 4850 4700 0    60   ~ 6
 ADS1247_SCLK
-Text Label 4850 4800 0    60   ~ 0
+Text Label 4850 4800 0    60   ~ 6
 ADS1247_DOUT
-Text Label 4850 4900 0    60   ~ 0
+Text Label 4850 4900 0    60   ~ 6
 ADS1247_DIN
-Text Label 4850 5000 0    60   ~ 0
+Text Label 4850 5000 0    60   ~ 6
 ~ADS1247_CS
-Text Label 4850 5100 0    60   ~ 0
+Text Label 4850 5100 0    60   ~ 6
 ~ADS1247_DRDY
-Text Label 4850 5200 0    60   ~ 0
+Text Label 4850 5200 0    60   ~ 6
 ADS1247_START
-Text Label 4850 5300 0    60   ~ 0
+Text Label 4850 5300 0    60   ~ 6
 ADS1247_CHSEL_S0
-Text Label 4850 5400 0    60   ~ 0
+Text Label 4850 5400 0    60   ~ 6
 ADS1247_CHSEL_S1
-Text Label 4850 5700 0    60   ~ 0
+Text Label 4850 5700 0    60   ~ 6
 PWR_CH0
-Text Label 4850 5800 0    60   ~ 0
+Text Label 4850 5800 0    60   ~ 6
 PWR_CH1
-Text Label 4850 5900 0    60   ~ 0
+Text Label 4850 5900 0    60   ~ 6
 PWR_CH2
-Text Label 4850 6000 0    60   ~ 0
+Text Label 4850 6000 0    60   ~ 6
 PWR_CH3
-Text Label 4850 6650 0    60   ~ 0
+Text Label 4850 6650 0    60   ~ 6
 HE_CH0
-Text Label 4850 6750 0    60   ~ 0
+Text Label 4850 6750 0    60   ~ 6
 HE_CH1
-Text Notes 750  3250 0    60   ~ 0
+Text Notes 750  3250 0    60   ~ 6
 Daisy chain together multiple boards\nusing these connectors
 $Comp
 L power:PWR_FLAG #FLG01
@@ -350,31 +350,31 @@ F 3 "" H 1650 5350 50  0000 C CNN
 	1    1650 5350
 	1    0    0    -1  
 $EndComp
-Text Label 4850 6850 0    60   ~ 0
+Text Label 4850 6850 0    60   ~ 6
 HE_CH2
-Text Label 4850 6100 0    60   ~ 0
+Text Label 4850 6100 0    60   ~ 6
 PWR_CH4
-Text Label 4850 6200 0    60   ~ 0
+Text Label 4850 6200 0    60   ~ 6
 PWR_CH5
-Text Label 4850 3500 0    60   ~ 0
+Text Label 4850 3500 0    60   ~ 6
 PWR_CH5
-Text Label 8000 4600 2    60   ~ 0
+Text Label 8000 4600 2    60   ~ 6
 HE_CH2
-Text Label 4850 3200 0    60   ~ 0
+Text Label 4850 3200 0    60   ~ 6
 PWR_CH4_EN
-Text Label 4850 3300 0    60   ~ 0
+Text Label 4850 3300 0    60   ~ 6
 ~PWR_CH4_OVLD
-Text Label 4850 3600 0    60   ~ 0
+Text Label 4850 3600 0    60   ~ 6
 PWR_CH5_EN
-Text Label 4850 3700 0    60   ~ 0
+Text Label 4850 3700 0    60   ~ 6
 ~PWR_CH5_OVLD
-Text Label 8000 5200 2    60   ~ 0
+Text Label 8000 5200 2    60   ~ 6
 PWR_CH4_EN
-Text Label 8000 5300 2    60   ~ 0
+Text Label 8000 5300 2    60   ~ 6
 PWR_CH5_EN
-Text Label 8000 2400 2    60   ~ 0
+Text Label 8000 2400 2    60   ~ 6
 ~PWR_CH4_OVLD
-Text Label 8000 2500 2    60   ~ 0
+Text Label 8000 2500 2    60   ~ 6
 ~PWR_CH5_OVLD
 Wire Wire Line
 	1650 5150 1650 5200
@@ -425,7 +425,7 @@ Wire Wire Line
 	850  3600 850  3550
 Wire Wire Line
 	900  2600 1150 2600
-Text Label 4850 3100 0    60   ~ 0
+Text Label 4850 3100 0    60   ~ 6
 PWR_CH4
 $Comp
 L Device:C C1

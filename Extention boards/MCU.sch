@@ -15,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L power:GND #PWR0124
+L power:GND #PWR0125
 U 1 1 5D280140
 P 2550 5450
-F 0 "#PWR0124" H 2550 5200 50  0001 C CNN
+F 0 "#PWR0125" H 2550 5200 50  0001 C CNN
 F 1 "GND" H 2550 5300 50  0000 C CNN
 F 2 "" H 2550 5450 50  0000 C CNN
 F 3 "" H 2550 5450 50  0000 C CNN
@@ -26,10 +26,10 @@ F 3 "" H 2550 5450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR0126
+L power:GNDA #PWR0127
 U 1 1 5D280196
 P 3150 5450
-F 0 "#PWR0126" H 3150 5200 50  0001 C CNN
+F 0 "#PWR0127" H 3150 5200 50  0001 C CNN
 F 1 "GNDA" H 3150 5300 50  0000 C CNN
 F 2 "" H 3150 5450 50  0000 C CNN
 F 3 "" H 3150 5450 50  0000 C CNN
@@ -37,19 +37,19 @@ F 3 "" H 3150 5450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0129
+L power:GND #PWR0130
 U 1 1 5D2803ED
 P 3400 1950
-F 0 "#PWR0129" H 3400 1700 50  0001 C CNN
+F 0 "#PWR0130" H 3400 1700 50  0001 C CNN
 F 1 "GND" H 3400 1800 50  0000 C CNN
 F 2 "" H 3400 1950 50  0000 C CNN
 F 3 "" H 3400 1950 50  0000 C CNN
 	1    3400 1950
 	1    0    0    -1  
 $EndComp
-Text Notes 3450 1350 1    60   ~ 0
+Text Notes 3450 1350 1    60   ~ 6
 VDDANA
-Text Notes 3650 1350 1    60   ~ 0
+Text Notes 3650 1350 1    60   ~ 6
 VDDIO
 $Comp
 L Device:C C79
@@ -96,10 +96,10 @@ F 3 "" H 2000 1600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0125
+L power:GND #PWR0126
 U 1 1 5D280B10
 P 2600 1850
-F 0 "#PWR0125" H 2600 1600 50  0001 C CNN
+F 0 "#PWR0126" H 2600 1600 50  0001 C CNN
 F 1 "GND" H 2600 1700 50  0000 C CNN
 F 2 "" H 2600 1850 50  0000 C CNN
 F 3 "" H 2600 1850 50  0000 C CNN
@@ -107,10 +107,10 @@ F 3 "" H 2600 1850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0120
+L power:GND #PWR0121
 U 1 1 5D280B2B
 P 1800 1850
-F 0 "#PWR0120" H 1800 1600 50  0001 C CNN
+F 0 "#PWR0121" H 1800 1600 50  0001 C CNN
 F 1 "GND" H 1800 1700 50  0000 C CNN
 F 2 "" H 1800 1850 50  0000 C CNN
 F 3 "" H 1800 1850 50  0000 C CNN
@@ -118,37 +118,37 @@ F 3 "" H 1800 1850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0121
+L power:GND #PWR0122
 U 1 1 5D280B58
 P 2000 1850
-F 0 "#PWR0121" H 2000 1600 50  0001 C CNN
+F 0 "#PWR0122" H 2000 1600 50  0001 C CNN
 F 1 "GND" H 2000 1700 50  0000 C CNN
 F 2 "" H 2000 1850 50  0000 C CNN
 F 3 "" H 2000 1850 50  0000 C CNN
 	1    2000 1850
 	1    0    0    -1  
 $EndComp
-Text Notes 4050 1350 1    60   ~ 0
+Text Notes 4050 1350 1    60   ~ 6
 VDDIO
-Text Notes 2050 1350 1    60   ~ 0
+Text Notes 2050 1350 1    60   ~ 6
 VDDIOB
-Text Notes 2650 1350 1    60   ~ 0
+Text Notes 2650 1350 1    60   ~ 6
 VDDCORE
-Text Notes 1850 1350 1    60   ~ 0
+Text Notes 1850 1350 1    60   ~ 6
 VDDCORE
-Text Label 1900 3800 2    60   ~ 0
+Text Label 1900 3800 2    60   ~ 6
 CAN1_TX
-Text Label 1900 3900 2    60   ~ 0
+Text Label 1900 3900 2    60   ~ 6
 CAN1_RX
-Text Notes 4500 3050 0    60   ~ 0
+Text Notes 4500 3050 0    60   ~ 6
 SERCOM0\nCPOL = 0\nCPHA = 1
-Text Notes 4500 3850 0    60   ~ 0
+Text Notes 4500 3850 0    60   ~ 6
 SERCOM4\nCPOL = 1\nCPHA = 1
-Text Label 1900 3300 2    60   ~ 0
+Text Label 1900 3300 2    60   ~ 6
 LED_R
-Text Label 1900 3400 2    60   ~ 0
+Text Label 1900 3400 2    60   ~ 6
 LED_G
-Text Label 1900 3200 2    60   ~ 0
+Text Label 1900 3200 2    60   ~ 6
 LED_B
 $Comp
 L Transistor_BJT:MMBT3904 Q1
@@ -162,10 +162,10 @@ F 3 "" H 6750 2200 50  0000 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R76
+L Device:R R73
 U 1 1 5D2A0D88
 P 6350 2200
-F 0 "R76" V 6430 2200 50  0000 C CNN
+F 0 "R73" V 6430 2200 50  0000 C CNN
 F 1 "4.7k" V 6350 2200 50  0000 C CNN
 F 2 "" V 6280 2200 50  0000 C CNN
 F 3 "" H 6350 2200 50  0000 C CNN
@@ -184,10 +184,10 @@ F 3 "" H 7100 1200 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0130
+L power:GND #PWR0131
 U 1 1 5D2A1422
 P 6850 2400
-F 0 "#PWR0130" H 6850 2150 50  0001 C CNN
+F 0 "#PWR0131" H 6850 2150 50  0001 C CNN
 F 1 "GND" H 6850 2250 50  0000 C CNN
 F 2 "" H 6850 2400 50  0000 C CNN
 F 3 "" H 6850 2400 50  0000 C CNN
@@ -206,10 +206,10 @@ F 3 "" H 7050 2650 50  0000 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R77
+L Device:R R74
 U 1 1 5D2A1781
 P 6650 2650
-F 0 "R77" V 6730 2650 50  0000 C CNN
+F 0 "R74" V 6730 2650 50  0000 C CNN
 F 1 "4.7k" V 6650 2650 50  0000 C CNN
 F 2 "" V 6580 2650 50  0000 C CNN
 F 3 "" H 6650 2650 50  0000 C CNN
@@ -217,10 +217,10 @@ F 3 "" H 6650 2650 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0132
+L power:GND #PWR0133
 U 1 1 5D2A1787
 P 7150 2850
-F 0 "#PWR0132" H 7150 2600 50  0001 C CNN
+F 0 "#PWR0133" H 7150 2600 50  0001 C CNN
 F 1 "GND" H 7150 2700 50  0000 C CNN
 F 2 "" H 7150 2850 50  0000 C CNN
 F 3 "" H 7150 2850 50  0000 C CNN
@@ -239,10 +239,10 @@ F 3 "" H 7350 3100 50  0000 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R79
+L Device:R R76
 U 1 1 5D2A180B
 P 6950 3100
-F 0 "R79" V 7030 3100 50  0000 C CNN
+F 0 "R76" V 7030 3100 50  0000 C CNN
 F 1 "4.7k" V 6950 3100 50  0000 C CNN
 F 2 "" V 6880 3100 50  0000 C CNN
 F 3 "" H 6950 3100 50  0000 C CNN
@@ -250,46 +250,46 @@ F 3 "" H 6950 3100 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0133
+L power:GND #PWR0134
 U 1 1 5D2A1811
 P 7450 3300
-F 0 "#PWR0133" H 7450 3050 50  0001 C CNN
+F 0 "#PWR0134" H 7450 3050 50  0001 C CNN
 F 1 "GND" H 7450 3150 50  0000 C CNN
 F 2 "" H 7450 3300 50  0000 C CNN
 F 3 "" H 7450 3300 50  0000 C CNN
 	1    7450 3300
 	1    0    0    -1  
 $EndComp
-Text Label 6150 2200 2    60   ~ 0
+Text Label 6150 2200 2    60   ~ 6
 LED_R
-Text Label 6450 2650 2    60   ~ 0
+Text Label 6450 2650 2    60   ~ 6
 LED_G
-Text Label 6750 3100 2    60   ~ 0
+Text Label 6750 3100 2    60   ~ 6
 LED_B
-Text Label 1900 2600 2    60   ~ 0
+Text Label 1900 2600 2    60   ~ 6
 I2C0_SCL
-Text Label 1900 2700 2    60   ~ 0
+Text Label 1900 2700 2    60   ~ 6
 I2C0_SDA
 $Comp
-L power:GND #PWR0134
+L power:GND #PWR0135
 U 1 1 5D2B3BD7
 P 8200 1550
-F 0 "#PWR0134" H 8200 1300 50  0001 C CNN
+F 0 "#PWR0135" H 8200 1300 50  0001 C CNN
 F 1 "GND" H 8200 1400 50  0000 C CNN
 F 2 "" H 8200 1550 50  0000 C CNN
 F 3 "" H 8200 1550 50  0000 C CNN
 	1    8200 1550
 	1    0    0    -1  
 $EndComp
-Text Label 9050 1400 0    60   ~ 0
+Text Label 9050 1400 0    60   ~ 6
 I2C0_SCL
-Text Label 9050 1500 0    60   ~ 0
+Text Label 9050 1500 0    60   ~ 6
 I2C0_SDA
 $Comp
-L power:GND #PWR0138
+L power:GND #PWR0139
 U 1 1 5D2B45C4
 P 9500 1550
-F 0 "#PWR0138" H 9500 1300 50  0001 C CNN
+F 0 "#PWR0139" H 9500 1300 50  0001 C CNN
 F 1 "GND" H 9500 1400 50  0000 C CNN
 F 2 "" H 9500 1550 50  0000 C CNN
 F 3 "" H 9500 1550 50  0000 C CNN
@@ -298,62 +298,62 @@ F 3 "" H 9500 1550 50  0000 C CNN
 $EndComp
 Text GLabel 1850 5100 0    60   Input ~ 12
 ~RESET
-Text HLabel 3700 3950 2    60   Input ~ 0
+Text HLabel 3700 3950 2    60   Input ~ 6
 ~PWR_CH0_CURR_OVLD
-Text HLabel 3700 4050 2    60   Input ~ 0
+Text HLabel 3700 4050 2    60   Input ~ 6
 ~PWR_CH1_CURR_OVLD
-Text HLabel 3700 4150 2    60   Input ~ 0
+Text HLabel 3700 4150 2    60   Input ~ 6
 ~PWR_CH2_CURR_OVLD
-Text HLabel 3700 4250 2    60   Input ~ 0
+Text HLabel 3700 4250 2    60   Input ~ 6
 ~PWR_CH3_CURR_OVLD
-Text HLabel 3700 3850 2    60   Input ~ 0
+Text HLabel 3700 3850 2    60   Input ~ 6
 ~MCP3008_CS
-Text HLabel 3700 3750 2    60   Input ~ 0
+Text HLabel 3700 3750 2    60   Input ~ 6
 MCP3008_DOUT
-Text HLabel 3700 3650 2    60   Input ~ 0
+Text HLabel 3700 3650 2    60   Input ~ 6
 MCP3008_DIN
-Text HLabel 3700 3550 2    60   Input ~ 0
+Text HLabel 3700 3550 2    60   Input ~ 6
 MCP3008_SCLK
-Text HLabel 3700 2950 2    60   Input ~ 0
+Text HLabel 3700 2950 2    60   Input ~ 6
 ADS1247_DOUT
-Text HLabel 3700 3050 2    60   Input ~ 0
+Text HLabel 3700 3050 2    60   Input ~ 6
 ~ADS1247_CS
-Text HLabel 3700 2850 2    60   Input ~ 0
+Text HLabel 3700 2850 2    60   Input ~ 6
 ADS1247_DIN
-Text HLabel 3700 2750 2    60   Input ~ 0
+Text HLabel 3700 2750 2    60   Input ~ 6
 ADS1247_SCLK
-Text HLabel 3700 3450 2    60   Input ~ 0
+Text HLabel 3700 3450 2    60   Input ~ 6
 ~ADS1247_DRDY
-Text HLabel 3700 3350 2    60   Input ~ 0
+Text HLabel 3700 3350 2    60   Input ~ 6
 ADS1247_START
-Text HLabel 3700 3250 2    60   Input ~ 0
+Text HLabel 3700 3250 2    60   Input ~ 6
 ADS1247_CHSEL_S1
-Text HLabel 3700 3150 2    60   Input ~ 0
+Text HLabel 3700 3150 2    60   Input ~ 6
 ADS1247_CHSEL_S0
 $Comp
-L power:GND #PWR0135
+L power:GND #PWR0136
 U 1 1 5D2BA4E9
 P 9000 2950
-F 0 "#PWR0135" H 9000 2700 50  0001 C CNN
+F 0 "#PWR0136" H 9000 2700 50  0001 C CNN
 F 1 "GND" H 9000 2800 50  0000 C CNN
 F 2 "" H 9000 2950 50  0000 C CNN
 F 3 "" H 9000 2950 50  0000 C CNN
 	1    9000 2950
 	1    0    0    -1  
 $EndComp
-Text Label 9550 2550 2    60   ~ 0
+Text Label 9550 2550 2    60   ~ 6
 CAN1_TX
-Text Label 9550 2850 2    60   ~ 0
+Text Label 9550 2850 2    60   ~ 6
 CAN1_RX
-Text HLabel 10500 2650 2    60   Input ~ 0
+Text HLabel 10500 2650 2    60   Input ~ 6
 CANH1
-Text HLabel 10500 2750 2    60   Input ~ 0
+Text HLabel 10500 2750 2    60   Input ~ 6
 CANL1
 $Comp
-L power:GND #PWR0139
+L power:GND #PWR0140
 U 1 1 5D2BB55E
 P 10950 2900
-F 0 "#PWR0139" H 10950 2650 50  0001 C CNN
+F 0 "#PWR0140" H 10950 2650 50  0001 C CNN
 F 1 "GND" H 10950 2750 50  0000 C CNN
 F 2 "" H 10950 2900 50  0000 C CNN
 F 3 "" H 10950 2900 50  0000 C CNN
@@ -372,31 +372,31 @@ F 3 "" H 8800 2700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 10400 2850
-Text HLabel 1800 3500 0    60   Input ~ 0
+Text HLabel 1800 3500 0    60   Input ~ 6
 HE_CH0
-Text HLabel 1800 3600 0    60   Input ~ 0
+Text HLabel 1800 3600 0    60   Input ~ 6
 HE_CH1
-Text HLabel 3700 4550 2    60   Input ~ 0
+Text HLabel 3700 4550 2    60   Input ~ 6
 PWR_CH0_EN
-Text HLabel 3700 4650 2    60   Input ~ 0
+Text HLabel 3700 4650 2    60   Input ~ 6
 PWR_CH1_EN
-Text HLabel 3700 4750 2    60   Input ~ 0
+Text HLabel 3700 4750 2    60   Input ~ 6
 PWR_CH2_EN
-Text HLabel 3700 4850 2    60   Input ~ 0
+Text HLabel 3700 4850 2    60   Input ~ 6
 PWR_CH3_EN
-Text Label 10500 1300 2    60   ~ 0
+Text Label 10500 1300 2    60   ~ 6
 I2C0_SCL
-Text Label 10500 1400 2    60   ~ 0
+Text Label 10500 1400 2    60   ~ 6
 I2C0_SDA
-Text GLabel 10500 1600 0    60   Input ~ 0
+Text GLabel 10500 1600 0    60   Input ~ 6
 ~RESET
-Text Notes 8450 900  0    60   ~ 0
+Text Notes 8450 900  0    60   ~ 6
 Header for programming EEPROM\nHold Reset low when flashing EEPROM
-Text Notes 9200 2100 0    60   ~ 0
+Text Notes 9200 2100 0    60   ~ 6
 CAN0
-Text Notes 5350 1050 0    60   ~ 0
+Text Notes 5350 1050 0    60   ~ 6
 Status LED\nRed - Init Failure\nBlue - COMS Failure\nYellow - Sensor Overload\nPurple - Sensor Missing\nBlinking Green - Normal Operation
-Text Notes 2050 700  0    60   ~ 0
+Text Notes 2050 700  0    60   ~ 6
 MCU
 $Comp
 L Device:C C85
@@ -453,15 +453,15 @@ F 3 "" H 8550 2700 50  0000 C CNN
 	1    8550 2700
 	1    0    0    -1  
 $EndComp
-Text Label 2900 6600 0    60   ~ 0
+Text Label 2900 6600 0    60   ~ 6
 SWDIO
-Text Label 2900 6700 0    60   ~ 0
+Text Label 2900 6700 0    60   ~ 6
 SWCLK
 $Comp
-L power:GND #PWR0123
+L power:GND #PWR0124
 U 1 1 5D3D5D1B
 P 2350 7150
-F 0 "#PWR0123" H 2350 6900 50  0001 C CNN
+F 0 "#PWR0124" H 2350 6900 50  0001 C CNN
 F 1 "GND" H 2350 7000 50  0000 C CNN
 F 2 "" H 2350 7150 50  0000 C CNN
 F 3 "" H 2350 7150 50  0000 C CNN
@@ -474,27 +474,27 @@ NoConn ~ 2400 6900
 NoConn ~ 2900 6900
 NoConn ~ 2900 6800
 $Comp
-L Device:R R75
+L Device:R R72
 U 1 1 5D3D6ABA
 P 3350 6450
-F 0 "R75" V 3430 6450 50  0000 C CNN
+F 0 "R72" V 3430 6450 50  0000 C CNN
 F 1 "2.7k" V 3350 6450 50  0000 C CNN
 F 2 "" V 3280 6450 50  0000 C CNN
 F 3 "" H 3350 6450 50  0000 C CNN
 	1    3350 6450
 	1    0    0    -1  
 $EndComp
-Text Label 3600 5050 0    60   ~ 0
+Text Label 3600 5050 0    60   ~ 6
 SWCLK
-Text Label 3600 5150 0    60   ~ 0
+Text Label 3600 5150 0    60   ~ 6
 SWDIO
-Text Notes 2300 6300 0    60   ~ 0
+Text Notes 2300 6300 0    60   ~ 6
 Programming Header
 $Comp
-L Device:R R74
+L Device:R R71
 U 1 1 5D3E2E45
 P 1400 2400
-F 0 "R74" V 1480 2400 50  0000 C CNN
+F 0 "R71" V 1480 2400 50  0000 C CNN
 F 1 "4.7k" V 1400 2400 50  0000 C CNN
 F 2 "" V 1330 2400 50  0000 C CNN
 F 3 "" H 1400 2400 50  0000 C CNN
@@ -502,10 +502,10 @@ F 3 "" H 1400 2400 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:R R73
+L Device:R R70
 U 1 1 5D3E2EC2
 P 1200 2400
-F 0 "R73" V 1280 2400 50  0000 C CNN
+F 0 "R70" V 1280 2400 50  0000 C CNN
 F 1 "4.7k" V 1200 2400 50  0000 C CNN
 F 2 "" V 1130 2400 50  0000 C CNN
 F 3 "" H 1200 2400 50  0000 C CNN
@@ -513,10 +513,10 @@ F 3 "" H 1200 2400 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:R R78
+L Device:R R75
 U 1 1 5D3E7782
 P 6850 1800
-F 0 "R78" V 6930 1800 50  0000 C CNN
+F 0 "R75" V 6930 1800 50  0000 C CNN
 F 1 "470" V 6850 1800 50  0000 C CNN
 F 2 "" V 6780 1800 50  0000 C CNN
 F 3 "" H 6850 1800 50  0000 C CNN
@@ -524,10 +524,10 @@ F 3 "" H 6850 1800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R80
+L Device:R R77
 U 1 1 5D3E7CCF
 P 7150 1800
-F 0 "R80" V 7230 1800 50  0000 C CNN
+F 0 "R77" V 7230 1800 50  0000 C CNN
 F 1 "470" V 7150 1800 50  0000 C CNN
 F 2 "" V 7080 1800 50  0000 C CNN
 F 3 "" H 7150 1800 50  0000 C CNN
@@ -535,27 +535,27 @@ F 3 "" H 7150 1800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R81
+L Device:R R78
 U 1 1 5D3E7D3A
 P 7450 1800
-F 0 "R81" V 7530 1800 50  0000 C CNN
+F 0 "R78" V 7530 1800 50  0000 C CNN
 F 1 "470" V 7450 1800 50  0000 C CNN
 F 2 "" V 7380 1800 50  0000 C CNN
 F 3 "" H 7450 1800 50  0000 C CNN
 	1    7450 1800
 	1    0    0    -1  
 $EndComp
-Text Notes 1300 2200 1    60   ~ 0
+Text Notes 1300 2200 1    60   ~ 6
 I2C0 on  SERCOM5
-Text HLabel 1800 3700 0    60   Input ~ 0
+Text HLabel 1800 3700 0    60   Input ~ 6
 HE_CH2
-Text HLabel 3700 2350 2    60   Input ~ 0
+Text HLabel 3700 2350 2    60   Input ~ 6
 PWR_CH4_EN
-Text HLabel 3700 2450 2    60   Input ~ 0
+Text HLabel 3700 2450 2    60   Input ~ 6
 PWR_CH5_EN
-Text HLabel 3700 4350 2    60   Input ~ 0
+Text HLabel 3700 4350 2    60   Input ~ 6
 ~PWR_CH4_CURR_OVLD
-Text HLabel 3700 4450 2    60   Input ~ 0
+Text HLabel 3700 4450 2    60   Input ~ 6
 ~PWR_CH5_CURR_OVLD
 Wire Wire Line
 	2850 5400 2850 5350
@@ -870,9 +870,9 @@ Wire Wire Line
 Wire Wire Line
 	4400 1400 4400 1450
 Connection ~ 4200 1400
-Text Notes 4250 1350 1    60   ~ 0
+Text Notes 4250 1350 1    60   ~ 6
 VDDIO
-Text Notes 4450 1350 1    60   ~ 0
+Text Notes 4450 1350 1    60   ~ 6
 VDDIO
 Wire Wire Line
 	2550 5350 2550 5400
@@ -974,10 +974,10 @@ Wire Wire Line
 Wire Wire Line
 	850  4650 800  4650
 $Comp
-L power:GND #PWR0118
+L power:GND #PWR0119
 U 1 1 5D46B7E3
 P 800 4750
-F 0 "#PWR0118" H 800 4500 50  0001 C CNN
+F 0 "#PWR0119" H 800 4500 50  0001 C CNN
 F 1 "GND" H 800 4600 50  0000 C CNN
 F 2 "" H 800 4750 50  0000 C CNN
 F 3 "" H 800 4750 50  0000 C CNN
@@ -1066,10 +1066,10 @@ Wire Wire Line
 	3200 2150 3200 1400
 Connection ~ 3200 1400
 $Comp
-L power:+3V3 #PWR0122
+L power:+3V3 #PWR0123
 U 1 1 5DC1C81D
 P 2150 6550
-F 0 "#PWR0122" H 2150 6400 50  0001 C CNN
+F 0 "#PWR0123" H 2150 6400 50  0001 C CNN
 F 1 "+3V3" H 2165 6723 50  0000 C CNN
 F 2 "" H 2150 6550 50  0001 C CNN
 F 3 "" H 2150 6550 50  0001 C CNN
@@ -1077,10 +1077,10 @@ F 3 "" H 2150 6550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR0128
+L power:+3V3 #PWR0129
 U 1 1 5DC1CFE0
 P 3350 6250
-F 0 "#PWR0128" H 3350 6100 50  0001 C CNN
+F 0 "#PWR0129" H 3350 6100 50  0001 C CNN
 F 1 "+3V3" H 3365 6423 50  0000 C CNN
 F 2 "" H 3350 6250 50  0001 C CNN
 F 3 "" H 3350 6250 50  0001 C CNN
@@ -1088,10 +1088,10 @@ F 3 "" H 3350 6250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR0131
+L power:+3V3 #PWR0132
 U 1 1 5DC1D45D
 P 7150 900
-F 0 "#PWR0131" H 7150 750 50  0001 C CNN
+F 0 "#PWR0132" H 7150 750 50  0001 C CNN
 F 1 "+3V3" H 7165 1073 50  0000 C CNN
 F 2 "" H 7150 900 50  0001 C CNN
 F 3 "" H 7150 900 50  0001 C CNN
@@ -1099,10 +1099,10 @@ F 3 "" H 7150 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR0137
+L power:+3V3 #PWR0138
 U 1 1 5DC1E710
 P 9250 1150
-F 0 "#PWR0137" H 9250 1000 50  0001 C CNN
+F 0 "#PWR0138" H 9250 1000 50  0001 C CNN
 F 1 "+3V3" H 9265 1323 50  0000 C CNN
 F 2 "" H 9250 1150 50  0001 C CNN
 F 3 "" H 9250 1150 50  0001 C CNN
@@ -1110,10 +1110,10 @@ F 3 "" H 9250 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR0136
+L power:+3V3 #PWR0137
 U 1 1 5DC1F13D
 P 9100 2450
-F 0 "#PWR0136" H 9100 2300 50  0001 C CNN
+F 0 "#PWR0137" H 9100 2300 50  0001 C CNN
 F 1 "+3V3" H 9115 2623 50  0000 C CNN
 F 2 "" H 9100 2450 50  0001 C CNN
 F 3 "" H 9100 2450 50  0001 C CNN
@@ -1131,10 +1131,10 @@ NoConn ~ 1900 3000
 NoConn ~ 1900 2900
 NoConn ~ 1900 2800
 $Comp
-L power:+3V3 #PWR0127
+L power:+3V3 #PWR0128
 U 1 1 5DCDBC21
 P 3200 1350
-F 0 "#PWR0127" H 3200 1200 50  0001 C CNN
+F 0 "#PWR0128" H 3200 1200 50  0001 C CNN
 F 1 "+3V3" H 3215 1523 50  0000 C CNN
 F 2 "" H 3200 1350 50  0001 C CNN
 F 3 "" H 3200 1350 50  0001 C CNN
@@ -1143,10 +1143,10 @@ F 3 "" H 3200 1350 50  0001 C CNN
 $EndComp
 NoConn ~ 3600 4950
 $Comp
-L power:+3V3 #PWR0119
+L power:+3V3 #PWR0120
 U 1 1 5DCEEB9F
 P 1400 2150
-F 0 "#PWR0119" H 1400 2000 50  0001 C CNN
+F 0 "#PWR0120" H 1400 2000 50  0001 C CNN
 F 1 "+3V3" H 1415 2323 50  0000 C CNN
 F 2 "" H 1400 2150 50  0001 C CNN
 F 3 "" H 1400 2150 50  0001 C CNN

@@ -80,9 +80,9 @@ F 3 "" H 2100 1550 50  0000 C CNN
 	1    2100 1550
 	1    0    0    -1  
 $EndComp
-Text HLabel 4700 2000 2    60   Input ~ 0
+Text HLabel 4700 2000 2    60   Input ~ 6
 TC_CH0
-Text Notes 1750 1000 0    60   ~ 0
+Text Notes 1750 1000 0    60   ~ 6
 TC0\nSee AD8495 Application Information for example circuit
 $Comp
 L Device:C C60
@@ -161,9 +161,9 @@ F 3 "" H 7450 1550 50  0000 C CNN
 	1    7450 1550
 	1    0    0    -1  
 $EndComp
-Text HLabel 10050 2000 2    60   Input ~ 0
+Text HLabel 10050 2000 2    60   Input ~ 6
 TC_CH1
-Text Notes 7100 1000 0    60   ~ 0
+Text Notes 7100 1000 0    60   ~ 6
 TC1\nSee AD8495 Application Information for example circuit
 $Comp
 L Device:C C65

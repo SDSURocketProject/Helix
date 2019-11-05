@@ -60,10 +60,10 @@ D IC SWITCH SPDT SC70-6
 K 1 Circuit IC Switch 2:1 15Ohm SC-70-6
 $ENDCMP
 #
-$CMP TLV9052
+$CMP TLV9054
 D Quad Op amp.
 K AmpliOp
-F op_amps/lm324.pdf
+F https://www.ti.com/lit/ds/symlink/tlv9054.pdf
 $ENDCMP
 #
 $CMP TPS2121

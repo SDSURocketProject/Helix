@@ -6,7 +6,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 9
 Title "HELIX Extension Board"
-Date "2019-11-03"
+Date "2019-11-04"
 Rev "A"
 Comp "SDSU Rocket Project"
 Comment1 "Layout Design: Chris Johnson"
@@ -14,11 +14,11 @@ Comment2 "Schematic Design: David Knight"
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 850  1000 0    60   ~ 0
+Text Notes 850  1000 0    60   ~ 6
 RTD0\nExcitation current: 1mA\nLeave lead 3 disconnected if using a 2 wire RTD\nSee ADS124x datasheet section 10.2.1 for reference circuit
-Text HLabel 2800 1150 2    60   Input ~ 0
+Text HLabel 2800 1150 2    60   Input ~ 6
 RTD0_IDAC1
-Text HLabel 2800 1850 2    60   Input ~ 0
+Text HLabel 2800 1850 2    60   Input ~ 6
 RTD0_IDAC2
 $Comp
 L Device:R R51
@@ -168,13 +168,13 @@ Connection ~ 2500 2800
 Connection ~ 2500 2000
 Wire Wire Line
 	1850 2400 1950 2400
-Text HLabel 2650 2000 2    60   Input ~ 0
+Text HLabel 2650 2000 2    60   Input ~ 6
 RTD0_REFP
-Text HLabel 2650 2400 2    60   Input ~ 0
+Text HLabel 2650 2400 2    60   Input ~ 6
 RTD0_REFN
-Text HLabel 3900 1700 2    60   Input ~ 0
+Text HLabel 3900 1700 2    60   Input ~ 6
 RTD0_LEAD2
-Text HLabel 3900 1300 2    60   Input ~ 0
+Text HLabel 3900 1300 2    60   Input ~ 6
 RTD0_LEAD1
 $Comp
 L Device:C C47
@@ -220,11 +220,11 @@ F 3 "" H 2250 2600 50  0000 C CNN
 	1    2250 2600
 	1    0    0    -1  
 $EndComp
-Text Notes 5400 1000 0    60   ~ 0
+Text Notes 5400 1000 0    60   ~ 6
 RTD1\nExcitation current: 1mA\nLeave lead 3 disconnected if using a 2 wire RTD\nSee ADS124x datasheet section 10.2.1 for reference circuit
-Text HLabel 7350 1150 2    60   Input ~ 0
+Text HLabel 7350 1150 2    60   Input ~ 6
 RTD1_IDAC1
-Text HLabel 7350 1850 2    60   Input ~ 0
+Text HLabel 7350 1850 2    60   Input ~ 6
 RTD1_IDAC2
 $Comp
 L Device:R R56
@@ -374,13 +374,13 @@ Connection ~ 7050 2800
 Connection ~ 7050 2000
 Wire Wire Line
 	6400 2400 6500 2400
-Text HLabel 7200 2000 2    60   Input ~ 0
+Text HLabel 7200 2000 2    60   Input ~ 6
 RTD1_REFP
-Text HLabel 7200 2400 2    60   Input ~ 0
+Text HLabel 7200 2400 2    60   Input ~ 6
 RTD1_REFN
-Text HLabel 8450 1700 2    60   Input ~ 0
+Text HLabel 8450 1700 2    60   Input ~ 6
 RTD1_LEAD2
-Text HLabel 8450 1300 2    60   Input ~ 0
+Text HLabel 8450 1300 2    60   Input ~ 6
 RTD1_LEAD1
 $Comp
 L Device:C C53
