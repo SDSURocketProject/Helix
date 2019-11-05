@@ -6,7 +6,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 9
 Title "HELIX Extension Board"
-Date "2019-11-03"
+Date "2019-11-04"
 Rev "A"
 Comp "SDSU Rocket Project"
 Comment1 "Layout Design: Chris Johnson"
@@ -449,4 +449,5 @@ F 3 "" H 1650 4700 50  0001 C CNN
 	1    1650 4700
 	1    0    0    -1  
 $EndComp
+Connection ~ 6300 4250
 $EndSCHEMATC
