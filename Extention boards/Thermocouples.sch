@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Extention Boards-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -80,9 +80,9 @@ F 3 "" H 2100 1550 50  0000 C CNN
 	1    2100 1550
 	1    0    0    -1  
 $EndComp
-Text HLabel 4700 2000 2    60   Input ~ 6
+Text HLabel 4700 2000 2    60   Input ~ 0
 TC_CH0
-Text Notes 1750 1000 0    60   ~ 6
+Text Notes 1750 1000 0    60   ~ 0
 TC0\nSee AD8495 Application Information for example circuit
 $Comp
 L Device:C C60
@@ -161,9 +161,9 @@ F 3 "" H 7450 1550 50  0000 C CNN
 	1    7450 1550
 	1    0    0    -1  
 $EndComp
-Text HLabel 10050 2000 2    60   Input ~ 6
+Text HLabel 10050 2000 2    60   Input ~ 0
 TC_CH1
-Text Notes 7100 1000 0    60   ~ 6
+Text Notes 7100 1000 0    60   ~ 0
 TC1\nSee AD8495 Application Information for example circuit
 $Comp
 L Device:C C65
@@ -217,7 +217,7 @@ Wire Wire Line
 	1250 1600 1250 1800
 Wire Wire Line
 	1350 1800 1250 1800
-Connection ~ 1250 1800
+Connection ~ 050 1800
 Wire Wire Line
 	1250 1500 1250 1350
 Wire Wire Line
@@ -559,7 +559,7 @@ Wire Wire Line
 	1050 1600 1250 1600
 Wire Wire Line
 	1250 1150 1250 1350
-Connection ~ 1250 1350
+Connection ~ 050 1350
 $Comp
 L Connector:TestPoint TP9
 U 1 1 5DC3975D

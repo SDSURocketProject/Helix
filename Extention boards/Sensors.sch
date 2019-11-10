@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Extention Boards-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -53,21 +53,21 @@ F1 "Thermocouples.sch" 60
 F2 "TC_CH0" I R 1450 3200 60 
 F3 "TC_CH1" I R 1450 3300 60 
 $EndSheet
-Text Label 4450 1400 2    60   ~ 6
+Text Label 4450 1400 2    60   ~ 0
 PT_CH0
-Text Label 4450 1800 2    60   ~ 6
+Text Label 4450 1800 2    60   ~ 0
 PT_CH1
-Text HLabel 9050 3100 2    60   Input ~ 6
+Text HLabel 9050 3100 2    60   Input ~ 0
 ADS1247_SCLK
-Text HLabel 9050 3200 2    60   Input ~ 6
+Text HLabel 9050 3200 2    60   Input ~ 0
 ADS1247_DIN
-Text HLabel 9050 3300 2    60   Input ~ 6
+Text HLabel 9050 3300 2    60   Input ~ 0
 ADS1247_DOUT
-Text HLabel 9050 3400 2    60   Input ~ 6
+Text HLabel 9050 3400 2    60   Input ~ 0
 ~ADS1247_DRDY
-Text HLabel 9050 3500 2    60   Input ~ 6
+Text HLabel 9050 3500 2    60   Input ~ 0
 ~ADS1247_CS
-Text HLabel 9050 3600 2    60   Input ~ 6
+Text HLabel 9050 3600 2    60   Input ~ 0
 ADS1247_START
 $Comp
 L Device:C C41
@@ -113,25 +113,25 @@ F 3 "" H 4150 6700 60  0000 C CNN
 	1    4150 6700
 	1    0    0    -1  
 $EndComp
-Text Label 4450 1300 2    60   ~ 6
+Text Label 4450 1300 2    60   ~ 0
 RTD0_LEAD1
-Text Label 4450 1700 2    60   ~ 6
+Text Label 4450 1700 2    60   ~ 0
 RTD0_LEAD2
-Text Label 4450 1500 2    60   ~ 6
+Text Label 4450 1500 2    60   ~ 0
 RTD1_LEAD1
-Text Label 4450 1900 2    60   ~ 6
+Text Label 4450 1900 2    60   ~ 0
 RTD1_LEAD2
-Text Label 4000 6750 0    60   ~ 6
+Text Label 4000 6750 0    60   ~ 0
 RTD_REFP
-Text Label 4000 7200 0    60   ~ 6
+Text Label 4000 7200 0    60   ~ 0
 RTD_REFN
-Text Label 3200 6750 2    60   ~ 6
+Text Label 3200 6750 2    60   ~ 0
 RTD1_REFP
-Text Label 3200 6950 2    60   ~ 6
+Text Label 3200 6950 2    60   ~ 0
 RTD0_REFP
-Text Label 3200 7200 2    60   ~ 6
+Text Label 3200 7200 2    60   ~ 0
 RTD1_REFN
-Text Label 3200 7400 2    60   ~ 6
+Text Label 3200 7400 2    60   ~ 0
 RTD0_REFN
 Wire Wire Line
 	7900 2250 7900 2300
@@ -181,29 +181,29 @@ Wire Wire Line
 Wire Wire Line
 	3200 7300 2600 7300
 Connection ~ 2600 7300
-Text Label 1550 4250 0    60   ~ 6
+Text Label 1550 4250 0    60   ~ 0
 RTD0_IDAC1
-Text Label 1550 4950 0    60   ~ 6
+Text Label 1550 4950 0    60   ~ 0
 RTD1_IDAC1
-Text Label 1550 4350 0    60   ~ 6
+Text Label 1550 4350 0    60   ~ 0
 RTD0_IDAC2
-Text Label 1550 5050 0    60   ~ 6
+Text Label 1550 5050 0    60   ~ 0
 RTD1_IDAC2
-Text Label 1550 5150 0    60   ~ 6
+Text Label 1550 5150 0    60   ~ 0
 RTD1_REFP
-Text Label 1550 4450 0    60   ~ 6
+Text Label 1550 4450 0    60   ~ 0
 RTD0_REFP
-Text Label 1550 5250 0    60   ~ 6
+Text Label 1550 5250 0    60   ~ 0
 RTD1_REFN
-Text Label 1550 4550 0    60   ~ 6
+Text Label 1550 4550 0    60   ~ 0
 RTD0_REFN
-Text Label 1550 4750 0    60   ~ 6
+Text Label 1550 4750 0    60   ~ 0
 RTD1_LEAD1
-Text Label 1550 4850 0    60   ~ 6
+Text Label 1550 4850 0    60   ~ 0
 RTD1_LEAD2
-Text Label 1550 4050 0    60   ~ 6
+Text Label 1550 4050 0    60   ~ 0
 RTD0_LEAD1
-Text Label 1550 4150 0    60   ~ 6
+Text Label 1550 4150 0    60   ~ 0
 RTD0_LEAD2
 Wire Wire Line
 	1550 5250 1450 5250
@@ -229,11 +229,11 @@ Wire Wire Line
 	1550 4150 1450 4150
 Wire Wire Line
 	1550 4050 1450 4050
-Text Label 7050 3700 2    60   ~ 6
+Text Label 7050 3700 2    60   ~ 0
 RTD_REFP
-Text Label 7050 3800 2    60   ~ 6
+Text Label 7050 3800 2    60   ~ 0
 RTD_REFN
-Text GLabel 8150 2700 1    60   Input ~ 6
+Text GLabel 8150 2700 1    60   Input ~ 0
 ~RESET
 Wire Wire Line
 	8150 2700 8150 2800
@@ -241,11 +241,11 @@ Wire Wire Line
 	4100 6950 4000 6950
 Wire Wire Line
 	4100 7400 4000 7400
-Text HLabel 4350 2500 0    60   Input ~ 6
+Text HLabel 4350 2500 0    60   Input ~ 0
 ADS1247_CHSEL_S1
 Wire Wire Line
 	4350 2500 4450 2500
-Text HLabel 4350 2400 0    60   Input ~ 6
+Text HLabel 4350 2400 0    60   Input ~ 0
 ADS1247_CHSEL_S0
 Wire Wire Line
 	4350 2400 4450 2400
@@ -264,19 +264,19 @@ Wire Wire Line
 	3300 2450 3300 2200
 Wire Wire Line
 	3300 2200 4450 2200
-Text HLabel 1600 6450 2    60   Input ~ 6
+Text HLabel 1600 6450 2    60   Input ~ 0
 PWR_CH3_HE
-Text HLabel 1600 6850 2    60   Input ~ 6
+Text HLabel 1600 6850 2    60   Input ~ 0
 HE_CH0
-Text HLabel 1600 6550 2    60   Input ~ 6
+Text HLabel 1600 6550 2    60   Input ~ 0
 PWR_CH4_HE
-Text HLabel 1600 6950 2    60   Input ~ 6
+Text HLabel 1600 6950 2    60   Input ~ 0
 HE_CH1
 Wire Notes Line
 	450  6000 2300 6000
 Wire Notes Line
 	450  2900 2300 2900
-Text Notes 4100 3100 0    60   ~ 6
+Text Notes 4100 3100 0    60   ~ 0
 Sx  - Sensor\n00 - RTD0\n01 - PT0/PT1\n10 - RTD1\n11 - TC0/TC1
 $Comp
 L Device:C C33
@@ -428,21 +428,21 @@ F 3 "" H 8750 2500 50  0000 C CNN
 	1    8750 2500
 	-1   0    0    -1  
 $EndComp
-Text Label 1550 3200 0    60   ~ 6
+Text Label 1550 3200 0    60   ~ 0
 TC_CH0
-Text Label 1550 3300 0    60   ~ 6
+Text Label 1550 3300 0    60   ~ 0
 TC_CH1
 Wire Wire Line
 	1550 3300 1450 3300
 Wire Wire Line
 	1550 3200 1450 3200
-Text Label 4450 1600 2    60   ~ 6
+Text Label 4450 1600 2    60   ~ 0
 TC_CH0
-Text Label 4450 2000 2    60   ~ 6
+Text Label 4450 2000 2    60   ~ 0
 TC_CH1
-Text HLabel 4100 6950 2    60   Input ~ 6
+Text HLabel 4100 6950 2    60   Input ~ 0
 ADS1247_CHSEL_S1
-Text HLabel 4100 7400 2    60   Input ~ 6
+Text HLabel 4100 7400 2    60   Input ~ 0
 ADS1247_CHSEL_S1
 $Comp
 L helix:SN74LV4052 U15
@@ -468,13 +468,13 @@ F 3 "" H 5150 4300 60  0000 C CNN
 	1    5150 4300
 	1    0    0    -1  
 $EndComp
-Text Label 7050 3100 2    60   ~ 6
+Text Label 7050 3100 2    60   ~ 0
 AIN0
-Text Label 7050 3400 2    60   ~ 6
+Text Label 7050 3400 2    60   ~ 0
 AIN3
-Text Label 5850 3700 0    60   ~ 6
+Text Label 5850 3700 0    60   ~ 0
 AIN0
-Text Label 5850 4100 0    60   ~ 6
+Text Label 5850 4100 0    60   ~ 0
 AIN3
 Wire Wire Line
 	5900 4750 5900 4800
@@ -512,11 +512,11 @@ Wire Wire Line
 Wire Wire Line
 	6150 4400 6150 4450
 Connection ~ 5900 4400
-Text HLabel 4350 4900 0    60   Input ~ 6
+Text HLabel 4350 4900 0    60   Input ~ 0
 ADS1247_CHSEL_S1
 Wire Wire Line
 	4350 4900 4450 4900
-Text HLabel 4350 4800 0    60   Input ~ 6
+Text HLabel 4350 4800 0    60   Input ~ 0
 ADS1247_CHSEL_S0
 Wire Wire Line
 	4350 4800 4450 4800
@@ -535,23 +535,23 @@ Wire Wire Line
 	3300 4850 3300 4600
 Wire Wire Line
 	3300 4600 4450 4600
-Text Label 4450 3700 2    60   ~ 6
+Text Label 4450 3700 2    60   ~ 0
 RTD0_IDAC1
-Text Label 4450 4100 2    60   ~ 6
+Text Label 4450 4100 2    60   ~ 0
 RTD0_IDAC2
-Text Label 4450 3900 2    60   ~ 6
+Text Label 4450 3900 2    60   ~ 0
 RTD1_IDAC1
-Text Label 4450 4300 2    60   ~ 6
+Text Label 4450 4300 2    60   ~ 0
 RTD1_IDAC2
 Wire Wire Line
 	2600 6850 2600 7300
-Text Label 7050 3200 2    60   ~ 6
+Text Label 7050 3200 2    60   ~ 0
 AIN1
-Text Label 7050 3300 2    60   ~ 6
+Text Label 7050 3300 2    60   ~ 0
 AIN2
-Text Label 5850 1300 0    60   ~ 6
+Text Label 5850 1300 0    60   ~ 0
 AIN1
-Text Label 5850 1700 0    60   ~ 6
+Text Label 5850 1700 0    60   ~ 0
 AIN2
 NoConn ~ 4450 4200
 $Sheet
@@ -566,11 +566,11 @@ F5 "PT_CH0" I R 1450 1650 60
 F6 "PT_CH1" I R 1450 1750 60 
 F7 "PT_CH2" I R 1450 1850 60 
 $EndSheet
-Text Label 1550 1650 0    60   ~ 6
+Text Label 1550 1650 0    60   ~ 0
 PT_CH0
-Text Label 1550 1750 0    60   ~ 6
+Text Label 1550 1750 0    60   ~ 0
 PT_CH1
-Text Label 1550 1850 0    60   ~ 6
+Text Label 1550 1850 0    60   ~ 0
 PT_CH2
 Wire Wire Line
 	1550 1650 1450 1650
@@ -578,23 +578,23 @@ Wire Wire Line
 	1550 1750 1450 1750
 Wire Wire Line
 	1550 1850 1450 1850
-Text HLabel 1550 1250 2    60   Input ~ 6
+Text HLabel 1550 1250 2    60   Input ~ 0
 PWR_CH0_PT
-Text HLabel 1550 1350 2    60   Input ~ 6
+Text HLabel 1550 1350 2    60   Input ~ 0
 PWR_CH1_PT
 Wire Wire Line
 	1550 1350 1450 1350
 Wire Wire Line
 	1550 1250 1450 1250
-Text Label 4450 3800 2    60   ~ 6
+Text Label 4450 3800 2    60   ~ 0
 PT_CH2
-Text HLabel 1550 1450 2    60   Input ~ 6
+Text HLabel 1550 1450 2    60   Input ~ 0
 PWR_CH2_PT
 Wire Wire Line
 	1550 1450 1450 1450
-Text HLabel 1600 6650 2    60   Input ~ 6
+Text HLabel 1600 6650 2    60   Input ~ 0
 PWR_CH5_HE
-Text HLabel 1600 7050 2    60   Input ~ 6
+Text HLabel 1600 7050 2    60   Input ~ 0
 HE_CH2
 $Sheet
 S 700  6400 750  750 

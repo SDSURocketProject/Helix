@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Extention Boards-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -168,11 +168,11 @@ F 3 "" H 3900 1800 50  0000 C CNN
 	1    3900 1800
 	1    0    0    -1  
 $EndComp
-Text HLabel 3850 2200 2    60   Input ~ 6
+Text HLabel 3850 2200 2    60   Input ~ 0
 PWR_CH0_CURR_SENS
-Text Notes 600  1450 0    60   ~ 6
+Text Notes 600  1450 0    60   ~ 0
 Power Channel 0 - Vcc\nCurrent Sense: .5*100 = 50V/A\nCurrent Sense Overload:\n(3.3×(4.7÷(4.7+4.7))÷100)÷.5 = 33mA
-Text HLabel 4800 1100 2    60   Input ~ 6
+Text HLabel 4800 1100 2    60   Input ~ 0
 ~PWR_CH0_CURR_OVLD
 $Comp
 L helix:TPS22810 U5
@@ -196,7 +196,7 @@ F 3 "" H 1250 3600 50  0000 C CNN
 	1    1250 3600
 	1    0    0    -1  
 $EndComp
-Text HLabel 1250 3950 0    60   Input ~ 6
+Text HLabel 1250 3950 0    60   Input ~ 0
 PWR_CH1_EN
 $Comp
 L power:GND #PWR021
@@ -297,11 +297,11 @@ F 3 "" H 3300 3350 50  0000 C CNN
 	1    3300 3350
 	1    0    0    -1  
 $EndComp
-Text HLabel 3850 4050 2    60   Input ~ 6
+Text HLabel 3850 4050 2    60   Input ~ 0
 PWR_CH1_CURR_SENS
-Text Notes 600  3300 0    60   ~ 6
+Text Notes 600  3300 0    60   ~ 0
 Power Channel 1 - Vcc\nCurrent Sense: .5*100 = 50V/A\nCurrent Sense Overload:\n(3.3×(4.7÷(4.7+4.7))÷100)÷.5 = 33mA
-Text HLabel 4800 2950 2    60   Input ~ 6
+Text HLabel 4800 2950 2    60   Input ~ 0
 ~PWR_CH1_CURR_OVLD
 $Comp
 L helix:TPS22810 U6
@@ -325,7 +325,7 @@ F 3 "" H 1250 5450 50  0000 C CNN
 	1    1250 5450
 	1    0    0    -1  
 $EndComp
-Text HLabel 1250 5800 0    60   Input ~ 6
+Text HLabel 1250 5800 0    60   Input ~ 0
 PWR_CH2_EN
 $Comp
 L power:GND #PWR022
@@ -426,11 +426,11 @@ F 3 "" H 3300 5200 50  0000 C CNN
 	1    3300 5200
 	1    0    0    -1  
 $EndComp
-Text HLabel 3850 5900 2    60   Input ~ 6
+Text HLabel 3850 5900 2    60   Input ~ 0
 PWR_CH2_CURR_SENS
-Text Notes 600  5150 0    60   ~ 6
+Text Notes 600  5150 0    60   ~ 0
 Power Channel 2 - Vcc\nCurrent Sense: .5*100 = 50V/A\nCurrent Sense Overload:\n(3.3×(4.7÷(4.7+4.7))÷100)÷.5 = 33mA
-Text HLabel 4800 4800 2    60   Input ~ 6
+Text HLabel 4800 4800 2    60   Input ~ 0
 ~PWR_CH2_CURR_OVLD
 $Comp
 L helix:TPS22810 U8
@@ -443,7 +443,7 @@ F 3 "" H 7100 1650 60  0000 C CNN
 	1    7100 1650
 	1    0    0    -1  
 $EndComp
-Text HLabel 6600 2150 0    60   Input ~ 6
+Text HLabel 6600 2150 0    60   Input ~ 0
 PWR_CH3_EN
 $Comp
 L power:GND #PWR046
@@ -544,11 +544,11 @@ F 3 "" H 8650 1550 50  0000 C CNN
 	1    8650 1550
 	1    0    0    -1  
 $EndComp
-Text HLabel 9200 2250 2    60   Input ~ 6
+Text HLabel 9200 2250 2    60   Input ~ 0
 PWR_CH3_CURR_SENS
-Text Notes 5950 1500 0    60   ~ 6
+Text Notes 5950 1500 0    60   ~ 0
 Power Channel 3 - +3.3V\nCurrent Sense: .5*100 = 50V/A\nCurrent Sense Overload:\n(3.3×(4.7÷(4.7+4.7))÷100)÷.5 = 33mA
-Text HLabel 10150 1150 2    60   Input ~ 6
+Text HLabel 10150 1150 2    60   Input ~ 0
 ~PWR_CH3_CURR_OVLD
 $Comp
 L helix:TPS22810 U9
@@ -561,7 +561,7 @@ F 3 "" H 7100 3500 60  0000 C CNN
 	1    7100 3500
 	1    0    0    -1  
 $EndComp
-Text HLabel 6600 4000 0    60   Input ~ 6
+Text HLabel 6600 4000 0    60   Input ~ 0
 PWR_CH4_EN
 $Comp
 L power:GND #PWR047
@@ -662,11 +662,11 @@ F 3 "" H 8650 3400 50  0000 C CNN
 	1    8650 3400
 	1    0    0    -1  
 $EndComp
-Text HLabel 9200 4100 2    60   Input ~ 6
+Text HLabel 9200 4100 2    60   Input ~ 0
 PWR_CH4_CURR_SENS
-Text Notes 5950 3350 0    60   ~ 6
+Text Notes 5950 3350 0    60   ~ 0
 Power Channel 4 - +3.3V\nCurrent Sense: .5*100 = 50V/A\nCurrent Sense Overload:\n(3.3×(4.7÷(4.7+4.7))÷100)÷.5 = 33mA
-Text HLabel 10150 3000 2    60   Input ~ 6
+Text HLabel 10150 3000 2    60   Input ~ 0
 ~PWR_CH4_CURR_OVLD
 $Comp
 L helix:TPS22810 U10
@@ -679,7 +679,7 @@ F 3 "" H 7100 5350 60  0000 C CNN
 	1    7100 5350
 	1    0    0    -1  
 $EndComp
-Text HLabel 6600 5850 0    60   Input ~ 6
+Text HLabel 6600 5850 0    60   Input ~ 0
 PWR_CH5_EN
 $Comp
 L power:GND #PWR048
@@ -780,23 +780,23 @@ F 3 "" H 8650 5250 50  0000 C CNN
 	1    8650 5250
 	1    0    0    -1  
 $EndComp
-Text HLabel 9200 5950 2    60   Input ~ 6
+Text HLabel 9200 5950 2    60   Input ~ 0
 PWR_CH5_CURR_SENS
-Text Notes 5950 5200 0    60   ~ 6
+Text Notes 5950 5200 0    60   ~ 0
 Power Channel 5 - +3.3V\nCurrent Sense: .5*100 = 50V/A\nCurrent Sense Overload:\n(3.3×(4.7÷(4.7+4.7))÷100)÷.5 = 33mA
-Text HLabel 10150 4850 2    60   Input ~ 6
+Text HLabel 10150 4850 2    60   Input ~ 0
 ~PWR_CH5_CURR_OVLD
-Text HLabel 3150 1900 2    60   Input ~ 6
+Text HLabel 3150 1900 2    60   Input ~ 0
 PWR_CH0
-Text HLabel 3150 3750 2    60   Input ~ 6
+Text HLabel 3150 3750 2    60   Input ~ 0
 PWR_CH1
-Text HLabel 3150 5600 2    60   Input ~ 6
+Text HLabel 3150 5600 2    60   Input ~ 0
 PWR_CH2
-Text HLabel 8500 1950 2    60   Input ~ 6
+Text HLabel 8500 1950 2    60   Input ~ 0
 PWR_CH3
-Text HLabel 8500 3800 2    60   Input ~ 6
+Text HLabel 8500 3800 2    60   Input ~ 0
 PWR_CH4
-Text HLabel 8500 5650 2    60   Input ~ 6
+Text HLabel 8500 5650 2    60   Input ~ 0
 PWR_CH5
 Wire Wire Line
 	1250 1900 1300 1900
@@ -808,7 +808,7 @@ Wire Wire Line
 	600  1800 600  2000
 Wire Wire Line
 	1050 1800 1250 1800
-Connection ~ 1250 1800
+Connection ~ 050 1800
 Wire Wire Line
 	750  1800 600  1800
 Connection ~ 600  2000
@@ -855,7 +855,7 @@ Wire Wire Line
 	600  3650 600  3850
 Wire Wire Line
 	1050 3650 1250 3650
-Connection ~ 1250 3650
+Connection ~ 050 3650
 Wire Wire Line
 	750  3650 600  3650
 Connection ~ 600  3850
@@ -896,7 +896,7 @@ Wire Wire Line
 	600  5500 600  5700
 Wire Wire Line
 	1050 5500 1250 5500
-Connection ~ 1250 5500
+Connection ~ 050 5500
 Wire Wire Line
 	750  5500 600  5500
 Connection ~ 600  5700
@@ -1704,7 +1704,7 @@ F 3 "" H 2500 7250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 2500 7200
-Text Notes 850  6700 0    60   ~ 6
+Text Notes 850  6700 0    60   ~ 0
 Decoupling Caps
 Wire Notes Line
 	8500 4700 5850 4700
@@ -1910,7 +1910,7 @@ F 3 "" H 1300 2550 50  0000 C CNN
 	1    1300 2550
 	1    0    0    -1  
 $EndComp
-Text HLabel 1250 2100 0    60   Input ~ 6
+Text HLabel 1250 2100 0    60   Input ~ 0
 PWR_CH0_EN
 $Comp
 L Device:R R13

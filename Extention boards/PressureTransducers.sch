@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Extention Boards-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -25,7 +25,7 @@ F 3 "" H 1400 1600 50  0000 C CNN
 	1    1400 1600
 	1    0    0    -1  
 $EndComp
-Text HLabel 1400 1450 2    60   Input ~ 6
+Text HLabel 1400 1450 2    60   Input ~ 0
 PWR_CH0_PT
 Wire Wire Line
 	1300 1550 1400 1550
@@ -78,7 +78,7 @@ F 3 "" H 1400 2400 50  0000 C CNN
 	1    1400 2400
 	1    0    0    -1  
 $EndComp
-Text HLabel 1400 2250 2    60   Input ~ 6
+Text HLabel 1400 2250 2    60   Input ~ 0
 PWR_CH1_PT
 Wire Wire Line
 	1300 2350 1400 2350
@@ -97,7 +97,7 @@ F 3 "" H 1400 3200 50  0000 C CNN
 	1    1400 3200
 	1    0    0    -1  
 $EndComp
-Text HLabel 1400 3050 2    60   Input ~ 6
+Text HLabel 1400 3050 2    60   Input ~ 0
 PWR_CH2_PT
 Wire Wire Line
 	1300 3150 1400 3150
@@ -105,11 +105,11 @@ Wire Wire Line
 	1400 3150 1400 3200
 Wire Wire Line
 	1400 3050 1300 3050
-Text HLabel 7300 1050 2    60   Input ~ 6
+Text HLabel 7300 1050 2    60   Input ~ 0
 PT_CH0
-Text HLabel 7300 2150 2    60   Input ~ 6
+Text HLabel 7300 2150 2    60   Input ~ 0
 PT_CH1
-Text HLabel 7300 3250 2    60   Input ~ 6
+Text HLabel 7300 3250 2    60   Input ~ 0
 PT_CH2
 $Comp
 L power:GNDA #PWR0105
@@ -417,11 +417,11 @@ F 3 "" H 2950 2700 50  0001 C CNN
 	1    2950 2700
 	1    0    0    -1  
 $EndComp
-Text Label 3450 1950 2    60   ~ 6
+Text Label 3450 1950 2    60   ~ 0
 PT_IN_CH0
-Text Label 3450 2150 2    60   ~ 6
+Text Label 3450 2150 2    60   ~ 0
 PT_IN_CH1
-Text Label 3450 2350 2    60   ~ 6
+Text Label 3450 2350 2    60   ~ 0
 PT_IN_CH2
 NoConn ~ 3450 2650
 NoConn ~ 3450 2550
@@ -441,11 +441,11 @@ Wire Wire Line
 Connection ~ 2950 2450
 Wire Wire Line
 	2950 2450 2950 2700
-Text Label 2050 1350 0    60   ~ 6
+Text Label 2050 1350 0    60   ~ 0
 PT_IN_CH0
-Text Label 2050 2150 0    60   ~ 6
+Text Label 2050 2150 0    60   ~ 0
 PT_IN_CH1
-Text Label 2050 2950 0    60   ~ 6
+Text Label 2050 2950 0    60   ~ 0
 PT_IN_CH2
 Wire Wire Line
 	3850 2050 3900 2050
@@ -465,14 +465,14 @@ Wire Wire Line
 	3900 2450 3900 2350
 Wire Wire Line
 	3900 2350 3850 2350
-Text Label 3950 1950 0    60   ~ 6
+Text Label 3950 1950 0    60   ~ 0
 PT_DIV_CH0
 Wire Wire Line
 	3950 1950 3900 1950
 Connection ~ 3900 1950
-Text Label 3950 2150 0    60   ~ 6
+Text Label 3950 2150 0    60   ~ 0
 PT_DIV_CH1
-Text Label 3950 2350 0    60   ~ 6
+Text Label 3950 2350 0    60   ~ 0
 PT_DIV_CH2
 Wire Wire Line
 	3950 2150 3900 2150
@@ -480,15 +480,15 @@ Connection ~ 3900 2150
 Wire Wire Line
 	3950 2350 3900 2350
 Connection ~ 3900 2350
-Text Label 5650 950  2    60   ~ 6
+Text Label 5650 950  2    60   ~ 0
 PT_DIV_CH0
 Wire Wire Line
 	5650 950  5700 950 
-Text Label 5650 2050 2    60   ~ 6
+Text Label 5650 2050 2    60   ~ 0
 PT_DIV_CH1
 Wire Wire Line
 	5650 2050 5700 2050
-Text Label 5650 3150 2    60   ~ 6
+Text Label 5650 3150 2    60   ~ 0
 PT_DIV_CH2
 Wire Wire Line
 	5650 3150 5700 3150
