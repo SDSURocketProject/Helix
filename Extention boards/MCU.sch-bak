@@ -47,9 +47,9 @@ F 3 "" H 3400 1950 50  0000 C CNN
 	1    3400 1950
 	1    0    0    -1  
 $EndComp
-Text Notes 3450 1350 1    60   ~ 12
+Text Notes 3450 1350 1    60   ~ 0
 VDDANA
-Text Notes 3650 1350 1    60   ~ 12
+Text Notes 3650 1350 1    60   ~ 0
 VDDIO
 $Comp
 L Device:C C79
@@ -128,27 +128,27 @@ F 3 "" H 2000 1850 50  0000 C CNN
 	1    2000 1850
 	1    0    0    -1  
 $EndComp
-Text Notes 4050 1350 1    60   ~ 12
+Text Notes 4050 1350 1    60   ~ 0
 VDDIO
-Text Notes 2050 1350 1    60   ~ 12
+Text Notes 2050 1350 1    60   ~ 0
 VDDIOB
-Text Notes 2650 1350 1    60   ~ 12
+Text Notes 2650 1350 1    60   ~ 0
 VDDCORE
-Text Notes 1850 1350 1    60   ~ 12
+Text Notes 1850 1350 1    60   ~ 0
 VDDCORE
 Text Label 1900 3800 2    60   ~ 0
 CAN1_TX
 Text Label 1900 3900 2    60   ~ 0
 CAN1_RX
-Text Notes 4500 3050 0    60   ~ 12
+Text Notes 4500 3050 0    60   ~ 0
 SERCOM0\nCPOL = 0\nCPHA = 1
-Text Notes 4500 3850 0    60   ~ 12
+Text Notes 4500 3850 0    60   ~ 0
 SERCOM4\nCPOL = 1\nCPHA = 1
-Text Label 1900 3300 2    60   ~ 12
+Text Label 1900 3300 2    60   ~ 0
 LED_R
-Text Label 1900 3400 2    60   ~ 12
+Text Label 1900 3400 2    60   ~ 0
 LED_G
-Text Label 1900 3200 2    60   ~ 12
+Text Label 1900 3200 2    60   ~ 0
 LED_B
 $Comp
 L Transistor_BJT:MMBT3904 Q1
@@ -260,15 +260,15 @@ F 3 "" H 7450 3300 50  0000 C CNN
 	1    7450 3300
 	1    0    0    -1  
 $EndComp
-Text Label 6150 2200 2    60   ~ 12
+Text Label 6150 2200 2    60   ~ 0
 LED_R
-Text Label 6450 2650 2    60   ~ 12
+Text Label 6450 2650 2    60   ~ 0
 LED_G
-Text Label 6750 3100 2    60   ~ 12
+Text Label 6750 3100 2    60   ~ 0
 LED_B
-Text Label 1900 2600 2    60   ~ 12
+Text Label 1900 2600 2    60   ~ 0
 I2C0_SCL
-Text Label 1900 2700 2    60   ~ 12
+Text Label 1900 2700 2    60   ~ 0
 I2C0_SDA
 $Comp
 L power:GND #PWR0135
@@ -281,9 +281,9 @@ F 3 "" H 8200 1550 50  0000 C CNN
 	1    8200 1550
 	1    0    0    -1  
 $EndComp
-Text Label 9050 1400 0    60   ~ 12
+Text Label 9050 1400 0    60   ~ 0
 I2C0_SCL
-Text Label 9050 1500 0    60   ~ 12
+Text Label 9050 1500 0    60   ~ 0
 I2C0_SDA
 $Comp
 L power:GND #PWR0139
@@ -298,37 +298,37 @@ F 3 "" H 9500 1550 50  0000 C CNN
 $EndComp
 Text GLabel 1850 5100 0    60   Input ~ 0
 ~RESET
-Text HLabel 3700 3950 2    60   Input ~ 12
+Text HLabel 3700 3950 2    60   Input ~ 0
 ~PWR_CH0_CURR_OVLD
-Text HLabel 3700 4050 2    60   Input ~ 12
+Text HLabel 3700 4050 2    60   Input ~ 0
 ~PWR_CH1_CURR_OVLD
-Text HLabel 3700 4150 2    60   Input ~ 12
+Text HLabel 3700 4150 2    60   Input ~ 0
 ~PWR_CH2_CURR_OVLD
-Text HLabel 3700 4250 2    60   Input ~ 12
+Text HLabel 3700 4250 2    60   Input ~ 0
 ~PWR_CH3_CURR_OVLD
-Text HLabel 3700 3850 2    60   Input ~ 12
+Text HLabel 3700 3850 2    60   Input ~ 0
 ~MCP3008_CS
-Text HLabel 3700 3750 2    60   Input ~ 12
+Text HLabel 3700 3750 2    60   Input ~ 0
 MCP3008_DOUT
-Text HLabel 3700 3650 2    60   Input ~ 12
+Text HLabel 3700 3650 2    60   Input ~ 0
 MCP3008_DIN
-Text HLabel 3700 3550 2    60   Input ~ 12
+Text HLabel 3700 3550 2    60   Input ~ 0
 MCP3008_SCLK
-Text HLabel 3700 2950 2    60   Input ~ 12
+Text HLabel 3700 2950 2    60   Input ~ 0
 ADS1247_DOUT
-Text HLabel 3700 3050 2    60   Input ~ 12
+Text HLabel 3700 3050 2    60   Input ~ 0
 ~ADS1247_CS
-Text HLabel 3700 2850 2    60   Input ~ 12
+Text HLabel 3700 2850 2    60   Input ~ 0
 ADS1247_DIN
-Text HLabel 3700 2750 2    60   Input ~ 12
+Text HLabel 3700 2750 2    60   Input ~ 0
 ADS1247_SCLK
-Text HLabel 3700 3450 2    60   Input ~ 12
+Text HLabel 3700 3450 2    60   Input ~ 0
 ~ADS1247_DRDY
-Text HLabel 3700 3350 2    60   Input ~ 12
+Text HLabel 3700 3350 2    60   Input ~ 0
 ADS1247_START
-Text HLabel 3700 3250 2    60   Input ~ 12
+Text HLabel 3700 3250 2    60   Input ~ 0
 ADS1247_CHSEL_S1
-Text HLabel 3700 3150 2    60   Input ~ 12
+Text HLabel 3700 3150 2    60   Input ~ 0
 ADS1247_CHSEL_S0
 $Comp
 L power:GND #PWR0136
@@ -341,13 +341,13 @@ F 3 "" H 9000 2950 50  0000 C CNN
 	1    9000 2950
 	1    0    0    -1  
 $EndComp
-Text Label 9550 2550 2    60   ~ 12
+Text Label 9550 2550 2    60   ~ 0
 CAN1_TX
-Text Label 9550 2850 2    60   ~ 12
+Text Label 9550 2850 2    60   ~ 0
 CAN1_RX
-Text HLabel 10500 2650 2    60   Input ~ 12
+Text HLabel 10500 2650 2    60   Input ~ 0
 CANH1
-Text HLabel 10500 2750 2    60   Input ~ 12
+Text HLabel 10500 2750 2    60   Input ~ 0
 CANL1
 $Comp
 L power:GND #PWR0140
@@ -376,27 +376,27 @@ Text HLabel 1800 3500 0    60   Input ~ 0
 HE_CH0
 Text HLabel 1800 3600 0    60   Input ~ 0
 HE_CH1
-Text HLabel 3700 4550 2    60   Input ~ 12
+Text HLabel 3700 4550 2    60   Input ~ 0
 PWR_CH0_EN
-Text HLabel 3700 4650 2    60   Input ~ 12
+Text HLabel 3700 4650 2    60   Input ~ 0
 PWR_CH1_EN
-Text HLabel 3700 4750 2    60   Input ~ 12
+Text HLabel 3700 4750 2    60   Input ~ 0
 PWR_CH2_EN
-Text HLabel 3700 4850 2    60   Input ~ 12
+Text HLabel 3700 4850 2    60   Input ~ 0
 PWR_CH3_EN
-Text Label 10500 1300 2    60   ~ 12
+Text Label 10500 1300 2    60   ~ 0
 I2C0_SCL
-Text Label 10500 1400 2    60   ~ 12
+Text Label 10500 1400 2    60   ~ 0
 I2C0_SDA
-Text GLabel 10500 1600 0    60   Input ~ 12
+Text GLabel 10500 1600 0    60   Input ~ 0
 ~RESET
-Text Notes 8450 900  0    60   ~ 12
+Text Notes 8450 900  0    60   ~ 0
 Header for programming EEPROM\nHold Reset low when flashing EEPROM
-Text Notes 9200 2100 0    60   ~ 12
+Text Notes 9200 2100 0    60   ~ 0
 CAN0
-Text Notes 5350 1050 0    60   ~ 12
+Text Notes 5350 1050 0    60   ~ 0
 Status LED\nRed - Init Failure\nBlue - COMS Failure\nYellow - Sensor Overload\nPurple - Sensor Missing\nBlinking Green - Normal Operation
-Text Notes 2050 700  0    60   ~ 12
+Text Notes 2050 700  0    60   ~ 0
 MCU
 $Comp
 L Device:C C85
@@ -453,9 +453,9 @@ F 3 "" H 8550 2700 50  0000 C CNN
 	1    8550 2700
 	1    0    0    -1  
 $EndComp
-Text Label 2900 6600 0    60   ~ 12
+Text Label 2900 6600 0    60   ~ 0
 SWDIO
-Text Label 2900 6700 0    60   ~ 12
+Text Label 2900 6700 0    60   ~ 0
 SWCLK
 $Comp
 L power:GND #PWR0124
@@ -468,7 +468,7 @@ F 3 "" H 2350 7150 50  0000 C CNN
 	1    2350 7150
 	1    0    0    -1  
 $EndComp
-Text GLabel 3000 7000 2    60   Input ~ 12
+Text GLabel 3000 7000 2    60   Input ~ 0
 ~RESET
 NoConn ~ 2400 6900
 NoConn ~ 2900 6900
@@ -484,11 +484,11 @@ F 3 "" H 3350 6450 50  0000 C CNN
 	1    3350 6450
 	1    0    0    -1  
 $EndComp
-Text Label 3600 5050 0    60   ~ 12
+Text Label 3600 5050 0    60   ~ 0
 SWCLK
-Text Label 3600 5150 0    60   ~ 12
+Text Label 3600 5150 0    60   ~ 0
 SWDIO
-Text Notes 2300 6300 0    60   ~ 12
+Text Notes 2300 6300 0    60   ~ 0
 Programming Header
 $Comp
 L Device:R R71
@@ -545,17 +545,17 @@ F 3 "" H 7450 1800 50  0000 C CNN
 	1    7450 1800
 	1    0    0    -1  
 $EndComp
-Text Notes 1300 2200 1    60   ~ 12
+Text Notes 1300 2200 1    60   ~ 0
 I2C0 on  SERCOM5
 Text HLabel 1800 3700 0    60   Input ~ 0
 HE_CH2
-Text HLabel 3700 2350 2    60   Input ~ 12
+Text HLabel 3700 2350 2    60   Input ~ 0
 PWR_CH4_EN
-Text HLabel 3700 2450 2    60   Input ~ 12
+Text HLabel 3700 2450 2    60   Input ~ 0
 PWR_CH5_EN
-Text HLabel 3700 4350 2    60   Input ~ 12
+Text HLabel 3700 4350 2    60   Input ~ 0
 ~PWR_CH4_CURR_OVLD
-Text HLabel 3700 4450 2    60   Input ~ 12
+Text HLabel 3700 4450 2    60   Input ~ 0
 ~PWR_CH5_CURR_OVLD
 Wire Wire Line
 	2850 5400 2850 5350
@@ -870,9 +870,9 @@ Wire Wire Line
 Wire Wire Line
 	4400 1400 4400 1450
 Connection ~ 4200 1400
-Text Notes 4250 1350 1    60   ~ 12
+Text Notes 4250 1350 1    60   ~ 0
 VDDIO
-Text Notes 4450 1350 1    60   ~ 12
+Text Notes 4450 1350 1    60   ~ 0
 VDDIO
 Wire Wire Line
 	2550 5350 2550 5400
