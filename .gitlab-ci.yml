@@ -12,7 +12,7 @@ scheamticPDF:
         - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
         - apk update && apk add openssh-client
     script:
-        - ssh deployuser@elon.sdsurocketproject.org "rm -f /var/www/html/wikistatic/Helix-Test-Rig-Hardware/SensorExtentionBoard.pdf"
-        - scp SensorExtentionBoard/SensorExtentionBoard.pdf deployuser@elon.sdsurocketproject.org:/var/www/html/wikistatic/Helix-Test-Rig-Hardware/
+        - ssh deployuser@elon.sdsurocketproject.org "rm -f /var/www/html/wikistatic/Helix-Hardware/Extention-Boards.pdf"
+        - scp "Extention boards/Extention Boards.pdf" deployuser@elon.sdsurocketproject.org:/var/www/html/wikistatic/Helix-Hardware/Extention-Boards.pdf
     only:
         - master
