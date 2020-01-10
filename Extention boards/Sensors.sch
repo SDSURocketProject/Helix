@@ -1,12 +1,11 @@
 EESchema Schematic File Version 4
-LIBS:Extention Boards-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 9
 Title "HELIX Extension Board"
-Date "2019-11-04"
+Date "2020-01-10"
 Rev "A"
 Comp "SDSU Rocket Project"
 Comment1 "Layout Design: Chris Johnson"
@@ -823,6 +822,17 @@ F 1 "+3V3" H 5115 6923 50  0000 C CNN
 F 2 "" H 5100 6750 50  0001 C CNN
 F 3 "" H 5100 6750 50  0001 C CNN
 	1    5100 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5E194A5D
+P 5900 1950
+F 0 "#PWR?" H 5900 1800 50  0001 C CNN
+F 1 "+3V3" H 5915 2123 50  0000 C CNN
+F 2 "" H 5900 1950 50  0001 C CNN
+F 3 "" H 5900 1950 50  0001 C CNN
+	1    5900 1950
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
