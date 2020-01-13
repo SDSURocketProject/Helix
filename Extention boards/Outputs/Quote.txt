@@ -1,0 +1,45 @@
+2 layer
+    Charge Details
+    Special Offer:$2.00
+
+SMT Price:
+Setup fee: $7.00
+Stencil: $0.00
+Panel: $0.00
+Components: $58.17
+Extended components fee: $30.00
+Assembly:
+$3.35
+$3.35
+Build Time:
+
+    PCB： 2 days $0.00
+
+SMT： 24 hours
+Total Price:$100.52
+
+Weight:102.62g
+
+
+4 Layer
+    Charge Details
+    Special Offer:$28.00
+
+SMT Price:
+Setup fee: $7.00
+Stencil: $0.00
+Panel: $0.00
+Components: $56.25
+Extended components fee: $30.00
+Assembly:
+$3.27
+$3.27
+Build Time:
+
+    PCB： 4-5 days $0.00
+
+SMT： 24 hours
+Total Price:$124.52
+
+Weight:101.15g
+
