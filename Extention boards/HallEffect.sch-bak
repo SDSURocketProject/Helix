@@ -5,10 +5,10 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 6
 Title "HELIX Extension Board"
-Date "2019-11-04"
+Date "2020-01-11"
 Rev "A"
 Comp "SDSU Rocket Project"
-Comment1 "Layout Design: Chris Johnson"
+Comment1 "Layout Design: David Knight"
 Comment2 "Schematic Design: David Knight"
 Comment3 ""
 Comment4 ""
@@ -242,10 +242,10 @@ Wire Wire Line
 Wire Wire Line
 	2000 3700 2600 3700
 $Comp
-L Connector:TestPoint TP14
+L Connector:TestPoint TP16
 U 1 1 5DC4B775
 P 2600 2050
-F 0 "TP14" H 2658 2168 50  0000 L CNN
+F 0 "TP16" H 2658 2168 50  0000 L CNN
 F 1 "TestPoint" H 2658 2077 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" H 2800 2050 50  0001 C CNN
 F 3 "~" H 2800 2050 50  0001 C CNN
@@ -253,10 +253,10 @@ F 3 "~" H 2800 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP15
+L Connector:TestPoint TP17
 U 1 1 5DC4C82A
 P 2600 2850
-F 0 "TP15" H 2658 2968 50  0000 L CNN
+F 0 "TP17" H 2658 2968 50  0000 L CNN
 F 1 "TestPoint" H 2658 2877 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" H 2800 2850 50  0001 C CNN
 F 3 "~" H 2800 2850 50  0001 C CNN
@@ -264,10 +264,10 @@ F 3 "~" H 2800 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP16
+L Connector:TestPoint TP18
 U 1 1 5DC4D449
 P 2600 3650
-F 0 "TP16" H 2658 3768 50  0000 L CNN
+F 0 "TP18" H 2658 3768 50  0000 L CNN
 F 1 "TestPoint" H 2658 3677 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" H 2800 3650 50  0001 C CNN
 F 3 "~" H 2800 3650 50  0001 C CNN

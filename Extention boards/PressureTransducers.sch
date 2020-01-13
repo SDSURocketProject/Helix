@@ -314,10 +314,10 @@ F 3 "~" H 1100 3050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:TestPoint TP13
+L Connector:TestPoint TP15
 U 1 1 5DBB96FE
 P 1950 2850
-F 0 "TP13" H 2008 2968 50  0000 L CNN
+F 0 "TP15" H 2008 2968 50  0000 L CNN
 F 1 "TestPoint" H 2008 2877 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" H 2150 2850 50  0001 C CNN
 F 3 "~" H 2150 2850 50  0001 C CNN
@@ -325,10 +325,10 @@ F 3 "~" H 2150 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP12
+L Connector:TestPoint TP14
 U 1 1 5DBBA637
 P 1950 2050
-F 0 "TP12" H 2008 2168 50  0000 L CNN
+F 0 "TP14" H 2008 2168 50  0000 L CNN
 F 1 "TestPoint" H 2008 2077 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" H 2150 2050 50  0001 C CNN
 F 3 "~" H 2150 2050 50  0001 C CNN
@@ -336,10 +336,10 @@ F 3 "~" H 2150 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP11
+L Connector:TestPoint TP13
 U 1 1 5DBBADCC
 P 1950 1250
-F 0 "TP11" H 2008 1368 50  0000 L CNN
+F 0 "TP13" H 2008 1368 50  0000 L CNN
 F 1 "TestPoint" H 2008 1277 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" H 2150 1250 50  0001 C CNN
 F 3 "~" H 2150 1250 50  0001 C CNN

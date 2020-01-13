@@ -77,17 +77,17 @@ F 3 "~" H 7000 3400 50  0001 C CNN
 	1    7000 3400
 	1    0    0    -1  
 $EndComp
-Text Label 6800 3100 2    60   ~ 0
-ADS1247_SCLK
-Text Label 6800 3200 2    60   ~ 0
-ADS1247_DOUT
-Text Label 6800 3300 2    60   ~ 0
-ADS1247_DIN
-Text Label 6800 3400 2    60   ~ 0
-~ADS1247_CS
-Text Label 6800 3500 2    60   ~ 0
-~ADS1247_DRDY
 Text Label 6800 3600 2    60   ~ 0
+ADS1247_SCLK
+Text Label 6800 3400 2    60   ~ 0
+ADS1247_DOUT
+Text Label 6800 3500 2    60   ~ 0
+ADS1247_DIN
+Text Label 6800 3200 2    60   ~ 0
+~ADS1247_CS
+Text Label 6800 3300 2    60   ~ 0
+~ADS1247_DRDY
+Text Label 6800 3100 2    60   ~ 0
 ADS1247_START
 Text Label 6800 3700 2    60   ~ 0
 ADS1247_CHSEL_S0
@@ -192,4 +192,36 @@ Wire Wire Line
 Wire Wire Line
 	6450 3900 6750 3900
 Connection ~ 6750 3900
+$Comp
+L Connector:TestPoint TP1
+U 1 1 5E1ACBA9
+P 5850 2900
+F 0 "TP1" H 5908 3018 50  0000 L CNN
+F 1 "TestPoint" H 5908 2927 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" H 6050 2900 50  0001 C CNN
+F 3 "~" H 6050 2900 50  0001 C CNN
+	1    5850 2900
+	1    0    0    -1  
+$EndComp
+Connection ~ 6450 3000
+$Comp
+L Connector:TestPoint TP2
+U 1 1 5E1ADDE0
+P 5850 3950
+F 0 "TP2" H 5792 3976 50  0000 R CNN
+F 1 "TestPoint" H 5792 4067 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" H 6050 3950 50  0001 C CNN
+F 3 "~" H 6050 3950 50  0001 C CNN
+	1    5850 3950
+	-1   0    0    1   
+$EndComp
+Connection ~ 6450 3900
+Wire Wire Line
+	5850 3900 5850 3950
+Wire Wire Line
+	5850 3900 6450 3900
+Wire Wire Line
+	5850 3000 5850 2900
+Wire Wire Line
+	5850 3000 6450 3000
 $EndSCHEMATC

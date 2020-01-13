@@ -5,10 +5,10 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 6
 Title "HELIX Extension Board"
-Date "2019-11-04"
+Date "2020-01-11"
 Rev "A"
 Comp "SDSU Rocket Project"
-Comment1 "Layout Design: Chris Johnson"
+Comment1 "Layout Design: David Knight"
 Comment2 "Schematic Design: David Knight"
 Comment3 ""
 Comment4 ""
@@ -568,10 +568,10 @@ Wire Wire Line
 Wire Wire Line
 	5400 1550 6000 1550
 $Comp
-L Connector:TestPoint TP1
+L Connector:TestPoint TP3
 U 1 1 5DC3CA98
 P 1050 1400
-F 0 "TP1" H 1108 1518 50  0000 L CNN
+F 0 "TP3" H 1108 1518 50  0000 L CNN
 F 1 "TestPoint" H 900 1600 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" H 1250 1400 50  0001 C CNN
 F 3 "~" H 1250 1400 50  0001 C CNN
@@ -579,10 +579,10 @@ F 3 "~" H 1250 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP2
+L Connector:TestPoint TP4
 U 1 1 5DC3D8D2
 P 1450 1400
-F 0 "TP2" H 1508 1518 50  0000 L CNN
+F 0 "TP4" H 1508 1518 50  0000 L CNN
 F 1 "TestPoint" H 1300 1600 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" H 1650 1400 50  0001 C CNN
 F 3 "~" H 1650 1400 50  0001 C CNN
@@ -590,10 +590,10 @@ F 3 "~" H 1650 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP3
+L Connector:TestPoint TP5
 U 1 1 5DC3DE6C
 P 1850 1400
-F 0 "TP3" H 1908 1518 50  0000 L CNN
+F 0 "TP5" H 1908 1518 50  0000 L CNN
 F 1 "TestPoint" H 1700 1600 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" H 2050 1400 50  0001 C CNN
 F 3 "~" H 2050 1400 50  0001 C CNN
@@ -616,10 +616,10 @@ Connection ~ 1850 1450
 Wire Wire Line
 	1850 1450 2650 1450
 $Comp
-L Connector:TestPoint TP4
+L Connector:TestPoint TP6
 U 1 1 5DC47189
 P 5600 1400
-F 0 "TP4" H 5658 1518 50  0000 L CNN
+F 0 "TP6" H 5658 1518 50  0000 L CNN
 F 1 "TestPoint" H 5450 1600 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" H 5800 1400 50  0001 C CNN
 F 3 "~" H 5800 1400 50  0001 C CNN
@@ -627,10 +627,10 @@ F 3 "~" H 5800 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP5
+L Connector:TestPoint TP7
 U 1 1 5DC4718F
 P 6000 1400
-F 0 "TP5" H 6058 1518 50  0000 L CNN
+F 0 "TP7" H 6058 1518 50  0000 L CNN
 F 1 "TestPoint" H 5850 1600 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" H 6200 1400 50  0001 C CNN
 F 3 "~" H 6200 1400 50  0001 C CNN
@@ -638,10 +638,10 @@ F 3 "~" H 6200 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP6
+L Connector:TestPoint TP8
 U 1 1 5DC47195
 P 6400 1400
-F 0 "TP6" H 6458 1518 50  0000 L CNN
+F 0 "TP8" H 6458 1518 50  0000 L CNN
 F 1 "TestPoint" H 6250 1600 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" H 6600 1400 50  0001 C CNN
 F 3 "~" H 6600 1400 50  0001 C CNN
