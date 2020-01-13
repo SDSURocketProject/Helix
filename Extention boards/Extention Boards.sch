@@ -36,7 +36,7 @@ F16 "PWR_CH2_PT" I R 4550 4300 60
 F17 "PWR_CH5_HE" I R 4550 4600 60 
 F18 "HE_CH2" I R 4550 5250 60 
 $EndSheet
-Text GLabel 6700 5250 0    60   Input ~ 0
+Text GLabel 7650 5300 0    60   Input ~ 0
 ~RESET
 Text Label 4550 3100 0    60   ~ 0
 ADS1247_SCLK
@@ -69,82 +69,78 @@ PWR_CH5
 $Comp
 L Connector_Generic:Conn_01x10 J1
 U 1 1 5E1AFCD7
-P 7000 3400
-F 0 "J1" H 7080 3392 50  0000 L CNN
-F 1 "Conn_01x10" H 7080 3301 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 7000 3400 50  0001 C CNN
-F 3 "~" H 7000 3400 50  0001 C CNN
-	1    7000 3400
+P 7950 3400
+F 0 "J1" H 8030 3392 50  0000 L CNN
+F 1 "Conn_01x10" H 8030 3301 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 7950 3400 50  0001 C CNN
+F 3 "~" H 7950 3400 50  0001 C CNN
+	1    7950 3400
 	1    0    0    -1  
 $EndComp
-Text Label 6800 3600 2    60   ~ 0
+Text Label 7750 3300 2    60   ~ 0
 ADS1247_SCLK
-Text Label 6800 3400 2    60   ~ 0
+Text Label 7750 3500 2    60   ~ 0
 ADS1247_DOUT
-Text Label 6800 3500 2    60   ~ 0
+Text Label 7750 3400 2    60   ~ 0
 ADS1247_DIN
-Text Label 6800 3200 2    60   ~ 0
+Text Label 7750 3700 2    60   ~ 0
 ~ADS1247_CS
-Text Label 6800 3300 2    60   ~ 0
+Text Label 7750 3600 2    60   ~ 0
 ~ADS1247_DRDY
-Text Label 6800 3100 2    60   ~ 0
+Text Label 7750 3800 2    60   ~ 0
 ADS1247_START
-Text Label 6800 3700 2    60   ~ 0
+Text Label 7750 3200 2    60   ~ 0
 ADS1247_CHSEL_S0
-Text Label 6800 3800 2    60   ~ 0
+Text Label 7750 3100 2    60   ~ 0
 ADS1247_CHSEL_S1
 $Comp
 L power:+3V3 #PWR01
 U 1 1 5E1B3901
-P 6750 2950
-F 0 "#PWR01" H 6750 2800 50  0001 C CNN
-F 1 "+3V3" H 6765 3123 50  0000 C CNN
-F 2 "" H 6750 2950 50  0001 C CNN
-F 3 "" H 6750 2950 50  0001 C CNN
-	1    6750 2950
+P 6750 3850
+F 0 "#PWR01" H 6750 3700 50  0001 C CNN
+F 1 "+3V3" H 6765 4023 50  0000 C CNN
+F 2 "" H 6750 3850 50  0001 C CNN
+F 3 "" H 6750 3850 50  0001 C CNN
+	1    6750 3850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6800 3000 6750 3000
-Wire Wire Line
-	6750 3000 6750 2950
+	6750 3900 6750 3850
 $Comp
 L power:GND #PWR02
 U 1 1 5E1B4D34
-P 6750 3950
-F 0 "#PWR02" H 6750 3700 50  0001 C CNN
-F 1 "GND" H 6755 3777 50  0000 C CNN
-F 2 "" H 6750 3950 50  0001 C CNN
-F 3 "" H 6750 3950 50  0001 C CNN
-	1    6750 3950
+P 6750 3050
+F 0 "#PWR02" H 6750 2800 50  0001 C CNN
+F 1 "GND" H 6755 2877 50  0000 C CNN
+F 2 "" H 6750 3050 50  0001 C CNN
+F 3 "" H 6750 3050 50  0001 C CNN
+	1    6750 3050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6750 3950 6750 3900
-Wire Wire Line
-	6750 3900 6800 3900
+	6750 3050 6750 3000
 $Comp
 L Connector_Generic:Conn_01x10 J2
 U 1 1 5E1B9368
-P 7000 4750
-F 0 "J2" H 7080 4742 50  0000 L CNN
-F 1 "Conn_01x10" H 7080 4651 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 7000 4750 50  0001 C CNN
-F 3 "~" H 7000 4750 50  0001 C CNN
-	1    7000 4750
+P 7950 4800
+F 0 "J2" H 8030 4792 50  0000 L CNN
+F 1 "Conn_01x10" H 8030 4701 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 7950 4800 50  0001 C CNN
+F 3 "~" H 7950 4800 50  0001 C CNN
+	1    7950 4800
 	1    0    0    -1  
 $EndComp
-Text Label 6800 4350 2    60   ~ 0
+Text Label 7750 4400 2    60   ~ 0
 PWR_CH0
-Text Label 6800 4450 2    60   ~ 0
+Text Label 7750 4500 2    60   ~ 0
 PWR_CH1
-Text Label 6800 4550 2    60   ~ 0
+Text Label 7750 4600 2    60   ~ 0
 PWR_CH2
-Text Label 6800 4650 2    60   ~ 0
+Text Label 7750 4700 2    60   ~ 0
 PWR_CH3
-Text Label 6800 4750 2    60   ~ 0
+Text Label 7750 4800 2    60   ~ 0
 PWR_CH4
-Text Label 6800 4850 2    60   ~ 0
+Text Label 7750 4900 2    60   ~ 0
 PWR_CH5
 Text Label 4550 5250 0    60   ~ 0
 HE_CH2
@@ -152,76 +148,80 @@ Text Label 4550 5150 0    60   ~ 0
 HE_CH1
 Text Label 4550 5050 0    60   ~ 0
 HE_CH0
-Text Label 6800 5150 2    60   ~ 0
+Text Label 7750 5200 2    60   ~ 0
 HE_CH2
-Text Label 6800 5050 2    60   ~ 0
+Text Label 7750 5100 2    60   ~ 0
 HE_CH1
-Text Label 6800 4950 2    60   ~ 0
+Text Label 7750 5000 2    60   ~ 0
 HE_CH0
 Wire Wire Line
-	6700 5250 6800 5250
+	7650 5300 7750 5300
 $Comp
 L power:PWR_FLAG #FLG01
 U 1 1 5E205B73
-P 6450 2950
-F 0 "#FLG01" H 6450 3025 50  0001 C CNN
-F 1 "PWR_FLAG" H 6450 3123 50  0000 C CNN
-F 2 "" H 6450 2950 50  0001 C CNN
-F 3 "~" H 6450 2950 50  0001 C CNN
-	1    6450 2950
+P 6450 3850
+F 0 "#FLG01" H 6450 3925 50  0001 C CNN
+F 1 "PWR_FLAG" H 6450 4023 50  0000 C CNN
+F 2 "" H 6450 3850 50  0001 C CNN
+F 3 "~" H 6450 3850 50  0001 C CNN
+	1    6450 3850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6450 2950 6450 3000
-Wire Wire Line
-	6450 3000 6750 3000
-Connection ~ 6750 3000
-$Comp
-L power:PWR_FLAG #FLG02
-U 1 1 5E2066AA
-P 6450 3950
-F 0 "#FLG02" H 6450 4025 50  0001 C CNN
-F 1 "PWR_FLAG" H 6450 4123 50  0000 C CNN
-F 2 "" H 6450 3950 50  0001 C CNN
-F 3 "~" H 6450 3950 50  0001 C CNN
-	1    6450 3950
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	6450 3950 6450 3900
+	6450 3850 6450 3900
 Wire Wire Line
 	6450 3900 6750 3900
 Connection ~ 6750 3900
 $Comp
+L power:PWR_FLAG #FLG02
+U 1 1 5E2066AA
+P 6450 3050
+F 0 "#FLG02" H 6450 3125 50  0001 C CNN
+F 1 "PWR_FLAG" H 6450 3223 50  0000 C CNN
+F 2 "" H 6450 3050 50  0001 C CNN
+F 3 "~" H 6450 3050 50  0001 C CNN
+	1    6450 3050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6450 3050 6450 3000
+Wire Wire Line
+	6450 3000 6750 3000
+Connection ~ 6750 3000
+$Comp
 L Connector:TestPoint TP1
 U 1 1 5E1ACBA9
-P 5850 2900
-F 0 "TP1" H 5908 3018 50  0000 L CNN
-F 1 "TestPoint" H 5908 2927 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" H 6050 2900 50  0001 C CNN
-F 3 "~" H 6050 2900 50  0001 C CNN
-	1    5850 2900
+P 5850 3800
+F 0 "TP1" H 5908 3918 50  0000 L CNN
+F 1 "TestPoint" H 5908 3827 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" H 6050 3800 50  0001 C CNN
+F 3 "~" H 6050 3800 50  0001 C CNN
+	1    5850 3800
 	1    0    0    -1  
 $EndComp
-Connection ~ 6450 3000
+Connection ~ 6450 3900
 $Comp
 L Connector:TestPoint TP2
 U 1 1 5E1ADDE0
-P 5850 3950
-F 0 "TP2" H 5792 3976 50  0000 R CNN
-F 1 "TestPoint" H 5792 4067 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" H 6050 3950 50  0001 C CNN
-F 3 "~" H 6050 3950 50  0001 C CNN
-	1    5850 3950
+P 5850 3050
+F 0 "TP2" H 5792 3076 50  0000 R CNN
+F 1 "TestPoint" H 5792 3167 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" H 6050 3050 50  0001 C CNN
+F 3 "~" H 6050 3050 50  0001 C CNN
+	1    5850 3050
 	-1   0    0    1   
 $EndComp
-Connection ~ 6450 3900
+Connection ~ 6450 3000
 Wire Wire Line
-	5850 3900 5850 3950
+	5850 3000 5850 3050
+Wire Wire Line
+	5850 3000 6450 3000
+Wire Wire Line
+	5850 3900 5850 3800
 Wire Wire Line
 	5850 3900 6450 3900
 Wire Wire Line
-	5850 3000 5850 2900
+	6750 3900 7750 3900
 Wire Wire Line
-	5850 3000 6450 3000
+	6750 3000 7750 3000
 $EndSCHEMATC
