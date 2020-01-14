@@ -4283,7 +4283,7 @@
   (gr_line (start 128.27 109.982) (end 115.316 109.982) (layer F.SilkS) (width 0.12))
   (gr_line (start 145.288 109.982) (end 128.27 109.982) (layer F.SilkS) (width 0.12))
   (gr_line (start 132.588 98.552) (end 145.288 98.552) (layer F.SilkS) (width 0.12))
-  (gr_text "Helix Sensor Board Prototype\nDavid Knight\nSDSU Rocket Project\nRev 1.0.0" (at 104.394 79.756) (layer F.SilkS) (tstamp 5E1CC370)
+  (gr_text "Helix SEB Sensor Prototype Board\nDavid Knight\nSDSU Rocket Project\nRev 1.0.0" (at 104.394 79.756) (layer F.SilkS) (tstamp 5E1CC370)
     (effects (font (size 0.635 0.635) (thickness 0.15)) (justify left))
   )
   (gr_text HE2 (at 109.474 119.888) (layer F.SilkS)

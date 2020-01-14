@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 6
-Title "HELIX Extension Board"
-Date "2020-01-11"
-Rev "A"
+Title "HELIX SEB Sensor Prototype Board"
+Date "2020-01-14"
+Rev "1.0.0"
 Comp "SDSU Rocket Project"
 Comment1 "Layout Design: David Knight"
 Comment2 "Schematic Design: David Knight"
@@ -156,17 +156,6 @@ Text Label 7750 5000 2    60   ~ 0
 HE_CH0
 Wire Wire Line
 	7650 5300 7750 5300
-$Comp
-L power:PWR_FLAG #FLG01
-U 1 1 5E205B73
-P 6450 3850
-F 0 "#FLG01" H 6450 3925 50  0001 C CNN
-F 1 "PWR_FLAG" H 6450 4023 50  0000 C CNN
-F 2 "" H 6450 3850 50  0001 C CNN
-F 3 "~" H 6450 3850 50  0001 C CNN
-	1    6450 3850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6450 3850 6450 3900
 Wire Wire Line
@@ -224,4 +213,15 @@ Wire Wire Line
 	6750 3900 7750 3900
 Wire Wire Line
 	6750 3000 7750 3000
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 5E205B73
+P 6450 3850
+F 0 "#FLG01" H 6450 3925 50  0001 C CNN
+F 1 "PWR_FLAG" H 6450 4023 50  0000 C CNN
+F 2 "" H 6450 3850 50  0001 C CNN
+F 3 "~" H 6450 3850 50  0001 C CNN
+	1    6450 3850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 6
-Title "HELIX Extension Board"
-Date "2020-01-11"
-Rev "A"
+Title "HELIX SEB Sensor Prototype Board"
+Date "2020-01-14"
+Rev "1.0.0"
 Comp "SDSU Rocket Project"
 Comment1 "Layout Design: David Knight"
 Comment2 "Schematic Design: David Knight"
