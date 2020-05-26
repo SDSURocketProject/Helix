@@ -50,6 +50,12 @@ D 1/1 Transceiver Half CANbus 8-SOIC
 K IC EMC CAN TRANSCEIVER 8-SOIC
 $ENDCMP
 #
+$CMP SN65HVD233D
+D 1/1 Transceiver Half CANbus 8-SOIC
+K IC EMC CAN TRANSCEIVER 8-SOIC
+F https://www.ti.com/lit/ds/symlink/sn65hvd233.pdf?&ts=1589147418105
+$ENDCMP
+#
 $CMP SN74LV4052
 D Dual Analog Multiplexer 4 to 1 line
 K CMOS MUX MUX4

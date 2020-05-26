@@ -734,17 +734,6 @@ Connection ~ 2650 5400
 Wire Wire Line
 	2650 5400 2750 5400
 $Comp
-L Connector:Conn_01x05_Female J16
-U 1 1 5D9026EE
-P 10700 1400
-F 0 "J16" H 10728 1426 50  0000 L CNN
-F 1 "Conn_01x05_Female" H 10728 1335 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 10700 1400 50  0001 C CNN
-F 3 "~" H 10700 1400 50  0001 C CNN
-	1    10700 1400
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_02x05_Odd_Even J9
 U 1 1 5D904480
 P 1350 6900
@@ -1650,17 +1639,6 @@ F 3 "~" H 2700 750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L helix:SN65HVD1050 U5
-U 1 1 5D8F2A8A
-P 10000 2250
-F 0 "U5" H 9975 2197 60  0000 C CNN
-F 1 "SN65HVD1050" H 9975 2091 60  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 10000 2250 60  0001 C CNN
-F 3 "" H 10000 2250 60  0000 C CNN
-	1    10000 2250
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x06 J7
 U 1 1 5EADAE8E
 P 4050 6750
@@ -1818,4 +1796,40 @@ Wire Wire Line
 	7050 5500 6800 5500
 Wire Wire Line
 	7050 5400 6800 5400
+$Comp
+L Connector:TestPoint TP14
+U 1 1 5EB3748A
+P 6750 1600
+F 0 "TP14" H 6692 1626 50  0000 R CNN
+F 1 "TestPoint" H 6692 1717 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" H 6950 1600 50  0001 C CNN
+F 3 "~" H 6950 1600 50  0001 C CNN
+	1    6750 1600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6750 1600 6900 1600
+Connection ~ 6900 1600
+$Comp
+L Connector_Generic:Conn_01x05 J8
+U 1 1 5EB4BF81
+P 10700 1400
+F 0 "J8" H 10780 1442 50  0000 L CNN
+F 1 "Conn_01x05" H 10780 1351 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 10700 1400 50  0001 C CNN
+F 3 "~" H 10700 1400 50  0001 C CNN
+	1    10700 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L helix:SN65HVD233D U5
+U 1 1 5EBB8467
+P 10000 2250
+F 0 "U5" H 9975 2197 60  0000 C CNN
+F 1 "SN65HVD233D" H 9975 2091 60  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 9975 2197 60  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/sn65hvd233.pdf?&ts=1589147418105" H 9975 2091 60  0001 C CNN
+	1    10000 2250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
