@@ -19,8 +19,9 @@ U 1 1 5E7BCB78
 P 4300 2400
 F 0 "J1" H 4357 2867 50  0000 C CNN
 F 1 "USB_B_Micro" H 4357 2776 50  0000 C CNN
-F 2 "Connector_USB:USB_Micro-B_Molex-105017-0001" H 4450 2350 50  0001 C CNN
+F 2 "Connector_USB:USB_Micro-B_GCT_USB3076-30-A" H 4450 2350 50  0001 C CNN
 F 3 "~" H 4450 2350 50  0001 C CNN
+F 4 "2073-USB3076-30-ACT-ND" H 4300 2400 50  0001 C CNN "Digikey Part Number"
 	1    4300 2400
 	1    0    0    -1  
 $EndComp
@@ -54,6 +55,7 @@ F 0 "C1" H 5215 2646 50  0000 L CNN
 F 1 "10uF" H 5215 2555 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5138 2450 50  0001 C CNN
 F 3 "~" H 5100 2600 50  0001 C CNN
+F 4 "1276-6736-1-ND" H 5100 2600 50  0001 C CNN "Digikey Part Number"
 	1    5100 2600
 	1    0    0    -1  
 $EndComp
@@ -84,6 +86,7 @@ F 0 "U1" H 6550 2642 50  0000 C CNN
 F 1 "TLV75533PDBV" H 6550 2551 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 6550 2625 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/tlv755p.pdf" H 6550 2350 50  0001 C CNN
+F 4 "296-50411-1-ND" H 6550 2300 50  0001 C CNN "Digikey Part Number"
 	1    6550 2300
 	1    0    0    -1  
 $EndComp
@@ -126,6 +129,7 @@ F 0 "C2" H 7265 2646 50  0000 L CNN
 F 1 "10uF" H 7265 2555 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 7188 2450 50  0001 C CNN
 F 3 "~" H 7150 2600 50  0001 C CNN
+F 4 "1276-6736-1-ND" H 7150 2600 50  0001 C CNN "Digikey Part Number"
 	1    7150 2600
 	1    0    0    -1  
 $EndComp
@@ -189,6 +193,7 @@ F 0 "D1" H 8750 4166 50  0000 C CNN
 F 1 "B140-13-F" H 8750 4075 50  0000 C CNN
 F 2 "Diode_SMD:D_SMA_Handsoldering" H 8750 3950 50  0001 C CNN
 F 3 "~" H 8750 3950 50  0001 C CNN
+F 4 "B140-FDICT-ND" H 8750 3950 50  0001 C CNN "Digikey Part Number"
 	1    8750 3950
 	1    0    0    -1  
 $EndComp
@@ -280,6 +285,7 @@ F 0 "J4" H 8680 2942 50  0000 L CNN
 F 1 "Conn_01x06" H 8680 2851 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Horizontal" H 8600 2950 50  0001 C CNN
 F 3 "~" H 8600 2950 50  0001 C CNN
+F 4 "S5481-ND" H 8600 2950 50  0001 C CNN "Digikey Part Number"
 	1    8600 2950
 	1    0    0    -1  
 $EndComp
@@ -299,6 +305,7 @@ F 0 "U2" H 4400 6150 50  0000 C CNN
 F 1 "FT232RL" H 4450 6050 50  0000 C CNN
 F 2 "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm" H 5950 4200 50  0001 C CNN
 F 3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf" H 4850 5100 50  0001 C CNN
+F 4 "768-1007-1-ND" H 4850 5100 50  0001 C CNN "Digikey Part Number"
 	1    4850 5100
 	1    0    0    -1  
 $EndComp
@@ -333,6 +340,7 @@ F 0 "C4" H 5915 3846 50  0000 L CNN
 F 1 "0.1uF" H 5915 3755 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5838 3650 50  0001 C CNN
 F 3 "~" H 5800 3800 50  0001 C CNN
+F 4 "1276-1017-1-ND" H 5800 3800 50  0001 C CNN "Digikey Part Number"
 	1    5800 3800
 	1    0    0    -1  
 $EndComp
@@ -365,6 +373,7 @@ F 0 "C3" H 5465 3846 50  0000 L CNN
 F 1 "10uF" H 5465 3755 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5388 3650 50  0001 C CNN
 F 3 "~" H 5350 3800 50  0001 C CNN
+F 4 "1276-6736-1-ND" H 5350 3800 50  0001 C CNN "Digikey Part Number"
 	1    5350 3800
 	1    0    0    -1  
 $EndComp
@@ -376,6 +385,7 @@ F 0 "FB1" H 4850 3504 50  0000 R CNN
 F 1 "Ferrite_Bead_Small" H 4850 3595 50  0000 R CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4880 3550 50  0001 C CNN
 F 3 "~" H 4950 3550 50  0001 C CNN
+F 4 "240-2389-1-ND" H 4950 3550 50  0001 C CNN "Digikey Part Number"
 	1    4950 3550
 	-1   0    0    1   
 $EndComp
@@ -452,6 +462,7 @@ F 0 "D2" V 5989 5033 50  0000 R CNN
 F 1 "LED" V 5898 5033 50  0000 R CNN
 F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5950 5150 50  0001 C CNN
 F 3 "~" H 5950 5150 50  0001 C CNN
+F 4 "160-1169-1-ND" H 5950 5150 50  0001 C CNN "Digikey Part Number"
 	1    5950 5150
 	0    -1   -1   0   
 $EndComp
@@ -463,6 +474,7 @@ F 0 "D3" V 6439 5033 50  0000 R CNN
 F 1 "LED" V 6348 5033 50  0000 R CNN
 F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 6400 5150 50  0001 C CNN
 F 3 "~" H 6400 5150 50  0001 C CNN
+F 4 "160-1169-1-ND" H 6400 5150 50  0001 C CNN "Digikey Part Number"
 	1    6400 5150
 	0    -1   -1   0   
 $EndComp
@@ -474,6 +486,7 @@ F 0 "R1" H 6020 4796 50  0000 L CNN
 F 1 "330" H 6020 4705 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 5880 4750 50  0001 C CNN
 F 3 "~" H 5950 4750 50  0001 C CNN
+F 4 "2019-RK73H2BTTD3300FCT-ND" H 5950 4750 50  0001 C CNN "Digikey Part Number"
 	1    5950 4750
 	1    0    0    -1  
 $EndComp
@@ -485,6 +498,7 @@ F 0 "R2" H 6470 4796 50  0000 L CNN
 F 1 "330" H 6470 4705 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 6330 4750 50  0001 C CNN
 F 3 "~" H 6400 4750 50  0001 C CNN
+F 4 "2019-RK73H2BTTD3300FCT-ND" H 6400 4750 50  0001 C CNN "Digikey Part Number"
 	1    6400 4750
 	1    0    0    -1  
 $EndComp
