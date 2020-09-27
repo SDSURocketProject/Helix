@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 9
+Sheet 2 10
 Title "HELIX Extension Board"
 Date "2020-01-10"
 Rev "A"
@@ -263,12 +263,8 @@ Wire Wire Line
 	3300 2450 3300 2200
 Wire Wire Line
 	3300 2200 4450 2200
-Text HLabel 1600 6450 2    60   Input ~ 0
-PWR_CH3_HE
 Text HLabel 1600 6850 2    60   Input ~ 0
 HE_CH0
-Text HLabel 1600 6550 2    60   Input ~ 0
-PWR_CH4_HE
 Text HLabel 1600 6950 2    60   Input ~ 0
 HE_CH1
 Wire Notes Line
@@ -456,17 +452,6 @@ F 3 "" H 5150 1900 60  0000 C CNN
 $EndComp
 Wire Notes Line
 	2300 7800 2300 450 
-$Comp
-L helix:SN74LV4052 U16
-U 1 1 5D43C690
-P 5150 4300
-F 0 "U16" H 5250 4300 50  0000 C CNN
-F 1 "SN74LV4052" H 5250 4100 50  0000 C CNN
-F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 5150 4300 60  0001 C CNN
-F 3 "" H 5150 4300 60  0000 C CNN
-	1    5150 4300
-	1    0    0    -1  
-$EndComp
 Text Label 7050 3100 2    60   ~ 0
 AIN0
 Text Label 7050 3400 2    60   ~ 0
@@ -552,73 +537,38 @@ Text Label 5850 1300 0    60   ~ 0
 AIN1
 Text Label 5850 1700 0    60   ~ 0
 AIN2
-NoConn ~ 4450 4200
-$Sheet
-S 700  1150 750  800 
-U 5D62DC96
-F0 "PressureTransducers" 60
-F1 "PressureTransducers.sch" 60
-F2 "PWR_CH0_PT" I R 1450 1250 60 
-F3 "PWR_CH1_PT" I R 1450 1350 60 
-F4 "PWR_CH2_PT" I R 1450 1450 60 
-F5 "PT_CH0" I R 1450 1650 60 
-F6 "PT_CH1" I R 1450 1750 60 
-F7 "PT_CH2" I R 1450 1850 60 
-$EndSheet
-Text Label 1550 1650 0    60   ~ 0
+Text Label 1400 1650 0    60   ~ 0
 PT_CH0
-Text Label 1550 1750 0    60   ~ 0
+Text Label 1400 1750 0    60   ~ 0
 PT_CH1
-Text Label 1550 1850 0    60   ~ 0
+Text Label 1400 1850 0    60   ~ 0
 PT_CH2
 Wire Wire Line
-	1550 1650 1450 1650
+	1500 1050 1400 1050
 Wire Wire Line
-	1550 1750 1450 1750
-Wire Wire Line
-	1550 1850 1450 1850
-Text HLabel 1550 1250 2    60   Input ~ 0
-PWR_CH0_PT
-Text HLabel 1550 1350 2    60   Input ~ 0
-PWR_CH1_PT
-Wire Wire Line
-	1550 1350 1450 1350
-Wire Wire Line
-	1550 1250 1450 1250
+	1500 950  1400 950 
 Text Label 4450 3800 2    60   ~ 0
 PT_CH2
-Text HLabel 1550 1450 2    60   Input ~ 0
-PWR_CH2_PT
 Wire Wire Line
-	1550 1450 1450 1450
-Text HLabel 1600 6650 2    60   Input ~ 0
-PWR_CH5_HE
-Text HLabel 1600 7050 2    60   Input ~ 0
-HE_CH2
+	1500 1150 1400 1150
 $Sheet
 S 700  6400 750  750 
 U 5D6436C1
 F0 "HallEffect" 60
 F1 "HallEffect.sch" 60
-F2 "PWR_CH3_HE" I R 1450 6450 60 
-F3 "PWR_CH4_HE" I R 1450 6550 60 
-F4 "PWR_CH5_HE" I R 1450 6650 60 
-F5 "HE_CH0" I R 1450 6850 60 
-F6 "HE_CH1" I R 1450 6950 60 
-F7 "HE_CH2" I R 1450 7050 60 
+F2 "HE_CH0" I R 1450 6850 60 
+F3 "HE_CH1" I R 1450 6950 60 
+F4 "PWR_HE0" I R 1450 6450 60 
+F5 "PWR_HE1" I R 1450 6550 60 
 $EndSheet
 Wire Wire Line
 	1600 6450 1450 6450
 Wire Wire Line
 	1600 6550 1450 6550
 Wire Wire Line
-	1600 6650 1450 6650
-Wire Wire Line
 	1600 6850 1450 6850
 Wire Wire Line
 	1600 6950 1450 6950
-Wire Wire Line
-	1600 7050 1450 7050
 Wire Wire Line
 	5300 7300 5550 7300
 Connection ~ 5550 7300
@@ -756,8 +706,6 @@ Wire Wire Line
 	5900 4400 5900 4450
 Wire Wire Line
 	5550 7300 5550 7400
-NoConn ~ 4450 4000
-NoConn ~ 4450 4400
 $Comp
 L power:+3V3 #PWR074
 U 1 1 5DC27B49
@@ -833,6 +781,69 @@ F 1 "+3V3" H 5915 2123 50  0000 C CNN
 F 2 "" H 5900 1950 50  0001 C CNN
 F 3 "" H 5900 1950 50  0001 C CNN
 	1    5900 1950
+	1    0    0    -1  
+$EndComp
+Text HLabel 1500 950  2    60   Input ~ 0
+PWR_PT0
+Text HLabel 1500 1050 2    60   Input ~ 0
+PWR_PT1
+Text HLabel 1500 1150 2    60   Input ~ 0
+PWR_PT2
+$Sheet
+S 650  850  750  1400
+U 5D62DC96
+F0 "PressureTransducers" 60
+F1 "PressureTransducers.sch" 60
+F2 "PT_CH0" I R 1400 1650 60 
+F3 "PT_CH1" I R 1400 1750 60 
+F4 "PT_CH2" I R 1400 1850 60 
+F5 "PWR_PT0" I R 1400 950 60 
+F6 "PWR_PT1" I R 1400 1050 60 
+F7 "PWR_PT2" I R 1400 1150 60 
+F8 "PWR_PT3" I R 1400 1250 60 
+F9 "PWR_PT4" I R 1400 1350 60 
+F10 "PWR_PT5" I R 1400 1450 60 
+F11 "PT_CH3" I R 1400 1950 60 
+F12 "PT_CH4" I R 1400 2050 60 
+F13 "PT_CH5" I R 1400 2150 60 
+$EndSheet
+Wire Wire Line
+	1500 1250 1400 1250
+Wire Wire Line
+	1400 1350 1500 1350
+Wire Wire Line
+	1500 1450 1400 1450
+Text Label 1400 1950 0    60   ~ 0
+PT_CH3
+Text Label 1400 2050 0    60   ~ 0
+PT_CH4
+Text Label 1400 2150 0    60   ~ 0
+PT_CH5
+Text Label 4450 4000 2    60   ~ 0
+PT_CH3
+Text Label 4450 4200 2    60   ~ 0
+PT_CH4
+Text Label 4450 4400 2    60   ~ 0
+PT_CH5
+Text HLabel 1600 6450 2    60   Input ~ 0
+PWR_HE0
+Text HLabel 1600 6550 2    60   Input ~ 0
+PWR_HE1
+Text HLabel 1500 1250 2    60   Input ~ 0
+PWR_PT3
+Text HLabel 1500 1350 2    60   Input ~ 0
+PWR_PT4
+Text HLabel 1500 1450 2    60   Input ~ 0
+PWR_PT5
+$Comp
+L helix:SN74LV4052 U16
+U 1 1 5D43C690
+P 5150 4300
+F 0 "U16" H 5250 4300 50  0000 C CNN
+F 1 "SN74LV4052" H 5250 4100 50  0000 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 5150 4300 60  0001 C CNN
+F 3 "" H 5150 4300 60  0000 C CNN
+	1    5150 4300
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

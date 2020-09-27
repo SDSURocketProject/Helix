@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 9
+Sheet 10 10
 Title "HELIX Extension Board"
 Date "2019-11-04"
 Rev "A"
@@ -271,14 +271,14 @@ F 3 "" H 9500 1550 50  0000 C CNN
 $EndComp
 Text GLabel 2100 5050 0    60   Input ~ 0
 ~RESET
+Text HLabel 3950 3600 2    60   Input ~ 0
+~PWR_CH0_OVLD
+Text HLabel 3950 3700 2    60   Input ~ 0
+~PWR_CH1_OVLD
+Text HLabel 3950 3800 2    60   Input ~ 0
+~PWR_CH2_OVLD
 Text HLabel 3950 3900 2    60   Input ~ 0
-~PWR_CH0_CURR_OVLD
-Text HLabel 3950 4000 2    60   Input ~ 0
-~PWR_CH1_CURR_OVLD
-Text HLabel 3950 4100 2    60   Input ~ 0
-~PWR_CH2_CURR_OVLD
-Text HLabel 3950 4200 2    60   Input ~ 0
-~PWR_CH3_CURR_OVLD
+~PWR_CH3_OVLD
 Text HLabel 3950 2900 2    60   Input ~ 0
 ADS1247_DOUT
 Text HLabel 3950 3000 2    60   Input ~ 0
@@ -325,13 +325,13 @@ F 3 "" H 8850 2700 50  0000 C CNN
 	1    8850 2700
 	1    0    0    -1  
 $EndComp
-Text HLabel 3950 4500 2    60   Input ~ 0
+Text HLabel 3950 4400 2    60   Input ~ 0
 PWR_CH0_EN
-Text HLabel 3950 4600 2    60   Input ~ 0
+Text HLabel 3950 4500 2    60   Input ~ 0
 PWR_CH1_EN
-Text HLabel 3950 4700 2    60   Input ~ 0
+Text HLabel 3950 4600 2    60   Input ~ 0
 PWR_CH2_EN
-Text HLabel 3950 4800 2    60   Input ~ 0
+Text HLabel 3950 4700 2    60   Input ~ 0
 PWR_CH3_EN
 Text Label 10500 1300 2    60   ~ 0
 I2C0_SCL
@@ -496,14 +496,12 @@ F 3 "" H 7450 1800 50  0000 C CNN
 $EndComp
 Text Notes 1550 2150 1    60   ~ 0
 I2C0 on  SERCOM5
-Text HLabel 3950 2300 2    60   Input ~ 0
+Text HLabel 3950 4800 2    60   Input ~ 0
 PWR_CH4_EN
-Text HLabel 3950 2400 2    60   Input ~ 0
+Text HLabel 3950 4900 2    60   Input ~ 0
 PWR_CH5_EN
-Text HLabel 3950 4300 2    60   Input ~ 0
-~PWR_CH4_CURR_OVLD
-Text HLabel 3950 4400 2    60   Input ~ 0
-~PWR_CH5_CURR_OVLD
+Text HLabel 3950 4000 2    60   Input ~ 0
+~PWR_CH4_OVLD
 Wire Wire Line
 	3100 5350 3100 5300
 Wire Wire Line
@@ -571,11 +569,11 @@ Wire Wire Line
 Wire Wire Line
 	2100 5050 2150 5050
 Wire Wire Line
+	3950 4400 3850 4400
+Wire Wire Line
 	3950 4500 3850 4500
 Wire Wire Line
 	3950 4600 3850 4600
-Wire Wire Line
-	3950 4700 3850 4700
 Wire Wire Line
 	3950 3000 3850 3000
 Wire Wire Line
@@ -597,21 +595,15 @@ Wire Wire Line
 	9500 1500 9650 1500
 Connection ~ 9500 1500
 Wire Wire Line
-	8600 2500 8850 2500
-Wire Wire Line
 	8600 2900 8850 2900
 Wire Wire Line
-	2050 4150 2150 4150
-Wire Wire Line
-	2050 4050 2150 4050
-Wire Wire Line
-	3950 4200 3850 4200
-Wire Wire Line
-	3950 4100 3850 4100
-Wire Wire Line
-	3950 4000 3850 4000
-Wire Wire Line
 	3950 3900 3850 3900
+Wire Wire Line
+	3950 3800 3850 3800
+Wire Wire Line
+	3950 3700 3850 3700
+Wire Wire Line
+	3950 3600 3850 3600
 Wire Notes Line
 	8000 450  8000 3550
 Wire Notes Line
@@ -622,10 +614,6 @@ Wire Notes Line
 	5300 500  5300 7800
 Wire Wire Line
 	8850 2900 8850 2850
-Wire Wire Line
-	8850 2500 8850 2550
-Wire Wire Line
-	8600 2550 8600 2500
 Wire Wire Line
 	8600 2900 8600 2850
 Connection ~ 9650 1200
@@ -674,13 +662,11 @@ Wire Wire Line
 Wire Wire Line
 	7450 1950 7450 2900
 Wire Wire Line
-	2050 4250 2150 4250
+	3850 4100 3950 4100
 Wire Wire Line
-	3850 4400 3950 4400
+	3950 4700 3850 4700
 Wire Wire Line
-	3950 4800 3850 4800
-Wire Wire Line
-	3950 2400 3850 2400
+	3950 4900 3850 4900
 Wire Wire Line
 	2800 5350 2800 5400
 Wire Wire Line
@@ -819,9 +805,9 @@ Wire Wire Line
 Wire Wire Line
 	2350 6600 2600 6600
 Wire Wire Line
-	3950 4300 3850 4300
+	3950 4000 3850 4000
 Wire Wire Line
-	3950 2300 3850 2300
+	3950 4800 3850 4800
 Wire Wire Line
 	2450 2100 2450 2050
 Connection ~ 2450 1350
@@ -913,7 +899,6 @@ F 3 "" H 3450 1300 50  0001 C CNN
 	1    3450 1300
 	1    0    0    -1  
 $EndComp
-NoConn ~ 3850 4900
 $Comp
 L power:+3V3 #PWR0121
 U 1 1 5DCEEB9F
@@ -1066,9 +1051,6 @@ Wire Wire Line
 Wire Wire Line
 	9500 2900 8850 2900
 Connection ~ 8850 2900
-Wire Wire Line
-	8850 2500 8850 2350
-Connection ~ 8850 2500
 $Comp
 L power:GND #PWR0143
 U 1 1 5F7FAA6A
@@ -1270,12 +1252,6 @@ Wire Wire Line
 	1350 4600 1100 4600
 Wire Wire Line
 	1350 4200 1100 4200
-Text HLabel 2050 4250 0    60   Input ~ 0
-HE_CH2
-Text HLabel 2050 4150 0    60   Input ~ 0
-HE_CH1
-Text HLabel 2050 4050 0    60   Input ~ 0
-HE_CH0
 Wire Wire Line
 	1550 4350 2150 4350
 Wire Wire Line
@@ -1290,7 +1266,7 @@ Text HLabel 2050 3350 0    60   Input ~ 0
 PWR_CH3_CURR_SENSE
 Text HLabel 2050 3450 0    60   Input ~ 0
 PWR_CH4_CURR_SENSE
-Text HLabel 3850 2500 2    60   Input ~ 0
+Text HLabel 3950 2500 2    60   Input ~ 0
 PWR_CH5_CURR_SENSE
 Text HLabel 2050 2850 0    60   Input ~ 0
 VCC_SENSE
@@ -1323,9 +1299,48 @@ Wire Wire Line
 	2050 3350 2150 3350
 Wire Wire Line
 	2150 3450 2050 3450
-NoConn ~ 3850 2600
-NoConn ~ 3850 3600
-NoConn ~ 3850 3700
-NoConn ~ 3850 3800
-NoConn ~ 3850 3400
+Text HLabel 3950 4100 2    60   Input ~ 0
+~PWR_CH5_OVLD
+Wire Wire Line
+	3950 2500 3850 2500
+Text HLabel 3950 2600 2    60   Input ~ 0
+PWR_CH6_CURR_SENSE
+Wire Wire Line
+	3950 2600 3850 2600
+Text HLabel 3950 3400 2    60   Input ~ 0
+PWR_CH7_CURR_SENSE
+Wire Wire Line
+	3950 3400 3850 3400
+Text HLabel 3950 4200 2    60   Input ~ 0
+~PWR_CH6_OVLD
+Text HLabel 3950 4300 2    60   Input ~ 0
+~PWR_CH7_OVLD
+Wire Wire Line
+	3850 4200 3950 4200
+Wire Wire Line
+	3950 4300 3850 4300
+Text HLabel 3950 2300 2    60   Input ~ 0
+PWR_CH6_EN
+Text HLabel 3950 2400 2    60   Input ~ 0
+PWR_CH7_EN
+Wire Wire Line
+	3950 2300 3850 2300
+Wire Wire Line
+	3850 2400 3950 2400
+Text HLabel 2050 4050 0    60   Input ~ 0
+HE_CH0
+Text HLabel 2050 4150 0    60   Input ~ 0
+HE_CH1
+Wire Wire Line
+	2050 4050 2150 4050
+Wire Wire Line
+	2050 4150 2150 4150
+NoConn ~ 2150 4250
+Wire Wire Line
+	8850 2350 8850 2550
+Wire Wire Line
+	8850 2350 8600 2350
+Wire Wire Line
+	8600 2350 8600 2550
+Connection ~ 8850 2350
 $EndSCHEMATC
