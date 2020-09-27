@@ -488,16 +488,6 @@ F 3 "~" H 700 1600 50  0001 C CNN
 	1    700  1600
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	3550 1900 3450 1900
-Wire Wire Line
-	3450 1900 3450 2000
-Connection ~ 3450 2000
-Wire Wire Line
-	8900 1900 8800 1900
-Wire Wire Line
-	8800 1900 8800 2000
-Connection ~ 8800 2000
 $Comp
 L power:+3V3 #PWR095
 U 1 1 5DC3052D
@@ -587,4 +577,8 @@ Connection ~ 6400 1600
 Wire Wire Line
 	6400 1600 6600 1600
 Connection ~ 6600 1350
+Text HLabel 3550 1900 0    60   Input ~ 0
+REF_V25
+Text HLabel 8900 1900 0    60   Input ~ 0
+REF_V25
 $EndSCHEMATC

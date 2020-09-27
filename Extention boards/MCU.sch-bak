@@ -271,30 +271,26 @@ F 3 "" H 9500 1550 50  0000 C CNN
 $EndComp
 Text GLabel 2100 5050 0    60   Input ~ 0
 ~RESET
-Text HLabel 3950 3600 2    60   Input ~ 0
+Text HLabel 2050 4550 0    60   Input ~ 0
 ~PWR_CH0_OVLD
-Text HLabel 3950 3700 2    60   Input ~ 0
+Text HLabel 2050 4650 0    60   Input ~ 0
 ~PWR_CH1_OVLD
-Text HLabel 3950 3800 2    60   Input ~ 0
+Text HLabel 2050 4250 0    60   Input ~ 0
 ~PWR_CH2_OVLD
 Text HLabel 3950 3900 2    60   Input ~ 0
 ~PWR_CH3_OVLD
 Text HLabel 3950 2900 2    60   Input ~ 0
-ADS1247_DOUT
+SERCOM0_DOUT
 Text HLabel 3950 3000 2    60   Input ~ 0
 ~ADS1247_CS
 Text HLabel 3950 2800 2    60   Input ~ 0
-ADS1247_DIN
+SERCOM0_DIN
 Text HLabel 3950 2700 2    60   Input ~ 0
-ADS1247_SCLK
-Text HLabel 3950 3500 2    60   Input ~ 0
-~ADS1247_DRDY
-Text HLabel 3950 3300 2    60   Input ~ 0
-ADS1247_START
+SERCOM0_SCLK
 Text HLabel 3950 3200 2    60   Input ~ 0
-ADS1247_CHSEL_S1
+~ADS1247_DRDY
 Text HLabel 3950 3100 2    60   Input ~ 0
-ADS1247_CHSEL_S0
+ADS1247_START
 Text Label 9550 2600 2    60   ~ 0
 CAN1_TX
 Text Label 9550 2700 2    60   ~ 0
@@ -583,10 +579,6 @@ Wire Wire Line
 Wire Wire Line
 	3950 2700 3850 2700
 Wire Wire Line
-	3950 3500 3850 3500
-Wire Wire Line
-	3950 3300 3850 3300
-Wire Wire Line
 	3950 3200 3850 3200
 Wire Wire Line
 	3950 3100 3850 3100
@@ -599,11 +591,11 @@ Wire Wire Line
 Wire Wire Line
 	3950 3900 3850 3900
 Wire Wire Line
-	3950 3800 3850 3800
+	2050 4250 2150 4250
 Wire Wire Line
-	3950 3700 3850 3700
+	2050 4650 2150 4650
 Wire Wire Line
-	3950 3600 3850 3600
+	2050 4550 2150 4550
 Wire Notes Line
 	8000 450  8000 3550
 Wire Notes Line
@@ -886,8 +878,6 @@ F 3 "" H 9950 2300 50  0001 C CNN
 	1    9950 2300
 	1    0    0    -1  
 $EndComp
-NoConn ~ 2150 4650
-NoConn ~ 2150 4550
 $Comp
 L power:+3V3 #PWR0129
 U 1 1 5DCDBC21
@@ -1182,80 +1172,72 @@ F 3 "" H 3750 2300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1550 4200 1350 4200
+	1500 5350 1300 5350
 Wire Wire Line
-	1550 4200 1550 4350
-Wire Wire Line
-	1550 4600 1350 4600
-Wire Wire Line
-	1550 4600 1550 4450
+	1500 5750 1300 5750
 $Comp
 L Device:Crystal Y1
 U 1 1 5D46AA5C
-P 1350 4400
-F 0 "Y1" H 1350 4550 50  0000 C CNN
-F 1 "16MHz" H 1350 4250 50  0000 C CNN
-F 2 "Crystal:Crystal_SMD_SeikoEpson_TSX3225-4Pin_3.2x2.5mm_HandSoldering" H 1350 4400 50  0001 C CNN
-F 3 "" H 1350 4400 50  0000 C CNN
-	1    1350 4400
+P 1300 5550
+F 0 "Y1" H 1300 5700 50  0000 C CNN
+F 1 "16MHz" H 1300 5400 50  0000 C CNN
+F 2 "Crystal:Crystal_SMD_SeikoEpson_TSX3225-4Pin_3.2x2.5mm_HandSoldering" H 1300 5550 50  0001 C CNN
+F 3 "" H 1300 5550 50  0000 C CNN
+	1    1300 5550
 	0    1    -1   0   
 $EndComp
 $Comp
 L Device:C C73
 U 1 1 5D46ADAE
-P 950 4200
-F 0 "C73" H 975 4300 50  0000 L CNN
-F 1 "9pF" H 975 4100 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 988 4050 50  0001 C CNN
-F 3 "" H 950 4200 50  0000 C CNN
-	1    950  4200
+P 900 5350
+F 0 "C73" H 925 5450 50  0000 L CNN
+F 1 "9pF" H 925 5250 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 938 5200 50  0001 C CNN
+F 3 "" H 900 5350 50  0000 C CNN
+	1    900  5350
 	0    -1   1    0   
 $EndComp
 $Comp
 L Device:C C74
 U 1 1 5D46AE41
-P 950 4600
-F 0 "C74" H 975 4700 50  0000 L CNN
-F 1 "9pF" H 975 4500 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 988 4450 50  0001 C CNN
-F 3 "" H 950 4600 50  0000 C CNN
-	1    950  4600
+P 900 5750
+F 0 "C74" H 925 5850 50  0000 L CNN
+F 1 "9pF" H 925 5650 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 938 5600 50  0001 C CNN
+F 3 "" H 900 5750 50  0000 C CNN
+	1    900  5750
 	0    -1   1    0   
 $EndComp
 $Comp
 L power:GND #PWR0120
 U 1 1 5D46B7E3
-P 750 4700
-F 0 "#PWR0120" H 750 4450 50  0001 C CNN
-F 1 "GND" H 750 4550 50  0000 C CNN
-F 2 "" H 750 4700 50  0000 C CNN
-F 3 "" H 750 4700 50  0000 C CNN
-	1    750  4700
+P 700 5850
+F 0 "#PWR0120" H 700 5600 50  0001 C CNN
+F 1 "GND" H 700 5700 50  0000 C CNN
+F 2 "" H 700 5850 50  0000 C CNN
+F 3 "" H 700 5850 50  0000 C CNN
+	1    700  5850
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	800  4600 750  4600
+	750  5750 700  5750
 Wire Wire Line
-	750  4200 750  4600
+	700  5350 700  5750
 Wire Wire Line
-	800  4200 750  4200
-Connection ~ 750  4600
+	750  5350 700  5350
+Connection ~ 700  5750
 Wire Wire Line
-	1350 4200 1350 4250
+	1300 5350 1300 5400
 Wire Wire Line
-	1350 4600 1350 4550
-Connection ~ 1350 4600
-Connection ~ 1350 4200
+	1300 5750 1300 5700
+Connection ~ 1300 5750
+Connection ~ 1300 5350
 Wire Wire Line
-	750  4600 750  4700
+	700  5750 700  5850
 Wire Wire Line
-	1350 4600 1100 4600
+	1300 5750 1050 5750
 Wire Wire Line
-	1350 4200 1100 4200
-Wire Wire Line
-	1550 4350 2150 4350
-Wire Wire Line
-	1550 4450 2150 4450
+	1300 5350 1050 5350
 Text HLabel 2050 3050 0    60   Input ~ 0
 PWR_CH0_CURR_SENSE
 Text HLabel 2050 3150 0    60   Input ~ 0
@@ -1307,10 +1289,10 @@ Text HLabel 3950 2600 2    60   Input ~ 0
 PWR_CH6_CURR_SENSE
 Wire Wire Line
 	3950 2600 3850 2600
-Text HLabel 3950 3400 2    60   Input ~ 0
+Text HLabel 3950 3300 2    60   Input ~ 0
 PWR_CH7_CURR_SENSE
 Wire Wire Line
-	3950 3400 3850 3400
+	3950 3300 3850 3300
 Text HLabel 3950 4200 2    60   Input ~ 0
 ~PWR_CH6_OVLD
 Text HLabel 3950 4300 2    60   Input ~ 0
@@ -1335,7 +1317,6 @@ Wire Wire Line
 	2050 4050 2150 4050
 Wire Wire Line
 	2050 4150 2150 4150
-NoConn ~ 2150 4250
 Wire Wire Line
 	8850 2350 8850 2550
 Wire Wire Line
@@ -1343,4 +1324,32 @@ Wire Wire Line
 Wire Wire Line
 	8600 2350 8600 2550
 Connection ~ 8850 2350
+Text HLabel 3950 3800 2    60   Input ~ 0
+~MAX31865_CS
+Text HLabel 3950 3400 2    60   Input ~ 0
+~MAX31865_DRDY
+Text HLabel 3950 3500 2    60   Input ~ 0
+SERCOM4_SCLK
+Text HLabel 3950 3600 2    60   Input ~ 0
+SERCOM4_DIN
+Text HLabel 3950 3700 2    60   Input ~ 0
+SERCOME4_DOUT
+Wire Wire Line
+	3950 3400 3850 3400
+Wire Wire Line
+	3850 3500 3950 3500
+Wire Wire Line
+	3950 3600 3850 3600
+Wire Wire Line
+	3850 3700 3950 3700
+Wire Wire Line
+	3950 3800 3850 3800
+Text Label 1500 5350 0    60   ~ 0
+XOSC0
+Text Label 1500 5750 0    60   ~ 0
+XOSC1
+Text Label 2150 4350 2    60   ~ 0
+XOSC0
+Text Label 2150 4450 2    60   ~ 0
+XOSC1
 $EndSCHEMATC
