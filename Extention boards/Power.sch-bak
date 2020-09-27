@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 9
+Sheet 7 9
 Title "HELIX Extension Board"
 Date "2019-11-04"
 Rev "A"
@@ -191,37 +191,6 @@ F 3 "" H 6550 3350 50  0000 C CNN
 	1    6550 3350
 	-1   0    0    -1  
 $EndComp
-Text Label 6650 2950 0    60   ~ 0
-VCC_SENS
-Text Label 8350 4950 2    60   ~ 0
-VCC_SENS
-Text Label 8350 5150 2    60   ~ 0
-PWR_CH0_CURR_SENS
-Text Label 8350 5250 2    60   ~ 0
-PWR_CH1_CURR_SENS
-Text Label 8350 5350 2    60   ~ 0
-PWR_CH2_CURR_SENS
-Text Label 8350 5450 2    60   ~ 0
-PWR_CH3_CURR_SENS
-$Comp
-L power:GND #PWR014
-U 1 1 5D2AF460
-P 8850 5950
-F 0 "#PWR014" H 8850 5700 50  0001 C CNN
-F 1 "GND" H 8850 5800 50  0000 C CNN
-F 2 "" H 8850 5950 50  0000 C CNN
-F 3 "" H 8850 5950 50  0000 C CNN
-	1    8850 5950
-	-1   0    0    -1  
-$EndComp
-Text HLabel 9650 5150 2    60   Input ~ 0
-MCP3008_CLK
-Text HLabel 9650 5250 2    60   Input ~ 0
-MCP3008_DOUT
-Text HLabel 9650 5350 2    60   Input ~ 0
-MCP3008_DIN
-Text HLabel 9650 5450 2    60   Input ~ 0
-~MCP3008_CS
 $Comp
 L power:PWR_FLAG #FLG05
 U 1 1 5D30A8BB
@@ -231,39 +200,6 @@ F 1 "PWR_FLAG" H 10500 3780 50  0000 C CNN
 F 2 "" H 10500 3600 50  0000 C CNN
 F 3 "" H 10500 3600 50  0000 C CNN
 	1    10500 3600
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:C C4
-U 1 1 5D31F4E0
-P 9400 4550
-F 0 "C4" H 9425 4650 50  0000 L CNN
-F 1 "10uF" H 9425 4450 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 9438 4400 50  0001 C CNN
-F 3 "" H 9400 4550 50  0000 C CNN
-	1    9400 4550
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR016
-U 1 1 5D31F652
-P 9650 4800
-F 0 "#PWR016" H 9650 4550 50  0001 C CNN
-F 1 "GND" H 9650 4650 50  0000 C CNN
-F 2 "" H 9650 4800 50  0000 C CNN
-F 3 "" H 9650 4800 50  0000 C CNN
-	1    9650 4800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C6
-U 1 1 5D31F874
-P 9650 4550
-F 0 "C6" H 9675 4650 50  0000 L CNN
-F 1 ".1uF" H 9675 4450 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 9688 4400 50  0001 C CNN
-F 3 "" H 9650 4550 50  0000 C CNN
-	1    9650 4550
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -323,10 +259,6 @@ F 3 "" H 7350 1900 50  0000 C CNN
 	1    7350 1900
 	1    0    0    -1  
 $EndComp
-Text Label 7850 1600 0    60   ~ 0
-VCC_CURR_SENSE
-Text Label 8350 5050 2    60   ~ 0
-VCC_CURR_SENSE
 Wire Wire Line
 	6550 2400 6550 2550
 Wire Wire Line
@@ -381,36 +313,10 @@ Wire Wire Line
 	6550 2950 6650 2950
 Connection ~ 6550 2950
 Wire Wire Line
-	8850 4300 8850 4350
-Connection ~ 8850 4700
-Wire Wire Line
-	9550 5150 9650 5150
-Wire Wire Line
-	9550 5250 9650 5250
-Wire Wire Line
-	9550 5350 9650 5350
-Wire Wire Line
-	9550 5450 9650 5450
-Wire Wire Line
 	10200 3650 10500 3650
 Wire Wire Line
 	10500 3600 10500 3650
 Connection ~ 10200 3650
-Wire Wire Line
-	9650 4700 9650 4750
-Wire Wire Line
-	9650 4750 9400 4750
-Connection ~ 9650 4750
-Wire Wire Line
-	9650 4350 9650 4400
-Wire Wire Line
-	8850 4350 9400 4350
-Wire Wire Line
-	9400 4350 9400 4400
-Wire Wire Line
-	9400 4750 9400 4700
-Connection ~ 9400 4350
-Connection ~ 8850 4350
 Connection ~ 10500 3650
 Wire Wire Line
 	6550 2550 6650 2550
@@ -456,22 +362,6 @@ F23 "PWR_CH3" I R 2500 3550 60
 F24 "PWR_CH4" I R 2500 4050 60 
 F25 "PWR_CH5" I R 2500 4550 60 
 $EndSheet
-Text Label 8350 5550 2    60   ~ 0
-PWR_CH4_CURR_SENS
-Text Label 8350 5650 2    60   ~ 0
-PWR_CH5_CURR_SENS
-Text Label 2500 2250 0    60   ~ 0
-PWR_CH0_CURR_SENS
-Text Label 2500 2750 0    60   ~ 0
-PWR_CH1_CURR_SENS
-Text Label 2500 3250 0    60   ~ 0
-PWR_CH2_CURR_SENS
-Text Label 2500 3750 0    60   ~ 0
-PWR_CH3_CURR_SENS
-Text Label 2500 4250 0    60   ~ 0
-PWR_CH4_CURR_SENS
-Text Label 2500 4750 0    60   ~ 0
-PWR_CH5_CURR_SENS
 Text HLabel 2600 2050 2    60   Input ~ 0
 PWR_CH0
 Text HLabel 2600 2150 2    60   Input ~ 0
@@ -567,15 +457,7 @@ Wire Wire Line
 Wire Wire Line
 	6550 2950 6550 3000
 Wire Wire Line
-	8850 4700 8850 4750
-Wire Wire Line
 	10200 3650 10200 3700
-Wire Wire Line
-	9650 4750 9650 4800
-Wire Wire Line
-	9400 4350 9650 4350
-Wire Wire Line
-	8850 4350 8850 4700
 Wire Wire Line
 	10500 3650 10500 3700
 Wire Wire Line
@@ -611,45 +493,10 @@ F 3 "" H 7700 1050 50  0000 C CNN
 	1    7700 1050
 	1    0    0    -1  
 $EndComp
-$Comp
-L Analog_ADC:MCP3008 U3
-U 1 1 5D8A2455
-P 8950 5250
-F 0 "U3" H 9400 5700 50  0000 C CNN
-F 1 "MCP3008" H 8600 5700 50  0000 C CNN
-F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 9050 5350 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21295d.pdf" H 9050 5350 50  0001 C CNN
-	1    8950 5250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9150 4700 9150 4750
-Wire Wire Line
-	8850 4700 9150 4700
-Wire Wire Line
-	8850 5950 8850 5900
-Wire Wire Line
-	8850 5900 9150 5900
-Wire Wire Line
-	9150 5900 9150 5850
-Connection ~ 8850 5900
-Wire Wire Line
-	8850 5900 8850 5850
 Wire Wire Line
 	10200 3150 10200 3250
 Wire Wire Line
 	10200 2450 10200 2650
-$Comp
-L power:+3V3 #PWR013
-U 1 1 5DC39AA9
-P 8850 4300
-F 0 "#PWR013" H 8850 4150 50  0001 C CNN
-F 1 "+3V3" H 8865 4473 50  0000 C CNN
-F 2 "" H 8850 4300 50  0001 C CNN
-F 3 "" H 8850 4300 50  0001 C CNN
-	1    8850 4300
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+3V3 #PWR019
 U 1 1 5DC3A1E3
@@ -787,4 +634,32 @@ Wire Wire Line
 Connection ~ 7450 3650
 Wire Wire Line
 	7450 3700 7450 3650
+Text HLabel 6650 2950 2    60   Input ~ 0
+VCC_SENS
+Text HLabel 7850 1600 2    60   Input ~ 0
+VCC_CURR_SENSE
+Text HLabel 2600 4750 2    60   Input ~ 0
+PWR_CH5_CURR_SENS
+Text HLabel 2600 4250 2    60   Input ~ 0
+PWR_CH4_CURR_SENS
+Text HLabel 2600 3750 2    60   Input ~ 0
+PWR_CH3_CURR_SENS
+Text HLabel 2600 3250 2    60   Input ~ 0
+PWR_CH2_CURR_SENS
+Text HLabel 2600 2750 2    60   Input ~ 0
+PWR_CH1_CURR_SENS
+Text HLabel 2600 2250 2    60   Input ~ 0
+PWR_CH0_CURR_SENS
+Wire Wire Line
+	2600 4750 2500 4750
+Wire Wire Line
+	2500 4250 2600 4250
+Wire Wire Line
+	2600 3750 2500 3750
+Wire Wire Line
+	2500 3250 2600 3250
+Wire Wire Line
+	2600 2750 2500 2750
+Wire Wire Line
+	2500 2250 2600 2250
 $EndSCHEMATC
